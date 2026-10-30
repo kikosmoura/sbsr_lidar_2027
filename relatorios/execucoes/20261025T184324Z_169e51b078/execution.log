@@ -1,0 +1,14 @@
+2026-10-25 15:43:24,280 INFO Início: canopy:main
+2026-10-25 15:43:24,280 INFO canopy_counts {"case": "main", "heights": [2.0, 3.0, 5.0]}
+2026-10-25 15:43:26,577 INFO local_geometry {"query_cells": 57466, "reliable_cells": 57000, "voxel_points": 996406}
+2026-10-25 15:43:26,582 INFO read_spectral_auxiliary {"tile": "3313-324"}
+2026-10-25 15:43:27,243 INFO read_spectral_auxiliary {"tile": "3313-333"}
+2026-10-25 15:43:28,238 INFO read_spectral_auxiliary {"tile": "3313-361"}
+2026-10-25 15:43:28,935 INFO read_spectral_auxiliary {"tile": "3313-363"}
+2026-10-25 15:43:32,647 INFO canopy_patches {"height": 2.0, "version": "baseline"}
+2026-10-25 15:43:32,767 INFO canopy_patches {"height": 2.0, "version": "refinada"}
+2026-10-25 15:43:32,934 INFO canopy_patches {"height": 3.0, "version": "baseline"}
+2026-10-25 15:43:33,075 INFO canopy_patches {"height": 3.0, "version": "refinada"}
+2026-10-25 15:43:33,247 INFO canopy_patches {"height": 5.0, "version": "baseline"}
+2026-10-25 15:43:33,391 INFO canopy_patches {"height": 5.0, "version": "refinada"}
+2026-10-25 15:43:49,062 INFO Concluído; cache_hit=False

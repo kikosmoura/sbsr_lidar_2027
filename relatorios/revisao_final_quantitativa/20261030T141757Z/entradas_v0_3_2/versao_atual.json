@@ -1,0 +1,23 @@
+{
+  "classification": "rascunho_revisado_com_pendencias",
+  "human_author_approval": false,
+  "pdf": {
+    "bytes": 355456,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.pdf",
+    "sha256": "dac0031fdfa47200a9d768c7edb9d713a2cc4a66004d7b9e1bce88b2335480e6"
+  },
+  "pending": [
+    "equivalencia_integral_modelo_editorial",
+    "endereco_institucional",
+    "revisao_e_aprovacao_do_autor"
+  ],
+  "revision": "0.3.2-interpretacao",
+  "source": {
+    "bytes": 18148,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.tex",
+    "sha256": "a3669febcc9595771e0b1fc5b027a4400400b4ebfc987ccb97b18b3829268163"
+  },
+  "stage": "17",
+  "submission_ready": false,
+  "submitted": false
+}

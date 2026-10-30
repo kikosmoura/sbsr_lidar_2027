@@ -1,0 +1,377 @@
+{
+  "checks": [
+    {
+      "check": "memory",
+      "detail": {
+        "available_gib": 19.026386260986328,
+        "budget_gib": 8.0,
+        "logical_cpus": 12,
+        "total_gib": 31.002262115478516
+      },
+      "status": "ok"
+    },
+    {
+      "check": "mount",
+      "detail": "/media/s299259068/TOSHIBA EXT",
+      "status": "ok"
+    },
+    {
+      "check": "protocol_file",
+      "detail": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_piloto.md",
+      "status": "ok"
+    },
+    {
+      "check": "output_disk",
+      "detail": {
+        "checked_parent": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento",
+        "free_gib": 1648.3366622924805,
+        "required_gib": 10.0,
+        "target": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento",
+        "writable_by_os_access": true,
+        "write_probe_performed": false
+      },
+      "status": "ok"
+    },
+    {
+      "check": "local_disk",
+      "detail": {
+        "checked_parent": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes",
+        "free_gib": 15.176437377929688,
+        "required_gib": 0.5,
+        "target": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes",
+        "writable_by_os_access": true,
+        "write_probe_performed": false
+      },
+      "status": "ok"
+    },
+    {
+      "check": "pdal",
+      "detail": {
+        "executable": "/usr/bin/pdal",
+        "ok": true,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "--------------------------------------------------------------------------------\npdal 2.3.0 (git-version: Release)\n--------------------------------------------------------------------------------"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "gdalinfo",
+      "detail": {
+        "executable": "/usr/bin/gdalinfo",
+        "ok": true,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "GDAL 3.4.1, released 2021/12/27"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "pdal_drivers",
+      "detail": {
+        "missing": []
+      },
+      "status": "ok"
+    },
+    {
+      "check": "python:numpy",
+      "detail": "2.2.6",
+      "status": "ok"
+    },
+    {
+      "check": "python:scipy",
+      "detail": "1.15.3",
+      "status": "ok"
+    },
+    {
+      "check": "python:pandas",
+      "detail": "2.3.3",
+      "status": "ok"
+    },
+    {
+      "check": "python:geopandas",
+      "detail": "1.1.4",
+      "status": "ok"
+    },
+    {
+      "check": "python:shapely",
+      "detail": "2.1.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:pyogrio",
+      "detail": "0.13.0",
+      "status": "ok"
+    },
+    {
+      "check": "python:pyproj",
+      "detail": "3.7.1",
+      "status": "ok"
+    },
+    {
+      "check": "python:rasterio",
+      "detail": "1.4.4",
+      "status": "ok"
+    },
+    {
+      "check": "python:laspy",
+      "detail": "2.7.0",
+      "status": "ok"
+    },
+    {
+      "check": "python:lazrs",
+      "detail": "0.8.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:PyYAML",
+      "detail": "6.0.3",
+      "status": "ok"
+    },
+    {
+      "check": "python:pydantic",
+      "detail": "2.14.1",
+      "status": "ok"
+    },
+    {
+      "check": "python:psutil",
+      "detail": "7.2.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:scikit-image",
+      "detail": "0.25.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:scikit-learn",
+      "detail": "1.7.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:pyarrow",
+      "detail": "24.0.0",
+      "status": "ok"
+    },
+    {
+      "check": "python:requests",
+      "detail": "2.34.2",
+      "status": "ok"
+    },
+    {
+      "check": "python:matplotlib",
+      "detail": {
+        "import_performed": false,
+        "version": "3.10.9"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "laz_backend",
+      "detail": [
+        "LazBackend.LazrsParallel",
+        "LazBackend.Lazrs"
+      ],
+      "status": "ok"
+    },
+    {
+      "check": "gdal_versions",
+      "detail": {
+        "pyogrio": "3.12.4",
+        "rasterio": "3.10.3"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "configured_crs",
+      "detail": "EPSG:31983",
+      "status": "ok"
+    },
+    {
+      "check": "corridors",
+      "detail": {
+        "crs": "EPSG:31983",
+        "features": 114,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shp"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "pilot_id",
+      "detail": {
+        "field": "cd_identi0",
+        "id": "CO_BT_01_E",
+        "matches": 1
+      },
+      "status": "ok"
+    },
+    {
+      "check": "grid",
+      "detail": {
+        "crs": "EPSG:31983",
+        "features": 5401,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp"
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDT:3313-333",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-333_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDS:3313-333",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-333_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDT:3313-361",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-361_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDS:3313-361",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-361_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDT:3313-363",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-363_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:core:MDS:3313-363",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-363_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:context:MDT:3313-324",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-324_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:context:MDS:3313-324",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-324_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:sensitivity:MDT:3313-362",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-362_1000.laz",
+        "present": false
+      },
+      "status": "warning"
+    },
+    {
+      "check": "input:sensitivity:MDS:3313-362",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-362_1000.laz",
+        "present": false
+      },
+      "status": "warning"
+    },
+    {
+      "check": "input:adversarial:MDT:3312-431",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    },
+    {
+      "check": "input:adversarial:MDS:3312-431",
+      "detail": {
+        "meaning": "Existência; cabeçalho/pontos não auditados por doctor",
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz",
+        "present": true
+      },
+      "status": "ok"
+    }
+  ],
+  "command": "doctor",
+  "context_ready": true,
+  "environment": {
+    "gdal_python": {
+      "pyogrio": "3.12.4",
+      "rasterio": "3.10.3"
+    },
+    "gdalinfo": {
+      "executable": "/usr/bin/gdalinfo",
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "GDAL 3.4.1, released 2021/12/27"
+    },
+    "package": "0.1.0",
+    "packages": {
+      "PyYAML": "6.0.3",
+      "geopandas": "1.1.4",
+      "laspy": "2.7.0",
+      "lazrs": "0.8.2",
+      "matplotlib": "3.10.9",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "psutil": "7.2.2",
+      "pyarrow": "24.0.0",
+      "pydantic": "2.14.1",
+      "pyogrio": "0.13.0",
+      "pyproj": "3.7.1",
+      "rasterio": "1.4.4",
+      "requests": "2.34.2",
+      "scikit-image": "0.25.2",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.15.3",
+      "shapely": "2.1.2"
+    },
+    "pdal": {
+      "executable": "/usr/bin/pdal",
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "--------------------------------------------------------------------------------\npdal 2.3.0 (git-version: Release)\n--------------------------------------------------------------------------------"
+    },
+    "platform": "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12"
+  },
+  "ok": true,
+  "schema_version": "0.1.0",
+  "scientific_pilot_executed": false,
+  "timestamp_utc": "2026-10-25T15:59:41.801377+00:00",
+  "warnings": 2,
+  "write_probe_performed": false
+}

@@ -1,0 +1,18 @@
+2026-10-25 12:59:09,383 INFO Início: prepare-inputs:main
+2026-10-25 12:59:11,871 INFO audit_start {"product": "MDT", "tile": "3313-324"}
+2026-10-25 12:59:12,030 INFO audit_complete {"points": 685625, "product": "MDT", "tile": "3313-324"}
+2026-10-25 12:59:12,031 INFO audit_start {"product": "MDT", "tile": "3313-333"}
+2026-10-25 12:59:12,199 INFO audit_complete {"points": 597376, "product": "MDT", "tile": "3313-333"}
+2026-10-25 12:59:12,200 INFO audit_start {"product": "MDT", "tile": "3313-361"}
+2026-10-25 12:59:12,376 INFO audit_complete {"points": 593031, "product": "MDT", "tile": "3313-361"}
+2026-10-25 12:59:12,377 INFO audit_start {"product": "MDT", "tile": "3313-363"}
+2026-10-25 12:59:12,524 INFO audit_complete {"points": 621536, "product": "MDT", "tile": "3313-363"}
+2026-10-25 12:59:12,609 INFO audit_start {"product": "MDS", "tile": "3313-324"}
+2026-10-25 12:59:14,210 INFO audit_complete {"points": 6316512, "product": "MDS", "tile": "3313-324"}
+2026-10-25 12:59:14,211 INFO audit_start {"product": "MDS", "tile": "3313-333"}
+2026-10-25 12:59:16,723 INFO audit_complete {"points": 7771581, "product": "MDS", "tile": "3313-333"}
+2026-10-25 12:59:16,724 INFO audit_start {"product": "MDS", "tile": "3313-361"}
+2026-10-25 12:59:18,467 INFO audit_complete {"points": 5139163, "product": "MDS", "tile": "3313-361"}
+2026-10-25 12:59:18,467 INFO audit_start {"product": "MDS", "tile": "3313-363"}
+2026-10-25 12:59:20,153 INFO audit_complete {"points": 6113744, "product": "MDS", "tile": "3313-363"}
+2026-10-25 12:59:20,488 INFO Concluído; cache_hit=False

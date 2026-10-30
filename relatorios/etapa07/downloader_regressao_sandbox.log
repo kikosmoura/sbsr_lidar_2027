@@ -1,0 +1,564 @@
+EEEEEEEEEEEEEEEE.........                                                [100%]
+==================================== ERRORS ====================================
+________ ERROR at setup of DownloadTests.test_416_for_complete_partial _________
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+___ ERROR at setup of DownloadTests.test_416_for_corrupt_partial_is_removed ____
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_complete_partial_is_promoted_without_network _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_copies_previous_partial_then_resumes_and_preserves_original _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_copies_previous_valid_zip_without_network_and_preserves_original _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+___ ERROR at setup of DownloadTests.test_corrupt_previous_zip_is_not_reused ____
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_______ ERROR at setup of DownloadTests.test_corrupt_zip_crc_is_rejected _______
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_download_validate_and_reuse_without_network _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_full_destination_during_copy_preserves_original _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+__ ERROR at setup of DownloadTests.test_html_and_disguised_html_are_rejected ___
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_ ERROR at setup of DownloadTests.test_interruption_keeps_partial_then_resumes _
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+___ ERROR at setup of DownloadTests.test_malformed_content_range_is_rejected ___
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+_______ ERROR at setup of DownloadTests.test_restarts_when_range_ignored _______
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+______________ ERROR at setup of DownloadTests.test_resumes_range ______________
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+________ ERROR at setup of DownloadTests.test_retry_after_server_error _________
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+______ ERROR at setup of DownloadTests.test_wrong_las_header_is_rejected _______
+
+cls = <class 'test_baixar_lidar_geosampa.DownloadTests'>
+
+    @classmethod
+    def setUpClass(cls):
+>       cls.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+
+tests/test_baixar_lidar_geosampa.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.10/socketserver.py:448: in __init__
+    self.socket = socket.socket(self.address_family,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <socket.socket fd=-1, family=AddressFamily.AF_UNSPEC, type=0, proto=0>
+family = <AddressFamily.AF_INET: 2>, type = <SocketKind.SOCK_STREAM: 1>
+proto = 0, fileno = None
+
+    def __init__(self, family=-1, type=-1, proto=-1, fileno=None):
+        # For user code address family and type values are IntEnum members, but
+        # for the underlying _socket.socket they're just integers. The
+        # constructor of _socket.socket converts the given argument to an
+        # integer automatically.
+        if fileno is None:
+            if family == -1:
+                family = AF_INET
+            if type == -1:
+                type = SOCK_STREAM
+            if proto == -1:
+                proto = 0
+>       _socket.socket.__init__(self, family, type, proto, fileno)
+E       PermissionError: [Errno 1] Operation not permitted
+
+/usr/lib/python3.10/socket.py:232: PermissionError
+=========================== short test summary info ============================
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_416_for_complete_partial
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_416_for_corrupt_partial_is_removed
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_complete_partial_is_promoted_without_network
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_copies_previous_partial_then_resumes_and_preserves_original
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_copies_previous_valid_zip_without_network_and_preserves_original
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_corrupt_previous_zip_is_not_reused
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_corrupt_zip_crc_is_rejected
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_download_validate_and_reuse_without_network
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_full_destination_during_copy_preserves_original
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_html_and_disguised_html_are_rejected
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_interruption_keeps_partial_then_resumes
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_malformed_content_range_is_rejected
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_restarts_when_range_ignored
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_resumes_range
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_retry_after_server_error
+ERROR tests/test_baixar_lidar_geosampa.py::DownloadTests::test_wrong_las_header_is_rejected
+9 passed, 16 errors in 1.44s

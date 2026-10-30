@@ -1,0 +1,12 @@
+scenario_id,spearman_rho,n,k,shared_n,lost_n,gained_n,replacement_fraction,retained_fraction,jaccard,selection_rule
+crown_radius_12,0.978582268377063,68,14,13,1,1,0.07142857142857142,0.9285714285714286,0.8666666666666667,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+crown_radius_6,0.9886985179326473,68,14,13,1,1,0.07142857142857142,0.9285714285714286,0.8666666666666667,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+dalponte_standard,0.994721821923501,68,14,13,1,1,0.07142857142857142,0.9285714285714286,0.8666666666666667,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+density_0.25,0.956009659020571,68,14,10,4,4,0.2857142857142857,0.7142857142857143,0.5555555555555556,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+density_0.5,0.9750696752816894,68,14,12,2,2,0.14285714285714285,0.8571428571428571,0.75,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+detection_radius_2,0.9561955360507027,68,14,12,2,2,0.14285714285714285,0.8571428571428571,0.75,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+detection_radius_5,0.9297019821464176,68,14,10,4,4,0.2857142857142857,0.7142857142857143,0.5555555555555556,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+height_2,0.974973036512703,68,14,12,2,2,0.14285714285714285,0.8571428571428571,0.75,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+height_5,0.9346485702286869,68,14,11,3,3,0.21428571428571427,0.7857142857142857,0.6470588235294118,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+resolution_0.5,0.9509841439606119,68,14,11,3,3,0.21428571428571427,0.7857142857142857,0.6470588235294118,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority
+resolution_2,0.9168257498235928,68,14,11,3,3,0.21428571428571427,0.7857142857142857,0.6470588235294118,exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority

@@ -1,0 +1,20 @@
+{
+  "classification": "rascunho_com_pendencias",
+  "manifest": {
+    "bytes": 25894,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/manifesto_etapa15.json",
+    "sha256": "6bd7c499359aaf7af0d659a00a7ce8dd4f8f2e96e8e833a8123a50dbd71156eb"
+  },
+  "package": {
+    "bytes": 872893,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/pacote_revisado_sbsr_2027.zip",
+    "sha256": "7010aef12e1d3230407a3f4edf10af0dbca6e0b8228726efe7a14106833e7fc0"
+  },
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  },
+  "stage": "15",
+  "submitted": false
+}

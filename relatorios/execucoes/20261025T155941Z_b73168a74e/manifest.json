@@ -1,0 +1,273 @@
+{
+  "cache_hit": true,
+  "code_sha256": "bdd122fec48b4f834508e7fb7270b7cf401675505463c4baaee5002c681f5093",
+  "command": "prepare-inputs:adversarial",
+  "config": {
+    "grid": {
+      "epsg": 31983,
+      "nodata": -9999.0,
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "resolution_m": 1.0
+    },
+    "input_preparation": {
+      "adversarial_context_policy": "clip_to_tile",
+      "download_attempts": 4,
+      "download_timeout_seconds": 120,
+      "edge_width_m": 2.0,
+      "excluded_noise_classes": [
+        7,
+        18
+      ],
+      "grid_code_field": "cd_quadric",
+      "max_new_downloads_per_case": 2
+    },
+    "paths": {
+      "corridors": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shp",
+      "data_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027",
+      "downloader_script": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/baixar_lidar_geosampa.py",
+      "grid": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp",
+      "mount_root": "/media/s299259068/TOSHIBA EXT",
+      "output_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento",
+      "project_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027",
+      "protocol_file": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_piloto.md",
+      "runs_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes",
+      "state_file": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json"
+    },
+    "pilot": {
+      "adversarial_corridor": "CO_SE_06",
+      "adversarial_tile": "3312-431",
+      "context_tiles": [
+        "3313-324"
+      ],
+      "core_tiles": [
+        "3313-333",
+        "3313-361",
+        "3313-363"
+      ],
+      "corridor_field": "cd_identi0",
+      "corridor_id": "CO_BT_01_E",
+      "halo_m": 10.0,
+      "measurement_domain": "original_polygon",
+      "sensitivity_tiles": [
+        "3313-362"
+      ]
+    },
+    "protocol_version": "0.1.0",
+    "resources": {
+      "chunk_points": 500000,
+      "max_pilot_tiles": 6,
+      "max_ram_gib": 8.0,
+      "min_local_free_gib": 0.5,
+      "min_output_free_gib": 10.0,
+      "seed": 2027,
+      "smoke_points": 1024,
+      "workers": 1
+    },
+    "schema_version": "0.1.0",
+    "segmentation": {
+      "length_m": 50.0,
+      "section_cover_threshold": 0.1,
+      "station_spacing_m": 1.0
+    },
+    "sensitivity": {
+      "halos_m": [
+        0.0,
+        10.0,
+        20.0
+      ],
+      "heights_m": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "lengths_m": [
+        25.0,
+        50.0,
+        100.0
+      ],
+      "resolutions_m": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "section_thresholds": [
+        0.0,
+        0.1,
+        0.25
+      ],
+      "terrain_distances_m": [
+        3.0,
+        5.0,
+        10.0
+      ],
+      "vertical_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "support": {
+      "minimum_canopy_area_m2": 10.0,
+      "minimum_observed_fraction": 0.95,
+      "minimum_unit_area_m2": 25.0,
+      "minimum_vegetation_returns": 50
+    },
+    "terrain": {
+      "apply_geoid_correction": false,
+      "maximum_distance_m": 5.0,
+      "method": "pending_qc"
+    },
+    "tools": {
+      "gdalinfo": "/usr/bin/gdalinfo",
+      "pdal": "/usr/bin/pdal",
+      "timeout_seconds": 30
+    },
+    "vegetation": {
+      "classes": [
+        3,
+        4,
+        5
+      ],
+      "connectivity": 8,
+      "minimum_height_m": 3.0
+    }
+  },
+  "environment": {
+    "gdalinfo": {
+      "executable": "/usr/bin/gdalinfo",
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "GDAL 3.4.1, released 2021/12/27"
+    },
+    "package": "0.1.0",
+    "packages": {
+      "PyYAML": "6.0.3",
+      "geopandas": "1.1.4",
+      "laspy": "2.7.0",
+      "lazrs": "0.8.2",
+      "matplotlib": "3.10.9",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "psutil": "7.2.2",
+      "pyarrow": "24.0.0",
+      "pydantic": "2.14.1",
+      "pyogrio": "0.13.0",
+      "pyproj": "3.7.1",
+      "rasterio": "1.4.4",
+      "requests": "2.34.2",
+      "scikit-image": "0.25.2",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.15.3",
+      "shapely": "2.1.2"
+    },
+    "pdal": {
+      "executable": "/usr/bin/pdal",
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "--------------------------------------------------------------------------------\npdal 2.3.0 (git-version: Release)\n--------------------------------------------------------------------------------"
+    },
+    "platform": "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12"
+  },
+  "error": null,
+  "finished_at": "2026-10-25T15:59:41.343714Z",
+  "inputs": [
+    {
+      "bytes": 17410,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_piloto.md",
+      "sha256": "10075c961f8c41e3f1d9c18d4cf3d43552889cb344a744d4944a3898d55c0e72"
+    },
+    {
+      "bytes": 19657,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/baixar_lidar_geosampa.py",
+      "sha256": "a4f566f39cc06ab931617720c1a8a4fa8391f40b85c4fd04ae69d1e8972df3ca"
+    },
+    {
+      "bytes": 10,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.cst",
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "bytes": 444557,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.dbf",
+      "sha256": "ec36b5c3afce9a31d55e9ff2e90e66e73eb7f0310a7860148fdbcf7a7d41d59d"
+    },
+    {
+      "bytes": 796,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.prj",
+      "sha256": "4b7e3e45feeff5f2d8048e4d19d6b7bc85bbe98dee050cb53cf84c63223b8dc6"
+    },
+    {
+      "bytes": 725684,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shp",
+      "sha256": "176bcd19e0c1231d3d54cd86d23c7ee594cd307a9dafd36aa43d6d186bfebdf6"
+    },
+    {
+      "bytes": 1012,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shx",
+      "sha256": "633ae4f242e7fae4370256c660d7b68cd19dd9e073aa5a4959b5e4c316bf88b0"
+    },
+    {
+      "bytes": 10,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.cst",
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "bytes": 7399659,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.dbf",
+      "sha256": "d2d54c40c447f2e3120c83a1622869c37524addaf19212fb80be4dacb0337ecc"
+    },
+    {
+      "bytes": 796,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.prj",
+      "sha256": "6657cbcd6d378ecca238c62eefd46039f7c0ab6071b35088403bf9ab8e5203dd"
+    },
+    {
+      "bytes": 742764,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp",
+      "sha256": "63d1877df2a5e5c41228070eca58fc4a43e477fb4116600a03d53269fc82cee6"
+    },
+    {
+      "bytes": 43308,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shx",
+      "sha256": "ed399889b5c5619330a6f984df621b3aa976eb773f39d53fce78defca8c8f3d3"
+    },
+    {
+      "bytes": 3947840,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz",
+      "sha256": "bce637c3f71e1418963d2a4fec2ee6cd434f950dc2735bcc41d52070b4134de3"
+    },
+    {
+      "bytes": 32917764,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz",
+      "sha256": "7777ac37e7dff6142a5ebf37688da5537181ada6af2faba4cfc45795f155efc8"
+    }
+  ],
+  "outputs": [
+    "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/qc_insumos.json",
+    "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/qc_insumos.md",
+    "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/plano_complementos.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/dominios.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/indice_nuvens.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/contagem_classes.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/manifesto_insumos.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/mascara_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_contagem_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_densidade_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_suporte_xy.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_contagem_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_densidade_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_suporte_xy.tif"
+  ],
+  "run_id": "20261025T155941Z_b73168a74e",
+  "schema_version": "0.1.0",
+  "scientific_pilot_executed": false,
+  "source_run_id": "20261025T155936Z_8551123d84",
+  "stage": "03",
+  "started_at": "2026-10-25T15:59:41.296073Z",
+  "status": "completed"
+}

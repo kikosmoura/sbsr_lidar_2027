@@ -1,0 +1,3 @@
+2026-10-25 19:40:13,342 INFO Início: compare:adversarial
+2026-10-25 19:40:13,343 INFO comparison_start {"case": "adversarial", "source_rows": 140, "source_run": "20261025T221433Z_a9f46ac6fe"}
+2026-10-25 19:40:14,676 INFO Concluído; cache_hit=False

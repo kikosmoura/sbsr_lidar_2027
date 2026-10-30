@@ -1,0 +1,55 @@
+{
+  "domain": {
+    "case": "adversarial",
+    "context_area_m2": 26282.180264352726,
+    "context_bounds": [
+      333034.8347901296,
+      7397410.72192252,
+      333571.5045010024,
+      7397830.306903188
+    ],
+    "context_clipped_to_tile": true,
+    "corridor_id": "CO_SE_06",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 13144.744694031733,
+    "measurement_bounds": [
+      333034.94862525584,
+      7397420.713718192,
+      333571.3909938959,
+      7397820.307734851
+    ],
+    "measurement_is_official_polygon": false,
+    "official_area_m2": 90388.14073587062,
+    "requested_context_omitted_m2": 793.2200348997249,
+    "tiles": [
+      "3312-431"
+    ]
+  },
+  "files": [
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/3312-431.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3312-431_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3312-431.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz",
+      "produto": "MDT",
+      "quadricula": "3312-431",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/3312-431.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3312-431_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3312-431.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz",
+      "produto": "MDS",
+      "quadricula": "3312-431",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz"
+    }
+  ],
+  "network_accessed": false,
+  "scope": "etapa03_insumos_piloto"
+}

@@ -1,0 +1,237 @@
+{
+  "absolute_IQR_difference_m": 15.442055970110147,
+  "absolute_P95_difference_m": 20.911739601324136,
+  "arithmetic_consistency_passed": true,
+  "centroid_distance_m": 547.0709552359468,
+  "corridor_id": "CO_PR_02",
+  "density25_selection": {
+    "gained_n": 4,
+    "jaccard": 0.5555555555555556,
+    "k": 14,
+    "lost_n": 4,
+    "n": 68,
+    "replacement_fraction": 0.2857142857142857,
+    "retained_fraction": 0.7142857142857143,
+    "scenario_id": "density_0.25",
+    "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+    "shared_n": 10,
+    "spearman_rho": 0.956009659020571
+  },
+  "external_semantic_or_altimetric_validation_performed": false,
+  "influence": {
+    "disjoint16": {
+      "median_abs_P95_original_m": 2.7982192769246197,
+      "median_abs_P95_without_max_pair_m": 2.39640263736117,
+      "n_original": 16,
+      "n_without_max_pair": 15,
+      "post_result_influence_description_only": true,
+      "primary_selection_unchanged": true
+    },
+    "matched25": {
+      "median_abs_P95_original_m": 2.39640263736117,
+      "median_abs_P95_without_max_pair_m": 2.296306807462562,
+      "n_original": 25,
+      "n_without_max_pair": 24,
+      "post_result_influence_description_only": true,
+      "primary_selection_unchanged": true
+    }
+  },
+  "max_pair_retained_in_primary_results": true,
+  "new_LAZ_decode_or_PyCrown": false,
+  "normalization_replay": [
+    {
+      "all_retained_terrain_status_valid": true,
+      "max_nearest_MDT_distance_m": 0.8904184407388794,
+      "max_terrain_difference_m": 0.0,
+      "max_triangle_edge_m": 2.5960624029104085,
+      "selected_records_checked": 1110,
+      "source_level": "preserved_decoded_MDT_blocks_not_new_LAZ_decode_or_external_reference",
+      "unique_ground_vertices": 24580,
+      "wx": 1589,
+      "wy": 37036
+    },
+    {
+      "all_retained_terrain_status_valid": true,
+      "max_nearest_MDT_distance_m": 0.39461373520716025,
+      "max_terrain_difference_m": 0.0,
+      "max_triangle_edge_m": 0.9457235327455241,
+      "selected_records_checked": 310,
+      "source_level": "preserved_decoded_MDT_blocks_not_new_LAZ_decode_or_external_reference",
+      "unique_ground_vertices": 45365,
+      "wx": 1592,
+      "wy": 37035
+    }
+  ],
+  "original_cover_difference": 0.0120702789544364,
+  "original_fragmentation_rank_difference": 0.0526315789473684,
+  "original_observed_area_ratio": 1.5882150770946233,
+  "revision": "0.3.3-revisao-quantitativa",
+  "source_run_id": "20261026T034837Z_83581b7eec",
+  "top_replacements_max": 4,
+  "top_replacements_min": 1,
+  "unit_i": "CO_PR_02_P002_G50_X6359_Y148144_F01",
+  "unit_j": "CO_PR_02_P002_G50_X6370_Y148143_F01",
+  "units": {
+    "CO_PR_02_P002_G50_X6359_Y148144_F01": {
+      "I1": 0.1850527569333583,
+      "I4": 120.92722425965408,
+      "IQR_m": 19.05849743434399,
+      "P95_m": 29.567346215631822,
+      "area_canopy_m2": 61.21128077363764,
+      "area_observed_m2": 330.7774592933042,
+      "candidate_classes": {
+        "3": 525,
+        "4": 62,
+        "5": 523
+      },
+      "classification_or_tree_identity_externally_confirmed": false,
+      "fraction_observed": 1.0,
+      "height_identity_max_error_m": 0.0,
+      "interior_1m": {
+        "IQR_m": 18.665924266110295,
+        "P95_m": 29.65974591956069,
+        "candidate_classes": {
+          "3": 198,
+          "5": 104
+        },
+        "height_identity_max_error_m": 0.0,
+        "n": 302,
+        "one_metre_cells_at_or_above_P95": 5,
+        "quantiles_m": {
+          "max": 30.484043662970862,
+          "median": 9.141356599376309,
+          "min": 3.046569150846153,
+          "p05": 4.39726588953842,
+          "p25": 6.065795287422162,
+          "p75": 24.731719553532457,
+          "p95": 29.65974591956069
+        },
+        "records_are_not_independent_trees": true,
+        "records_at_or_above_P95": 16,
+        "uncertain_pixel_records": 0
+      },
+      "n": 1110,
+      "n_context_censored": 2,
+      "n_patches": 4,
+      "n_support_censored": 2,
+      "one_metre_cells_at_or_above_P95": 10,
+      "quantiles_m": {
+        "max": 30.484043662970862,
+        "median": 16.091965697729677,
+        "min": 3.000917679337249,
+        "p05": 4.071628880147472,
+        "p25": 6.6195430997228755,
+        "p75": 25.678040534066866,
+        "p95": 29.567346215631822
+      },
+      "records_are_not_independent_trees": true,
+      "records_at_or_above_P95": 56,
+      "total_mds_records": 6819,
+      "uncertain_area_m2": 5.0,
+      "uncertain_pixel_records": 0,
+      "unit_id": "CO_PR_02_P002_G50_X6359_Y148144_F01",
+      "without_uncertain_pixels": {
+        "IQR_m": 19.05849743434399,
+        "P95_m": 29.567346215631822,
+        "candidate_classes": {
+          "3": 525,
+          "4": 62,
+          "5": 523
+        },
+        "height_identity_max_error_m": 0.0,
+        "n": 1110,
+        "one_metre_cells_at_or_above_P95": 10,
+        "quantiles_m": {
+          "max": 30.484043662970862,
+          "median": 16.091965697729677,
+          "min": 3.000917679337249,
+          "p05": 4.071628880147472,
+          "p25": 6.6195430997228755,
+          "p75": 25.678040534066866,
+          "p95": 29.567346215631822
+        },
+        "records_are_not_independent_trees": true,
+        "records_at_or_above_P95": 56,
+        "uncertain_pixel_records": 0
+      }
+    },
+    "CO_PR_02_P002_G50_X6370_Y148143_F01": {
+      "I1": 0.1971230358877947,
+      "I4": 144.04383060028897,
+      "IQR_m": 3.6164414642338443,
+      "P95_m": 8.655606614307686,
+      "area_canopy_m2": 41.054802916508784,
+      "area_observed_m2": 208.26994030204452,
+      "candidate_classes": {
+        "3": 310
+      },
+      "classification_or_tree_identity_externally_confirmed": false,
+      "fraction_observed": 0.9999999999999999,
+      "height_identity_max_error_m": 0.0,
+      "interior_1m": {
+        "IQR_m": 1.7269306281877448,
+        "P95_m": 8.685755741462497,
+        "candidate_classes": {
+          "3": 144
+        },
+        "height_identity_max_error_m": 0.0,
+        "n": 144,
+        "one_metre_cells_at_or_above_P95": 3,
+        "quantiles_m": {
+          "max": 8.815620124541283,
+          "median": 7.913865584989821,
+          "min": 3.3049956853035383,
+          "p05": 3.52827880284143,
+          "p25": 6.669852754105619,
+          "p75": 8.396783382293364,
+          "p95": 8.685755741462497
+        },
+        "records_are_not_independent_trees": true,
+        "records_at_or_above_P95": 8,
+        "uncertain_pixel_records": 0
+      },
+      "n": 310,
+      "n_context_censored": 0,
+      "n_patches": 3,
+      "n_support_censored": 0,
+      "one_metre_cells_at_or_above_P95": 6,
+      "quantiles_m": {
+        "max": 8.815620124541283,
+        "median": 7.740636526317587,
+        "min": 3.261316711840209,
+        "p05": 3.5641835196857756,
+        "p25": 4.778682386718913,
+        "p75": 8.395123850952757,
+        "p95": 8.655606614307686
+      },
+      "records_are_not_independent_trees": true,
+      "records_at_or_above_P95": 16,
+      "total_mds_records": 4493,
+      "uncertain_area_m2": 2.0,
+      "uncertain_pixel_records": 0,
+      "unit_id": "CO_PR_02_P002_G50_X6370_Y148143_F01",
+      "without_uncertain_pixels": {
+        "IQR_m": 3.6164414642338443,
+        "P95_m": 8.655606614307686,
+        "candidate_classes": {
+          "3": 310
+        },
+        "height_identity_max_error_m": 0.0,
+        "n": 310,
+        "one_metre_cells_at_or_above_P95": 6,
+        "quantiles_m": {
+          "max": 8.815620124541283,
+          "median": 7.740636526317587,
+          "min": 3.261316711840209,
+          "p05": 3.5641835196857756,
+          "p25": 4.778682386718913,
+          "p75": 8.395123850952757,
+          "p95": 8.655606614307686
+        },
+        "records_are_not_independent_trees": true,
+        "records_at_or_above_P95": 16,
+        "uncertain_pixel_records": 0
+      }
+    }
+  }
+}

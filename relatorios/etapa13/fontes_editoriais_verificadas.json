@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-10-26",
+  "findings": {
+    "figures_tables_references_in_page_limit": true,
+    "follow_linked_template": true,
+    "format": "PDF",
+    "full_article_max_pages": 4,
+    "no_page_numbering": true
+  },
+  "home_access": "HTTP403; official submission rules accessible",
+  "home_url": "https://www.sbsr.com.br/sbsr-2027/page/8162-inicio?lang=pt-br",
+  "layout_from_provided_pdf": {
+    "caption_pt": 9,
+    "caption_weight": "bold",
+    "column_mm": 86,
+    "font": "Times New Roman",
+    "full_width_mm": 178
+  },
+  "method": "web_open_of_official_rules_in_this_session",
+  "official_rules_url": "https://proceedings.science/cfp/sbsr-2027?lang=pt-br",
+  "provided_pdf": {
+    "bytes": 143259,
+    "path": "/home/s299259068/Downloads/modelo_artigo_sbsr.pdf",
+    "sha256": "dd5372414dede5388c67bf021f09ad2128505af99700ad551f806de4369498ec"
+  },
+  "scope": "layout_of_elements_only; no_assertion_of_complete_manuscript_conformity"
+}

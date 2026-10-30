@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "stage": "11",
+  "run_id": "20261026T002006Z_7afdd4426f",
+  "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261026T002006Z_7afdd4426f/manifest.json",
+  "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261026T002006Z_7afdd4426f/avaliacao_piloto.json",
+  "products_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa11/20261026T002006Z_7afdd4426f",
+  "continuation_classification": "depende_de_referencia_complementar"
+}

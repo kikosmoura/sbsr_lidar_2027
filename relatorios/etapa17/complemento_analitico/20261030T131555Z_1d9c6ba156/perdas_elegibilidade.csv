@@ -1,0 +1,12 @@
+scenario_id,primary_units,paired_eligible_units,excluded_units,excluded_with_insufficient_observed_fraction,excluded_other_eligibility_only,fixed_cohort_units
+resolution_0.5,114,87,27,20,7,68
+resolution_2,114,104,10,10,0,68
+detection_radius_2,114,114,0,0,0,68
+detection_radius_5,114,108,6,0,6,68
+height_2,114,114,0,0,0,68
+height_5,114,104,10,0,10,68
+crown_radius_6,114,114,0,0,0,68
+crown_radius_12,114,114,0,0,0,68
+dalponte_standard,114,114,0,0,0,68
+density_0.5,114,109,5,4,1,68
+density_0.25,114,78,36,25,11,68

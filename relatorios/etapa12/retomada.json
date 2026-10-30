@@ -1,0 +1,105 @@
+{
+  "all_cases_cache_hit": true,
+  "all_scientific_tables_identical": true,
+  "case_roots_unchanged": {
+    "CO_BT_05": true,
+    "CO_CL_01": true,
+    "CO_CT_01": true,
+    "CO_CT_05": true,
+    "CO_IP_05": true,
+    "CO_MG_02": true,
+    "CO_PA_02": true,
+    "CO_PJ_03": true,
+    "CO_PR_02": true,
+    "CO_PR_03": true
+  },
+  "no_LAZ_decode": true,
+  "no_PyCrown_reexecution": true,
+  "no_new_normalized_windows": true,
+  "resume_peak_rss_gib": 0.3096733093261719,
+  "resume_run_id": "20261026T042005Z_7a4b440519",
+  "resume_run_manifest": {
+    "bytes": 42726,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261026T042005Z_7a4b440519/manifest.json",
+    "sha256": "90108a90d5d6d770589c886eab59ea04eb4b21a92f2d08cd51e6e1f4a7385873"
+  },
+  "resume_seconds": 27.231219162000343,
+  "scientific_tables": [
+    {
+      "file": "concordancia_ablacao.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "controles.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "coorte_selecionada.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "correlacoes_indicadores.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "desacordos_espaciais.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "deslocamentos.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "disponibilidade_metodos.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "escores_rankings.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "estatisticas_indicadores.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "indicadores_multiescala.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "membros_top.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "normalizadores.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "pares_cobertura_semelhante.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "qc_fontes.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "selecao_corredores_congelada.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "sensibilidade_cenarios.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "todas_unidades_50m.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "universo_unidades.parquet",
+      "identical_sha256": true
+    },
+    {
+      "file": "universos_comparacao.parquet",
+      "identical_sha256": true
+    }
+  ]
+}

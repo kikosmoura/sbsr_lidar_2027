@@ -1,0 +1,94 @@
+                                      TÍTULO – MODELO SBSR LATEX
+ Nome e sobrenomes do Primeiro Autor1 , Nome e sobrenomes do Segundo Autor2 , Nome e sobrenomes do Terceiro Autor3 e
+                                         Nome e sobrenomes do Último Autor4
+  1
+      Afiliação, endereço e e-mail do Primeiro Autor, 2 Afiliação, endereço e e-mail do Segundo Autor, 3 Afiliação, endereço e
+                           e-mail do Terceiro Autor;... e 4 Afiliação, endereço e e-mail do Último Autor
+
+                           RESUMO                                                       3. RESULTADOS
+
+O resumo deve aparecer na parte superior da coluna da              O título do artigo (na primeira página) deve começar a 35
+esquerda do texto. O resumo deve conter entre 100 e 150            mm da borda superior da página, centralizado, com fontes
+palavras. Todos os artigos devem ser escritos em Português,        maiúsculas Times New Roman e tamanho 14 pontos em
+Inglês ou Espanhol. Note que quando escrito em Português           negrito. Nomes dos autores e afiliações devem aparecer
+ou Espanhol o artigo deve conter um Abstract em inglês.            abaixo do título em letras maiúsculas e minúsculas. Artigos
+Todos os artigos devem conter um máximo de 4 páginas               com vários autores e afiliações podem utilizar duas ou mais
+incluindo referências.                                             linhas para posicionar estas informações.
+
+  Palavras-chave – um, dois, três, quatro, cinco.                                         4. DISCUSSÃO
+
+                                                                   Para um melhor resultado no processo de renderização,
+                          ABSTRACT
+                                                                   recomendamos o uso de fonte Times New Roman. Além
+                                                                   disso, esta padronização dará uma aparência uniforme aos
+Todos os artigos escritos em Português e Espanhol devem
+                                                                   anais do evento. Use um tamanho de fonte 10 pontos em todo
+conter um Abstract. Tanto o título da seção quanto o texto
+                                                                   o artigo. As legendas das figuras devem ser formatadas com
+em inglês devem estar em itálico. O Abstract também deve
+                                                                   fonte 9 pontos em negrito. Use espaçamento simples entre
+conter de 100 a 150 palavras. Note que ao longo do texto
+                                                                   linhas em todo o texto. Por favor, não utilizar espaçamento
+todas as palavras de língua inglesa também devem aparecer
+                                                                   duplo em seu artigo.
+em itálico.
+                                                                      A primeira linha do primeiro parágrafo de cada seção não
+                                                                   deve ser recuada, mas todos os parágrafos seguintes dentro da
+  Key words – One, two, three, four, five.
+                                                                   seção devem ser recuados (0,63 cm) como demonstrado neste
+                                                                   parágrafo.
+                      1. INTRODUÇÃO
+                                                                   4.1. Subseções
+Estas orientações incluem descrições completas sobre fonte,
+espaçamento e informação relacionada para produzir o               Subseções devem aparecer em letras minúsculas (apenas a
+manuscrito. Por favor, siga as orientações e em caso de            primeira letra da palavra inicial em maiúscula) em negrito e
+dúvida, entre em contato com a organização do SBSR no              devem começar na margem esquerda em uma linha separada.
+email: sbsr@inpe.br.
+   Os artigos completos devem conter os seguintes itens:           4.1.1. Sub-subseções
+Resumo, Introdução, Material e Métodos, Resultados e               Sub-subseções,      como no presente subitem,            são
+Discussão (em uma única seção ou separados), Conclusões e          desencorajadas.     No entanto, se você precisar usá-las,
+Referências. Dependendo da natureza do artigo (por exemplo,        estas devem aparecer em letras minúsculas (apenas a
+artigos metodológicos) a adaptação do formato proposto             primeira letra da palavra inicial em maiúscula) e começar na
+também será aceita.                                                margem esquerda em uma linha separada, com início do texto
+   Hipóteses, perguntas de pesquisa e objetivos devem ser          do parágrafo na linha seguinte. Os títulos das sub-subseções
+parte da introdução, sendo posicionadas no final da seção.         devem estar em itálico.
+
+                2. MATERIAL E MÉTODOS                                                   5. CONCLUSÕES
+
+Todo o conteúdo, incluindo o texto, as ilustrações e os            Os principais títulos, como por exemplo, "1. Introdução",
+gráficos, deve ser mantido dentro de uma área de impressão         devem aparecer em letras maiúsculas, em negrito,
+de 178 mm de largura por 229 mm de altura. Não incluir             centralizados na coluna e com uma linha em branco
+qualquer coisa fora da área de impressão. A margem superior        antes e uma linha em branco depois. Usar um ponto (".")
+deve ser de 25 mm, exceto para a página de título, e a margem      depois do número do título.
+esquerda deve ser de 19 mm. Todo o texto deve estar em um            Se a última página do seu artigo for parcialmente
+formato de duas colunas. Colunas são de 86 mm de largura,          preenchida, organize as colunas para que estas fiquem
+com um espaço de 6 mm entre elas. O texto deve conter seus         uniformemente equilibradas, se possível, ao invés de ter uma
+parágrafos justificados.                                           coluna longa.
+   A lista e o número de referências bibliográficas aparecem      aplicam às tabelas (Tabela 1).
+no final do artigo. As referências devem ser numeradas em
+ordem de ocorrência no documento. Quando a referência for
+citada no texto, digite o número correspondente da referência
+entre colchetes, como mostrado no final desta frase [1].
+   Para inserir no texto citações utilizando LATEX, utilize
+\cite{<author>}, que produz “ [2]”. A bibliografia fica
+armazenada no arquivo 07_SBSR.bib. As referências são
+geradas automaticamente.
+                                                                  Figura 1: As legendas das figuras (e também tabelas) devem ser
+             6. NUMERAÇÃO DE PÁGINAS                               formatadas com fonte 9 pontos, em negrito, e centralizadas na
+                                                                                              coluna.
+Por favor, não paginar seu artigo. A identificação de números
+de página será inserida quando o artigo for incluído nos Anais
+do simpósio.                                                                Item 1       Item 2      Item 3       Item 4
+                                                                           Valor 11     Valor 12    Valor 13     Valor 14
+                                                                           Valor 21     Valor 22    Valor 23     Valor 24
+  7. ILUSTRAÇÕES, GRÁFICOS, FOTOGRAFIAS E
+                   TABELAS                                           Tabela 1: Regras para tabelas são as mesmas das figuras.
+As ilustrações devem aparecer dentro das margens designadas
+                                                                                       8. REFERÊNCIAS
+na formatação. Se necessário as figuras podem abranger as
+duas colunas. Se possível, posicione as ilustrações na parte      [1] A. B. Smith, C. D. Jones, and E. F. Roberts. Título do artigo.
+superior das colunas, em vez de no meio ou na parte inferior.         Periódico, volume (v.):páginas (pp.), data.
+Cada ilustração deve ser seguida de uma legenda e do número       [2] C. D. Jones, A.B. Smith, and E. F. Roberts. Título do Livro.
+de cada ilustração, que deve ser citada no texto (Figura 1). As       Editora, Local, data.
+mesmas regras de posicionamento e referências no texto se
+

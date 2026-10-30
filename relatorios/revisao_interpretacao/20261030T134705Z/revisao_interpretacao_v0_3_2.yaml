@@ -1,0 +1,16 @@
+revision_version: 0.3.2-interpretacao
+source_article: artigo/complemento_etapa17
+source_manifest: docs/manifesto_etapa17.json
+source_analysis_pointer: relatorios/etapa17/ultima_analise.json
+execution_report: relatorios/etapa12/execucao.json
+role: evaluation
+expected_disjoint_pairs: 16
+quantile_method: linear
+terrain_method: tin
+terrain_radius_m: 5.0
+terrain_splits: [reserved_points, reserved_blocks]
+external_vertical_accuracy_estimated: false
+score_interpretation: experimental_no_ecological_valence
+scientific_results_and_scores_changed: false
+output_parent: relatorios/revisao_interpretacao
+article_destination: artigo/revisao_interpretacao_v0_3_2

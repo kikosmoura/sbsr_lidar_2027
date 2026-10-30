@@ -1,0 +1,20 @@
+{
+  "pipeline": [
+    {
+      "filename": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153221Z_31a0762585/synthetic.laz",
+      "type": "readers.las"
+    },
+    {
+      "count": 4,
+      "type": "filters.head"
+    },
+    {
+      "data_type": "float32",
+      "filename": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153221Z_31a0762585/synthetic_pdal.tif",
+      "nodata": -9999.0,
+      "output_type": "max",
+      "resolution": 1.0,
+      "type": "writers.gdal"
+    }
+  ]
+}

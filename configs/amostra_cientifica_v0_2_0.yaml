@@ -1,0 +1,36 @@
+# Plano pós-piloto, congelado na etapa 11; não é configuração de execução de nuvens.
+schema_version: 0.1.0
+protocol_version: 0.2.0
+status: frozen_conditional_post_pilot
+execution_enabled: false
+seed: 2027
+mode: amostra_cientifica
+municipal_mode_enabled: false
+target_corridors: 10
+development_corridors: 2
+evaluation_corridors: 8
+target_units_per_corridor: 15
+minimum_geometric_units_per_corridor: 15
+minimum_actual_evaluation_units: 100
+target_evaluation_units: 120
+maximum_actual_evaluation_units: 200
+primary_scale_m: 50
+block_distance_m: 1000
+block_sensitivity_m: [200, 500, 1000]
+stratification: centroid_geographic_quadrants
+status_field: tx_situaca
+included_status: PROPOSTO
+type_field: tx_tipo_pr
+included_type: CORREDOR VERDE
+exclude_legacy_reserved_groups: true
+reference_windows_per_corridor: 4
+double_annotation_fraction: 0.25
+minimum_provisional_evaluation_groups: 6
+cpu_workers: 1
+maximum_ram_gib: 8
+external_free_reserve_gib: 20
+maximum_tiles_per_computational_window: 6
+maximum_ground_vertices_per_window: 1000000
+maximum_roi_records_per_window: 5000000
+cost_uncertainty_factor: 3
+disk_safety_factor: 3

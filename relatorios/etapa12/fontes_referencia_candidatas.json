@@ -1,0 +1,20 @@
+{
+  "annotation_guide": "docs/como_produzir_referencia_vegetacao.md",
+  "checked_at": "2026-10-26T01:03:40.677897+00:00",
+  "declared_epsg": 31983,
+  "declared_pixel_m": {
+    "rural": 0.2,
+    "urban": 0.1
+  },
+  "file_level_dates_coverage_alignment_quality": "pending_actual_image_acquisition_and_audit",
+  "independence_note": "candidate only; human interpretation must be blind to mask; common mapping campaign/georeferencing and possible photo origin shared with lidar colorization require audit",
+  "independent_algorithm": null,
+  "independent_sensor": null,
+  "metadata_observation_year": 2020,
+  "metadata_publication_date": "2022-10-14",
+  "metadata_url": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/892c862e-f564-4b1c-a3d0-9d28052e5d58",
+  "rgb_metadata_url": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/geoprodam/api/records/b0046671-e190-46a8-ba1d-19f39c5bf4c8",
+  "source": "GeoSampa Ortofotos 2020",
+  "stage12_scientific_sample_executed": false,
+  "status": "remote_metadata_confirmed; image_not_downloaded; no_human_labels_created"
+}

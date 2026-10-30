@@ -1,0 +1,3 @@
+2026-10-25 19:39:54,893 INFO Início: compare:main
+2026-10-25 19:39:54,895 INFO comparison_start {"case": "main", "source_rows": 286, "source_run": "20261025T221430Z_ad89ab6173"}
+2026-10-25 19:40:01,016 INFO Concluído; cache_hit=False

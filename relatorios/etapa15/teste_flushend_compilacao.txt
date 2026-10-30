@@ -1,0 +1,28 @@
+note: Running TeX ...
+warning: accessing absolute path `/usr/share/fonts/truetype/msttcorefonts/timesbd.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/msttcorefonts/timesbi.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/msttcorefonts/times.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/msttcorefonts/timesi.ttf`; build may not be reproducible in other environments
+note: downloading flushend.sty
+warning: manuscrito.tex:31: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: manuscrito.tex:42: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: manuscrito.tex:69: Underfull \hbox (badness 1173) in paragraph at lines 68--69
+warning: manuscrito.tex:89: Underfull \vbox (badness 7308) has occurred while \output is active
+warning: manuscrito.tex:98: Underfull \vbox (badness 2050) has occurred while \output is active
+warning: manuscrito.tex:117: Underfull \vbox (badness 1270) has occurred while \output is active
+note: Running BibTeX on manuscrito.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: manuscrito.tex:31: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: manuscrito.tex:42: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: manuscrito.tex:69: Underfull \hbox (badness 1173) in paragraph at lines 68--69
+warning: manuscrito.tex:89: Underfull \vbox (badness 7308) has occurred while \output is active
+warning: manuscrito.tex:98: Underfull \vbox (badness 2050) has occurred while \output is active
+warning: manuscrito.tex:117: Underfull \vbox (badness 1270) has occurred while \output is active
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `manuscrito.bbl` (1.59375 KiB)
+note: Writing `manuscrito.log` (22.4326171875 KiB)
+note: Writing `manuscrito.pdf` (339.7158203125 KiB)
+note: Writing `manuscrito.out` (1.8544921875 KiB)
+note: Writing `manuscrito.aux` (5.47265625 KiB)
+note: Writing `manuscrito.blg` (198 B)

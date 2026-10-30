@@ -1,0 +1,18 @@
+{
+  "approved": true,
+  "external_semantic_accuracy_validated": false,
+  "notes": "No text overlap/missing glyphs in final exports; readable at intended column width. Proof PDF is not the manuscript.",
+  "reviewed": [
+    "F01 support and footer/legend separation",
+    "F02 matched2D/H map and scale/CRS/NoData",
+    "F03 ordinal rank plot and exact-top legend",
+    "F04 sensitivity and paired n",
+    "T01/T02/T03 numerical tables",
+    "supplementary lost/gained examples",
+    "A4 PDF proofs at150dpi with86/178mm elements"
+  ],
+  "reviewed_on": "2026-10-26",
+  "reviewer": "agent_visual_inspection",
+  "same_final_graphics_as_inspected_candidate_verified_by_regeneration_hashes": true,
+  "stage13_run_id": "20261026T115706Z_458afeef44"
+}

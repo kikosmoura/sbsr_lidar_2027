@@ -1,0 +1,122 @@
+# Publicação do código para avaliação científica.
+# Excluir apenas apoio local, instruções à IA e intermediários editoriais.
+# O .gitignore não remove arquivos já rastreados nem apaga o histórico do Git.
+
+# Instruções, prompts e memória local dos assistentes
+/.agents/
+/.codex/
+/.claude/
+/.cursor/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+/.cursorrules
+/.cursorignore
+/.github/copilot-instructions.md
+/prompts_sbsr_2027/
+/prompts_sbsr_2027.zip
+
+# Passagem de contexto, retomada e planejamento da redação pela IA
+/docs/RETOMADA_PROJETO.md
+/docs/diagnostico_retomada_etapa16.md
+/docs/manifesto_etapa16.json
+/docs/plano_artigo.md
+/docs/redacao_artigo_etapa14.md
+/docs/parecer_final_etapa15.md
+/docs/pendencias_editoriais_etapa17.md
+/docs/matriz_editorial_etapa15.csv
+/docs/matriz_editorial_etapa15.md
+/docs/revisao_introducao_autoria.md
+/docs/manifesto_revisao_introducao_autoria.json
+
+# Finalizadores que registram a conclusão da redação e atualizam o contexto da IA
+# Não usar scripts/finalizar_*.py: finalizar_produtos_etapa12.py é científico.
+/scripts/finalizar_artigo_etapa14.py
+/scripts/finalizar_revisao_etapa15.py
+/scripts/finalizar_complemento_etapa17.py
+/scripts/finalizar_revisao_interpretacao.py
+/scripts/finalizar_revisao_final_quantitativa.py
+/scripts/finalizar_introducao_autoria.py
+
+# Cópias intermediárias do manuscrito e modelos consultados durante a redação
+# Preservar revisao_introducao_v0_3_4/: versão atual indicada em versao_atual.json.
+/artigo/revisao_etapa15/
+/artigo/revisao_final_v0_3_3/
+/artigo/revisao_interpretacao_v0_3_2/
+/artigo/complemento_etapa17/
+/artigo/template_original/
+/artigo/**/template_original/
+/artigo/**/manuscrito_texto_extraido.txt
+
+# Diagnósticos de retomada, aquisição de modelos e provas editoriais locais
+# Não ignorar relatorios/ inteiro: contém resultados e fontes dos cálculos.
+/relatorios/etapa14/
+/relatorios/etapa16/
+/relatorios/revisao_introducao_autoria/
+/relatorios/**/provas/
+/relatorios/**/provas_artigo/
+/relatorios/**/provas_experimentos/
+/relatorios/**/tentativa_apresentacao_incompleta/
+/relatorios/**/template_original/
+/relatorios/**/*_stdout.txt
+/relatorios/**/caixas_pdf.html
+/relatorios/**/pdfinfo.txt
+/relatorios/**/fontes_pdf.txt
+/relatorios/**/compilacao*.txt
+/relatorios/**/*.zip
+
+/artigo/
+
+# Ambientes, instalações locais, caches e metadados de instalação Python
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+venv/
+/.tools/
+/.vscode/
+/.idea/
+/build/
+/dist/
+
+# Credenciais e configurações locais
+/.aws/
+.env
+.env.*
+!.env.example
+
+# Downloads brutos e bloqueios temporários de execução
+/downloads/
+/docs/estado_projeto.json.lock
+/relatorios/execucoes/*.lock
+
+# Auxiliares de compilação LaTeX (inclusive nas subpastas do artigo)
+/artigo/**/*.aux
+/artigo/**/*.log
+/artigo/**/*.out
+/artigo/**/*.blg
+/artigo/**/*.fls
+/artigo/**/*.fdb_latexmk
+/artigo/**/*.synctex.gz
+
+# Arquivos temporários do sistema/editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Mantidos de propósito, pois não são apenas apoio à IA:
+# - src/, tests/, files/, third_party/, requisitos e configurações científicas;
+# - docs/estado_projeto.json: lido pelas execuções e pela seleção da amostra;
+# - manifestos científicos, schemas, protocolos e decisões metodológicas;
+# - relatórios numéricos, auditorias científicas e dados de figuras/tabelas;
+# - scripts/etapa14/, scripts/etapa15/ e diagnosticar_retomada_etapa16.py:
+#   possuem funções importadas por testes e outros módulos científicos;
+# - artigo/versao_atual.json e artigo/revisao_introducao_v0_3_4/.
+# Arquivos mistos podem conter referências à IA; .gitignore não filtra conteúdo.

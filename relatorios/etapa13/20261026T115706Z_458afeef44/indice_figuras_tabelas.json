@@ -1,0 +1,568 @@
+{
+  "items": [
+    {
+      "description": "Área observada nos dez polígonos originais; hachura indica suporte ausente.",
+      "figure_id": "F01_suporte",
+      "files": [
+        {
+          "bytes": 29572,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F01_suporte.pdf",
+          "sha256": "19c64d7f4dabc4326da48c3e3d25ed9011918e00ee3031b414eb504c92210e3f"
+        },
+        {
+          "bytes": 17591,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F01_suporte.svg",
+          "sha256": "088e5202fa26f30e2d44010808e15165319a90e774ed8e93d0a44cc71d754675"
+        },
+        {
+          "bytes": 253358,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F01_suporte.png",
+          "sha256": "091aec1c28a5ecc17398c732926d4a63b2f42fbc3ae0ffe7fbfa7b1ad70ff660"
+        }
+      ],
+      "height_mm": 72.0,
+      "inputs": [
+        "sample_summary",
+        "observed_fraction_min",
+        "observed_fraction_max"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 86.0
+    },
+    {
+      "bounds_utm": [
+        324049.0,
+        7406305.0,
+        324189.0,
+        7406445.0
+      ],
+      "category_counts": {
+        "0": 10396,
+        "1": 5817,
+        "2": 554,
+        "3": 2833
+      },
+      "description": "Mesmo recorte, suporte e máscara em 2D/H; norte da grade UTM; exemplo ilustrativo.",
+      "epsg": 31983,
+      "example_id": "CO_PJ_03_P001_G50_X6482_Y148127_F01",
+      "figure_id": "F02_exemplo_2D_H",
+      "files": [
+        {
+          "bytes": 155683,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F02_exemplo_2D_H.pdf",
+          "sha256": "b157e26ea26dbd1de451388bf6900b12f58e0297ee5a240363198d1e4d81bc4e"
+        },
+        {
+          "bytes": 641717,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F02_exemplo_2D_H.svg",
+          "sha256": "26fb1e280d039d345cca2364d9349e496bc68dbd014ccf1a04b86cf8c4876d6c"
+        },
+        {
+          "bytes": 402273,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F02_exemplo_2D_H.png",
+          "sha256": "ab2babbc0c86df8b81b0605fbf47f380248b9f676bad65bc112323aec02955be"
+        }
+      ],
+      "height_cells_clipped_above_maximum": 0,
+      "height_mm": 86.0,
+      "height_scale_m": [
+        0,
+        40.0
+      ],
+      "inputs": [
+        "coorte_selecionada",
+        "selecao_corredores_congelada"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "raster_inputs": [
+        {
+          "bytes": 188657,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/rasters_r1_f1/chm.tif",
+          "sha256": "ad6e4d4667fd087d69066b8af715b9869d34cb7d9d4e31c8bc584bc10d7c70dd"
+        },
+        {
+          "bytes": 15387,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/rasters_r1_f1/observation.tif",
+          "sha256": "3c149a9e80ccc703cc03b70829bf1f66dc4111030acf709dfab55e1fd15cfb3c"
+        },
+        {
+          "bytes": 43252,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/primary/labels.tif",
+          "sha256": "68d4a7e36719cb3936e4ea94e84e543abcc1ff1760adcf499ac120378ddfaee1"
+        }
+      ],
+      "status": "neither",
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0,
+      "window_data": {
+        "bytes": 20567,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/maps/F02_exemplo_2D_H.npz",
+        "sha256": "e1928d21b38853b7fdd472cbb44eac4912fde0591075b6a8a26ec12697e55bd6"
+      }
+    },
+    {
+      "description": "A versus A+3D no mesmo conjunto de IDs; não representa ganho de acurácia.",
+      "figure_id": "F03_rankings",
+      "files": [
+        {
+          "bytes": 28981,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F03_rankings.pdf",
+          "sha256": "fdf4d7ae2faf067b65dcaf7a87b42ac7225ecbe6178f75fc470c77461d4468ba"
+        },
+        {
+          "bytes": 26506,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F03_rankings.svg",
+          "sha256": "fa5f24a1a2858cbeed862d03cc192b89fee069a49fce2d2c03ea308ae3f8d415"
+        },
+        {
+          "bytes": 241369,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F03_rankings.png",
+          "sha256": "d24b76e16d21b5e8b7aebfff54d7735d59aba59f471bae6c1515acd4fc965f68"
+        }
+      ],
+      "height_mm": 88.0,
+      "inputs": [
+        "escores_rankings",
+        "membros_top",
+        "coorte_selecionada",
+        "primary_spearman_rho",
+        "primary_jaccard_exact"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 86.0
+    },
+    {
+      "description": "Estabilidade pareada e tamanho da coorte remanescente; onze cenários alternativos.",
+      "figure_id": "F04_sensibilidade",
+      "files": [
+        {
+          "bytes": 26785,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F04_sensibilidade.pdf",
+          "sha256": "44c16ac1805d57413fbdf81f6e2ec706c95c2397b8a70b4690bef11470dbde5b"
+        },
+        {
+          "bytes": 16850,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F04_sensibilidade.svg",
+          "sha256": "156baa315372e3078fa3a902e69e7a6e3c9b1547b443bd7639ed576ec14c0adf"
+        },
+        {
+          "bytes": 218721,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/F04_sensibilidade.png",
+          "sha256": "6f3027194a35729d0d7ed7ae481a4194a7280e94dd91696e75bbe2a150f47d54"
+        }
+      ],
+      "height_mm": 86.0,
+      "inputs": [
+        "sensibilidade_rankings_agrupada",
+        "sensitivity_paired_eligible_units_min",
+        "sensitivity_paired_eligible_units_max"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 86.0
+    },
+    {
+      "bounds_utm": [
+        318138.0,
+        7407192.0,
+        318278.0,
+        7407332.0
+      ],
+      "category_counts": {
+        "0": 11626,
+        "1": 7005,
+        "2": 41,
+        "3": 928
+      },
+      "description": "Mesmo recorte, suporte e máscara em 2D/H; norte da grade UTM; exemplo ilustrativo.",
+      "epsg": 31983,
+      "example_id": "CO_PR_02_P002_G50_X6364_Y148145_F01",
+      "figure_id": "S_gained_2D_H",
+      "files": [
+        {
+          "bytes": 146321,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_gained_2D_H.pdf",
+          "sha256": "7f95f0101b65dc26fbc1519937d8bd5d9ffa3a6f702f69f84f0e6d4d23911be7"
+        },
+        {
+          "bytes": 630088,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_gained_2D_H.svg",
+          "sha256": "99297a85d5ca1f056897a3469f262ed747e06e612765562158a8975f46fea9d8"
+        },
+        {
+          "bytes": 395214,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_gained_2D_H.png",
+          "sha256": "82f5b7715154bc29f561a78eef630fceb64b8d79e731f910f48f8b601def2120"
+        }
+      ],
+      "height_cells_clipped_above_maximum": 0,
+      "height_mm": 86.0,
+      "height_scale_m": [
+        0,
+        40.0
+      ],
+      "inputs": [
+        "coorte_selecionada",
+        "selecao_corredores_congelada"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": false,
+      "raster_inputs": [
+        {
+          "bytes": 164173,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/rasters_r1_f1/chm.tif",
+          "sha256": "f2382310dfcaa77625f74c1ef01ab634f47a7bb729d96289f3ed20ed21134a52"
+        },
+        {
+          "bytes": 10371,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/rasters_r1_f1/observation.tif",
+          "sha256": "960bca301a20717bc5a3e54bb2c64647a97410bd96f338ea6d13a40338465a44"
+        },
+        {
+          "bytes": 29042,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/primary/labels.tif",
+          "sha256": "f716774b555858920beb7b4aba039c7794c61a6c5c1fcb273dabf4576cbb6cea"
+        }
+      ],
+      "status": "gained",
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0,
+      "window_data": {
+        "bytes": 11846,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/maps/S_gained_2D_H.npz",
+        "sha256": "9dcee5673fd6c83faf9aaff0e761485091f06c351e6698136cc80878e2099e5b"
+      }
+    },
+    {
+      "bounds_utm": [
+        355940.0,
+        7392085.0,
+        356080.0,
+        7392225.0
+      ],
+      "category_counts": {
+        "0": 13963,
+        "1": 4378,
+        "2": 376,
+        "3": 883
+      },
+      "description": "Mesmo recorte, suporte e máscara em 2D/H; norte da grade UTM; exemplo ilustrativo.",
+      "epsg": 31983,
+      "example_id": "CO_CT_05_P001_G50_X7120_Y147843_F01",
+      "figure_id": "S_kept_2D_H",
+      "files": [
+        {
+          "bytes": 148039,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_kept_2D_H.pdf",
+          "sha256": "7425f73ef435b019d6c590029d594622f7f0aa2ca4ac0fe748d054b3a18878e5"
+        },
+        {
+          "bytes": 641631,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_kept_2D_H.svg",
+          "sha256": "54db05d191428f8cda7408af0609178c538807eab873a8b5a5cae6da0d331693"
+        },
+        {
+          "bytes": 366519,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_kept_2D_H.png",
+          "sha256": "5f7fd925e91dc1c8c8d8566bfa447bcf0c3b639417e9d41064e51467a579f068"
+        }
+      ],
+      "height_cells_clipped_above_maximum": 0,
+      "height_mm": 86.0,
+      "height_scale_m": [
+        0,
+        40.0
+      ],
+      "inputs": [
+        "coorte_selecionada",
+        "selecao_corredores_congelada"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": false,
+      "raster_inputs": [
+        {
+          "bytes": 209035,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CT_05/6b6819d6e03b98c4f8a6/rasters_r1_f1/chm.tif",
+          "sha256": "f37f19c29e96b1dc439b93eaf4b5ab764ae02d97f83ddfb46699bf3ed40c1c63"
+        },
+        {
+          "bytes": 22401,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CT_05/6b6819d6e03b98c4f8a6/rasters_r1_f1/observation.tif",
+          "sha256": "6f748c3c0100213213361ac073cacb161c72f6c21050f8537568049ae72266a1"
+        },
+        {
+          "bytes": 57568,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CT_05/6b6819d6e03b98c4f8a6/primary/labels.tif",
+          "sha256": "fe4fdd606619b474f20819a459f31a198f0e452ada5ae57e0f4624504243508f"
+        }
+      ],
+      "status": "kept",
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0,
+      "window_data": {
+        "bytes": 11920,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/maps/S_kept_2D_H.npz",
+        "sha256": "18407ea1ad93e3fcfbfb3d1f33f9c12f07e9b23fb823d16bcc529f7776dc8440"
+      }
+    },
+    {
+      "bounds_utm": [
+        317833.0,
+        7407144.0,
+        317973.0,
+        7407284.0
+      ],
+      "category_counts": {
+        "0": 11416,
+        "1": 4615,
+        "2": 126,
+        "3": 3443
+      },
+      "description": "Mesmo recorte, suporte e máscara em 2D/H; norte da grade UTM; exemplo ilustrativo.",
+      "epsg": 31983,
+      "example_id": "CO_PR_02_P001_G50_X6358_Y148144_F01",
+      "figure_id": "S_lost_2D_H",
+      "files": [
+        {
+          "bytes": 157248,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_lost_2D_H.pdf",
+          "sha256": "95a7c3be1bbaf2b5166ad84c887064f7858e43085d4c2fe183794ec14a493ccf"
+        },
+        {
+          "bytes": 659208,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_lost_2D_H.svg",
+          "sha256": "79f19ae5fac91bf1e72d1455b23cbebd90903597687c6393faac599abbb8e4eb"
+        },
+        {
+          "bytes": 413589,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_lost_2D_H.png",
+          "sha256": "8e5a0d9861a55f39bccdee76f3c0f18a68a6bd3a7fb0485d3eb1a9cca4e9357e"
+        }
+      ],
+      "height_cells_clipped_above_maximum": 0,
+      "height_mm": 86.0,
+      "height_scale_m": [
+        0,
+        40.0
+      ],
+      "inputs": [
+        "coorte_selecionada",
+        "selecao_corredores_congelada"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": false,
+      "raster_inputs": [
+        {
+          "bytes": 164173,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/rasters_r1_f1/chm.tif",
+          "sha256": "f2382310dfcaa77625f74c1ef01ab634f47a7bb729d96289f3ed20ed21134a52"
+        },
+        {
+          "bytes": 10371,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/rasters_r1_f1/observation.tif",
+          "sha256": "960bca301a20717bc5a3e54bb2c64647a97410bd96f338ea6d13a40338465a44"
+        },
+        {
+          "bytes": 29042,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98/primary/labels.tif",
+          "sha256": "f716774b555858920beb7b4aba039c7794c61a6c5c1fcb273dabf4576cbb6cea"
+        }
+      ],
+      "status": "lost",
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0,
+      "window_data": {
+        "bytes": 27406,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/maps/S_lost_2D_H.npz",
+        "sha256": "1bada778f3a24f70287560162323bcfc69527f966c2ebfca28791bbb703f530c"
+      }
+    },
+    {
+      "bounds_utm": [
+        324049.0,
+        7406305.0,
+        324189.0,
+        7406445.0
+      ],
+      "category_counts": {
+        "0": 10396,
+        "1": 5817,
+        "2": 554,
+        "3": 2833
+      },
+      "description": "Mesmo recorte, suporte e máscara em 2D/H; norte da grade UTM; exemplo ilustrativo.",
+      "epsg": 31983,
+      "example_id": "CO_PJ_03_P001_G50_X6482_Y148127_F01",
+      "figure_id": "S_neither_2D_H",
+      "files": [
+        {
+          "bytes": 155683,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_neither_2D_H.pdf",
+          "sha256": "b157e26ea26dbd1de451388bf6900b12f58e0297ee5a240363198d1e4d81bc4e"
+        },
+        {
+          "bytes": 641717,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_neither_2D_H.svg",
+          "sha256": "26fb1e280d039d345cca2364d9349e496bc68dbd014ccf1a04b86cf8c4876d6c"
+        },
+        {
+          "bytes": 402273,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/figures/S_neither_2D_H.png",
+          "sha256": "ab2babbc0c86df8b81b0605fbf47f380248b9f676bad65bc112323aec02955be"
+        }
+      ],
+      "height_cells_clipped_above_maximum": 0,
+      "height_mm": 86.0,
+      "height_scale_m": [
+        0,
+        40.0
+      ],
+      "inputs": [
+        "coorte_selecionada",
+        "selecao_corredores_congelada"
+      ],
+      "minimum_font_pt": 7.0,
+      "missing_glyphs": [],
+      "primary": false,
+      "raster_inputs": [
+        {
+          "bytes": 188657,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/rasters_r1_f1/chm.tif",
+          "sha256": "ad6e4d4667fd087d69066b8af715b9869d34cb7d9d4e31c8bc584bc10d7c70dd"
+        },
+        {
+          "bytes": 15387,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/rasters_r1_f1/observation.tif",
+          "sha256": "3c149a9e80ccc703cc03b70829bf1f66dc4111030acf709dfab55e1fd15cfb3c"
+        },
+        {
+          "bytes": 43252,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d/primary/labels.tif",
+          "sha256": "68d4a7e36719cb3936e4ea94e84e543abcc1ff1760adcf499ac120378ddfaee1"
+        }
+      ],
+      "status": "neither",
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0,
+      "window_data": {
+        "bytes": 20567,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/maps/S_neither_2D_H.npz",
+        "sha256": "e1928d21b38853b7fdd472cbb44eac4912fde0591075b6a8a26ec12697e55bd6"
+      }
+    },
+    {
+      "description": "Tabela compacta gerada das fontes e fórmulas declaradas.",
+      "figure_id": "T01_amostra",
+      "files": [
+        {
+          "bytes": 38664,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T01_amostra.pdf",
+          "sha256": "6af0d23cde98155bc1a80556116c763d301efbb904034e3257f2a194abebcdb5"
+        },
+        {
+          "bytes": 24941,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T01_amostra.svg",
+          "sha256": "28852b23d90c986d1e8096439aff251811042fea3b35c6904a033be917917012"
+        },
+        {
+          "bytes": 256746,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T01_amostra.png",
+          "sha256": "e20af6f28736348a70782dd01f679475631dfa5a2e254946d163dccb55e67faa"
+        }
+      ],
+      "height_mm": 57.0,
+      "inputs": [
+        "sample_summary"
+      ],
+      "minimum_font_pt": 8.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 86.0
+    },
+    {
+      "description": "Tabela compacta gerada das fontes e fórmulas declaradas.",
+      "figure_id": "T02_indicadores",
+      "files": [
+        {
+          "bytes": 45287,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T02_indicadores.pdf",
+          "sha256": "a426b8aeaa65d31adfdf9ca2ccf3487534f576b131b55cc3b95da17c2207ca1d"
+        },
+        {
+          "bytes": 13500,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T02_indicadores.svg",
+          "sha256": "589cabf2e5f705ef06b142dfde658c682f8603431a123917cafea81374e89ac4"
+        },
+        {
+          "bytes": 290861,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T02_indicadores.png",
+          "sha256": "51528f566344dbb71e94ace04eb4e06b29e4870209849e25a9a781d9bdaa432b"
+        }
+      ],
+      "height_mm": 40.0,
+      "inputs": [
+        "docs/protocolo_pycrown_v0_3_0.md"
+      ],
+      "minimum_font_pt": 8.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 178.0
+    },
+    {
+      "description": "Tabela compacta gerada das fontes e fórmulas declaradas.",
+      "figure_id": "T03_comparacao",
+      "files": [
+        {
+          "bytes": 35105,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T03_comparacao.pdf",
+          "sha256": "83c23f00a2163d0c80f411ec130f059f486c1c5f1d019fb0f50884d072dc535b"
+        },
+        {
+          "bytes": 8928,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T03_comparacao.svg",
+          "sha256": "bc20e8af2542f2e48ec2960f2f46bb96e2ec6b8c3bbe45e89b2ba4438f1cd517"
+        },
+        {
+          "bytes": 75256,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115706Z_458afeef44/tables/T03_comparacao.png",
+          "sha256": "1d5d65e7bc9e44d9b09d52f3d575f88477efb06f17495b6eda17e3933bb1caa4"
+        }
+      ],
+      "height_mm": 24.0,
+      "inputs": [
+        "concordancia_ablacao"
+      ],
+      "minimum_font_pt": 8.0,
+      "missing_glyphs": [],
+      "primary": true,
+      "text_outside_canvas": [],
+      "text_overlaps": [],
+      "width_mm": 86.0
+    }
+  ]
+}

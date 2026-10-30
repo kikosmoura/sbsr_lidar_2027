@@ -1,0 +1,493 @@
+{
+  "artifacts": [
+    {
+      "bytes": 832,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/README.md",
+      "sha256": "0f9b9bc4f9f8f4bd47be77675f235a76435fecfb4bfd9ce5746684772f1e0587"
+    },
+    {
+      "bytes": 248,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/autores.tex",
+      "sha256": "cbca8fc6bbcee9a9cb46e4a54cc5470e36a0cc52f768b1b9674920abb2afe548"
+    },
+    {
+      "bytes": 311,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/autoria.yaml",
+      "sha256": "a602d5bda0eaae23e16dbd218de19412f20bb7611c43ee8f15aa0e8e9b539350"
+    },
+    {
+      "bytes": 1267,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/afirmacoes_complementares.json",
+      "sha256": "ab836658a2eab12a9bb76e52ec2cae33d778790b5bf95a2b0d824eacc1dec00c"
+    },
+    {
+      "bytes": 1734,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/afirmacoes_revisao.json",
+      "sha256": "1789330ce888beb9e9f140ff4e2f67ffe66cdb10578a7c525b2a2827711d3858"
+    },
+    {
+      "bytes": 1385,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/amostra_completa.csv",
+      "sha256": "c4ed98c4084e12df9b8bbc43cb9993e46236c00a8cceb389bcf7046757df694f"
+    },
+    {
+      "bytes": 8942,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/complemento_resultados.json",
+      "sha256": "50302902700cfbac42874d9c73518d6f073cc45682f703a4bb80287338f8c3b1"
+    },
+    {
+      "bytes": 630,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/controle_duplicacao.json",
+      "sha256": "4f02ca64990e607c3864e2b8c083f5ba5fea681a41d4422e3b10b4ab2c801b2e"
+    },
+    {
+      "bytes": 91373,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/numeros_rastreaveis.json",
+      "sha256": "0bbd47b1fec4e0bf78a83149cf32a6a150b6eef4c61386dab4c593a67df5945e"
+    },
+    {
+      "bytes": 3640,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/referencias_verificadas.json",
+      "sha256": "04c6cbf213565f238d8814823b5e53bcfb0d29099e4fd339d102b33609eda677"
+    },
+    {
+      "bytes": 64657,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/resultados_publicaveis.json",
+      "sha256": "8c5d2711261212ce09fd75c4b4fe759a972a78082326833c576901057b3032f9"
+    },
+    {
+      "bytes": 3458,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/revisao_interpretacao_resultados.json",
+      "sha256": "140c631f36f7ee0e44f3114b4796356e2c678f08b872f3f725bf8bf9c4632ae2"
+    },
+    {
+      "bytes": 6073,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/dados/selecao_exemplos.json",
+      "sha256": "73856581af2e54c73613622b63b48056120068a67994208062fd9876a9e14039"
+    },
+    {
+      "bytes": 155683,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/figuras/F02_exemplo_2D_H.pdf",
+      "sha256": "b157e26ea26dbd1de451388bf6900b12f58e0297ee5a240363198d1e4d81bc4e"
+    },
+    {
+      "bytes": 28981,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/figuras/F03_rankings.pdf",
+      "sha256": "fdf4d7ae2faf067b65dcaf7a87b42ac7225ecbe6178f75fc470c77461d4468ba"
+    },
+    {
+      "bytes": 26785,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/figuras/F04_sensibilidade.pdf",
+      "sha256": "44c16ac1805d57413fbdf81f6e2ec706c95c2397b8a70b4690bef11470dbde5b"
+    },
+    {
+      "bytes": 29171,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/figuras/F05_pares_horizontais.pdf",
+      "sha256": "4ec4a5da7ed5b1fafa219d9ee6bf8a796d3866cf38430b45b4eff67c76022bf0"
+    },
+    {
+      "bytes": 30142,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/figuras/F06_estabilidade_coorte_fixa.pdf",
+      "sha256": "275b331c17722ac1d08e03c00a61f660851cc6540b42d2c23816ef5e42e31c02"
+    },
+    {
+      "bytes": 2155,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/formato_sbsr_local.sty",
+      "sha256": "3a389fe647d0916dd8e9b7bc9921902f0a6928baeaeff9fb38be253ebf277a0a"
+    },
+    {
+      "bytes": 1631,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/indice_elementos.json",
+      "sha256": "383b41d93088bd08172005a060686cc7ad9587d422dcb76f84b331d0e166c195"
+    },
+    {
+      "bytes": 6284,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.aux",
+      "sha256": "b0438fe1908caeb5a0c0e32228ee66b450abb7f1cde9cae67525a5e86c1363df"
+    },
+    {
+      "bytes": 2015,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.bbl",
+      "sha256": "171d8784794e8501bca246a28b26582a32d7a8a6ee7daca0446681bebe6a092d"
+    },
+    {
+      "bytes": 198,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.blg",
+      "sha256": "95b3f061896870330e3beb35daa3fa61a3daeb61dff5e07aceef353c29740d90"
+    },
+    {
+      "bytes": 20907,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.log",
+      "sha256": "864c706fbc8d9f3629cc8a0990b010fa32c7dc3f26ce857738e7033362b39f4a"
+    },
+    {
+      "bytes": 1899,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.out",
+      "sha256": "2f365019fbbbddc6470e169b16147f0c8491aa3bf3c1009a59f25b88bed24bc1"
+    },
+    {
+      "bytes": 355456,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.pdf",
+      "sha256": "dac0031fdfa47200a9d768c7edb9d713a2cc4a66004d7b9e1bce88b2335480e6"
+    },
+    {
+      "bytes": 18148,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.tex",
+      "sha256": "a3669febcc9595771e0b1fc5b027a4400400b4ebfc987ccb97b18b3829268163"
+    },
+    {
+      "bytes": 27135,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito_texto_extraido.txt",
+      "sha256": "5921af3fe612266b20a570638dd28ddbebfff5b6ead971f9ed3a0ed14421d6f1"
+    },
+    {
+      "bytes": 24569,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/matriz_afirmacoes_evidencias.json",
+      "sha256": "7d9d1798acb98b07af43bf929916832b2c2dc3e536b8e0dcdfdf5084f994fa70"
+    },
+    {
+      "bytes": 842,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/matriz_afirmacoes_evidencias.md",
+      "sha256": "ad87757dafb2979d5304888e87954735a6fea1183bdb12390a4cec11f6486aa1"
+    },
+    {
+      "bytes": 2503,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/notas_referencias.md",
+      "sha256": "5bc088f36a585c5bc510995944181c52d13602e77c545bce812280e35f8d83ca"
+    },
+    {
+      "bytes": 22793,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/numeros.tex",
+      "sha256": "6bac3695a19c9eb6d27073fb071f1b7012c3f975f1bf656e8bfd070acbc51a0b"
+    },
+    {
+      "bytes": 2448,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/referencias.bib",
+      "sha256": "2df78ee139603195224b9f3e6dc2fb22c7416a36520121d39e8f34cbc2ed424f"
+    },
+    {
+      "bytes": 1149,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/tabelas/amostra.tex",
+      "sha256": "5f1d0128296dcf6d3fbd4ad8d2d56f4f8a2958d679c893bae7cdfe6fa14f149e"
+    },
+    {
+      "bytes": 571,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/tabelas/controles.tex",
+      "sha256": "be9f1acc5d9e22b27246f14ed4c7e57316e3108b91ecf2e59b0995effa406547"
+    },
+    {
+      "bytes": 320,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/tabelas/distribuicao_pares16.tex",
+      "sha256": "b1eff1006266336d13da23ee2d9daffe24a24633394eed22a6c2ff487d997408"
+    },
+    {
+      "bytes": 1897,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/template_original/PROVENIENCIA.md",
+      "sha256": "75ba253b5d17d1fc5508dbfd72fd450889cbbb16e05db72bf64d519e048ed8e7"
+    },
+    {
+      "bytes": 1802,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/template_original/fonte_visivel_0.tex",
+      "sha256": "089f81c9d3ef4a6683d035b9be59a38f130907ea2e19f7a908ab4b2332edd81e"
+    },
+    {
+      "bytes": 143259,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/template_original/modelo_fornecido.pdf",
+      "sha256": "dd5372414dede5388c67bf021f09ad2128505af99700ad551f806de4369498ec"
+    },
+    {
+      "bytes": 199062,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/template_original/modelo_oficial_portugues.odt",
+      "sha256": "eefc9652829ea074fed27092caf7a96573249e2e00dfeaa0e3c5cae218af9581"
+    },
+    {
+      "bytes": 48411,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/template_original/pagina_overleaf.html",
+      "sha256": "9793b65ead9c82744bf5ca8cf58e6ffb48fa72f9373608d0430a09fa982e3d0f"
+    },
+    {
+      "bytes": 1178,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/verificacao_editorial.json",
+      "sha256": "63d84ef22ded199ab5097feede619530889e970d9a37df84f80108897c218175"
+    },
+    {
+      "bytes": 829,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/versao_atual.json",
+      "sha256": "2817cb11a2c09d44f161e039c99f9def92297573a8fde3eb21b3a597691543d9"
+    },
+    {
+      "bytes": 654,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/revisao_interpretacao_v0_3_2.yaml",
+      "sha256": "1035d008960069bcf3559ceb57967a3aed478fa05d3a4fa22f41625c40e226b9"
+    },
+    {
+      "bytes": 2355,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/RETOMADA_PROJETO.md",
+      "sha256": "9120baba4c67f4411d8c8e70e0802d49b94d69c1155a3c02b0773e31936ec1a8"
+    },
+    {
+      "bytes": 50144,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+      "sha256": "e36fbd045479c7f9cc76197a776365079b638c969970230beb0ac3e87b674f01"
+    },
+    {
+      "bytes": 274091,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+      "sha256": "5dccf4a980b044ced0653b46324eff336f005f1199b0e939cd5fcd5164b35713"
+    },
+    {
+      "bytes": 2736,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_revisao_interpretacao.md",
+      "sha256": "72e480b6c74a9e5c9510a45929cfb96e3506a71dd978c8748af744a000ccce5e"
+    },
+    {
+      "bytes": 6824,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/revisao_interpretacao_artigo.md",
+      "sha256": "25694798012f503ba843eb6d5c0509c19d9cd79f92f4d65b96fe28a570e946ab"
+    },
+    {
+      "bytes": 245102,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/caixas_pdf.html",
+      "sha256": "90b68e1121ba2657103e1e77987bfac68583924cb03cad2a3b535f504c51cdc1"
+    },
+    {
+      "bytes": 2960,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/compilacao.txt",
+      "sha256": "6b6093b6591e0a124012f42a3623a7c1c442670f73b6fc11ea1bd15240a52c1d"
+    },
+    {
+      "bytes": 293,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/distribuicao_pares16.csv",
+      "sha256": "39c0434fadf701ebf961afda754e84f9c306acdc9bc043959f5def21753be3a5"
+    },
+    {
+      "bytes": 2778,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/entradas_etapa17/RETOMADA_PROJETO.md",
+      "sha256": "6b58e0bf2c542b3ab09087edde497fbebeb9603963e83254b6453f0616ee2dea"
+    },
+    {
+      "bytes": 48507,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/entradas_etapa17/decisoes_metodologicas.md",
+      "sha256": "8f7bc700d7931ee9d3bc9806ff6fb37191e2bea1cc54e97e4f3b837e6731b3ca"
+    },
+    {
+      "bytes": 271672,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/entradas_etapa17/estado_projeto.json",
+      "sha256": "357c9d0dd1c09341077142ebdefec4732062c392bf56a41e5f33482e2c861f5d"
+    },
+    {
+      "bytes": 832,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/entradas_etapa17/versao_atual.json",
+      "sha256": "a3c7126fc37c013fd20a434d8cd2aaa8f33edc874d684de141ff60bd24a2e44e"
+    },
+    {
+      "bytes": 745684,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/atestado_tecnico_2020.pdf",
+      "sha256": "f8ad51889e2142391aea7755d1e1b6757868240ee63ec93597ff09a6071006a9"
+    },
+    {
+      "bytes": 18311,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/atestado_tecnico_2020.txt",
+      "sha256": "8331be600390d899702422cb26943174ed9542c216a93ff48c99fc911ab96da7"
+    },
+    {
+      "bytes": 20734,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/metadados_mds.xml",
+      "sha256": "488a26bb2b2d37d6b26b6aa719183ed1f5e864da644d13ffb010a387fbef2e4b"
+    },
+    {
+      "bytes": 19398,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/metadados_mdt.xml",
+      "sha256": "aea1159b5999938d04882c53c101c012b3d2b40353199f31986c15f9ea4531c3"
+    },
+    {
+      "bytes": 1786,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes_pdf.txt",
+      "sha256": "dab96eb844ba33e5ee7d147a2f09ccdb2e883735bceaf33c72fe864d41305c8e"
+    },
+    {
+      "bytes": 8107,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes_utilizadas.json",
+      "sha256": "b6acd2ec3beca6678c8419710eea96613b7d74fc9da601eb3901ce1af4acf855"
+    },
+    {
+      "bytes": 707,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/inicio.json",
+      "sha256": "bd8bb414166e6cce2cd97244f56c210e1881d4abd5a6c71e8977317e003175b0"
+    },
+    {
+      "bytes": 1067,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/metadados_avaliados.json",
+      "sha256": "f161e676a4e8ff33b3258099f7eb8916178d49a3c03c8b4aa7c7135de058014f"
+    },
+    {
+      "bytes": 7004,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/pares16_preservados.csv",
+      "sha256": "9c628f1d22de58ed3b32716812d98ee37af8e810a6b1e7516cc2f84b1f9bae68"
+    },
+    {
+      "bytes": 663,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/pdfinfo.txt",
+      "sha256": "07d2e5bb76a0a898189bcda00548835a7ad13bba842df00d6c7b92c1ed6ece79"
+    },
+    {
+      "bytes": 2736,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/protocolo_revisao_interpretacao.md",
+      "sha256": "72e480b6c74a9e5c9510a45929cfb96e3506a71dd978c8748af744a000ccce5e"
+    },
+    {
+      "bytes": 351891,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-1.png",
+      "sha256": "acf09e12392814747aaae72d858e72ac877a9a58cfe3f3e1844e46ef6406dd3a"
+    },
+    {
+      "bytes": 376496,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-2.png",
+      "sha256": "601448fdd477b782c9357a24ff987780098b1559ee1cfd8d17e64df5af8496b1"
+    },
+    {
+      "bytes": 261617,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-3.png",
+      "sha256": "b68f8b97af26c05bffac4bcc2fce8a7b5ddfd4c68f0197abe89e492f78927d97"
+    },
+    {
+      "bytes": 350704,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-4.png",
+      "sha256": "fd9ae4d9338ed03721de224c37a00338e2869b5244ee88ef1ae4a10fef4e9de8"
+    },
+    {
+      "bytes": 141,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/qc_tin5_metricas_indisponiveis.csv",
+      "sha256": "e68862008a3c7956a5faf488fed53442f14ab101db684befd5d7f88bfb39888c"
+    },
+    {
+      "bytes": 9894,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/qc_tin5_por_janela.csv",
+      "sha256": "34cb75c0d8752387fbdf5e4a6d3b7a629fee3121f8ab594ff9302a6949140254"
+    },
+    {
+      "bytes": 526,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/restauracao_pdf14.json",
+      "sha256": "f26380aeae8d9aa2b05d886d1385530239e4ac33ff0f45d7bcde0e4c35d1a7f0"
+    },
+    {
+      "bytes": 625,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/restauracao_pdf17.json",
+      "sha256": "ea6f78d55f22219a5a1907917887934852cd232c5740b2a7b8b45c88c23d8e70"
+    },
+    {
+      "bytes": 3458,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/resultados.json",
+      "sha256": "140c631f36f7ee0e44f3114b4796356e2c678f08b872f3f725bf8bf9c4632ae2"
+    },
+    {
+      "bytes": 654,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/revisao_interpretacao_v0_3_2.yaml",
+      "sha256": "1035d008960069bcf3559ceb57967a3aed478fa05d3a4fa22f41625c40e226b9"
+    },
+    {
+      "bytes": 1649,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/revisao_visual.json",
+      "sha256": "1b9a55029d80d783c1f0f912c2bd61ef6a1b4e308aa4a260dafbd1bbe763d92a"
+    },
+    {
+      "bytes": 1478,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/testes_cientificos.txt",
+      "sha256": "6c7721f0ffbe202b6cccc61be934b93baf4fa837f9a081aedbf4c078f1c5f4b0"
+    },
+    {
+      "bytes": 13901,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/verificacao.json",
+      "sha256": "561c4daf20d70265bfc4e1a3619541feb4bb5bfbaedbe27d96ca2e02216dc440"
+    },
+    {
+      "bytes": 3106754,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/pacote_revisao_interpretacao.zip",
+      "sha256": "08719ef77fe73bebec734d880fe6bf89e51bce68f555d226866e513615ad6268"
+    },
+    {
+      "bytes": 699,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/ultima_execucao.json",
+      "sha256": "cee4e0a53e97e967b4030e9cfa9c459b171c846584d669673be729362989e79f"
+    },
+    {
+      "bytes": 11708,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/finalizar_revisao_interpretacao.py",
+      "sha256": "5bf11e834ac69905e08cb792801f524378547e0f637d0d5da2d04e8a18ee13ee"
+    },
+    {
+      "bytes": 28055,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/revisar_interpretacao_artigo.py",
+      "sha256": "630f394d6c61f43756f5e5aab9d5e4ed561fd81c27862b0813a07d6d0b688074"
+    },
+    {
+      "bytes": 7006,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/verificar_revisao_interpretacao.py",
+      "sha256": "332827be71f9a352d44ff3ce6de1bfe7235e21c670db54691fb5ce43c8a73122"
+    },
+    {
+      "bytes": 4100,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/measurement_review.py",
+      "sha256": "dd26307556467b648466ef85ad101e78a85ea8c3484ee4b3bde459e4572b9bd1"
+    },
+    {
+      "bytes": 3584,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/tests/cientifico/test_measurement_review.py",
+      "sha256": "a20d65643f7132723aa6a8a232aca0b3f55ae077cbe448673a36e495d0933b4b"
+    }
+  ],
+  "checks": {
+    "all_fonts_embedded": true,
+    "author_approved": false,
+    "bibliography": {
+      "all_citations_resolved": true,
+      "cited_keys": [
+        "alonzo2014",
+        "atestado2020",
+        "dalponte2016",
+        "geosampa",
+        "hurlbert1984",
+        "pycrown",
+        "zorner2018"
+      ],
+      "references": 7
+    },
+    "critical_latex_messages": [],
+    "distribution_quantiles_reconstructed": 10,
+    "external_altimetric_accuracy_estimated": false,
+    "figures": 3,
+    "numerical_registry": {
+      "numerical_source_files": 5,
+      "parameters": 25,
+      "reproduced_metrics": 158
+    },
+    "pages": 4,
+    "pdf": {
+      "bytes": 355456,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.pdf",
+      "sha256": "dac0031fdfa47200a9d768c7edb9d713a2cc4a66004d7b9e1bce88b2335480e6"
+    },
+    "previous_143_article_values_unchanged": true,
+    "source": {
+      "bytes": 18148,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.tex",
+      "sha256": "a3669febcc9595771e0b1fc5b027a4400400b4ebfc987ccb97b18b3829268163"
+    },
+    "submission_ready": false,
+    "tables": 3
+  },
+  "editorial_pending": [
+    "equivalencia_integral_modelo_editorial",
+    "endereco_institucional",
+    "revisao_e_aprovacao_do_autor"
+  ],
+  "external_accuracy_estimated": false,
+  "new_LAZ_processing": false,
+  "revision": "0.3.2-interpretacao",
+  "scores_or_cohorts_changed": false,
+  "self_excluded": "docs/manifesto_revisao_interpretacao.json",
+  "stage": "17",
+  "status": "completed_with_documented_limitations",
+  "submitted": false,
+  "tests_passed": 234
+}

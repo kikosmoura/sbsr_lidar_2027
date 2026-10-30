@@ -1,0 +1,185 @@
+# Seleção exploratória após QC; ver docs/terreno_altura_etapa04.md.
+schema_version: 0.1.0
+protocol_version: 0.1.0
+paths:
+  project_root: ..
+  data_root: /media/s299259068/TOSHIBA EXT/sbbr_lidar_2027
+  mount_root: /media/s299259068/TOSHIBA EXT
+  output_root: /media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento
+  runs_root: ../relatorios/execucoes
+  state_file: ../docs/estado_projeto.json
+  corridors: ../files/corredor_verde/corredor_verde.shp
+  grid: ../files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp
+  protocol_file: ../docs/protocolo_piloto.md
+  downloader_script: ../baixar_lidar_geosampa.py
+pilot:
+  corridor_field: cd_identi0
+  corridor_id: CO_BT_01_E
+  core_tiles:
+  - 3313-333
+  - 3313-361
+  - 3313-363
+  context_tiles:
+  - 3313-324
+  sensitivity_tiles:
+  - 3313-362
+  adversarial_corridor: CO_SE_06
+  adversarial_tile: 3312-431
+  halo_m: 10.0
+  measurement_domain: original_polygon
+grid:
+  epsg: 31983
+  resolution_m: 1.0
+  origin_x: 0.0
+  origin_y: 0.0
+  nodata: -9999.0
+vegetation:
+  classes:
+  - 3
+  - 4
+  - 5
+  minimum_height_m: 3.0
+  connectivity: 8
+  minimum_points_per_cell: 1
+  geometry_radius_m: 1.5
+  geometry_neighbors: 32
+  geometry_min_neighbors: 6
+  geometry_voxel_m: 0.10
+  max_geometry_points: 2000000
+  geometry_query_cells: 4096
+  planar_threshold: 0.80
+  planar_max_roughness_m: 0.15
+  structure_fraction_threshold: 0.50
+  linear_threshold: 0.90
+  thin_max_xy_spread_m: 0.50
+  thin_min_single_return_fraction: 0.90
+  qa_sample_cells: 300
+terrain:
+  method: tin
+  maximum_distance_m: 5.0
+  apply_geoid_correction: false
+  idw_neighbors: 8
+  idw_min_neighbors: 3
+  idw_power: 2.0
+  triangle_edge_radius_factor: 2.0
+  expected_vertical_datum: Maregr.Imbituba(SC)-MAPGEO2015
+  coordinate_key_m: 0.001
+  maximum_xy_z_spread_m: 0.1
+  max_support_points: 1000000
+  query_points: 50000
+  validation_fraction: 0.1
+  validation_block_m: 10.0
+  validation_max_points: 20000
+  minimum_common_validation: 50
+  height_sample_per_class: 10000
+  negative_warning_m: -1.0
+  extreme_height_m: 80.0
+segmentation:
+  length_m: 50.0
+  station_spacing_m: 1.0
+  section_cover_threshold: 0.1
+  boundary_spacing_m: 2.0
+  axis_node_snap_tolerance_m: 0.00001
+  maximum_boundary_sites: 20000
+  terminal_spur_maximum_m: 25.0
+  terminal_spur_radius_factor: 2.5
+  minimum_axis_length_m: 25.0
+  minimum_axis_aspect_ratio: 3.0
+  tangent_half_window_m: 1.0
+  maximum_stations_per_part: 10000
+  maximum_grid_cells_per_scale: 10000
+  area_tolerance_m2: 0.0001
+support:
+  minimum_observed_fraction: 0.95
+  minimum_unit_area_m2: 25.0
+  minimum_canopy_area_m2: 10.0
+  minimum_vegetation_returns: 50
+sensitivity:
+  resolutions_m:
+  - 0.5
+  - 1.0
+  - 2.0
+  halos_m:
+  - 0.0
+  - 10.0
+  - 20.0
+  lengths_m:
+  - 25.0
+  - 50.0
+  - 100.0
+  heights_m:
+  - 2.0
+  - 3.0
+  - 5.0
+  terrain_distances_m:
+  - 3.0
+  - 5.0
+  - 10.0
+  section_thresholds:
+  - 0.0
+  - 0.1
+  - 0.25
+  vertical_weights:
+  - 0.0
+  - 0.25
+  - 0.5
+  - 0.75
+resources:
+  workers: 1
+  chunk_points: 500000
+  max_ram_gib: 8.0
+  min_output_free_gib: 10.0
+  min_local_free_gib: 0.5
+  max_pilot_tiles: 6
+  smoke_points: 1024
+  seed: 2027
+tools:
+  pdal: /usr/bin/pdal
+  gdalinfo: /usr/bin/gdalinfo
+  timeout_seconds: 30
+input_preparation:
+  grid_code_field: cd_quadric
+  edge_width_m: 2.0
+  excluded_noise_classes:
+  - 7
+  - 18
+  download_attempts: 4
+  download_timeout_seconds: 120
+  max_new_downloads_per_case: 2
+  adversarial_context_policy: clip_to_tile
+reference:
+  window_size_m: 20.0
+  main_windows: 12
+  adversarial_windows: 8
+  minimum_context_area_m2: 1.0
+  minimum_regular_context_fraction: 0.25
+  minimum_regular_measurement_fraction: 0.125
+  double_annotation_fraction: 0.25
+  low_height_range_m: [0.25, 2.0]
+  high_height_m: 20.0
+  rgb_resolution_m: 0.5
+  profile_half_width_m: 1.0
+  max_points_per_window: 100000
+  qgis_python: /usr/bin/python3
+indicators:
+  height_estimand: normalized_vegetation_returns
+  quantile_method: linear
+  batch_records: 65536
+  maximum_stored_height_values: 6000000
+  maximum_units: 2000
+  include_I8: false
+  include_I9_I10: false
+comparison:
+  primary_vertical_weight: 0.5
+  primary_top_fraction: 0.20
+  top_fractions: [0.10, 0.20, 0.30]
+  score_tie_decimals: 12
+  minimum_spearman_units: 3
+  minimum_top_k_for_jaccard: 5
+  similar_cover_tolerance: 0.05
+  maximum_observed_area_ratio: 2.0
+  pair_boundary_epsilon: 1.0e-12
+  maximum_units_per_cohort: 500
+  maximum_pair_candidates: 250000
+  minimum_independent_groups_for_surrogates: 6
+  diagnostic_spatial_block_m: 200.0

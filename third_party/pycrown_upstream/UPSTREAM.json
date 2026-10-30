@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/manaakiwhenua/pycrown",
+  "commit": "3d8db4e03d82d5846ff68fc5fa9c18803d823464",
+  "files": [
+    {
+      "path": "pycrown/pycrown.py",
+      "sha256": "0f46affdc8681afac3b441f9c065341aec61f5f419a3843fa385ec5b9ce9937f"
+    },
+    {
+      "path": "pycrown/_crown_dalponte_numba.py",
+      "sha256": "08142a588669c63bfe63382685b68426a64fc742d4eec7d7dffdb641c171a04a"
+    },
+    {
+      "path": "pycrown/_crown_dalponteCIRC_numba.py",
+      "sha256": "334696811f03f2d807608837ed7b4845420da238bd03394cf8f155c26a703544"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "README.md",
+      "sha256": "003561067a08e49224325ee24ca51c67bcffee26be5677e8c5c515a69a9ec6a4"
+    },
+    {
+      "path": "environment.yml",
+      "sha256": "0334eb6d7f69b04a9cdc5388ff2bf169e7c9a79210b5738605bd44559edfd146"
+    }
+  ]
+}

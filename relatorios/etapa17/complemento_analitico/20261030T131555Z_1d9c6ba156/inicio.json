@@ -1,0 +1,15 @@
+{
+  "config": {
+    "bytes": 1148,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/regras_antes_calculo.yaml",
+    "sha256": "1d9c6ba156adbec5af6f3e4493a68988215bb930a89272fd3bd5c9e5d11bd7e4"
+  },
+  "post_result_exploratory": true,
+  "protocol": {
+    "bytes": 5447,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/protocolo_antes_calculo.md",
+    "sha256": "a17db31282c4ac975c46dd3b2e3f2baff8f0f569868e0c1eea03752220e8a7fb"
+  },
+  "run_id": "20261030T131555Z_1d9c6ba156",
+  "started_at": "2026-10-30T13:15:55.249237+00:00"
+}

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504.566929pt" height="113.385827pt" viewBox="0 0 504.566929 113.385827" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>SBSR etapa13: dados experimentais v0.3.0</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 113.385827 
+L 504.566929 113.385827 
+L 504.566929 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 7.568504 22.192913 
+L 51.617197 22.192913 
+L 51.617197 8.392913 
+L 7.568504 8.392913 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="17.086038" transform="rotate(-0 29.59285 17.086038)">Indicador</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 51.617197 22.192913 
+L 144.608882 22.192913 
+L 144.608882 8.392913 
+L 51.617197 8.392913 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="17.086038" transform="rotate(-0 98.113039 17.086038)">Definição</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 144.608882 22.192913 
+L 452.949732 22.192913 
+L 452.949732 8.392913 
+L 144.608882 8.392913 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="17.148538" transform="rotate(-0 298.779307 17.148538)">Estimando / interpretação</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 452.949732 22.192913 
+L 496.998425 22.192913 
+L 496.998425 8.392913 
+L 452.949732 8.392913 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="17.086038" transform="rotate(-0 474.974079 17.086038)">Unidade</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 7.568504 35.992913 
+L 51.617197 35.992913 
+L 51.617197 22.192913 
+L 7.568504 22.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="31.014788" transform="rotate(-0 29.59285 31.014788)">I1</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 51.617197 35.992913 
+L 144.608882 35.992913 
+L 144.608882 22.192913 
+L 51.617197 22.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="31.014788" transform="rotate(-0 98.113039 31.014788)">T/O</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 144.608882 35.992913 
+L 452.949732 35.992913 
+L 452.949732 22.192913 
+L 144.608882 22.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="31.752288" transform="rotate(-0 298.779307 31.752288)">Área de copa detectada / área observada</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 452.949732 35.992913 
+L 496.998425 35.992913 
+L 496.998425 22.192913 
+L 452.949732 22.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="31.014788" transform="rotate(-0 474.974079 31.014788)">1</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 7.568504 49.792913 
+L 51.617197 49.792913 
+L 51.617197 35.992913 
+L 7.568504 35.992913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="44.814788" transform="rotate(-0 29.59285 44.814788)">I4</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 51.617197 49.792913 
+L 144.608882 49.792913 
+L 144.608882 35.992913 
+L 51.617197 35.992913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="44.814788" transform="rotate(-0 98.113039 44.814788)">10000 Nmanchas/O</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 144.608882 49.792913 
+L 452.949732 49.792913 
+L 452.949732 35.992913 
+L 144.608882 35.992913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="44.814788" transform="rotate(-0 298.779307 44.814788)">Densidade de manchas conectadas; não árvores</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 452.949732 49.792913 
+L 496.998425 49.792913 
+L 496.998425 35.992913 
+L 452.949732 35.992913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="44.814788" transform="rotate(-0 474.974079 44.814788)">1/ha</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 7.568504 63.592913 
+L 51.617197 63.592913 
+L 51.617197 49.792913 
+L 7.568504 49.792913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="58.614788" transform="rotate(-0 29.59285 58.614788)">I5</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 51.617197 63.592913 
+L 144.608882 63.592913 
+L 144.608882 49.792913 
+L 51.617197 49.792913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="58.614788" transform="rotate(-0 98.113039 58.614788)">média(H)</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 144.608882 63.592913 
+L 452.949732 63.592913 
+L 452.949732 49.792913 
+L 144.608882 49.792913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="58.607288" transform="rotate(-0 298.779307 58.607288)">Média das alturas dos retornos vegetais selecionados</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 452.949732 63.592913 
+L 496.998425 63.592913 
+L 496.998425 49.792913 
+L 452.949732 49.792913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="58.614788" transform="rotate(-0 474.974079 58.614788)">m</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 7.568504 77.392913 
+L 51.617197 77.392913 
+L 51.617197 63.592913 
+L 7.568504 63.592913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="72.414788" transform="rotate(-0 29.59285 72.414788)">I6</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 51.617197 77.392913 
+L 144.608882 77.392913 
+L 144.608882 63.592913 
+L 51.617197 63.592913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="72.414788" transform="rotate(-0 98.113039 72.414788)">P95(H)</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 144.608882 77.392913 
+L 452.949732 77.392913 
+L 452.949732 63.592913 
+L 144.608882 63.592913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="72.414788" transform="rotate(-0 298.779307 72.414788)">Percentil 95 das alturas dos retornos selecionados</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 452.949732 77.392913 
+L 496.998425 77.392913 
+L 496.998425 63.592913 
+L 452.949732 63.592913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="72.414788" transform="rotate(-0 474.974079 72.414788)">m</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 7.568504 91.192913 
+L 51.617197 91.192913 
+L 51.617197 77.392913 
+L 7.568504 77.392913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="86.214788" transform="rotate(-0 29.59285 86.214788)">I7</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 51.617197 91.192913 
+L 144.608882 91.192913 
+L 144.608882 77.392913 
+L 51.617197 77.392913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="86.214788" transform="rotate(-0 98.113039 86.214788)">P75(H)−P25(H)</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 144.608882 91.192913 
+L 452.949732 91.192913 
+L 452.949732 77.392913 
+L 144.608882 77.392913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="86.214788" transform="rotate(-0 298.779307 86.214788)">Amplitude interquartil das alturas dos retornos</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 452.949732 91.192913 
+L 496.998425 91.192913 
+L 496.998425 77.392913 
+L 452.949732 77.392913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="86.214788" transform="rotate(-0 474.974079 86.214788)">m</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 7.568504 104.992913 
+L 51.617197 104.992913 
+L 51.617197 91.192913 
+L 7.568504 91.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="29.59285" y="100.014788" transform="rotate(-0 29.59285 100.014788)">E1 (aux.)</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 51.617197 104.992913 
+L 144.608882 104.992913 
+L 144.608882 91.192913 
+L 51.617197 91.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.113039" y="100.014788" transform="rotate(-0 98.113039 100.014788)">10000 Nsementes/O</text>
+    </g>
+    <g id="patch_28">
+     <path d="M 144.608882 104.992913 
+L 452.949732 104.992913 
+L 452.949732 91.192913 
+L 144.608882 91.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="298.779307" y="100.014788" transform="rotate(-0 298.779307 100.014788)">Sementes CHM estimadas; fora do escore A/A+3D</text>
+    </g>
+    <g id="patch_29">
+     <path d="M 452.949732 104.992913 
+L 496.998425 104.992913 
+L 496.998425 91.192913 
+L 452.949732 91.192913 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="474.974079" y="100.014788" transform="rotate(-0 474.974079 100.014788)">1/ha</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

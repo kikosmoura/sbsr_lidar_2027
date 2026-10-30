@@ -1,0 +1,4 @@
+2026-10-25 18:52:41,655 INFO Início: segment:adversarial
+2026-10-25 18:52:41,821 INFO units_start {"case": "adversarial", "frozen_mask": "baseline_h3"}
+2026-10-25 18:52:42,047 INFO axis_review {"axis_accepted": true, "boundary_sites": 684, "holes": 0, "junctions": 0, "numerically_coincident_vertices_merged": 0, "original_branches": 5, "part_id": "CO_SE_06_P001", "policy": "single_open_elongated_chain_only; branched_parts_remain_grid", "pruned_terminal_branches": 4, "reason": "single_open_elongated_chain_geometric_QC", "retained_branches": 1}
+2026-10-25 18:52:48,615 INFO Concluído; cache_hit=False

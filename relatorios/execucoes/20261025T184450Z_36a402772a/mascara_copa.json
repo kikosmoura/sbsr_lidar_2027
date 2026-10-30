@@ -1,0 +1,458 @@
+{
+  "QA": {
+    "QA_is_hypothesis_not_verified_error": true,
+    "class1_high_cells_measurement": 24,
+    "class1_high_without_baseline_cells_measurement": 23,
+    "confirmed_false_positives": null,
+    "confirmed_omissions": null,
+    "flagged_cells_measurement": {
+      "LAS_bridge_class_hint": 0,
+      "LAS_water_class_hint": 0,
+      "class1_high_potential_omission": 24,
+      "geometry_not_reliable_for_candidate": 6,
+      "height_threshold_sensitivity": 695,
+      "isolated_single_candidate_record": 2,
+      "planar_structure_class_conflict": 0,
+      "thin_linear_structure_candidate": 0,
+      "vegetation_class_without_valid_point_H": 2
+    },
+    "manual_QA_cells_exported": 300
+  },
+  "analysis_version": "baseline_h3",
+  "case": "adversarial",
+  "classification_codes": {
+    "0": "observed_without_detected_candidate",
+    "1": "observed_with_candidate_crown",
+    "2": "classification_uncertain",
+    "3": "no_observation",
+    "4": "no_terrain_support",
+    "5": "only_excluded_records",
+    "255": "outside_context"
+  },
+  "domain": {
+    "case": "adversarial",
+    "context_area_m2": 26282.180264352726,
+    "context_bounds": [
+      333034.8347901296,
+      7397410.72192252,
+      333571.5045010024,
+      7397830.306903188
+    ],
+    "context_clipped_to_tile": true,
+    "corridor_id": "CO_SE_06",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 13144.744694031733,
+    "measurement_bounds": [
+      333034.94862525584,
+      7397420.713718192,
+      333571.3909938959,
+      7397820.307734851
+    ],
+    "measurement_is_official_polygon": false,
+    "official_area_m2": 90388.14073587062,
+    "requested_context_omitted_m2": 793.2200348997249,
+    "tiles": [
+      "3312-431"
+    ]
+  },
+  "elapsed_seconds": 15.071424968075007,
+  "geometry": {
+    "features_are_diagnostic_not_calibrated_class_labels": true,
+    "input_points_before_voxel": 35876,
+    "maximum_neighbors": 32,
+    "minimum_neighbors": 6,
+    "neighbor_radius_xy_m": 1.5,
+    "point_selection": "valid_H_at_least_lowest_tested_height",
+    "reliable_cells": 3543,
+    "voxel_points": 35444,
+    "voxel_size_m": 0.1
+  },
+  "grid": {
+    "epsg": 31983,
+    "resolution_m": 1.0,
+    "shape": [
+      421,
+      538
+    ],
+    "transform": [
+      1.0,
+      0.0,
+      333034.0,
+      0.0,
+      -1.0,
+      7397831.0
+    ]
+  },
+  "heights_m": [
+    2.0,
+    3.0,
+    5.0
+  ],
+  "limitations": [
+    "Unvalidated candidate mask; no supervised fitting or classification accuracy claimed.",
+    "Same observation domain for all heights/versions; uncertainty remains in denominator, never converted to known no-tree.",
+    "No dilation, closing, minimum-area deletion or forced promotion of class 1 was applied to crown masks.",
+    "Counts are MDS records; repeated within-file observations may affect density; PCA alone uses 0.1 m voxel thinning.",
+    "RGB/NIR auxiliary indices uncalibrated, photographic epoch unknown; no universal spectral threshold.",
+    "Planar/thin/isolated flags are uncertain hypotheses, not confirmed roofs/posts/shrubs.",
+    "Patches reconstructed with context before exact vector clipping; components can contain several trees and are censored at support/context limits.",
+    "Raster center-cell areas and exact polygon intersections differ; use reported area definition consistently.",
+    "Baseline of 3 m remains a provisional protocol choice; no ranking or advantage of C was evaluated.",
+    "No longitudinal segmentation, ecological priority or scientific indicator comparison was performed."
+  ],
+  "mask_values": {
+    "baseline": {
+      "0": "no_candidate_detected_by_rule_not_verified_tree_absence",
+      "1": "candidate_crown",
+      "255": "outside_valid_observed_domain"
+    },
+    "refinada": {
+      "0": "no_candidate_detected",
+      "1": "retained_candidate",
+      "2": "classification_uncertain",
+      "255": "outside_valid_observed_domain"
+    }
+  },
+  "observation": {
+    "context_cells": 26274,
+    "exact_observed_area_in_measurement_m2": 6076.513394962332,
+    "measurement_center_cells": 13142,
+    "status_counts_measurement_center": {
+      "no_MDS_observation": 5219,
+      "no_valid_terrain_or_no_valid_point_H": 1848,
+      "observed_with_valid_terrain_and_point_H": 6075,
+      "only_QC_excluded_MDS_records": 0
+    },
+    "valid_cells_measurement_center": 6075
+  },
+  "observation_codes": {
+    "1": "observed_with_valid_terrain_and_point_H",
+    "2": "no_MDS_observation",
+    "3": "no_valid_terrain_or_no_valid_point_H",
+    "4": "only_QC_excluded_MDS_records",
+    "255": "outside_context"
+  },
+  "ok": true,
+  "patches_are_individual_trees": false,
+  "peak_process_rss_mib": 428.37109375,
+  "point_audit": {
+    "classes": [
+      {
+        "class": 1,
+        "max_h_m": 15.377852942454524,
+        "min_h_m": -1.0629805103797025,
+        "points_context": 26727,
+        "points_h_ge_2m": 790,
+        "points_h_ge_3m": 361,
+        "points_h_ge_5m": 279,
+        "points_measurement": 16219,
+        "valid_h_points": 16056
+      },
+      {
+        "class": 2,
+        "max_h_m": 2.6940002301250843,
+        "min_h_m": -0.10094474281459043,
+        "points_context": 85252,
+        "points_h_ge_2m": 4,
+        "points_h_ge_3m": 0,
+        "points_h_ge_5m": 0,
+        "points_measurement": 36824,
+        "valid_h_points": 84056
+      },
+      {
+        "class": 3,
+        "max_h_m": 10.015114317081384,
+        "min_h_m": -0.03685234244835556,
+        "points_context": 21344,
+        "points_h_ge_2m": 16975,
+        "points_h_ge_3m": 13965,
+        "points_h_ge_5m": 8835,
+        "points_measurement": 5246,
+        "valid_h_points": 17037
+      },
+      {
+        "class": 4,
+        "max_h_m": 20.030918999120104,
+        "min_h_m": 9.692590619656357,
+        "points_context": 14682,
+        "points_h_ge_2m": 13751,
+        "points_h_ge_3m": 13751,
+        "points_h_ge_5m": 13751,
+        "points_measurement": 1124,
+        "valid_h_points": 13751
+      },
+      {
+        "class": 6,
+        "max_h_m": 8.900968604905074,
+        "min_h_m": 0.0,
+        "points_context": 24347,
+        "points_h_ge_2m": 447,
+        "points_h_ge_3m": 402,
+        "points_h_ge_5m": 258,
+        "points_measurement": 16814,
+        "valid_h_points": 543
+      },
+      {
+        "class": 8,
+        "max_h_m": 2.904395145359672,
+        "min_h_m": 0.0,
+        "points_context": 49107,
+        "points_h_ge_2m": 6,
+        "points_h_ge_3m": 0,
+        "points_h_ge_5m": 0,
+        "points_measurement": 22456,
+        "valid_h_points": 48849
+      },
+      {
+        "class": 5,
+        "max_h_m": 25.084435488908525,
+        "min_h_m": 19.980573109481497,
+        "points_context": 4524,
+        "points_h_ge_2m": 4279,
+        "points_h_ge_3m": 4279,
+        "points_h_ge_5m": 4279,
+        "points_measurement": 5,
+        "valid_h_points": 4279
+      }
+    ],
+    "count_unit": "records_not_independent_pulses; no_MDS_within_file_deduplication",
+    "geometry_input_records": 35876,
+    "points_outside_center_context_grid": 1861
+  },
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/observabilidade.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/dominio_valido.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/mascara_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/contagem_suporte.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/geometria_auxiliar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/espectral_auxiliar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/retornos_auxiliares.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/contagem_candidatos_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/incerteza_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h2_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h2_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_baseline_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_baseline_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h2_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h2_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_refinada_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_refinada_h2.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/contagem_candidatos_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/incerteza_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h3_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h3_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_baseline_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_baseline_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h3_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h3_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_refinada_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_refinada_h3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/contagem_candidatos_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/incerteza_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h5_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h5_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_baseline_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_baseline_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h5_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_refinada_h5_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/estados_refinada_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/manchas_refinada_h5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/mascaras_manchas.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/auditoria_classes.csv"
+  ],
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a",
+  "quality": {
+    "F1": null,
+    "IoU": null,
+    "confusion_matrix": null,
+    "precision": null,
+    "reason": "No completed reference labels in current pilot; no predictions reused as truth. Future labels require quality/adjudication audit before metrics or fitting.",
+    "recall": null,
+    "reference_assessment": {
+      "completed_annotations": 0,
+      "completed_tasks_with_at_least_one_valid_annotation": 0,
+      "completion_note": "Reviewed tasks require signed review; vegetation/gaps require full footprint coverage with unknown areas explicitly uncertain",
+      "eligible_vegetation_annotations": {
+        "teste": 0,
+        "treino": 0
+      },
+      "errors": [],
+      "human_labeling_complete": false,
+      "human_labeling_status": "pendente",
+      "independent_height_references": 0,
+      "independent_priority_references": 0,
+      "ok": true,
+      "pending_tasks": 100,
+      "precision_recall_computed": false,
+      "preparation_complete": true,
+      "records": [],
+      "reviewed_tasks": 0,
+      "supervised_training_allowed": false,
+      "tasks": 100,
+      "uncertain_annotations": 0,
+      "warnings": [
+        "Teste do adverso foi inspecionado em QC anterior; reserva é para ajuste supervisionado futuro, não teste municipal intocado"
+      ]
+    },
+    "semantic_separation_trees_shrubs_roofs_posts_validated": false,
+    "status": "pending_adequate_human_reference",
+    "supervised_classifier_trained": false
+  },
+  "run_id": "20261025T184450Z_36a402772a",
+  "scenarios": {
+    "baseline_h2": {
+      "candidate_area_context_m2": 3277.660371488937,
+      "candidate_area_measurement_exact_m2": 852.9109994626828,
+      "candidate_cells_context": 3299,
+      "candidate_cells_measurement_center": 854,
+      "components_are_not_individual_trees": true,
+      "components_context": 33,
+      "components_intersecting_measurement": 16,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 854,
+        "candidate_cells_two_or_more_measurement": 696,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 0
+    },
+    "baseline_h3": {
+      "candidate_area_context_m2": 2887.3780631883174,
+      "candidate_area_measurement_exact_m2": 623.5952264687671,
+      "candidate_cells_context": 2908,
+      "candidate_cells_measurement_center": 624,
+      "components_are_not_individual_trees": true,
+      "components_context": 54,
+      "components_intersecting_measurement": 37,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 624,
+        "candidate_cells_two_or_more_measurement": 436,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 0
+    },
+    "baseline_h5": {
+      "candidate_area_context_m2": 2145.5738276129377,
+      "candidate_area_measurement_exact_m2": 157.4847100435025,
+      "candidate_cells_context": 2165,
+      "candidate_cells_measurement_center": 159,
+      "components_are_not_individual_trees": true,
+      "components_context": 21,
+      "components_intersecting_measurement": 7,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 159,
+        "candidate_cells_two_or_more_measurement": 137,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 0
+    },
+    "refinada_h2": {
+      "candidate_area_context_m2": 3123.707947654308,
+      "candidate_area_measurement_exact_m2": 849.9109994626828,
+      "candidate_cells_context": 3131,
+      "candidate_cells_measurement_center": 851,
+      "components_are_not_individual_trees": true,
+      "components_context": 33,
+      "components_intersecting_measurement": 16,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 854,
+        "candidate_cells_two_or_more_measurement": 696,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 87
+    },
+    "refinada_h3": {
+      "candidate_area_context_m2": 2735.417429838241,
+      "candidate_area_measurement_exact_m2": 620.782734633734,
+      "candidate_cells_context": 2742,
+      "candidate_cells_measurement_center": 621,
+      "components_are_not_individual_trees": true,
+      "components_context": 52,
+      "components_intersecting_measurement": 35,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 624,
+        "candidate_cells_two_or_more_measurement": 436,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 27
+    },
+    "refinada_h5": {
+      "candidate_area_context_m2": 1997.4767483166936,
+      "candidate_area_measurement_exact_m2": 156.4847100435025,
+      "candidate_cells_context": 2003,
+      "candidate_cells_measurement_center": 158,
+      "components_are_not_individual_trees": true,
+      "components_context": 23,
+      "components_intersecting_measurement": 7,
+      "record_density_sensitivity": {
+        "candidate_cells_one_or_more_measurement": 159,
+        "candidate_cells_two_or_more_measurement": 137,
+        "selected_rule_minimum_records": 1
+      },
+      "uncertain_cells_measurement_center": 12
+    }
+  },
+  "selection": {
+    "not_selected_using_rankings_or_3D_advantage": true,
+    "provisional": true,
+    "quality_measured": false,
+    "reason": "Baseline explicit from protocol; retain class 3/small candidates. Refined flags lack human validation and remain sensitivity only.",
+    "version": "baseline_h3"
+  },
+  "spectral": {
+    "by_class": [
+      {
+        "class": 1,
+        "mean_nir_red_aux": -0.01947510935293342,
+        "n": 789
+      },
+      {
+        "class": 2,
+        "mean_nir_red_aux": -0.07022471488237814,
+        "n": 4
+      },
+      {
+        "class": 3,
+        "mean_nir_red_aux": 0.1555920702079335,
+        "n": 16765
+      },
+      {
+        "class": 4,
+        "mean_nir_red_aux": 0.3579480146764087,
+        "n": 13618
+      },
+      {
+        "class": 5,
+        "mean_nir_red_aux": 0.4129398667951023,
+        "n": 4251
+      },
+      {
+        "class": 6,
+        "mean_nir_red_aux": -0.00825093317868316,
+        "n": 443
+      },
+      {
+        "class": 8,
+        "mean_nir_red_aux": -0.05819006456495538,
+        "n": 6
+      }
+    ],
+    "colorization_photographic_epoch": "not_verified",
+    "index_name": "(NIR-red)/(NIR+red)_uncalibrated_auxiliary_not_validated_NDVI",
+    "records_matched_to_raw": 224122,
+    "used_as_classification_threshold": false,
+    "zero_denominator_is_nodata": true
+  },
+  "stage": "06",
+  "uncertainty_bits": {
+    "1": "class1_high_potential_omission",
+    "2": "vegetation_class_without_valid_point_H",
+    "4": "isolated_single_candidate_record",
+    "8": "planar_structure_class_conflict",
+    "16": "thin_linear_structure_candidate",
+    "32": "height_threshold_sensitivity",
+    "64": "geometry_not_reliable_for_candidate",
+    "128": "LAS_water_class_hint",
+    "256": "LAS_bridge_class_hint"
+  }
+}

@@ -1,0 +1,125 @@
+2026-10-25 20:40:44,235 INFO Início: sensitivity --case adversarial
+2026-10-25 20:40:44,236 INFO extract_MDS_ROI {"tile": "3312-431"}
+2026-10-25 20:40:45,193 INFO load_mdt {"tile": "3312-431"}
+2026-10-25 20:40:45,557 INFO scenario_start {"axis": "primary", "scenario": "primary"}
+2026-10-25 20:40:45,561 INFO build_surface {"context_key": "halo_10", "vertices": 49139}
+2026-10-25 20:40:46,000 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:40:47,607 INFO surface_query {"done": 0, "radius": 5.0, "total": 26274}
+2026-10-25 20:40:48,581 INFO scenario_done {"eligible_50": 2, "scenario": "primary", "seconds": 3.02}
+2026-10-25 20:40:48,581 INFO scenario_start {"axis": "resolution", "scenario": "res_0.5"}
+2026-10-25 20:40:48,816 INFO surface_query {"done": 0, "radius": 5.0, "total": 105127}
+2026-10-25 20:40:49,622 INFO scenario_done {"eligible_50": 1, "scenario": "res_0.5", "seconds": 1.04}
+2026-10-25 20:40:49,622 INFO scenario_start {"axis": "resolution", "scenario": "res_2"}
+2026-10-25 20:40:49,683 INFO surface_query {"done": 0, "radius": 5.0, "total": 6575}
+2026-10-25 20:40:49,815 INFO scenario_done {"eligible_50": 2, "scenario": "res_2", "seconds": 0.19}
+2026-10-25 20:40:49,815 INFO scenario_start {"axis": "height", "scenario": "height_2"}
+2026-10-25 20:40:50,130 INFO scenario_done {"eligible_50": 3, "scenario": "height_2", "seconds": 0.31}
+2026-10-25 20:40:50,131 INFO scenario_start {"axis": "height", "scenario": "height_5"}
+2026-10-25 20:40:50,402 INFO scenario_done {"eligible_50": 1, "scenario": "height_5", "seconds": 0.27}
+2026-10-25 20:40:50,402 INFO scenario_start {"axis": "context", "scenario": "halo_0"}
+2026-10-25 20:40:50,407 INFO build_surface {"context_key": "halo_0", "vertices": 22505}
+2026-10-25 20:40:50,669 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:40:51,991 INFO surface_query {"done": 0, "radius": 5.0, "total": 13142}
+2026-10-25 20:40:52,183 INFO scenario_done {"eligible_50": 0, "scenario": "halo_0", "seconds": 1.78}
+2026-10-25 20:40:52,183 INFO scenario_start {"axis": "context", "scenario": "halo_20"}
+2026-10-25 20:40:52,190 INFO build_surface {"context_key": "halo_20", "vertices": 80116}
+2026-10-25 20:40:52,932 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:40:54,841 INFO surface_query {"done": 0, "radius": 5.0, "total": 39404}
+2026-10-25 20:40:55,165 INFO scenario_done {"eligible_50": 2, "scenario": "halo_20", "seconds": 2.98}
+2026-10-25 20:40:55,166 INFO scenario_start {"axis": "measurement_domain", "scenario": "domain_plus_5"}
+2026-10-25 20:40:55,173 INFO build_surface {"context_key": "expansion_5", "vertices": 62975}
+2026-10-25 20:40:55,762 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:40:57,467 INFO surface_query {"done": 0, "radius": 5.0, "total": 32842}
+2026-10-25 20:40:58,664 INFO scenario_done {"eligible_50": 2, "scenario": "domain_plus_5", "seconds": 3.5}
+2026-10-25 20:40:58,664 INFO scenario_start {"axis": "measurement_domain", "scenario": "domain_plus_10"}
+2026-10-25 20:40:58,672 INFO build_surface {"context_key": "expansion_10", "vertices": 80117}
+2026-10-25 20:40:59,435 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:41:01,428 INFO surface_query {"done": 0, "radius": 5.0, "total": 39405}
+2026-10-25 20:41:02,802 INFO scenario_done {"eligible_50": 4, "scenario": "domain_plus_10", "seconds": 4.14}
+2026-10-25 20:41:02,802 INFO scenario_start {"axis": "interpolation_radius", "scenario": "radius_3"}
+2026-10-25 20:41:02,939 INFO surface_query {"done": 0, "radius": 3.0, "total": 390263}
+2026-10-25 20:41:04,305 INFO surface_query {"done": 0, "radius": 3.0, "total": 26274}
+2026-10-25 20:41:04,581 INFO scenario_done {"eligible_50": 2, "scenario": "radius_3", "seconds": 1.78}
+2026-10-25 20:41:04,582 INFO scenario_start {"axis": "interpolation_radius", "scenario": "radius_10"}
+2026-10-25 20:41:04,767 INFO surface_query {"done": 0, "radius": 10.0, "total": 390263}
+2026-10-25 20:41:07,091 INFO surface_query {"done": 0, "radius": 10.0, "total": 26274}
+2026-10-25 20:41:07,392 INFO scenario_done {"eligible_50": 2, "scenario": "radius_10", "seconds": 2.81}
+2026-10-25 20:41:07,392 INFO scenario_start {"axis": "interpolation_method", "scenario": "idw_5"}
+2026-10-25 20:41:07,689 INFO scenario_done {"eligible_50": 1, "scenario": "idw_5", "seconds": 0.3}
+2026-10-25 20:41:07,689 INFO scenario_start {"axis": "patch_definition", "scenario": "connectivity_4"}
+2026-10-25 20:41:08,030 INFO scenario_done {"eligible_50": 2, "scenario": "connectivity_4", "seconds": 0.34}
+2026-10-25 20:41:08,030 INFO scenario_start {"axis": "classification", "scenario": "refined"}
+2026-10-25 20:41:08,365 INFO scenario_done {"eligible_50": 2, "scenario": "refined", "seconds": 0.34}
+2026-10-25 20:41:08,366 INFO scenario_start {"axis": "classification_bound", "scenario": "uncertainty_upper"}
+2026-10-25 20:41:08,692 INFO scenario_done {"eligible_50": 2, "scenario": "uncertainty_upper", "seconds": 0.33}
+2026-10-25 20:41:08,692 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2027"}
+2026-10-25 20:41:09,097 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2027", "seconds": 0.4}
+2026-10-25 20:41:09,098 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2028"}
+2026-10-25 20:41:09,450 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2028", "seconds": 0.35}
+2026-10-25 20:41:09,450 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2029"}
+2026-10-25 20:41:09,853 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2029", "seconds": 0.4}
+2026-10-25 20:41:09,853 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2027"}
+2026-10-25 20:41:10,131 INFO scenario_done {"eligible_50": 0, "scenario": "thin_coupled_0.25_s2027", "seconds": 0.28}
+2026-10-25 20:41:10,131 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2028"}
+2026-10-25 20:41:10,410 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.25_s2028", "seconds": 0.28}
+2026-10-25 20:41:10,410 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2029"}
+2026-10-25 20:41:10,687 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.25_s2029", "seconds": 0.28}
+2026-10-25 20:41:10,687 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2027"}
+2026-10-25 20:41:11,016 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2027", "seconds": 0.33}
+2026-10-25 20:41:11,016 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2028"}
+2026-10-25 20:41:11,345 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2028", "seconds": 0.33}
+2026-10-25 20:41:11,345 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2029"}
+2026-10-25 20:41:11,674 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2029", "seconds": 0.33}
+2026-10-25 20:41:11,674 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2027"}
+2026-10-25 20:41:12,004 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2027", "seconds": 0.33}
+2026-10-25 20:41:12,004 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2028"}
+2026-10-25 20:41:12,330 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2028", "seconds": 0.33}
+2026-10-25 20:41:12,331 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2029"}
+2026-10-25 20:41:12,659 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2029", "seconds": 0.33}
+2026-10-25 20:41:12,659 INFO scenario_start {"axis": "return_policy", "scenario": "first_returns"}
+2026-10-25 20:41:12,990 INFO scenario_done {"eligible_50": 2, "scenario": "first_returns", "seconds": 0.33}
+2026-10-25 20:41:12,990 INFO scenario_start {"axis": "selected_interaction", "scenario": "fine_low"}
+2026-10-25 20:41:13,637 INFO scenario_done {"eligible_50": 1, "scenario": "fine_low", "seconds": 0.65}
+2026-10-25 20:41:13,637 INFO scenario_start {"axis": "selected_interaction", "scenario": "coarse_high"}
+2026-10-25 20:41:13,784 INFO scenario_done {"eligible_50": 2, "scenario": "coarse_high", "seconds": 0.15}
+2026-10-25 20:41:17,413 INFO common_support_analysis {"scenario": "primary"}
+2026-10-25 20:41:21,070 INFO common_support_analysis {"scenario": "res_0.5"}
+2026-10-25 20:41:27,380 INFO common_support_analysis {"scenario": "res_2"}
+2026-10-25 20:41:31,814 INFO common_support_analysis {"scenario": "height_2"}
+2026-10-25 20:41:35,517 INFO common_support_analysis {"scenario": "height_5"}
+2026-10-25 20:41:38,705 INFO common_support_analysis {"scenario": "halo_0"}
+2026-10-25 20:41:40,140 INFO common_support_analysis {"scenario": "halo_20"}
+2026-10-25 20:41:50,087 INFO common_support_analysis {"scenario": "radius_3"}
+2026-10-25 20:41:55,094 INFO common_support_analysis {"scenario": "radius_10"}
+2026-10-25 20:42:00,710 INFO common_support_analysis {"scenario": "idw_5"}
+2026-10-25 20:42:05,032 INFO common_support_analysis {"scenario": "connectivity_4"}
+2026-10-25 20:42:09,660 INFO common_support_analysis {"scenario": "refined"}
+2026-10-25 20:42:13,461 INFO common_support_analysis {"scenario": "uncertainty_upper"}
+2026-10-25 20:42:17,979 INFO common_support_analysis {"scenario": "thin_coupled_0.5_s2027"}
+2026-10-25 20:42:21,160 INFO common_support_analysis {"scenario": "thin_coupled_0.5_s2028"}
+2026-10-25 20:42:24,168 INFO common_support_analysis {"scenario": "thin_coupled_0.5_s2029"}
+2026-10-25 20:42:26,982 INFO common_support_analysis {"scenario": "thin_coupled_0.25_s2027"}
+2026-10-25 20:42:29,137 INFO common_support_analysis {"scenario": "thin_coupled_0.25_s2028"}
+2026-10-25 20:42:31,325 INFO common_support_analysis {"scenario": "thin_coupled_0.25_s2029"}
+2026-10-25 20:42:33,488 INFO common_support_analysis {"scenario": "thin_height_only_0.5_s2027"}
+2026-10-25 20:42:35,879 INFO common_support_analysis {"scenario": "thin_height_only_0.5_s2028"}
+2026-10-25 20:42:38,285 INFO common_support_analysis {"scenario": "thin_height_only_0.5_s2029"}
+2026-10-25 20:42:40,706 INFO common_support_analysis {"scenario": "thin_height_only_0.25_s2027"}
+2026-10-25 20:42:42,473 INFO common_support_analysis {"scenario": "thin_height_only_0.25_s2028"}
+2026-10-25 20:42:44,219 INFO common_support_analysis {"scenario": "thin_height_only_0.25_s2029"}
+2026-10-25 20:42:45,937 INFO common_support_analysis {"scenario": "first_returns"}
+2026-10-25 20:42:48,908 INFO common_support_analysis {"scenario": "fine_low"}
+2026-10-25 20:42:54,578 INFO common_support_analysis {"scenario": "coarse_high"}
+2026-10-25 20:42:58,048 INFO axis_stability {"axis": "classification", "scenarios": 2}
+2026-10-25 20:42:58,113 INFO axis_stability {"axis": "classification_bound", "scenarios": 2}
+2026-10-25 20:42:58,204 INFO axis_stability {"axis": "context", "scenarios": 3}
+2026-10-25 20:42:59,317 INFO axis_stability {"axis": "density_coupled", "scenarios": 7}
+2026-10-25 20:43:07,913 INFO axis_stability {"axis": "density_height_only", "scenarios": 7}
+2026-10-25 20:43:08,061 INFO axis_stability {"axis": "height", "scenarios": 3}
+2026-10-25 20:43:08,141 INFO axis_stability {"axis": "interpolation_method", "scenarios": 2}
+2026-10-25 20:43:08,198 INFO axis_stability {"axis": "interpolation_radius", "scenarios": 3}
+2026-10-25 20:43:08,924 INFO axis_stability {"axis": "patch_definition", "scenarios": 2}
+2026-10-25 20:43:09,136 INFO axis_stability {"axis": "resolution", "scenarios": 3}
+2026-10-25 20:43:12,680 INFO axis_stability {"axis": "return_policy", "scenarios": 2}
+2026-10-25 20:43:12,881 INFO axis_stability {"axis": "selected_interaction", "scenarios": 3}
+2026-10-25 20:43:16,545 INFO Concluído; cache_hit=False

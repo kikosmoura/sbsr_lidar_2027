@@ -1,0 +1,302 @@
+{
+  "checks": {
+    "adversarial:aligned_grid": true,
+    "adversarial:analysis_provisional": true,
+    "adversarial:area_preserved_and_within_observed": true,
+    "adversarial:auxiliary_not_spectral_classifier": true,
+    "adversarial:baseline_exact_rule": true,
+    "adversarial:cache": true,
+    "adversarial:counts_from_original_H_points": true,
+    "adversarial:exact_measurement_intersections": true,
+    "adversarial:height_monotonicity": true,
+    "adversarial:identical_observation_domain": true,
+    "adversarial:inputs_preserved": true,
+    "adversarial:manifest": true,
+    "adversarial:no_fake_accuracy_or_training": true,
+    "adversarial:qa_pending": true,
+    "adversarial:refined_unknown_not_promoted": true,
+    "adversarial:valid_patch_geometries": true,
+    "main:aligned_grid": true,
+    "main:analysis_provisional": true,
+    "main:area_preserved_and_within_observed": true,
+    "main:auxiliary_not_spectral_classifier": true,
+    "main:baseline_exact_rule": true,
+    "main:cache": true,
+    "main:counts_from_original_H_points": true,
+    "main:exact_measurement_intersections": true,
+    "main:height_monotonicity": true,
+    "main:identical_observation_domain": true,
+    "main:inputs_preserved": true,
+    "main:manifest": true,
+    "main:no_fake_accuracy_or_training": true,
+    "main:qa_pending": true,
+    "main:refined_unknown_not_promoted": true,
+    "main:valid_patch_geometries": true,
+    "reference_still_pending_no_fake_labels": true
+  },
+  "ok": true,
+  "summary": {
+    "adversarial": {
+      "QA": {
+        "QA_is_hypothesis_not_verified_error": true,
+        "class1_high_cells_measurement": 24,
+        "class1_high_without_baseline_cells_measurement": 23,
+        "confirmed_false_positives": null,
+        "confirmed_omissions": null,
+        "flagged_cells_measurement": {
+          "LAS_bridge_class_hint": 0,
+          "LAS_water_class_hint": 0,
+          "class1_high_potential_omission": 24,
+          "geometry_not_reliable_for_candidate": 6,
+          "height_threshold_sensitivity": 695,
+          "isolated_single_candidate_record": 2,
+          "planar_structure_class_conflict": 0,
+          "thin_linear_structure_candidate": 0,
+          "vegetation_class_without_valid_point_H": 2
+        },
+        "manual_QA_cells_exported": 300
+      },
+      "analysis_version": "baseline_h3",
+      "elapsed_seconds": 15.071424968075007,
+      "observation": {
+        "context_cells": 26274,
+        "exact_observed_area_in_measurement_m2": 6076.513394962332,
+        "measurement_center_cells": 13142,
+        "status_counts_measurement_center": {
+          "no_MDS_observation": 5219,
+          "no_valid_terrain_or_no_valid_point_H": 1848,
+          "observed_with_valid_terrain_and_point_H": 6075,
+          "only_QC_excluded_MDS_records": 0
+        },
+        "valid_cells_measurement_center": 6075
+      },
+      "peak_process_rss_mib": 428.37109375,
+      "run_id": "20261025T184450Z_36a402772a",
+      "scenarios": {
+        "baseline_h2": {
+          "candidate_area_context_m2": 3277.660371488937,
+          "candidate_area_measurement_exact_m2": 852.9109994626828,
+          "candidate_cells_context": 3299,
+          "candidate_cells_measurement_center": 854,
+          "components_are_not_individual_trees": true,
+          "components_context": 33,
+          "components_intersecting_measurement": 16,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 854,
+            "candidate_cells_two_or_more_measurement": 696,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "baseline_h3": {
+          "candidate_area_context_m2": 2887.3780631883174,
+          "candidate_area_measurement_exact_m2": 623.5952264687671,
+          "candidate_cells_context": 2908,
+          "candidate_cells_measurement_center": 624,
+          "components_are_not_individual_trees": true,
+          "components_context": 54,
+          "components_intersecting_measurement": 37,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 624,
+            "candidate_cells_two_or_more_measurement": 436,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "baseline_h5": {
+          "candidate_area_context_m2": 2145.5738276129377,
+          "candidate_area_measurement_exact_m2": 157.4847100435025,
+          "candidate_cells_context": 2165,
+          "candidate_cells_measurement_center": 159,
+          "components_are_not_individual_trees": true,
+          "components_context": 21,
+          "components_intersecting_measurement": 7,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 159,
+            "candidate_cells_two_or_more_measurement": 137,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "refinada_h2": {
+          "candidate_area_context_m2": 3123.707947654308,
+          "candidate_area_measurement_exact_m2": 849.9109994626828,
+          "candidate_cells_context": 3131,
+          "candidate_cells_measurement_center": 851,
+          "components_are_not_individual_trees": true,
+          "components_context": 33,
+          "components_intersecting_measurement": 16,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 854,
+            "candidate_cells_two_or_more_measurement": 696,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 87
+        },
+        "refinada_h3": {
+          "candidate_area_context_m2": 2735.417429838241,
+          "candidate_area_measurement_exact_m2": 620.782734633734,
+          "candidate_cells_context": 2742,
+          "candidate_cells_measurement_center": 621,
+          "components_are_not_individual_trees": true,
+          "components_context": 52,
+          "components_intersecting_measurement": 35,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 624,
+            "candidate_cells_two_or_more_measurement": 436,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 27
+        },
+        "refinada_h5": {
+          "candidate_area_context_m2": 1997.4767483166936,
+          "candidate_area_measurement_exact_m2": 156.4847100435025,
+          "candidate_cells_context": 2003,
+          "candidate_cells_measurement_center": 158,
+          "components_are_not_individual_trees": true,
+          "components_context": 23,
+          "components_intersecting_measurement": 7,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 159,
+            "candidate_cells_two_or_more_measurement": 137,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 12
+        }
+      }
+    },
+    "main": {
+      "QA": {
+        "QA_is_hypothesis_not_verified_error": true,
+        "class1_high_cells_measurement": 978,
+        "class1_high_without_baseline_cells_measurement": 791,
+        "confirmed_false_positives": null,
+        "confirmed_omissions": null,
+        "flagged_cells_measurement": {
+          "LAS_bridge_class_hint": 0,
+          "LAS_water_class_hint": 0,
+          "class1_high_potential_omission": 978,
+          "geometry_not_reliable_for_candidate": 87,
+          "height_threshold_sensitivity": 1817,
+          "isolated_single_candidate_record": 0,
+          "planar_structure_class_conflict": 0,
+          "thin_linear_structure_candidate": 99,
+          "vegetation_class_without_valid_point_H": 446
+        },
+        "manual_QA_cells_exported": 300
+      },
+      "analysis_version": "baseline_h3",
+      "elapsed_seconds": 24.724541428033262,
+      "observation": {
+        "context_cells": 99606,
+        "exact_observed_area_in_measurement_m2": 65233.11003147886,
+        "measurement_center_cells": 65817,
+        "status_counts_measurement_center": {
+          "no_MDS_observation": 3,
+          "no_valid_terrain_or_no_valid_point_H": 569,
+          "observed_with_valid_terrain_and_point_H": 65245,
+          "only_QC_excluded_MDS_records": 0
+        },
+        "valid_cells_measurement_center": 65245
+      },
+      "peak_process_rss_mib": 763.09375,
+      "run_id": "20261025T184324Z_169e51b078",
+      "scenarios": {
+        "baseline_h2": {
+          "candidate_area_context_m2": 48110.17392659545,
+          "candidate_area_measurement_exact_m2": 38983.947853390426,
+          "candidate_cells_context": 48143,
+          "candidate_cells_measurement_center": 38981,
+          "components_are_not_individual_trees": true,
+          "components_context": 113,
+          "components_intersecting_measurement": 82,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 38981,
+            "candidate_cells_two_or_more_measurement": 37797,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "baseline_h3": {
+          "candidate_area_context_m2": 46692.23891164355,
+          "candidate_area_measurement_exact_m2": 38528.34422655615,
+          "candidate_cells_context": 46723,
+          "candidate_cells_measurement_center": 38533,
+          "components_are_not_individual_trees": true,
+          "components_context": 142,
+          "components_intersecting_measurement": 87,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 38533,
+            "candidate_cells_two_or_more_measurement": 37336,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "baseline_h5": {
+          "candidate_area_context_m2": 44045.45117785009,
+          "candidate_area_measurement_exact_m2": 37157.46101003563,
+          "candidate_cells_context": 44074,
+          "candidate_cells_measurement_center": 37164,
+          "components_are_not_individual_trees": true,
+          "components_context": 152,
+          "components_intersecting_measurement": 100,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 37164,
+            "candidate_cells_two_or_more_measurement": 35932,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 0
+        },
+        "refinada_h2": {
+          "candidate_area_context_m2": 47156.79290486082,
+          "candidate_area_measurement_exact_m2": 38438.8446370685,
+          "candidate_cells_context": 47167,
+          "candidate_cells_measurement_center": 38437,
+          "components_are_not_individual_trees": true,
+          "components_context": 116,
+          "components_intersecting_measurement": 82,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 38981,
+            "candidate_cells_two_or_more_measurement": 37797,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 1461
+        },
+        "refinada_h3": {
+          "candidate_area_context_m2": 45749.48207076127,
+          "candidate_area_measurement_exact_m2": 37985.63938789613,
+          "candidate_cells_context": 45759,
+          "candidate_cells_measurement_center": 37991,
+          "components_are_not_individual_trees": true,
+          "components_context": 135,
+          "components_intersecting_measurement": 85,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 38533,
+            "candidate_cells_two_or_more_measurement": 37336,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 1335
+        },
+        "refinada_h5": {
+          "candidate_area_context_m2": 43141.50594292574,
+          "candidate_area_measurement_exact_m2": 36614.14600455938,
+          "candidate_cells_context": 43150,
+          "candidate_cells_measurement_center": 36622,
+          "components_are_not_individual_trees": true,
+          "components_context": 144,
+          "components_intersecting_measurement": 91,
+          "record_density_sensitivity": {
+            "candidate_cells_one_or_more_measurement": 37164,
+            "candidate_cells_two_or_more_measurement": 35932,
+            "selected_rule_minimum_records": 1
+          },
+          "uncertain_cells_measurement_center": 1150
+        }
+      }
+    }
+  },
+  "tests": {
+    "downloader_passed": 25,
+    "scientific_passed": 103
+  }
+}

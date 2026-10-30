@@ -1,0 +1,403 @@
+{
+  "clouds": [
+    {
+      "class_proportions": {
+        "8": 1.0
+      },
+      "classes": {
+        "8": 739317
+      },
+      "classification_scope": "whole_file",
+      "context_points_outside_raster_halfopen_bounds": 0,
+      "creation_date": "2022-08-20",
+      "declared_points": 739317,
+      "dimensions": [
+        "X",
+        "Y",
+        "Z",
+        "intensity",
+        "return_number",
+        "number_of_returns",
+        "scan_direction_flag",
+        "edge_of_flight_line",
+        "classification",
+        "synthetic",
+        "key_point",
+        "withheld",
+        "scan_angle_rank",
+        "user_data",
+        "point_source_id",
+        "gps_time"
+      ],
+      "epsg": 31983,
+      "flags": {
+        "invalid_return": 0,
+        "key_point": 0,
+        "synthetic": 0,
+        "withheld": 0
+      },
+      "global_encoding": 1,
+      "integrity": "all_declared_points_decoded",
+      "maxs": [
+        333582.85,
+        7397887.118,
+        727.163
+      ],
+      "mins": [
+        333024.335,
+        7397284.398,
+        715.592
+      ],
+      "number_of_returns_counts": {
+        "1": 583444,
+        "2": 106338,
+        "3": 38479,
+        "4": 11056
+      },
+      "offsets": [
+        310000.0,
+        7340000.0,
+        0.0
+      ],
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz",
+      "point_format": 1,
+      "points_in_context": 49139,
+      "points_outside_header": 0,
+      "points_outside_nominal_tile": 46281,
+      "points_read": 739317,
+      "produto": "MDT",
+      "projection_vlrs": [
+        {
+          "description": "by LAStools of rapidlasso GmbH",
+          "record_id": 34735,
+          "user_id": "LASF_Projection"
+        },
+        {
+          "description": "by LAStools of rapidlasso GmbH",
+          "record_id": 2112,
+          "user_id": "LASF_Projection"
+        },
+        {
+          "description": "Maregr.Imbituba(SC)-MAPGEO2015",
+          "record_id": 1,
+          "user_id": "VertDatum-Geoid"
+        }
+      ],
+      "quadricula": "3312-431",
+      "return_number_counts": {
+        "1": 583640,
+        "2": 106169,
+        "3": 38453,
+        "4": 11055
+      },
+      "scales": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "software": "lasclip64 (220107) commercial",
+      "spectra": {
+        "intensity": {
+          "max": 4095,
+          "min": 1,
+          "zero_count": 0
+        }
+      },
+      "usable_points_in_context": 49139,
+      "version": "1.2"
+    },
+    {
+      "class_proportions": {
+        "1": 0.0700535085394345,
+        "2": 0.2854816911713027,
+        "3": 0.11276274775961041,
+        "4": 0.12310795786043746,
+        "5": 0.020957370147163302,
+        "6": 0.2316905362116225,
+        "8": 0.15594618831042914
+      },
+      "classes": {
+        "1": 330914,
+        "2": 1348539,
+        "3": 532661,
+        "4": 581529,
+        "5": 98997,
+        "6": 1094444,
+        "8": 736648
+      },
+      "classification_scope": "whole_file",
+      "context_points_outside_raster_halfopen_bounds": 0,
+      "creation_date": "2022-08-22",
+      "declared_points": 4723732,
+      "dimensions": [
+        "X",
+        "Y",
+        "Z",
+        "intensity",
+        "return_number",
+        "number_of_returns",
+        "synthetic",
+        "key_point",
+        "withheld",
+        "overlap",
+        "scanner_channel",
+        "scan_direction_flag",
+        "edge_of_flight_line",
+        "classification",
+        "user_data",
+        "scan_angle",
+        "point_source_id",
+        "gps_time",
+        "red",
+        "green",
+        "blue",
+        "nir"
+      ],
+      "epsg": 31983,
+      "flags": {
+        "invalid_return": 0,
+        "key_point": 0,
+        "overlap": 0,
+        "synthetic": 0,
+        "withheld": 0
+      },
+      "global_encoding": 17,
+      "integrity": "all_declared_points_decoded",
+      "maxs": [
+        333582.85,
+        7397887.198,
+        767.037
+      ],
+      "mins": [
+        333024.272,
+        7397284.272,
+        715.592
+      ],
+      "number_of_returns_counts": {
+        "1": 3222026,
+        "2": 921882,
+        "3": 431410,
+        "4": 148414
+      },
+      "offsets": [
+        330000.0,
+        7390000.0,
+        0.0
+      ],
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz",
+      "point_format": 8,
+      "points_in_context": 225983,
+      "points_outside_header": 0,
+      "points_outside_nominal_tile": 342601,
+      "points_read": 4723732,
+      "produto": "MDS",
+      "projection_vlrs": [
+        {
+          "description": "by LAStools of rapidlasso GmbH",
+          "record_id": 34735,
+          "user_id": "LASF_Projection"
+        },
+        {
+          "description": "by LAStools of rapidlasso GmbH",
+          "record_id": 2112,
+          "user_id": "LASF_Projection"
+        },
+        {
+          "description": "Maregr.Imbituba(SC)-MAPGEO2015",
+          "record_id": 1,
+          "user_id": "VertDatum-Geoid"
+        },
+        {
+          "description": "User-data_1m_Range_0m-255m",
+          "record_id": 1,
+          "user_id": "Scale-Height"
+        }
+      ],
+      "quadricula": "3312-431",
+      "return_number_counts": {
+        "1": 3862148,
+        "2": 643350,
+        "3": 181092,
+        "4": 37142
+      },
+      "scales": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "software": "lascolor64 (210128) commercial",
+      "spectra": {
+        "blue": {
+          "max": 65024,
+          "min": 7168,
+          "zero_count": 0
+        },
+        "green": {
+          "max": 65024,
+          "min": 7168,
+          "zero_count": 0
+        },
+        "intensity": {
+          "max": 4095,
+          "min": 1,
+          "zero_count": 0
+        },
+        "nir": {
+          "max": 65024,
+          "min": 5888,
+          "zero_count": 0
+        },
+        "red": {
+          "max": 65024,
+          "min": 4608,
+          "zero_count": 0
+        }
+      },
+      "usable_points_in_context": 225983,
+      "version": "1.4"
+    }
+  ],
+  "domain": {
+    "case": "adversarial",
+    "context_area_m2": 26282.180264352726,
+    "context_bounds": [
+      333034.8347901296,
+      7397410.72192252,
+      333571.5045010024,
+      7397830.306903188
+    ],
+    "context_clipped_to_tile": true,
+    "corridor_id": "CO_SE_06",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 13144.744694031733,
+    "measurement_bounds": [
+      333034.94862525584,
+      7397420.713718192,
+      333571.3909938959,
+      7397820.307734851
+    ],
+    "measurement_is_official_polygon": false,
+    "official_area_m2": 90388.14073587062,
+    "requested_context_omitted_m2": 793.2200348997249,
+    "tiles": [
+      "3312-431"
+    ]
+  },
+  "elapsed_seconds": 4.115913137095049,
+  "limitations": [
+    "Contagens de classes/retornos são integrais por arquivo selecionado; não representam o acervo municipal.",
+    "Densidade conta registros, sem deduplicar pulsos/pontos entre folhas. MDT e MDS não são observações independentes.",
+    "Suporte XY é ocupação por retornos, não validade de terreno nem cobertura arbórea. Célula sem retorno não é ausência de árvores.",
+    "Exclusão QC: withheld, retorno inválido (número <1 ou maior que total), classes [7, 18]. Classe 3 permanece incluída.",
+    "Rasterização por centro de célula; área rasterizada difere da área vetorial. Zero dentro do contexto significa nenhum registro; exterior é NoData.",
+    "Borda de medição: faixa interna de 2.0 m. Não confundir borda de polígono com erro de costura entre folhas.",
+    "RGB/NIR são atributos de intensidade/cor, sem comprovação de refletância calibrada. Não há validação altimétrica externa nesta etapa.",
+    "Nenhum DTM interpolado, altura normalizada, máscara arbórea ou indicador científico foi produzido.",
+    "Caso adverso restrito à interseção corredor/folha; halo truncado na borda nominal, com 793.220 m² de contexto solicitado fora do domínio. Não representa o corredor completo."
+  ],
+  "new_downloads": 0,
+  "ok": true,
+  "process_peak_rss_mib": 341.41015625,
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/dominios.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/indice_nuvens.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/contagem_classes.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/manifesto_insumos.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/mascara_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDT_contagem_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDT_densidade_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDT_suporte_xy.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDS_contagem_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDS_densidade_retornos.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155810Z_f162172cca/MDS_suporte_xy.tif"
+  ],
+  "raster_grid": {
+    "height": 421,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "transform": [
+      1.0,
+      0.0,
+      333034.0,
+      0.0,
+      -1.0,
+      7397831.0
+    ],
+    "width": 538
+  },
+  "resolution_m": 1.0,
+  "run_id": "20261025T155810Z_f162172cca",
+  "scientific_pilot_executed": false,
+  "stage": "03",
+  "support": {
+    "MDS": {
+      "borda_medicao": {
+        "cells": 2705,
+        "center_mask_area_m2": 2705.0,
+        "no_return_cells": 1009,
+        "occupied_fraction": 0.6269870609981516,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 1696
+      },
+      "contexto": {
+        "cells": 26274,
+        "center_mask_area_m2": 26274.0,
+        "no_return_cells": 9444,
+        "occupied_fraction": 0.640557204841288,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 16830
+      },
+      "interior_medicao": {
+        "cells": 10437,
+        "center_mask_area_m2": 10437.0,
+        "no_return_cells": 4210,
+        "occupied_fraction": 0.5966273833477053,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 6227
+      },
+      "medicao": {
+        "cells": 13142,
+        "center_mask_area_m2": 13142.0,
+        "no_return_cells": 5219,
+        "occupied_fraction": 0.6028762745396439,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 7923
+      }
+    },
+    "MDT": {
+      "borda_medicao": {
+        "cells": 2705,
+        "center_mask_area_m2": 2705.0,
+        "no_return_cells": 1270,
+        "occupied_fraction": 0.5304990757855823,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 1435
+      },
+      "contexto": {
+        "cells": 26274,
+        "center_mask_area_m2": 26274.0,
+        "no_return_cells": 12210,
+        "occupied_fraction": 0.535282027860242,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 14064
+      },
+      "interior_medicao": {
+        "cells": 10437,
+        "center_mask_area_m2": 10437.0,
+        "no_return_cells": 5674,
+        "occupied_fraction": 0.4563571907636294,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 4763
+      },
+      "medicao": {
+        "cells": 13142,
+        "center_mask_area_m2": 13142.0,
+        "no_return_cells": 6944,
+        "occupied_fraction": 0.4716177141987521,
+        "only_excluded_return_cells": 0,
+        "usable_occupied_cells": 6198
+      }
+    }
+  }
+}

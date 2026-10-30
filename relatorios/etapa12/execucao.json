@@ -1,0 +1,506 @@
+{
+  "case_results": {
+    "CO_BT_05": {
+      "block_id": "B11_e7f7310859d30b",
+      "corridor_id": "CO_BT_05",
+      "eligible_units_50m": 13,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_BT_05/2e5250f614890d2b728e/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 58827.83115352125,
+        "estimated_seeds_inside_P": 404,
+        "estimated_segments_context": 778,
+        "estimated_segments_intersecting_P": 445,
+        "external_accuracy": false,
+        "observed_area_m2": 52112.895169065305,
+        "patches": {
+          "candidate_area_context_m2": 24366.120478473727,
+          "candidate_area_measurement_exact_m2": 14973.69004385703,
+          "candidate_cells_context": 24389,
+          "candidate_cells_measurement_center": 14974,
+          "components_are_not_individual_trees": true,
+          "components_context": 381,
+          "components_intersecting_measurement": 196,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.061655211960897,
+          "seeds": 778
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_BT_05/27e2bab39975af0a43fd",
+      "seconds_including_acquisition_cache": 156.74799357214943,
+      "selected_units": 13,
+      "window_count": 11
+    },
+    "CO_CL_01": {
+      "block_id": "B11_1e65c3c1823c58",
+      "corridor_id": "CO_CL_01",
+      "eligible_units_50m": 26,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_CL_01/d32032daec156a6e7603/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 29252.006033266996,
+        "estimated_seeds_inside_P": 261,
+        "estimated_segments_context": 501,
+        "estimated_segments_intersecting_P": 316,
+        "external_accuracy": false,
+        "observed_area_m2": 27579.352415578873,
+        "patches": {
+          "candidate_area_context_m2": 16576.4521879363,
+          "candidate_area_measurement_exact_m2": 9561.844423142833,
+          "candidate_cells_context": 16582,
+          "candidate_cells_measurement_center": 9562,
+          "components_are_not_individual_trees": true,
+          "components_context": 237,
+          "components_intersecting_measurement": 129,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.2186088040471077,
+          "seeds": 501
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CL_01/33278490cd325ed2f613",
+      "seconds_including_acquisition_cache": 102.04936185805127,
+      "selected_units": 15,
+      "window_count": 9
+    },
+    "CO_CT_01": {
+      "block_id": "B11_0c54386a379631",
+      "corridor_id": "CO_CT_01",
+      "eligible_units_50m": 45,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_CT_01/436ade760654698eb9b1/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 96288.04552006422,
+        "estimated_seeds_inside_P": 589,
+        "estimated_segments_context": 884,
+        "estimated_segments_intersecting_P": 635,
+        "external_accuracy": false,
+        "observed_area_m2": 95532.61048975126,
+        "patches": {
+          "candidate_area_context_m2": 22079.52032214844,
+          "candidate_area_measurement_exact_m2": 14319.056791187148,
+          "candidate_cells_context": 22100,
+          "candidate_cells_measurement_center": 14317,
+          "components_are_not_individual_trees": true,
+          "components_context": 340,
+          "components_intersecting_measurement": 226,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.0690713699441403,
+          "seeds": 884
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CT_01/10cf35babe0b522be1cb",
+      "seconds_including_acquisition_cache": 183.03151806397364,
+      "selected_units": 15,
+      "window_count": 8
+    },
+    "CO_CT_05": {
+      "block_id": "B11_192ef17b6950f7",
+      "corridor_id": "CO_CT_05",
+      "eligible_units_50m": 49,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_CT_05/98886390e37905609bb8/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 59291.72613367213,
+        "estimated_seeds_inside_P": 256,
+        "estimated_segments_context": 900,
+        "estimated_segments_intersecting_P": 344,
+        "external_accuracy": false,
+        "observed_area_m2": 54303.7352351862,
+        "patches": {
+          "candidate_area_context_m2": 22901.12676357601,
+          "candidate_area_measurement_exact_m2": 7877.272748981223,
+          "candidate_cells_context": 22947,
+          "candidate_cells_measurement_center": 7876,
+          "components_are_not_individual_trees": true,
+          "components_context": 515,
+          "components_intersecting_measurement": 186,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 967.87109375,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.628194944933057,
+          "seeds": 900
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_CT_05/6b6819d6e03b98c4f8a6",
+      "seconds_including_acquisition_cache": 198.4351017421577,
+      "selected_units": 15,
+      "window_count": 25
+    },
+    "CO_IP_05": {
+      "block_id": "B11_04c9fee0792d97",
+      "corridor_id": "CO_IP_05",
+      "eligible_units_50m": 85,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_IP_05/c97a9d364bb80df82ff1/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 206084.00863314525,
+        "estimated_seeds_inside_P": 1484,
+        "estimated_segments_context": 3034,
+        "estimated_segments_intersecting_P": 1749,
+        "external_accuracy": false,
+        "observed_area_m2": 167972.40719458446,
+        "patches": {
+          "candidate_area_context_m2": 71507.68147168966,
+          "candidate_area_measurement_exact_m2": 32343.69334688867,
+          "candidate_cells_context": 71585,
+          "candidate_cells_measurement_center": 32332,
+          "components_are_not_individual_trees": true,
+          "components_context": 1295,
+          "components_intersecting_measurement": 676,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.3523294059559703,
+          "seeds": 3034
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_IP_05/816d2be19b6b702735f6",
+      "seconds_including_acquisition_cache": 462.29913806007244,
+      "selected_units": 15,
+      "window_count": 40
+    },
+    "CO_MG_02": {
+      "block_id": "B11_9e841d6232d869",
+      "corridor_id": "CO_MG_02",
+      "eligible_units_50m": 11,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_MG_02/133f32f863d732ffe2f2/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 29771.70585564172,
+        "estimated_seeds_inside_P": 232,
+        "estimated_segments_context": 498,
+        "estimated_segments_intersecting_P": 258,
+        "external_accuracy": false,
+        "observed_area_m2": 25163.30933456475,
+        "patches": {
+          "candidate_area_context_m2": 9548.851406719754,
+          "candidate_area_measurement_exact_m2": 4608.147717498574,
+          "candidate_cells_context": 9557,
+          "candidate_cells_measurement_center": 4615,
+          "components_are_not_individual_trees": true,
+          "components_context": 317,
+          "components_intersecting_measurement": 157,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.0745115340687335,
+          "seeds": 498
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_MG_02/4360593bb8ecdf7ba01c",
+      "seconds_including_acquisition_cache": 130.63773080403917,
+      "selected_units": 11,
+      "window_count": 15
+    },
+    "CO_PA_02": {
+      "block_id": "B11_9decfa881588f2",
+      "corridor_id": "CO_PA_02",
+      "eligible_units_50m": 19,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PA_02/df32e998c432a60b7c63/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 106606.66972353127,
+        "estimated_seeds_inside_P": 654,
+        "estimated_segments_context": 853,
+        "estimated_segments_intersecting_P": 672,
+        "external_accuracy": false,
+        "observed_area_m2": 96795.57343913976,
+        "patches": {
+          "candidate_area_context_m2": 17578.616512054865,
+          "candidate_area_measurement_exact_m2": 14293.915873939924,
+          "candidate_cells_context": 17593,
+          "candidate_cells_measurement_center": 14295,
+          "components_are_not_individual_trees": true,
+          "components_context": 548,
+          "components_intersecting_measurement": 432,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 802.96875,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.0659212230239064,
+          "seeds": 853
+        }
+      },
+      "role": "development",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PA_02/3e8fe65e01a67faaaf0c",
+      "seconds_including_acquisition_cache": 197.69400070700794,
+      "selected_units": 15,
+      "window_count": 10
+    },
+    "CO_PJ_03": {
+      "block_id": "B11_8ae8d16e4b3519",
+      "corridor_id": "CO_PJ_03",
+      "eligible_units_50m": 56,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PJ_03/659f77155e815df57b6e/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 54567.49603160513,
+        "estimated_seeds_inside_P": 280,
+        "estimated_segments_context": 929,
+        "estimated_segments_intersecting_P": 362,
+        "external_accuracy": false,
+        "observed_area_m2": 52575.3852721331,
+        "patches": {
+          "candidate_area_context_m2": 21691.434774684705,
+          "candidate_area_measurement_exact_m2": 6684.256912557879,
+          "candidate_cells_context": 21724,
+          "candidate_cells_measurement_center": 6697,
+          "components_are_not_individual_trees": true,
+          "components_context": 505,
+          "components_intersecting_measurement": 197,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.6367528110276908,
+          "seeds": 929
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PJ_03/003d64a98cab945caa1d",
+      "seconds_including_acquisition_cache": 176.9673909000121,
+      "selected_units": 15,
+      "window_count": 24
+    },
+    "CO_PR_02": {
+      "block_id": "B11_9b4f5d068bd278",
+      "corridor_id": "CO_PR_02",
+      "eligible_units_50m": 49,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PR_02/d34f0f724100f47d9e93/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 19235.367239489853,
+        "estimated_seeds_inside_P": 173,
+        "estimated_segments_context": 661,
+        "estimated_segments_intersecting_P": 259,
+        "external_accuracy": false,
+        "observed_area_m2": 19191.559181637927,
+        "patches": {
+          "candidate_area_context_m2": 20110.73559260613,
+          "candidate_area_measurement_exact_m2": 5036.864143160179,
+          "candidate_cells_context": 20144,
+          "candidate_cells_measurement_center": 5063,
+          "components_are_not_individual_trees": true,
+          "components_context": 337,
+          "components_intersecting_measurement": 135,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 1690.86328125,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.074569313088432,
+          "seeds": 661
+        }
+      },
+      "role": "evaluation",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_02/e7ecfc4dbf7a4e402a98",
+      "seconds_including_acquisition_cache": 135.30917763896286,
+      "selected_units": 15,
+      "window_count": 16
+    },
+    "CO_PR_03": {
+      "block_id": "B11_de2c213f2ccba7",
+      "corridor_id": "CO_PR_03",
+      "eligible_units_50m": 28,
+      "normalized_source": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PR_03/04b4de4c7bb8b9a9bfa2/normalized/alturas_pontos.parquet",
+      "primary": {
+        "P_area_m2": 12719.228594733942,
+        "estimated_seeds_inside_P": 65,
+        "estimated_segments_context": 420,
+        "estimated_segments_intersecting_P": 148,
+        "external_accuracy": false,
+        "observed_area_m2": 12698.285246989397,
+        "patches": {
+          "candidate_area_context_m2": 18571.000020265696,
+          "candidate_area_measurement_exact_m2": 3033.652685899544,
+          "candidate_cells_context": 18601,
+          "candidate_cells_measurement_center": 3029,
+          "components_are_not_individual_trees": true,
+          "components_context": 164,
+          "components_intersecting_measurement": 67,
+          "uncertain_cells_measurement_center": 0
+        },
+        "scenario": {
+          "algorithm": "dalponteCIRC_numba",
+          "crown_radius_m": 8.0,
+          "detection_radius_m": 3.0,
+          "fraction": 1.0,
+          "height_m": 3.0,
+          "resolution_m": 1.0,
+          "scenario_id": "primary"
+        },
+        "whole_corridor_segmentation_before_crop": true,
+        "worker": {
+          "algorithm": "dalponteCIRC_numba",
+          "effective_detection_radius_m": 3.0,
+          "ok": true,
+          "peak_rss_mib": 666.1015625,
+          "plateau_centroids_relocated": 0,
+          "seconds": 3.5166429670061916,
+          "seeds": 420
+        }
+      },
+      "role": "development",
+      "root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_03/a8e5227d30c7c60fce45",
+      "seconds_including_acquisition_cache": 102.92716255388223,
+      "selected_units": 15,
+      "window_count": 11
+    }
+  },
+  "external_accuracy": false,
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec",
+  "protocol_version": "0.3.0",
+  "resources": {
+    "budget_gib": 8.0,
+    "elapsed_seconds": 1853.6001083001029,
+    "exceeded": false,
+    "peak_rss_gib": 1.6512336730957031,
+    "samples": "see resources.json"
+  },
+  "run_id": "20261026T034837Z_83581b7eec",
+  "run_manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261026T034837Z_83581b7eec/manifest.json",
+  "sample": {
+    "corridors": 10,
+    "external_reference_labels": 0,
+    "independent_groups_certified": null,
+    "municipal": false,
+    "p_values_computed": false,
+    "selected_development_units": 30,
+    "selected_evaluation_units": 114,
+    "target_evaluation_units": 120
+  }
+}

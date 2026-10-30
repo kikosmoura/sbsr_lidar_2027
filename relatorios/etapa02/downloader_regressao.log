@@ -1,0 +1,48 @@
+test_416_for_complete_partial (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_416_for_corrupt_partial_is_removed (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_complete_partial_is_promoted_without_network (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_copies_previous_partial_then_resumes_and_preserves_original (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_copies_previous_valid_zip_without_network_and_preserves_original (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_corrupt_previous_zip_is_not_reused (test_baixar_lidar_geosampa.DownloadTests) ... Arquivo antigo inválido, não será copiado: /tmp/tmpezrbggy2/antiga/tmpezrbggy2/3312-431.zip: ZIP inválido: File is not a zip file
+ok
+test_corrupt_zip_crc_is_rejected (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_download_validate_and_reuse_without_network (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_full_destination_during_copy_preserves_original (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_html_and_disguised_html_are_rejected (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_interruption_keeps_partial_then_resumes (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_malformed_content_range_is_rejected (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_restarts_when_range_ignored (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_resumes_range (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_retry_after_server_error (test_baixar_lidar_geosampa.DownloadTests) ... Tentativa 1/2 falhou: O servidor retornou text/html, em vez de um ZIP: http://127.0.0.1:33021/retry
+ok
+test_wrong_las_header_is_rejected (test_baixar_lidar_geosampa.DownloadTests) ... ok
+test_boundary_contact_counts_as_intersection (test_baixar_lidar_geosampa.SpatialTests) ... ok
+test_empty_intersection (test_baixar_lidar_geosampa.SpatialTests) ... ok
+test_intersection_multipolygons_deduplication_and_full_tiles (test_baixar_lidar_geosampa.SpatialTests) ... ok
+test_invalid_polygon_is_repaired (test_baixar_lidar_geosampa.SpatialTests) ... Área de interesse: reparando 1 geometrias inválidas.
+ok
+test_main_stops_on_full_disk_instead_of_trying_next_download (test_baixar_lidar_geosampa.SpatialTests) ... INFO: Created 2 records
+ok
+test_missing_crs_is_rejected (test_baixar_lidar_geosampa.SpatialTests) ... INFO: Created 3 records
+INFO: Created 3 records
+ok
+test_plan_exports_qgis_layer_and_product_urls (test_baixar_lidar_geosampa.SpatialTests) ... INFO: Created 3 records
+INFO: Created 3 records
+INFO: 3 polígonos de interesse; 3 folhas na grade; 2 quadrículas selecionadas.
+INFO: Created 2 records
+INFO: Created 2 records
+ok
+test_reprojection (test_baixar_lidar_geosampa.SpatialTests) ... INFO: Created 3 records
+INFO: Created 3 records
+INFO: Created 3 records
+INFO: Reprojetando a área de interesse de EPSG:4326 para EPSG:31983.
+INFO: 3 polígonos de interesse; 3 folhas na grade; 2 quadrículas selecionadas.
+ok
+test_unmounted_drive_does_not_create_output_or_fall_back (test_baixar_lidar_geosampa.SpatialTests) ... INFO: Created 3 records
+INFO: Created 3 records
+ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.994s
+
+OK

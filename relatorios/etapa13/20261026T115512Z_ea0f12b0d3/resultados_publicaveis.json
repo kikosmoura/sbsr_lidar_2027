@@ -1,0 +1,1780 @@
+{
+  "claims": [
+    {
+      "claim_id": "C13_01",
+      "classification": "sustentada",
+      "evidence_for_not_tested": null,
+      "limitations": [
+        "amostra_intencional",
+        "sem_independencia_certificada"
+      ],
+      "metric_ids": [
+        "units_evaluation",
+        "units_development",
+        "corridors_evaluation",
+        "corridors_development",
+        "evaluation_shortfall"
+      ],
+      "statement": "A amostra contém 10 corredores e 114 unidades de avaliação, abaixo da meta de 120."
+    },
+    {
+      "claim_id": "C13_02",
+      "classification": "sustentada",
+      "evidence_for_not_tested": null,
+      "limitations": [
+        "NoData_nao_e_ausencia_de_arvores"
+      ],
+      "metric_ids": [
+        "observed_fraction_min",
+        "observed_fraction_max"
+      ],
+      "statement": "Há áreas sem suporte que limitam a interpretação dos corredores completos."
+    },
+    {
+      "claim_id": "C13_03",
+      "classification": "exploratoria",
+      "evidence_for_not_tested": null,
+      "limitations": [
+        "escore_relativo",
+        "sem_alvo_independente",
+        "sem_causalidade"
+      ],
+      "metric_ids": [
+        "primary_spearman_rho",
+        "primary_jaccard_exact",
+        "primary_k",
+        "primary_top_intersection_n"
+      ],
+      "statement": "A inclusão de I6/I7 altera a ordenação e o top20% da coorte de avaliação."
+    },
+    {
+      "claim_id": "C13_04",
+      "classification": "exploratoria",
+      "evidence_for_not_tested": null,
+      "limitations": [
+        "pares_dependentes",
+        "altura_de_retornos_nao_altura_por_arvore"
+      ],
+      "metric_ids": [
+        "similar_cover_pairs",
+        "pairs_absolute_P95_difference_m_median",
+        "pairs_absolute_P95_difference_m_max"
+      ],
+      "statement": "Unidades com cobertura semelhante apresentam diferenças de altura dos retornos."
+    },
+    {
+      "claim_id": "C13_05",
+      "classification": "parcialmente_sustentada",
+      "evidence_for_not_tested": null,
+      "limitations": [
+        "universos_variaveis",
+        "sem_garantia_simultanea_para_coorte_integral"
+      ],
+      "metric_ids": [
+        "sensitivity_paired_eligible_units_min",
+        "sensitivity_paired_eligible_units_max",
+        "sensitivity_spearman_rho_min",
+        "sensitivity_spearman_rho_max",
+        "sensitivity_jaccard_exact_min",
+        "sensitivity_jaccard_exact_max"
+      ],
+      "statement": "A estabilidade entre cenários é condicional ao suporte e aos IDs que permanecem elegíveis."
+    },
+    {
+      "claim_id": "C13_06",
+      "classification": "nao_testada",
+      "evidence_for_not_tested": {
+        "reason": "declared_scope_no_independent_target_or_no_longitudinal_axis",
+        "source": {
+          "bytes": 4818,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_pycrown_v0_3_0.md",
+          "sha256": "c275197e97fc9805f5457c995219708bd62fec699209afff56cfdeb608ab8e7c"
+        }
+      },
+      "limitations": [
+        "nenhum_alvo_independente",
+        "nao_confundir_discordancia_com_melhoria"
+      ],
+      "metric_ids": [],
+      "statement": "O 3D melhora o diagnóstico ou a prioridade real de intervenção."
+    },
+    {
+      "claim_id": "C13_07",
+      "classification": "nao_testada",
+      "evidence_for_not_tested": {
+        "reason": "declared_scope_no_independent_target_or_no_longitudinal_axis",
+        "source": {
+          "bytes": 4818,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_pycrown_v0_3_0.md",
+          "sha256": "c275197e97fc9805f5457c995219708bd62fec699209afff56cfdeb608ab8e7c"
+        }
+      },
+      "limitations": [
+        "sem_referencia_externa",
+        "resolucao_raster",
+        "segmentos_nao_equivalem_a_arvores_confirmadas"
+      ],
+      "metric_ids": [],
+      "statement": "As copas ou posições de topo têm acurácia conhecida ou contorno exato."
+    },
+    {
+      "claim_id": "C13_08",
+      "classification": "nao_testada",
+      "evidence_for_not_tested": {
+        "reason": "declared_scope_no_independent_target_or_no_longitudinal_axis",
+        "source": {
+          "bytes": 4818,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_pycrown_v0_3_0.md",
+          "sha256": "c275197e97fc9805f5457c995219708bd62fec699209afff56cfdeb608ab8e7c"
+        }
+      },
+      "limitations": [
+        "sem_amostra_probabilistica_municipal",
+        "apenas_dez_corredores"
+      ],
+      "metric_ids": [],
+      "statement": "Os resultados representam toda São Paulo."
+    },
+    {
+      "claim_id": "C13_09",
+      "classification": "nao_testada",
+      "evidence_for_not_tested": {
+        "reason": "declared_scope_no_independent_target_or_no_longitudinal_axis",
+        "source": {
+          "bytes": 5243,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/disponibilidade_metodos.parquet",
+          "sha256": "f6f38780c8f1e067ee8ee6698513ea13d53931dc99b796419c402e3413c27926"
+        }
+      },
+      "limitations": [
+        "eixos_nao_revalidados",
+        "Amais3D_nao_e_C"
+      ],
+      "metric_ids": [],
+      "statement": "B/C e conectividade funcional foram avaliados nesta amostra."
+    }
+  ],
+  "inference": {
+    "confidence_intervals": false,
+    "p_values": false,
+    "reason": "independence_exchangeability_and_target_reference_not_established"
+  },
+  "metrics": {
+    "CO_BT_05_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_BT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 14973.690043856266
+    },
+    "CO_BT_05_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_BT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 52112.89516905922
+    },
+    "CO_BT_05_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_BT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 58827.83115351273
+    },
+    "CO_BT_05_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_BT_05_area_total_m2",
+        "CO_BT_05_area_observed_m2"
+      ],
+      "expression": "CO_BT_05_area_observed_m2/CO_BT_05_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.8858544356848597
+    },
+    "CO_CL_01_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_CL_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 9561.84442313514
+    },
+    "CO_CL_01_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_CL_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 27579.35241555383
+    },
+    "CO_CL_01_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_CL_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 29252.00603323469
+    },
+    "CO_CL_01_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_CL_01_area_total_m2",
+        "CO_CL_01_area_observed_m2"
+      ],
+      "expression": "CO_CL_01_area_observed_m2/CO_CL_01_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9428191825278418
+    },
+    "CO_CT_01_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_CT_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 14319.056791188785
+    },
+    "CO_CT_01_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_CT_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 95532.61048976316
+    },
+    "CO_CT_01_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_CT_01"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 96288.04552007669
+    },
+    "CO_CT_01_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_CT_01_area_total_m2",
+        "CO_CT_01_area_observed_m2"
+      ],
+      "expression": "CO_CT_01_area_observed_m2/CO_CT_01_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9921544255443837
+    },
+    "CO_CT_05_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_CT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 7877.272748993498
+    },
+    "CO_CT_05_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_CT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 54303.73523513955
+    },
+    "CO_CT_05_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_CT_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 59291.72613369438
+    },
+    "CO_CT_05_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_CT_05_area_total_m2",
+        "CO_CT_05_area_observed_m2"
+      ],
+      "expression": "CO_CT_05_area_observed_m2/CO_CT_05_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9158737445540442
+    },
+    "CO_IP_05_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_IP_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 32343.693346888555
+    },
+    "CO_IP_05_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_IP_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 167972.40719458542
+    },
+    "CO_IP_05_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_IP_05"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 206084.00863314606
+    },
+    "CO_IP_05_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_IP_05_area_total_m2",
+        "CO_IP_05_area_observed_m2"
+      ],
+      "expression": "CO_IP_05_area_observed_m2/CO_IP_05_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.8150676430872237
+    },
+    "CO_MG_02_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_MG_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 4608.1477174985175
+    },
+    "CO_MG_02_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_MG_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 25163.309334564616
+    },
+    "CO_MG_02_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_MG_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 29771.70585564097
+    },
+    "CO_MG_02_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_MG_02_area_total_m2",
+        "CO_MG_02_area_observed_m2"
+      ],
+      "expression": "CO_MG_02_area_observed_m2/CO_MG_02_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.8452088522094819
+    },
+    "CO_PA_02_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_PA_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 14293.91587393964
+    },
+    "CO_PA_02_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_PA_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 96795.57343914112
+    },
+    "CO_PA_02_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_PA_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 106606.6697235329
+    },
+    "CO_PA_02_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_PA_02_area_total_m2",
+        "CO_PA_02_area_observed_m2"
+      ],
+      "expression": "CO_PA_02_area_observed_m2/CO_PA_02_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9079692076505601
+    },
+    "CO_PJ_03_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_PJ_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 6684.256912563361
+    },
+    "CO_PJ_03_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_PJ_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 52575.3852721156
+    },
+    "CO_PJ_03_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_PJ_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 54567.496031610324
+    },
+    "CO_PJ_03_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_PJ_03_area_total_m2",
+        "CO_PJ_03_area_observed_m2"
+      ],
+      "expression": "CO_PJ_03_area_observed_m2/CO_PJ_03_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9634927217781678
+    },
+    "CO_PR_02_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_PR_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 5036.864143155961
+    },
+    "CO_PR_02_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_PR_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 19191.559181615252
+    },
+    "CO_PR_02_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_PR_02"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 19235.367239479736
+    },
+    "CO_PR_02_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_PR_02_area_total_m2",
+        "CO_PR_02_area_observed_m2"
+      ],
+      "expression": "CO_PR_02_area_observed_m2/CO_PR_02_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9977225255271149
+    },
+    "CO_PR_03_area_canopy_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_canopy_m2",
+        "filters": {
+          "corridor_id": "CO_PR_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 3033.652685892166
+    },
+    "CO_PR_03_area_observed_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_observed_m2",
+        "filters": {
+          "corridor_id": "CO_PR_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 12698.285246990963
+    },
+    "CO_PR_03_area_total_m2": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "area_total_m2",
+        "filters": {
+          "corridor_id": "CO_PR_03"
+        },
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m2",
+      "value": 12719.22859473552
+    },
+    "CO_PR_03_fraction_observed": {
+      "classification": "sustentada",
+      "derived_from": [
+        "CO_PR_03_area_total_m2",
+        "CO_PR_03_area_observed_m2"
+      ],
+      "expression": "CO_PR_03_area_observed_m2/CO_PR_03_area_total_m2",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9983534105399108
+    },
+    "all_grid_units_50m": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "count",
+        "column": null,
+        "filters": {},
+        "source": "todas_unidades_50m"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 349530,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+        "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 753
+    },
+    "all_grid_units_multiscale": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "count",
+        "column": null,
+        "filters": {},
+        "source": "indicadores_multiescala"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 769857,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/indicadores_multiescala.parquet",
+        "sha256": "a5bc306a020fa7e5c7a838cf6942bdd84a1d5886ed7eed0a433bc3f27903ae02"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 3121
+    },
+    "corridors_development": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "nunique",
+        "column": "corridor_id",
+        "filters": {
+          "role": "development"
+        },
+        "source": "coorte_selecionada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 127847,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/coorte_selecionada.parquet",
+        "sha256": "dfa5454991ef951fe4dfcd2097bf99d3ab518ad21078a3c42706d64221a0e009"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 2
+    },
+    "corridors_evaluation": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "nunique",
+        "column": "corridor_id",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "coorte_selecionada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 127847,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/coorte_selecionada.parquet",
+        "sha256": "dfa5454991ef951fe4dfcd2097bf99d3ab518ad21078a3c42706d64221a0e009"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 8
+    },
+    "evaluation_shortfall": {
+      "classification": "sustentada",
+      "derived_from": [
+        "target_evaluation",
+        "units_evaluation"
+      ],
+      "expression": "target_evaluation-units_evaluation",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 6
+    },
+    "observed_fraction_max": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "max",
+        "column": "fraction_observed",
+        "filters": {},
+        "source": "sample_summary"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 1390,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115512Z_ea0f12b0d3/tables/dados_amostra.csv",
+        "sha256": "6c19d1df755e4708dde892558ee160ec870758bec71d94f14293fce27b9f4333"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9983534105399108
+    },
+    "observed_fraction_min": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "min",
+        "column": "fraction_observed",
+        "filters": {},
+        "source": "sample_summary"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 1390,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115512Z_ea0f12b0d3/tables/dados_amostra.csv",
+        "sha256": "6c19d1df755e4708dde892558ee160ec870758bec71d94f14293fce27b9f4333"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.8150676430872237
+    },
+    "pairs_absolute_IQR_difference_m_max": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "max",
+        "column": "absolute_IQR_difference_m",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0
+        },
+        "source": "pares_cobertura_semelhante"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 47524,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+        "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m",
+      "value": 18.96665754298388
+    },
+    "pairs_absolute_IQR_difference_m_median": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "median",
+        "column": "absolute_IQR_difference_m",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0
+        },
+        "source": "pares_cobertura_semelhante"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 47524,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+        "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m",
+      "value": 2.327352452937916
+    },
+    "pairs_absolute_P95_difference_m_max": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "max",
+        "column": "absolute_P95_difference_m",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0
+        },
+        "source": "pares_cobertura_semelhante"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 47524,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+        "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m",
+      "value": 30.40167726515518
+    },
+    "pairs_absolute_P95_difference_m_median": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "median",
+        "column": "absolute_P95_difference_m",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0
+        },
+        "source": "pares_cobertura_semelhante"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 47524,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+        "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "m",
+      "value": 5.340891031710527
+    },
+    "primary_base_tie_at_cut_n": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "base_tie_at_cut_n",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 1
+    },
+    "primary_jaccard_exact": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "jaccard_exact",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.35294117647058826
+    },
+    "primary_jaccard_including_cut_ties": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "jaccard_including_cut_ties",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.35294117647058826
+    },
+    "primary_k": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "k",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 23
+    },
+    "primary_maximum_absolute_rank_shift": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "maximum_absolute_rank_shift",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 66.0
+    },
+    "primary_mean_absolute_rank_shift": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "mean_absolute_rank_shift",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 20.333333333333332
+    },
+    "primary_n": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "n",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 114
+    },
+    "primary_spearman_rho": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "spearman_rho",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.6681647966772448
+    },
+    "primary_top_intersection_n": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "top_intersection_n",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 12
+    },
+    "primary_top_union_n": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "top_union_n",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 34
+    },
+    "primary_variant_tie_at_cut_n": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "scalar",
+        "column": "variant_tie_at_cut_n",
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0,
+          "scope": "conditional_canopy",
+          "top_fraction": 0.2,
+          "variant_id": "A_plus_3D__I6_I7__Vplus__w0.5"
+        },
+        "source": "concordancia_ablacao"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20177,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+        "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 1
+    },
+    "sensitivity_jaccard_exact_max": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "max",
+        "column": "jaccard_exact",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9166666666666666
+    },
+    "sensitivity_jaccard_exact_min": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "min",
+        "column": "jaccard_exact",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.5
+    },
+    "sensitivity_paired_eligible_units_max": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "max",
+        "column": "paired_eligible_units",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 114
+    },
+    "sensitivity_paired_eligible_units_min": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "min",
+        "column": "paired_eligible_units",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 78
+    },
+    "sensitivity_spearman_rho_max": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "max",
+        "column": "spearman_rho",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9949024749837683
+    },
+    "sensitivity_spearman_rho_min": {
+      "classification": "parcialmente_sustentada",
+      "recipe": {
+        "aggregation": "min",
+        "column": "spearman_rho",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "sensibilidade_rankings_agrupada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 21989,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+        "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 0.9313456645091874
+    },
+    "similar_cover_pairs": {
+      "classification": "exploratoria",
+      "recipe": {
+        "aggregation": "count",
+        "column": null,
+        "filters": {
+          "case": "sample_evaluation",
+          "family": "grid",
+          "scale_m": 50.0
+        },
+        "source": "pares_cobertura_semelhante"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 47524,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+        "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 538
+    },
+    "source_crc_checked_files": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "archive_crc_checked",
+        "filters": {},
+        "source": "qc_fontes"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 19068,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+        "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 118
+    },
+    "source_declared_records": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "declared_points",
+        "filters": {},
+        "source": "qc_fontes"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 19068,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+        "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "records",
+      "value": 345062484
+    },
+    "source_decoded_records": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "sum",
+        "column": "decoded_points",
+        "filters": {},
+        "source": "qc_fontes"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 19068,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+        "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "records",
+      "value": 345062484
+    },
+    "source_files_qc": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "count",
+        "column": null,
+        "filters": {},
+        "source": "qc_fontes"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 19068,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+        "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 118
+    },
+    "source_tile_pairs": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "nunique",
+        "column": "tile",
+        "filters": {},
+        "source": "qc_fontes"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 19068,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+        "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 59
+    },
+    "target_evaluation": {
+      "classification": "sustentada",
+      "json_pointer": "/sample/target_evaluation_units",
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 20182,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa12/execucao.json",
+        "sha256": "fbcc8b462aa2143d00babe9a88b4b5239930e60f19689241e0d8b37fe8cb32a4"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 120
+    },
+    "top_group_gained": {
+      "classification": "sustentada",
+      "derived_from": [
+        "primary_n",
+        "primary_k",
+        "primary_top_intersection_n"
+      ],
+      "expression": "primary_k-primary_top_intersection_n",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 11
+    },
+    "top_group_kept": {
+      "classification": "sustentada",
+      "derived_from": [
+        "primary_n",
+        "primary_k",
+        "primary_top_intersection_n"
+      ],
+      "expression": "primary_top_intersection_n",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 12
+    },
+    "top_group_lost": {
+      "classification": "sustentada",
+      "derived_from": [
+        "primary_n",
+        "primary_k",
+        "primary_top_intersection_n"
+      ],
+      "expression": "primary_k-primary_top_intersection_n",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 11
+    },
+    "top_group_neither": {
+      "classification": "sustentada",
+      "derived_from": [
+        "primary_n",
+        "primary_k",
+        "primary_top_intersection_n"
+      ],
+      "expression": "primary_n-2*primary_k+primary_top_intersection_n",
+      "scientific_protocol": "0.3.0",
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 80
+    },
+    "units_development": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "nunique",
+        "column": "unit_id",
+        "filters": {
+          "role": "development"
+        },
+        "source": "coorte_selecionada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 127847,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/coorte_selecionada.parquet",
+        "sha256": "dfa5454991ef951fe4dfcd2097bf99d3ab518ad21078a3c42706d64221a0e009"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 30
+    },
+    "units_evaluation": {
+      "classification": "sustentada",
+      "recipe": {
+        "aggregation": "nunique",
+        "column": "unit_id",
+        "filters": {
+          "role": "evaluation"
+        },
+        "source": "coorte_selecionada"
+      },
+      "scientific_protocol": "0.3.0",
+      "source_fingerprint": {
+        "bytes": 127847,
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/coorte_selecionada.parquet",
+        "sha256": "dfa5454991ef951fe4dfcd2097bf99d3ab518ad21078a3c42706d64221a0e009"
+      },
+      "source_run_id": "20261026T034837Z_83581b7eec",
+      "unit": "1",
+      "value": 114
+    }
+  },
+  "no_new_LAZ_processing": true,
+  "presentation_version": "1.0.0",
+  "scientific_protocol": "0.3.0",
+  "source_run_id": "20261026T034837Z_83581b7eec",
+  "sources": {
+    "concordancia_ablacao": {
+      "bytes": 20177,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/concordancia_ablacao.parquet",
+      "sha256": "b680b46e409ed6aa7638117460a15c29bea5d04cf9951976e6621590c6a1e2b0"
+    },
+    "coorte_selecionada": {
+      "bytes": 127847,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/coorte_selecionada.parquet",
+      "sha256": "dfa5454991ef951fe4dfcd2097bf99d3ab518ad21078a3c42706d64221a0e009"
+    },
+    "disponibilidade_metodos": {
+      "bytes": 5243,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/disponibilidade_metodos.parquet",
+      "sha256": "f6f38780c8f1e067ee8ee6698513ea13d53931dc99b796419c402e3413c27926"
+    },
+    "escores_rankings": {
+      "bytes": 53739,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/escores_rankings.parquet",
+      "sha256": "2a3954d512a99749ff5e4f6616133debfcc4190649988dc1fa31484e83cf1537"
+    },
+    "indicadores_multiescala": {
+      "bytes": 769857,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/indicadores_multiescala.parquet",
+      "sha256": "a5bc306a020fa7e5c7a838cf6942bdd84a1d5886ed7eed0a433bc3f27903ae02"
+    },
+    "membros_top": {
+      "bytes": 13824,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/membros_top.parquet",
+      "sha256": "43e2988c8a3c042b24f905685acf1253c15ce586873fe34a5bc2f04659316a4a"
+    },
+    "pares_cobertura_semelhante": {
+      "bytes": 47524,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/pares_cobertura_semelhante.parquet",
+      "sha256": "58a631b24d26bd18c5ce77cee4baef5fb70572d50612f03e18b8cc46df6a7225"
+    },
+    "qc_fontes": {
+      "bytes": 19068,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/qc_fontes.parquet",
+      "sha256": "3cac1fcf4775e1702210869a4c7b3f1b28a3f4136536b8dc86df4904a8c1812f"
+    },
+    "sample_summary": {
+      "bytes": 1390,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/20261026T115512Z_ea0f12b0d3/tables/dados_amostra.csv",
+      "sha256": "6c19d1df755e4708dde892558ee160ec870758bec71d94f14293fce27b9f4333"
+    },
+    "selecao_corredores_congelada": {
+      "bytes": 116809,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/selecao_corredores_congelada.parquet",
+      "sha256": "a411568bbd7723bb54d82ded9fb1d31e3e7c40318121a4c00ce5d54d50d1d903"
+    },
+    "sensibilidade_cenarios": {
+      "bytes": 31473,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_cenarios.parquet",
+      "sha256": "ef8be12c77311b9bcb9bd29640cc55afebd689142c2564ede70bb53c59f8274e"
+    },
+    "sensibilidade_rankings_agrupada": {
+      "bytes": 21989,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+      "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+    },
+    "todas_unidades_50m": {
+      "bytes": 349530,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/todas_unidades_50m.parquet",
+      "sha256": "54ab1956eea79e21c8c3db505e7484d59191b2618c5b9db65f3a86e27af4d999"
+    }
+  },
+  "study_mode": "exploratory_without_external_reference"
+}

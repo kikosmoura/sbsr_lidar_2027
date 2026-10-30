@@ -1,0 +1,18 @@
+{
+  "accuracy_external_evaluated": false,
+  "layers": {
+    "amostra_50m": 144,
+    "apices_retornos_Z": 9458,
+    "copas_contexto": 9458,
+    "copas_no_corredor": 5188,
+    "sementes_chm": 9458,
+    "unidades_50m": 753
+  },
+  "package": {
+    "bytes": 14905344,
+    "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/produtos_pycrown.gpkg",
+    "sha256": "6abc573dce4b98e6a3b15ba5571e54d511f7961d285719ed12f3b3591de6da32"
+  },
+  "reopened_counts_verified": true,
+  "segment_counts_are_not_verified_tree_counts": true
+}

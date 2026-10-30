@@ -1,0 +1,457 @@
+{
+  "change_control": "retain v0.1 pilot and frozen v0.2 proposal; necessary method changes get new version and descendant cache invalidation; no overwritten history or selecting weights by advantage of3D",
+  "comparison_scope": "target120 evaluation units;30 development units excluded from final estimates/rank normalizers; per-corridor physical summaries retain grouping and small-k guards",
+  "design": {
+    "block_distance_m": 1000.0,
+    "block_sensitivity_m": [
+      200.0,
+      500.0,
+      1000.0
+    ],
+    "cost_uncertainty_factor": 3.0,
+    "cpu_workers": 1,
+    "development_corridors": 2,
+    "disk_safety_factor": 3.0,
+    "double_annotation_fraction": 0.25,
+    "evaluation_corridors": 8,
+    "exclude_legacy_reserved_groups": true,
+    "execution_enabled": false,
+    "external_free_reserve_gib": 20.0,
+    "included_status": "PROPOSTO",
+    "included_type": "CORREDOR VERDE",
+    "maximum_actual_evaluation_units": 200,
+    "maximum_ground_vertices_per_window": 1000000,
+    "maximum_ram_gib": 8.0,
+    "maximum_roi_records_per_window": 5000000,
+    "maximum_tiles_per_computational_window": 6,
+    "minimum_actual_evaluation_units": 100,
+    "minimum_geometric_units_per_corridor": 15,
+    "minimum_provisional_evaluation_groups": 6,
+    "mode": "amostra_cientifica",
+    "municipal_mode_enabled": false,
+    "primary_scale_m": 50,
+    "protocol_version": "0.2.0",
+    "reference_windows_per_corridor": 4,
+    "schema_version": "0.1.0",
+    "seed": 2027,
+    "status": "frozen_conditional_post_pilot",
+    "status_field": "tx_situaca",
+    "stratification": "centroid_geographic_quadrants",
+    "target_corridors": 10,
+    "target_evaluation_units": 120,
+    "target_units_per_corridor": 15,
+    "type_field": "tx_tipo_pr"
+  },
+  "final_unit_selection_rule": "after QC before rankings: seeded hash of unit_id, 15 per evaluation corridor without replacement; preserve all physical descriptors/exclusions; insufficient counts use preordered reserve and log replacement before looking at outcomes",
+  "gate_status": {
+    "generic_driver_verified": false,
+    "geometric_frame_sufficient": true,
+    "new_case_resource_calibration": false,
+    "new_sample_support_QC": false,
+    "reference_quality_review": false
+  },
+  "hypotheses": {
+    "H1": "physical vertical variation conditional on I1 with <=0.05 cover tolerance and <=2 observed-area ratio; report reused units/pairs and corridor groups",
+    "H2": "rank changes and robustness with fixed formulas, weights0/.25/.5/.75, both IQR signs, I6-only and dimension controls; negative outcomes admissible",
+    "H3": "disabled without independently audited dated priority target; never use own height/score as truth"
+  },
+  "inference": "descriptive by default;1000m graph groups are conservative planning, not estimated independence;6-group threshold necessary operational guard but insufficient for power/CI/permutability; no automatic p-values or pixel bootstrap",
+  "normalizer": "average_rank minus0.5 divided by n on fixed pooled evaluation-unit cohort across the8 new evaluation corridors; distinct from pilot per-case calibration; not transported across populations",
+  "physical_baseline": {
+    "comparison": {
+      "diagnostic_spatial_block_m": 200.0,
+      "maximum_observed_area_ratio": 2.0,
+      "maximum_pair_candidates": 250000,
+      "maximum_units_per_cohort": 500,
+      "minimum_independent_groups_for_surrogates": 6,
+      "minimum_spearman_units": 3,
+      "minimum_top_k_for_jaccard": 5,
+      "pair_boundary_epsilon": 1e-12,
+      "primary_top_fraction": 0.2,
+      "primary_vertical_weight": 0.5,
+      "score_tie_decimals": 12,
+      "similar_cover_tolerance": 0.05,
+      "top_fractions": [
+        0.1,
+        0.2,
+        0.3
+      ]
+    },
+    "grid": {
+      "epsg": 31983,
+      "nodata": -9999.0,
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "resolution_m": 1.0
+    },
+    "indicators": {
+      "batch_records": 65536,
+      "height_estimand": "normalized_vegetation_returns",
+      "include_I8": false,
+      "include_I9_I10": false,
+      "maximum_stored_height_values": 6000000,
+      "maximum_units": 2000,
+      "quantile_method": "linear"
+    },
+    "input_preparation": {
+      "adversarial_context_policy": "clip_to_tile",
+      "download_attempts": 4,
+      "download_timeout_seconds": 120,
+      "edge_width_m": 2.0,
+      "excluded_noise_classes": [
+        7,
+        18
+      ],
+      "grid_code_field": "cd_quadric",
+      "max_new_downloads_per_case": 2
+    },
+    "paths": {
+      "corridors": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shp",
+      "data_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027",
+      "downloader_script": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/baixar_lidar_geosampa.py",
+      "grid": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp",
+      "mount_root": "/media/s299259068/TOSHIBA EXT",
+      "output_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento",
+      "project_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027",
+      "protocol_file": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_piloto.md",
+      "runs_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes",
+      "state_file": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json"
+    },
+    "pilot": {
+      "adversarial_corridor": "CO_SE_06",
+      "adversarial_tile": "3312-431",
+      "context_tiles": [
+        "3313-324"
+      ],
+      "core_tiles": [
+        "3313-333",
+        "3313-361",
+        "3313-363"
+      ],
+      "corridor_field": "cd_identi0",
+      "corridor_id": "CO_BT_01_E",
+      "halo_m": 10.0,
+      "measurement_domain": "original_polygon",
+      "sensitivity_tiles": [
+        "3313-362"
+      ]
+    },
+    "protocol_version": "0.1.0",
+    "reference": {
+      "adversarial_windows": 8,
+      "double_annotation_fraction": 0.25,
+      "high_height_m": 20.0,
+      "low_height_range_m": [
+        0.25,
+        2.0
+      ],
+      "main_windows": 12,
+      "max_points_per_window": 100000,
+      "minimum_context_area_m2": 1.0,
+      "minimum_regular_context_fraction": 0.25,
+      "minimum_regular_measurement_fraction": 0.125,
+      "profile_half_width_m": 1.0,
+      "qgis_python": "/usr/bin/python3",
+      "rgb_resolution_m": 0.5,
+      "window_size_m": 20.0
+    },
+    "resources": {
+      "chunk_points": 500000,
+      "max_pilot_tiles": 6,
+      "max_ram_gib": 8.0,
+      "min_local_free_gib": 0.5,
+      "min_output_free_gib": 10.0,
+      "seed": 2027,
+      "smoke_points": 1024,
+      "workers": 1
+    },
+    "robustness": {
+      "maximum_roi_records": 5000000,
+      "maximum_scenarios": 32,
+      "thinning_fractions": [
+        0.5,
+        0.25
+      ],
+      "thinning_seed_offsets": [
+        0,
+        1,
+        2
+      ]
+    },
+    "schema_version": "0.1.0",
+    "segmentation": {
+      "area_tolerance_m2": 0.0001,
+      "axis_node_snap_tolerance_m": 1e-05,
+      "boundary_spacing_m": 2.0,
+      "length_m": 50.0,
+      "maximum_boundary_sites": 20000,
+      "maximum_grid_cells_per_scale": 10000,
+      "maximum_stations_per_part": 10000,
+      "minimum_axis_aspect_ratio": 3.0,
+      "minimum_axis_length_m": 25.0,
+      "section_cover_threshold": 0.1,
+      "station_spacing_m": 1.0,
+      "tangent_half_window_m": 1.0,
+      "terminal_spur_maximum_m": 25.0,
+      "terminal_spur_radius_factor": 2.5
+    },
+    "sensitivity": {
+      "halos_m": [
+        0.0,
+        10.0,
+        20.0
+      ],
+      "heights_m": [
+        2.0,
+        3.0,
+        5.0
+      ],
+      "lengths_m": [
+        25.0,
+        50.0,
+        100.0
+      ],
+      "resolutions_m": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "section_thresholds": [
+        0.0,
+        0.1,
+        0.25
+      ],
+      "terrain_distances_m": [
+        3.0,
+        5.0,
+        10.0
+      ],
+      "vertical_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "support": {
+      "minimum_canopy_area_m2": 10.0,
+      "minimum_observed_fraction": 0.95,
+      "minimum_unit_area_m2": 25.0,
+      "minimum_vegetation_returns": 50
+    },
+    "terrain": {
+      "apply_geoid_correction": false,
+      "coordinate_key_m": 0.001,
+      "expected_vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+      "extreme_height_m": 80.0,
+      "height_sample_per_class": 10000,
+      "idw_min_neighbors": 3,
+      "idw_neighbors": 8,
+      "idw_power": 2.0,
+      "max_support_points": 1000000,
+      "maximum_distance_m": 5.0,
+      "maximum_xy_z_spread_m": 0.1,
+      "method": "tin",
+      "minimum_common_validation": 50,
+      "negative_warning_m": -1.0,
+      "query_points": 50000,
+      "triangle_edge_radius_factor": 2.0,
+      "validation_block_m": 10.0,
+      "validation_fraction": 0.1,
+      "validation_max_points": 20000
+    },
+    "tools": {
+      "gdalinfo": "/usr/bin/gdalinfo",
+      "pdal": "/usr/bin/pdal",
+      "timeout_seconds": 30
+    },
+    "vegetation": {
+      "classes": [
+        3,
+        4,
+        5
+      ],
+      "connectivity": 8,
+      "geometry_min_neighbors": 6,
+      "geometry_neighbors": 32,
+      "geometry_query_cells": 4096,
+      "geometry_radius_m": 1.5,
+      "geometry_voxel_m": 0.1,
+      "linear_threshold": 0.9,
+      "max_geometry_points": 2000000,
+      "minimum_height_m": 3.0,
+      "minimum_points_per_cell": 1,
+      "planar_max_roughness_m": 0.15,
+      "planar_threshold": 0.8,
+      "qa_sample_cells": 300,
+      "structure_fraction_threshold": 0.5,
+      "thin_max_xy_spread_m": 0.5,
+      "thin_min_single_return_fraction": 0.9
+    }
+  },
+  "population": {
+    "actual_eligible_units": null,
+    "adequate_geometric_frame": true,
+    "candidate_blocks": 15,
+    "candidate_corridors": 22,
+    "independent_groups_certified": false,
+    "median_easting": 337742.81001419865,
+    "median_northing": 7390549.522371722,
+    "probability_sample": false,
+    "proposed_corridors": 10,
+    "proposed_development_corridors": 2,
+    "proposed_evaluation_corridors": 8,
+    "scope": "PROPOSTO/CORREDOR VERDE; geometric capacity and exclusion of pilot/reserved proximity groups",
+    "selection_uses_3D_results": false,
+    "statistical_power_computed": false,
+    "total_frame_corridors": 114
+  },
+  "post_pilot_choices_not_retroactive_preregistration": true,
+  "primary_comparison": "A/A_plus_3D, original P, grid50, baseline_h3, TIN5, halo10, connectivity8; same mask/eligible cohort; never fake B/C",
+  "proposed_candidates": [
+    {
+      "block_id": "B11_192ef17b6950f7",
+      "corridor_id": "CO_CT_05",
+      "proposed_role": "avaliacao",
+      "stratum": "EN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_04c9fee0792d97",
+      "corridor_id": "CO_IP_05",
+      "proposed_role": "avaliacao",
+      "stratum": "ES",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_8ae8d16e4b3519",
+      "corridor_id": "CO_PJ_03",
+      "proposed_role": "avaliacao",
+      "stratum": "WN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_e7f7310859d30b",
+      "corridor_id": "CO_BT_05",
+      "proposed_role": "avaliacao",
+      "stratum": "WS",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_0c54386a379631",
+      "corridor_id": "CO_CT_01",
+      "proposed_role": "avaliacao",
+      "stratum": "EN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_9b4f5d068bd278",
+      "corridor_id": "CO_PR_02",
+      "proposed_role": "avaliacao",
+      "stratum": "WN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_1e65c3c1823c58",
+      "corridor_id": "CO_CL_01",
+      "proposed_role": "avaliacao",
+      "stratum": "WS",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_9e841d6232d869",
+      "corridor_id": "CO_MG_02",
+      "proposed_role": "avaliacao",
+      "stratum": "EN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_de2c213f2ccba7",
+      "corridor_id": "CO_PR_03",
+      "proposed_role": "desenvolvimento",
+      "stratum": "WN",
+      "target_units": 15.0
+    },
+    {
+      "block_id": "B11_9decfa881588f2",
+      "corridor_id": "CO_PA_02",
+      "proposed_role": "desenvolvimento",
+      "stratum": "WS",
+      "target_units": 15.0
+    }
+  ],
+  "protocol_version": "0.2.0",
+  "selection_materialized_only_for_planning": true,
+  "selection_uses_outcomes": false,
+  "sensitivity": "retain stage10 parameter definitions and gradual scenarios;0.5/1/2m,2/3/5m,25/50/100m,halo0/10/20,record thinning,weights and IQR signs; exact common-support transfer; no selecting winner scenario",
+  "source_vector_fingerprints": [
+    {
+      "bytes": 10,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.cst",
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "bytes": 444557,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.dbf",
+      "sha256": "ec36b5c3afce9a31d55e9ff2e90e66e73eb7f0310a7860148fdbcf7a7d41d59d"
+    },
+    {
+      "bytes": 796,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.prj",
+      "sha256": "4b7e3e45feeff5f2d8048e4d19d6b7bc85bbe98dee050cb53cf84c63223b8dc6"
+    },
+    {
+      "bytes": 725684,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shp",
+      "sha256": "176bcd19e0c1231d3d54cd86d23c7ee594cd307a9dafd36aa43d6d186bfebdf6"
+    },
+    {
+      "bytes": 1012,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/corredor_verde/corredor_verde.shx",
+      "sha256": "633ae4f242e7fae4370256c660d7b68cd19dd9e073aa5a4959b5e4c316bf88b0"
+    },
+    {
+      "bytes": 10,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.cst",
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "bytes": 7399659,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.dbf",
+      "sha256": "d2d54c40c447f2e3120c83a1622869c37524addaf19212fb80be4dacb0337ecc"
+    },
+    {
+      "bytes": 796,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.prj",
+      "sha256": "6657cbcd6d378ecca238c62eefd46039f7c0ab6071b35088403bf9ab8e5203dd"
+    },
+    {
+      "bytes": 742764,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp",
+      "sha256": "63d1877df2a5e5c41228070eca58fc4a43e477fb4116600a03d53269fc82cee6"
+    },
+    {
+      "bytes": 43308,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shx",
+      "sha256": "ed399889b5c5619330a6f984df621b3aa976eb773f39d53fce78defca8c8f3d3"
+    }
+  ],
+  "status": "frozen_conditional_post_pilot",
+  "step12_handoff": {
+    "cloud_processing_enabled": false,
+    "current_allowed_operation": "preflight_reference_and_materialize_plan_only",
+    "mode": "amostra_cientifica",
+    "municipal_processing_enabled": false,
+    "unlock_condition": "all reference/support/driver/resource gates independently evidenced; new version for changed scientific rules; explicit user activation of step12"
+  },
+  "validation": {
+    "development": "2 entirely new spatial blocks for limited adjustment; existing pilot is development context",
+    "double_annotation": 0.25,
+    "evaluation": "8 different new provisional blocks; held-out annotation/quality review without scores; test not used to tune parameters",
+    "human_labels_available_now": 0,
+    "mask": "real labels, dated independent imagery/field where pertinent; uncertain allowed; class errors and propagation to I1/ranks assessed; no fabricated accuracy threshold claimed justified",
+    "priority": "no independent target now; H3/utility claims disabled",
+    "proposed_windows": 40,
+    "terrain": "internal QC plus external datum-consistent validation if available; no absolute accuracy claim without it"
+  }
+}

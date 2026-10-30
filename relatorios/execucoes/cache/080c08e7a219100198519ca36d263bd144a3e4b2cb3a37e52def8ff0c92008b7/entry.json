@@ -1,0 +1,43 @@
+{
+  "key": "080c08e7a219100198519ca36d263bd144a3e4b2cb3a37e52def8ff0c92008b7",
+  "outputs": [
+    {
+      "bytes": 10615,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.json",
+      "sha256": "35191c0b6e1c3937fe984bfd336e8f7c4515f9281750f6da91b57aa110531eff"
+    },
+    {
+      "bytes": 1703,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.md",
+      "sha256": "690f7eb607106e549a4cbb1367d3aacf68b57a34dba1c1fbe8c5e050aace3fca"
+    },
+    {
+      "bytes": 156556,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.parquet",
+      "sha256": "bc3e03a1ec141ea80c4a752160f1b9b5170c3e422bf7f2a32d2e93c67b234427"
+    },
+    {
+      "bytes": 425419,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.csv",
+      "sha256": "65acd0810c289da2be650bfca1fae9da1dfd034914d69d73a27ead13cd36fbd2"
+    },
+    {
+      "bytes": 13320,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.parquet",
+      "sha256": "6e5ade22a35f775e140c82d2b7f43c0a56f716e239517ee96b26ed4504829d04"
+    },
+    {
+      "bytes": 101657,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.csv",
+      "sha256": "44a4444c2279e430fe0b661e9ecac2cf283d1b821978d2731fe2a9f983c4982f"
+    },
+    {
+      "bytes": 33982,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/dicionario_dados.json",
+      "sha256": "669158affd0519e1b56207ed73e48f66bee107d80297b53d906f1dc101b72fe1"
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_run_id": "20261025T221430Z_ad89ab6173",
+  "status": "completed"
+}

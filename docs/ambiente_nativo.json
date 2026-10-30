@@ -1,0 +1,11 @@
+{
+  "dpkg_returncode": 0,
+  "packages_dpkg": [
+    "gdal-bin 3.4.1+dfsg-1build4",
+    "pdal 2.3.0+ds-2ubuntu4"
+  ],
+  "platform": "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "strategy": "venv Python isolado e PDAL/GDAL CLI externos; sem bindings Python PDAL",
+  "system_environment_modified": false
+}

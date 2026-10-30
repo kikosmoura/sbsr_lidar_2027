@@ -1,0 +1,21 @@
+{
+  "authorization_date": "2026-10-26",
+  "design": {
+    "bytes": 753,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/amostra_pycrown_exploratoria_v0_3_0.yaml",
+    "sha256": "6da7f26017277c72391842f6aa88904580b3144d6c90613fbca5e1a8a7afceef"
+  },
+  "external_accuracy": false,
+  "protocol": {
+    "bytes": 4818,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/protocolo_pycrown_v0_3_0.md",
+    "sha256": "c275197e97fc9805f5457c995219708bd62fec699209afff56cfdeb608ab8e7c"
+  },
+  "scope": "ten_selected_corridors_exploratory_only",
+  "selection_protocol_0_2_preserved": {
+    "bytes": 16545,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/protocolo_congelado_amostra_v0_2_0.json",
+    "sha256": "6be94463060fc091d8a5624edc5c5cedf0eb7fc90d1e0be26978005869cb1fdf"
+  },
+  "version": "0.3.0"
+}

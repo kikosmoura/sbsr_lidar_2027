@@ -1,0 +1,4 @@
+2026-10-25 18:51:46,651 INFO Início: segment:main
+2026-10-25 18:51:47,012 INFO units_start {"case": "main", "frozen_mask": "baseline_h3"}
+2026-10-25 18:51:47,447 INFO axis_review {"axis_accepted": false, "boundary_sites": 1788, "holes": 0, "junctions": 15, "numerically_coincident_vertices_merged": 0, "original_branches": 85, "part_id": "CO_BT_01_E_P001", "policy": "single_open_elongated_chain_only; branched_parts_remain_grid", "pruned_terminal_branches": 35, "reason": "non_unique_branched_or_short_broad_or_closed_axis_use_grid", "retained_branches": 31}
+2026-10-25 18:51:58,927 INFO Concluído; cache_hit=False

@@ -1,0 +1,13 @@
+{
+  "exact_original_bytes_recovered": true,
+  "restored": {
+    "bytes": 347600,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/manuscrito.pdf",
+    "sha256": "32b991ff1fd5cf4de46d838596071b2ed53751649e4b3c0d536ba9e1d792d27b"
+  },
+  "source_archive": {
+    "bytes": 852731,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/fontes_artigo_sbsr_2027.zip",
+    "sha256": "a51fd638d9f5734cfd4fe9d4b926c5dd332496492be4f896cf434b9991234ce9"
+  }
+}

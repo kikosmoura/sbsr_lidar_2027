@@ -1,0 +1,7 @@
+2026-10-25 20:38:37,812 INFO Início: sensitivity --case adversarial
+2026-10-25 20:38:37,813 INFO extract_MDS_ROI {"tile": "3312-431"}
+2026-10-25 20:38:38,827 INFO load_mdt {"tile": "3312-431"}
+2026-10-25 20:38:39,220 INFO scenario_start {"axis": "primary", "scenario": "primary"}
+2026-10-25 20:38:39,224 INFO build_surface {"context_key": "halo_10", "vertices": 49139}
+2026-10-25 20:38:39,679 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:38:41,309 INFO surface_query {"done": 0, "radius": 5.0, "total": 26274}

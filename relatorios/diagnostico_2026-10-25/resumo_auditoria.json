@@ -1,0 +1,325 @@
+{
+  "files": {
+    "sem_extensao": 1,
+    "md": 1,
+    "py": 2,
+    "txt": 1,
+    "csv": 6,
+    "gpkg": 2,
+    "cst": 2,
+    "dbf": 2,
+    "prj": 2,
+    "shp": 2,
+    "shx": 2,
+    "zip": 1848,
+    "laz": 1848
+  },
+  "bad": [],
+  "expected_count": 924,
+  "products": {
+    "MDS": {
+      "files": 924,
+      "unique_codes": 924,
+      "points": 5224058953,
+      "bytes": 36757185468,
+      "point_quantiles": [
+        56978.0,
+        5145464.25,
+        5567194.5,
+        6225531.0,
+        10854130.0
+      ],
+      "formats": {
+        "1.4/PF8": 924
+      },
+      "crs": {
+        "31983": 924
+      },
+      "dimensions": {
+        "X|Y|Z|intensity|return_number|number_of_returns|synthetic|key_point|withheld|overlap|scanner_channel|scan_direction_flag|edge_of_flight_line|classification|user_data|scan_angle|point_source_id|gps_time|red|green|blue|nir": 924
+      },
+      "vertical": {
+        "[{\"data_length\": 0, \"description\": \"Maregr.Imbituba(SC)-MAPGEO2015\", \"record_id\": 1, \"user_id\": \"VertDatum-Geoid\"}, {\"data_length\": 0, \"description\": \"User-data_1m_Range_0m-255m\", \"record_id\": 1, \"user_id\": \"Scale-Height\"}]": 924
+      },
+      "missing": [],
+      "unexpected": [],
+      "duplicates": [],
+      "bounds_missing_corridor_area": 63944.152667192764,
+      "bounds_union_area": 289733596.6045846,
+      "uncompressed_point_bytes": 198514240214
+    },
+    "MDT": {
+      "files": 924,
+      "unique_codes": 924,
+      "points": 675411102,
+      "bytes": 3746440489,
+      "point_quantiles": [
+        8872.0,
+        619474.5,
+        701171.5,
+        833951.25,
+        1386444.0
+      ],
+      "formats": {
+        "1.2/PF1": 924
+      },
+      "crs": {
+        "31983": 924
+      },
+      "dimensions": {
+        "X|Y|Z|intensity|return_number|number_of_returns|scan_direction_flag|edge_of_flight_line|classification|synthetic|key_point|withheld|scan_angle_rank|user_data|point_source_id|gps_time": 924
+      },
+      "vertical": {
+        "[{\"data_length\": 0, \"description\": \"Maregr.Imbituba(SC)-MAPGEO2015\", \"record_id\": 1, \"user_id\": \"VertDatum-Geoid\"}]": 924
+      },
+      "missing": [],
+      "unexpected": [],
+      "duplicates": [],
+      "bounds_missing_corridor_area": 64112.79054001682,
+      "bounds_union_area": 289622435.193601,
+      "uncompressed_point_bytes": 18911510856
+    }
+  },
+  "corridors": {
+    "features": 114,
+    "geometries": {
+      "Polygon": 89,
+      "MultiPolygon": 25
+    },
+    "status": {
+      "PROPOSTO": 113,
+      "EXISTENTE": 1
+    },
+    "types": {
+      "CORREDOR VERDE": 100,
+      "CORREDOR POLINIZADOR": 11,
+      "CORREDOR": 1,
+      "CORREDOR ESCURO": 1,
+      "None": 1
+    },
+    "dates": {
+      "2026-06-11 00:00:00": 113,
+      "2026-06-24 00:00:00": 1
+    },
+    "parts": 476,
+    "total_area": 10860565.638223633,
+    "union_area": 10734510.573005347,
+    "bounds": [
+      316348.06534507405,
+      7363977.189230786,
+      361540.1736231691,
+      7412548.76918536
+    ],
+    "union_area_outside_grid": 47625.23428390229
+  },
+  "corridors_outside_grid": [
+    {
+      "cd_identif": 14,
+      "cd_identi0": "CO_MP_02",
+      "cd_corredo": "CO_MP_02",
+      "tx_situaca": "PROPOSTO",
+      "area_m2_calculada": 517088.0755807973,
+      "fora_grade_m2": 41074.262960320666,
+      "fora_bbox_mds_m2": 44330.85168804301
+    },
+    {
+      "cd_identif": 30,
+      "cd_identi0": "CO_AD_01",
+      "cd_corredo": "CO_AD_01",
+      "tx_situaca": "PROPOSTO",
+      "area_m2_calculada": 137696.78280161653,
+      "fora_grade_m2": 6550.971323581627,
+      "fora_bbox_mds_m2": 11156.944259567324
+    }
+  ],
+  "buffers": [
+    {
+      "buffer_m": 0,
+      "tiles": 924,
+      "new_tiles": [],
+      "aoi_area": 10734510.573005347,
+      "outside_selected_grid_area": 47625.23428390229,
+      "outside_mds_bbox_area": 63944.152667192764
+    },
+    {
+      "buffer_m": 5,
+      "tiles": 938,
+      "new_tiles": [
+        "2444-322",
+        "3311-251",
+        "3314-112",
+        "3315-411",
+        "3316-124",
+        "3323-124",
+        "3331-332",
+        "3332-262",
+        "3334-214",
+        "3341-251",
+        "4314-163",
+        "4315-341",
+        "4315-431",
+        "4435-421"
+      ],
+      "aoi_area": 15404089.199955378,
+      "outside_selected_grid_area": 72695.95320204958,
+      "outside_mds_bbox_area": 94714.47940196368
+    },
+    {
+      "buffer_m": 10,
+      "tiles": 950,
+      "new_tiles": [
+        "2444-322",
+        "3311-241",
+        "3311-251",
+        "3311-342",
+        "3313-112",
+        "3313-324",
+        "3314-112",
+        "3314-442",
+        "3315-243",
+        "3315-411",
+        "3316-124",
+        "3321-341",
+        "3323-124",
+        "3331-332",
+        "3332-262",
+        "3334-214",
+        "3341-251",
+        "3433-441",
+        "3445-413",
+        "4313-143",
+        "4314-163",
+        "4314-363",
+        "4315-243",
+        "4315-341",
+        "4315-431",
+        "4435-421"
+      ],
+      "aoi_area": 19900491.236817338,
+      "outside_selected_grid_area": 102171.91124254561,
+      "outside_mds_bbox_area": 125942.84620981943
+    },
+    {
+      "buffer_m": 20,
+      "tiles": 969,
+      "new_tiles": [
+        "2442-432",
+        "2444-322",
+        "3311-241",
+        "3311-251",
+        "3311-342",
+        "3311-463",
+        "3313-112",
+        "3313-123",
+        "3313-324",
+        "3313-362",
+        "3314-112",
+        "3314-364",
+        "3314-442",
+        "3315-243",
+        "3315-411",
+        "3316-124",
+        "3321-341",
+        "3322-121",
+        "3322-261",
+        "3323-124",
+        "3324-253",
+        "3324-464",
+        "3325-444",
+        "3326-263",
+        "3331-332",
+        "3331-462",
+        "3332-262",
+        "3332-264",
+        "3332-341",
+        "3334-214",
+        "3341-251",
+        "3433-441",
+        "3435-321",
+        "3445-413",
+        "4311-364",
+        "4312-141",
+        "4313-143",
+        "4314-163",
+        "4314-363",
+        "4315-243",
+        "4315-251",
+        "4315-341",
+        "4315-431",
+        "4435-322",
+        "4435-421"
+      ],
+      "aoi_area": 28624657.799531538,
+      "outside_selected_grid_area": 170511.32300760396,
+      "outside_mds_bbox_area": 191866.31418331817
+    },
+    {
+      "buffer_m": 30,
+      "tiles": 983,
+      "new_tiles": [
+        "2222-232",
+        "2322-433",
+        "2324-261",
+        "2442-432",
+        "2444-322",
+        "3311-241",
+        "3311-251",
+        "3311-342",
+        "3311-463",
+        "3313-112",
+        "3313-123",
+        "3313-324",
+        "3313-362",
+        "3314-112",
+        "3314-364",
+        "3314-442",
+        "3315-243",
+        "3315-411",
+        "3316-124",
+        "3316-412",
+        "3316-441",
+        "3321-341",
+        "3322-121",
+        "3322-261",
+        "3323-124",
+        "3323-222",
+        "3324-253",
+        "3324-422",
+        "3324-464",
+        "3325-444",
+        "3326-263",
+        "3331-332",
+        "3331-462",
+        "3332-262",
+        "3332-264",
+        "3332-341",
+        "3334-214",
+        "3341-131",
+        "3341-251",
+        "3341-342",
+        "3433-441",
+        "3435-251",
+        "3435-321",
+        "3435-451",
+        "3445-413",
+        "4311-364",
+        "4312-141",
+        "4313-143",
+        "4314-163",
+        "4314-363",
+        "4315-243",
+        "4315-251",
+        "4315-341",
+        "4315-431",
+        "4315-452",
+        "4316-132",
+        "4435-322",
+        "4435-421",
+        "4435-444"
+      ],
+      "aoi_area": 37218066.90196424,
+      "outside_selected_grid_area": 258072.7096936875,
+      "outside_mds_bbox_area": 270744.0723468576
+    }
+  ]
+}

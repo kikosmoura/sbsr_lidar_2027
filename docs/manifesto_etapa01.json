@@ -1,0 +1,319 @@
+{
+  "id": "etapa01_protocolo_v0.1.0",
+  "data": "2026-10-25",
+  "fuso": "America/Sao_Paulo",
+  "etapa": "01",
+  "status": "concluida",
+  "escopo": "documentos_de_protocolo_e_planejamento",
+  "versao_protocolo": "0.1.0",
+  "entradas_locais": [
+    {
+      "arquivo": "files/corredor_verde/corredor_verde.cst",
+      "bytes": 10,
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "arquivo": "files/corredor_verde/corredor_verde.dbf",
+      "bytes": 444557,
+      "sha256": "ec36b5c3afce9a31d55e9ff2e90e66e73eb7f0310a7860148fdbcf7a7d41d59d"
+    },
+    {
+      "arquivo": "files/corredor_verde/corredor_verde.prj",
+      "bytes": 796,
+      "sha256": "4b7e3e45feeff5f2d8048e4d19d6b7bc85bbe98dee050cb53cf84c63223b8dc6"
+    },
+    {
+      "arquivo": "files/corredor_verde/corredor_verde.shp",
+      "bytes": 725684,
+      "sha256": "176bcd19e0c1231d3d54cd86d23c7ee594cd307a9dafd36aa43d6d186bfebdf6"
+    },
+    {
+      "arquivo": "files/corredor_verde/corredor_verde.shx",
+      "bytes": 1012,
+      "sha256": "633ae4f242e7fae4370256c660d7b68cd19dd9e073aa5a4959b5e4c316bf88b0"
+    },
+    {
+      "arquivo": "files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.cst",
+      "bytes": 10,
+      "sha256": "09fc313075748ce8ead962229ed89c919d5a9ff71974ee725a0b48bb87d975a2"
+    },
+    {
+      "arquivo": "files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.dbf",
+      "bytes": 7399659,
+      "sha256": "d2d54c40c447f2e3120c83a1622869c37524addaf19212fb80be4dacb0337ecc"
+    },
+    {
+      "arquivo": "files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.prj",
+      "bytes": 796,
+      "sha256": "6657cbcd6d378ecca238c62eefd46039f7c0ab6071b35088403bf9ab8e5203dd"
+    },
+    {
+      "arquivo": "files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shp",
+      "bytes": 742764,
+      "sha256": "63d1877df2a5e5c41228070eca58fc4a43e477fb4116600a03d53269fc82cee6"
+    },
+    {
+      "arquivo": "files/quadricula_folha_mdt_mds_2020/quadricula_folha_mdt_mds_2020.shx",
+      "bytes": 43308,
+      "sha256": "ed399889b5c5619330a6f984df621b3aa976eb773f39d53fce78defca8c8f3d3"
+    },
+    {
+      "arquivo": "prompts_sbsr_2027/COMECE_AQUI.md",
+      "bytes": 12646,
+      "sha256": "de4a1ca2df48efdebf03fcb0765013192cf1359a35db62acfd9ebb3994869774"
+    },
+    {
+      "arquivo": "relatorios/diagnostico_2026-10-25/relatorio_viabilidade.md",
+      "bytes": 48265,
+      "sha256": "35a0b0dff65af6c6612c968a1491d8df24b4639cca8c57c50738b01dd314c93c"
+    },
+    {
+      "arquivo": "relatorios/diagnostico_2026-10-25/manifesto_auditoria.json",
+      "bytes": 1476,
+      "sha256": "8013c380ed0780c2bef950fc1afe3f3d01ca95e7f1b5792aad2a59ee8b732bba"
+    },
+    {
+      "arquivo": "relatorios/diagnostico_2026-10-25/compatibilidade_mds_mdt.json",
+      "bytes": 270,
+      "sha256": "09414067f443655d53a60916624250a677248d9d3a50794e0088076a72aa7c1b"
+    },
+    {
+      "arquivo": "relatorios/diagnostico_2026-10-25/teste_altura_amostral.json",
+      "bytes": 2678,
+      "sha256": "aeceb355126079c70d5ce6f040be794166df38159033d7ccf17befc40fdbbfc5"
+    },
+    {
+      "arquivo": "prompts_sbsr_2027/referencias/requisitos_editoriais.md",
+      "bytes": 4447,
+      "sha256": "c43d7ae3cb064c275bff15a2d8d5e0fd71ad9d3e1e75a81340368c2e22ee7fc1"
+    }
+  ],
+  "fonte_editorial": {
+    "titulo": "Normas de Submissão — XXII SBSR",
+    "url": "https://proceedings.science/cfp/sbsr-2027?lang=pt-br",
+    "data_consulta": "2026-10-25",
+    "acesso": "pagina_consultada_com_sucesso_via_web",
+    "limite_paginas": 4,
+    "prazo_publicado": "2026-10-30",
+    "horario_limite": null
+  },
+  "verificacoes_vetoriais": {
+    "n_feicoes": 114,
+    "crs": "EPSG:31983",
+    "situacoes": {
+      "PROPOSTO": 113,
+      "EXISTENTE": 1
+    },
+    "ids_textuais_unicos": 114,
+    "piloto": {
+      "cd_identif": 128,
+      "cd_identi0": "CO_BT_01_E",
+      "cd_corredo": null,
+      "tipo_geometria": "Polygon",
+      "area_m2": 65807.7126636682
+    },
+    "folhas_por_buffer_m": {
+      "0": [
+        "3313-333",
+        "3313-361",
+        "3313-363"
+      ],
+      "10": [
+        "3313-324",
+        "3313-333",
+        "3313-361",
+        "3313-363"
+      ],
+      "20": [
+        "3313-324",
+        "3313-333",
+        "3313-361",
+        "3313-362",
+        "3313-363"
+      ]
+    }
+  },
+  "verificacoes_insumos": [
+    {
+      "quadricula": "3313-333",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-333_1000.laz",
+      "presente": true,
+      "bytes": 62963195,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-333",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-333_1000.laz",
+      "presente": true,
+      "bytes": 3350947,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-361",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-361_1000.laz",
+      "presente": true,
+      "bytes": 36797844,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-361",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-361_1000.laz",
+      "presente": true,
+      "bytes": 3035089,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-363",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-363_1000.laz",
+      "presente": true,
+      "bytes": 47470603,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-363",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-363_1000.laz",
+      "presente": true,
+      "bytes": 3347474,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-324",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-324_1000.laz",
+      "presente": false,
+      "bytes": null,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-324",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-324_1000.laz",
+      "presente": false,
+      "bytes": null,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-362",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-362_1000.laz",
+      "presente": false,
+      "bytes": null,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3313-362",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-362_1000.laz",
+      "presente": false,
+      "bytes": null,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3312-431",
+      "produto": "MDS",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3312-431_1000.laz",
+      "presente": true,
+      "bytes": 32917764,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    },
+    {
+      "quadricula": "3312-431",
+      "produto": "MDT",
+      "arquivo": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3312-431_1000.laz",
+      "presente": true,
+      "bytes": 3947840,
+      "verificacao": "existencia_e_tamanho_sem_leitura_de_pontos"
+    }
+  ],
+  "hd_montado": true,
+  "comandos_e_acoes_executados": [
+    {
+      "ferramenta": "exec_command",
+      "acao": "Leitura do contexto e da etapa 01",
+      "comando": "cat prompts_sbsr_2027/COMECE_AQUI.md"
+    },
+    {
+      "ferramenta": "exec_command",
+      "acao": "Leitura dirigida dos diagnósticos e requisitos",
+      "comandos": [
+        "sed -n ... relatorios/diagnostico_2026-10-25/relatorio_viabilidade.md",
+        "cat prompts_sbsr_2027/referencias/requisitos_editoriais.md",
+        "cat relatorios/diagnostico_2026-10-25/compatibilidade_mds_mdt.json",
+        "cat relatorios/diagnostico_2026-10-25/teste_altura_amostral.json"
+      ],
+      "nota": "As leituras sed usaram intervalos por seção; reticências indicam descrição resumida, não comando de reprodução."
+    },
+    {
+      "ferramenta": "exec_command",
+      "acao": "GeoPandas: leitura dos shapefiles e interseção de buffers 0/10/20 m; Path.is_file/stat para insumos",
+      "execucao": "bloco Python via venv/bin/python, sem leitura de pontos LAZ"
+    },
+    {
+      "ferramenta": "web",
+      "acao": "Abertura da página das normas",
+      "url": "https://proceedings.science/cfp/sbsr-2027?lang=pt-br"
+    },
+    {
+      "ferramenta": "apply_patch",
+      "acao": "Criação dos quatro documentos e esclarecimento de classificação incerta"
+    },
+    {
+      "ferramenta": "exec_command",
+      "acao": "Verificação documental, coerência do estado e SHA-256 das entradas locais pequenas",
+      "execucao": "bloco Python via venv/bin/python"
+    }
+  ],
+  "checks": {
+    "quatro_documentos_nao_vazios": true,
+    "campos_de_decisao_e_suporte_explicitos": true,
+    "sem_resultados_fabricados": true,
+    "separacao_piloto_e_amostra_cientifica": true,
+    "validacao_independente_identificada_como_pendente": true
+  },
+  "execucoes_nao_realizadas": [
+    "downloads",
+    "leitura_nova_de_pontos_lidar",
+    "instalacao_ambiente",
+    "geracao_mdt_h_mascara",
+    "segmentacao",
+    "calculo_indicadores",
+    "redacao_artigo",
+    "submissao"
+  ],
+  "artefatos": [
+    {
+      "arquivo": "docs/protocolo_piloto.md",
+      "bytes": 17410,
+      "sha256": "10075c961f8c41e3f1d9c18d4cf3d43552889cb344a744d4944a3898d55c0e72"
+    },
+    {
+      "arquivo": "docs/plano_amostra_cientifica.md",
+      "bytes": 5345,
+      "sha256": "81936aec98a24281844573ec18fc66edcd92a2ef600fbc72b399e08ec45861d7"
+    },
+    {
+      "arquivo": "docs/plano_artigo.md",
+      "bytes": 5160,
+      "sha256": "68ec1444bc6f8ef69074ff1176a2af95e2fecb0d6c53ff82f7f23246ae7ff7eb"
+    },
+    {
+      "arquivo": "docs/decisoes_metodologicas.md",
+      "bytes": 5159,
+      "sha256": "0e7f89d69e32c9650d68b518b11dee18e25a7980e177f916ed9ed28e05e2c760"
+    }
+  ],
+  "dados_originais_alterados": false,
+  "piloto_executado": false,
+  "limitacoes": [
+    "Normas consultadas não informam horário/fuso do prazo.",
+    "A presença dos arquivos não revalida integralmente seus pontos.",
+    "Limiar de suporte e escores são escolhas operacionais exploratórias.",
+    "Referência humana/externa e amostra científica ainda não existem como resultados desta etapa."
+  ]
+}

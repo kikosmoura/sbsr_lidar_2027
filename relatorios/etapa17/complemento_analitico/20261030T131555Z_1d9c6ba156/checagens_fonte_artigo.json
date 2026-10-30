@@ -1,0 +1,29 @@
+{
+  "abstracts": {
+    "en": {
+      "text": "This exploratory study investigates vertical information among units with similar horizontal indicators and ranking stability in urban green corridors. We analysed 10 São Paulo perimeters available in 2026, using 2020 GeoSampa LiDAR and PyCrown routines, comprising 114 evaluation units. A post-result extension identified 25 within-corridor pairs similar in cover and fragmentation, with a median P95 difference of 2.40 m; 16 pairs without reused IDs had a median of 2.80 m. In the fixed cohort of 68 IDs eligible across all scenarios, Spearman ranged from 0.917 to 0.995 and Jaccard from 0.556 to 0.867. Vertical information descriptively distinguishes horizontally similar units before ranking weights are applied. Survivor stability coexists with eligibility loss. Without independent reference data, crown accuracy and improved diagnosis were not demonstrated.",
+      "words": 124
+    },
+    "pt": {
+      "text": "Este estudo exploratório investiga informação vertical entre unidades semelhantes em indicadores horizontais e estabilidade de ordenações em corredores verdes urbanos. Analisaram-se 10 perímetros de São Paulo disponíveis em 2026, com LiDAR GeoSampa de 2020 e rotinas PyCrown, reunindo 114 unidades de avaliação. Um complemento pós-resultados identificou 25 pares do mesmo corredor semelhantes em cobertura e fragmentação, com diferença mediana de P95 de 2,40 m; 16 pares sem reutilização de IDs tiveram mediana de 2,80 m. Na coorte fixa de 68 IDs elegíveis em todos os cenários, Spearman variou de 0,917 a 0,995, e Jaccard de 0,556 a 0,867. A informação vertical distingue descritivamente unidades próximas em 2D antes de aplicar pesos. A estabilidade dos sobreviventes coexiste com perda de elegibilidade. Sem referência independente, não se demonstram acurácia de copas ou melhora de diagnóstico.",
+      "words": 135
+    }
+  },
+  "bibliography": {
+    "all_citations_resolved": true,
+    "cited_keys": [
+      "alonzo2014",
+      "dalponte2016",
+      "geosampa",
+      "hurlbert1984",
+      "pycrown",
+      "zorner2018"
+    ],
+    "references": 6
+  },
+  "registry": {
+    "numerical_source_files": 4,
+    "parameters": 25,
+    "reproduced_metrics": 143
+  }
+}

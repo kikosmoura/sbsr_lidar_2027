@@ -1,0 +1,4 @@
+2026-10-25 19:12:08,509 INFO Início: indicators:adversarial
+2026-10-25 19:12:08,713 INFO indicators_start {"case": "adversarial", "families": ["grid_100", "longitudinal_100", "grid_25", "longitudinal_25", "grid_50", "longitudinal_50"], "rows": 140}
+2026-10-25 19:12:09,136 INFO indicator_point_batch {"batch": 0, "measurement_records": 32425, "records_read": 65536}
+2026-10-25 19:12:10,611 INFO Concluído; cache_hit=False

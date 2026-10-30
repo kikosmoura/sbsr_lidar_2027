@@ -1,0 +1,13 @@
+{
+  "all_22_predeclared_scenario_role_pairs_present": true,
+  "all_paired_universes_not_larger_than_frozen_primary": true,
+  "external_accuracy_evaluated": false,
+  "output": {
+    "bytes": 21989,
+    "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/v0.3.0/20261026T034837Z_83581b7eec/sensibilidade_rankings_agrupada.parquet",
+    "sha256": "3879976aabf9dacf27d5d0e3b89104ac62f7b4a2bed7d462c684730a4111f85e"
+  },
+  "p_values_computed": false,
+  "primary_IDs_unchanged": true,
+  "rows": 22
+}

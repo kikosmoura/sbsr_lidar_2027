@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/.tools/tectonic/tectonic",
+    "--untrusted",
+    "--keep-logs",
+    "--keep-intermediates",
+    "--only-cached",
+    "manuscrito.tex"
+  ],
+  "cwd": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15",
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  }
+}

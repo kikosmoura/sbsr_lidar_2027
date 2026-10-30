@@ -1,0 +1,87 @@
+2026-10-25 20:33:32,651 INFO Início: sensitivity --case adversarial
+2026-10-25 20:33:32,653 INFO extract_MDS_ROI {"tile": "3312-431"}
+2026-10-25 20:33:33,811 INFO load_mdt {"tile": "3312-431"}
+2026-10-25 20:33:36,926 INFO scenario_start {"axis": "primary", "scenario": "primary"}
+2026-10-25 20:33:36,931 INFO build_surface {"context_key": "halo_10", "vertices": 49139}
+2026-10-25 20:33:37,400 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:33:39,311 INFO surface_query {"done": 0, "radius": 5.0, "total": 26274}
+2026-10-25 20:33:40,682 INFO scenario_done {"eligible_50": 2, "scenario": "primary", "seconds": 3.76}
+2026-10-25 20:33:40,682 INFO scenario_start {"axis": "resolution", "scenario": "res_0.5"}
+2026-10-25 20:33:40,923 INFO surface_query {"done": 0, "radius": 5.0, "total": 105127}
+2026-10-25 20:33:42,155 INFO scenario_done {"eligible_50": 1, "scenario": "res_0.5", "seconds": 1.47}
+2026-10-25 20:33:42,155 INFO scenario_start {"axis": "resolution", "scenario": "res_2"}
+2026-10-25 20:33:42,215 INFO surface_query {"done": 0, "radius": 5.0, "total": 6575}
+2026-10-25 20:33:42,442 INFO scenario_done {"eligible_50": 2, "scenario": "res_2", "seconds": 0.29}
+2026-10-25 20:33:42,442 INFO scenario_start {"axis": "height", "scenario": "height_2"}
+2026-10-25 20:33:43,070 INFO scenario_done {"eligible_50": 3, "scenario": "height_2", "seconds": 0.63}
+2026-10-25 20:33:43,070 INFO scenario_start {"axis": "height", "scenario": "height_5"}
+2026-10-25 20:33:43,650 INFO scenario_done {"eligible_50": 1, "scenario": "height_5", "seconds": 0.58}
+2026-10-25 20:33:43,651 INFO scenario_start {"axis": "context", "scenario": "halo_0"}
+2026-10-25 20:33:43,656 INFO build_surface {"context_key": "halo_0", "vertices": 22505}
+2026-10-25 20:33:43,961 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:33:45,257 INFO surface_query {"done": 0, "radius": 5.0, "total": 13142}
+2026-10-25 20:33:45,558 INFO scenario_done {"eligible_50": 0, "scenario": "halo_0", "seconds": 1.91}
+2026-10-25 20:33:45,559 INFO scenario_start {"axis": "context", "scenario": "halo_20"}
+2026-10-25 20:33:45,566 INFO build_surface {"context_key": "halo_20", "vertices": 80116}
+2026-10-25 20:33:46,429 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:33:48,325 INFO surface_query {"done": 0, "radius": 5.0, "total": 39404}
+2026-10-25 20:33:49,005 INFO scenario_done {"eligible_50": 2, "scenario": "halo_20", "seconds": 3.45}
+2026-10-25 20:33:49,005 INFO scenario_start {"axis": "measurement_domain", "scenario": "domain_plus_5"}
+2026-10-25 20:33:49,013 INFO build_surface {"context_key": "expansion_5", "vertices": 62975}
+2026-10-25 20:33:49,634 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:33:51,287 INFO surface_query {"done": 0, "radius": 5.0, "total": 32842}
+2026-10-25 20:33:53,233 INFO scenario_done {"eligible_50": 2, "scenario": "domain_plus_5", "seconds": 4.23}
+2026-10-25 20:33:53,233 INFO scenario_start {"axis": "measurement_domain", "scenario": "domain_plus_10"}
+2026-10-25 20:33:53,241 INFO build_surface {"context_key": "expansion_10", "vertices": 80117}
+2026-10-25 20:33:54,067 INFO surface_query {"done": 0, "radius": 5.0, "total": 390263}
+2026-10-25 20:33:56,014 INFO surface_query {"done": 0, "radius": 5.0, "total": 39405}
+2026-10-25 20:33:58,412 INFO scenario_done {"eligible_50": 4, "scenario": "domain_plus_10", "seconds": 5.18}
+2026-10-25 20:33:58,412 INFO scenario_start {"axis": "interpolation_radius", "scenario": "radius_3"}
+2026-10-25 20:33:58,548 INFO surface_query {"done": 0, "radius": 3.0, "total": 390263}
+2026-10-25 20:33:59,804 INFO surface_query {"done": 0, "radius": 3.0, "total": 26274}
+2026-10-25 20:34:00,399 INFO scenario_done {"eligible_50": 2, "scenario": "radius_3", "seconds": 1.99}
+2026-10-25 20:34:00,400 INFO scenario_start {"axis": "interpolation_radius", "scenario": "radius_10"}
+2026-10-25 20:34:00,583 INFO surface_query {"done": 0, "radius": 10.0, "total": 390263}
+2026-10-25 20:34:02,884 INFO surface_query {"done": 0, "radius": 10.0, "total": 26274}
+2026-10-25 20:34:03,560 INFO scenario_done {"eligible_50": 2, "scenario": "radius_10", "seconds": 3.16}
+2026-10-25 20:34:03,561 INFO scenario_start {"axis": "interpolation_method", "scenario": "idw_5"}
+2026-10-25 20:34:04,067 INFO scenario_done {"eligible_50": 1, "scenario": "idw_5", "seconds": 0.51}
+2026-10-25 20:34:04,068 INFO scenario_start {"axis": "patch_definition", "scenario": "connectivity_4"}
+2026-10-25 20:34:04,887 INFO scenario_done {"eligible_50": 2, "scenario": "connectivity_4", "seconds": 0.82}
+2026-10-25 20:34:04,887 INFO scenario_start {"axis": "classification", "scenario": "refined"}
+2026-10-25 20:34:05,586 INFO scenario_done {"eligible_50": 2, "scenario": "refined", "seconds": 0.7}
+2026-10-25 20:34:05,586 INFO scenario_start {"axis": "classification_bound", "scenario": "uncertainty_upper"}
+2026-10-25 20:34:06,285 INFO scenario_done {"eligible_50": 2, "scenario": "uncertainty_upper", "seconds": 0.7}
+2026-10-25 20:34:06,285 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2027"}
+2026-10-25 20:34:07,052 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2027", "seconds": 0.77}
+2026-10-25 20:34:07,052 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2028"}
+2026-10-25 20:34:07,574 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2028", "seconds": 0.52}
+2026-10-25 20:34:07,574 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.5_s2029"}
+2026-10-25 20:34:08,327 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.5_s2029", "seconds": 0.75}
+2026-10-25 20:34:08,327 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2027"}
+2026-10-25 20:34:08,707 INFO scenario_done {"eligible_50": 0, "scenario": "thin_coupled_0.25_s2027", "seconds": 0.38}
+2026-10-25 20:34:08,707 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2028"}
+2026-10-25 20:34:09,083 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.25_s2028", "seconds": 0.38}
+2026-10-25 20:34:09,083 INFO scenario_start {"axis": "density_coupled", "scenario": "thin_coupled_0.25_s2029"}
+2026-10-25 20:34:09,462 INFO scenario_done {"eligible_50": 1, "scenario": "thin_coupled_0.25_s2029", "seconds": 0.38}
+2026-10-25 20:34:09,462 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2027"}
+2026-10-25 20:34:10,257 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2027", "seconds": 0.79}
+2026-10-25 20:34:10,257 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2028"}
+2026-10-25 20:34:11,003 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2028", "seconds": 0.75}
+2026-10-25 20:34:11,003 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.5_s2029"}
+2026-10-25 20:34:11,709 INFO scenario_done {"eligible_50": 2, "scenario": "thin_height_only_0.5_s2029", "seconds": 0.71}
+2026-10-25 20:34:11,709 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2027"}
+2026-10-25 20:34:12,394 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2027", "seconds": 0.68}
+2026-10-25 20:34:12,394 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2028"}
+2026-10-25 20:34:13,077 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2028", "seconds": 0.68}
+2026-10-25 20:34:13,077 INFO scenario_start {"axis": "density_height_only", "scenario": "thin_height_only_0.25_s2029"}
+2026-10-25 20:34:13,741 INFO scenario_done {"eligible_50": 1, "scenario": "thin_height_only_0.25_s2029", "seconds": 0.66}
+2026-10-25 20:34:13,741 INFO scenario_start {"axis": "return_policy", "scenario": "first_returns"}
+2026-10-25 20:34:14,406 INFO scenario_done {"eligible_50": 2, "scenario": "first_returns", "seconds": 0.66}
+2026-10-25 20:34:14,407 INFO scenario_start {"axis": "selected_interaction", "scenario": "fine_low"}
+2026-10-25 20:34:15,408 INFO scenario_done {"eligible_50": 1, "scenario": "fine_low", "seconds": 1.0}
+2026-10-25 20:34:15,408 INFO scenario_start {"axis": "selected_interaction", "scenario": "coarse_high"}
+2026-10-25 20:34:15,642 INFO scenario_done {"eligible_50": 2, "scenario": "coarse_high", "seconds": 0.23}
+2026-10-25 20:34:19,276 INFO common_support_analysis {"scenario": "primary"}
+2026-10-25 20:34:40,547 INFO common_support_analysis {"scenario": "res_0.5"}
+2026-10-25 20:36:01,002 INFO common_support_analysis {"scenario": "res_2"}

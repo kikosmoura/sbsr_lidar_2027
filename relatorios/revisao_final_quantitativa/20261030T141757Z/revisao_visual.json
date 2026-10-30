@@ -1,0 +1,59 @@
+{
+  "diagnostic": {
+    "bytes": 631417,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/diagnostico_par_maximo.png",
+    "sha256": "9cb823643b1c2018f565edb28402feabd8546db57fb7106bdb89c4fca3db417b"
+  },
+  "figures_visible": [
+    1,
+    2,
+    3
+  ],
+  "human_author_approval": false,
+  "observations": [
+    "Quatro páginas sem cortes ou sobreposição; tabelas, fórmulas, gráficos e referências legíveis.",
+    "Conclusão quantitativa ampliada e exemplo de substituição com rho alto visíveis.",
+    "Diagnóstico do par máximo inspecionado: perfis, mapas e distribuições sem sobreposição; sem validação externa."
+  ],
+  "pages_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf": {
+    "bytes": 355312,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_final_v0_3_3/manuscrito.pdf",
+    "sha256": "af3dcd141d677ab5f3fa8f3c697ef1395bb9e2f9a6d060ec253efe462f57b2b4"
+  },
+  "proofs": [
+    {
+      "bytes": 335235,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/provas_artigo/pagina-1.png",
+      "sha256": "de3ba39429504989824cad2595cefa30cbf9b2fd42ac3b0ce99e45c91f5b7065"
+    },
+    {
+      "bytes": 372147,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/provas_artigo/pagina-2.png",
+      "sha256": "e33bbd361ee0f2d88266607a99684b1f75bc63fbc0eb9b0c43d9fc26a251a5de"
+    },
+    {
+      "bytes": 233933,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/provas_artigo/pagina-3.png",
+      "sha256": "2e5f9c6fe606822c8d3b5def41113ff50088791b55401178b003057132cb92e3"
+    },
+    {
+      "bytes": 353408,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/provas_artigo/pagina-4.png",
+      "sha256": "9a7fae1a05c89571d14064eaf65173a10ea204a35ee1f45846cd7c2bb6b85d38"
+    }
+  ],
+  "reviewer": "assistant",
+  "revision": "0.3.3-revisao-quantitativa",
+  "submitted": false,
+  "tables_visible": [
+    1,
+    2,
+    3
+  ]
+}

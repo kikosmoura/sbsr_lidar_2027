@@ -1,0 +1,28 @@
+{
+  "key": "a1553afbcb5d4d98d28f8fb80f8bed28b42d39b1c63d7df5376456df12aa0b6f",
+  "outputs": [
+    {
+      "bytes": 1831,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/smoke.json",
+      "sha256": "3f67b115df7c0c124ffb3ff5d2c7b0cc1494910896d9f78cfa5be66f6cb92a53"
+    },
+    {
+      "bytes": 1758,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/synthetic.laz",
+      "sha256": "e64e739dd6bc6da05846acab4adfab4957a830ecc1b3401cdc4b2fbb3d609a5e"
+    },
+    {
+      "bytes": 577,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/synthetic_pipeline.json",
+      "sha256": "7fe31ac99b1f18671a0760ccda30ec6e363bc7466d638cd01f8eb5fc4b360754"
+    },
+    {
+      "bytes": 516,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/synthetic_pdal.tif",
+      "sha256": "4cba2258ef49f3ea4477c44d96d25ac421d150c00f4b7ab333fa3e29ddd5b00c"
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_run_id": "20261025T153934Z_5d00198d4a",
+  "status": "completed"
+}

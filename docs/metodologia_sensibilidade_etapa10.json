@@ -1,0 +1,71 @@
+{
+  "adverse_scope": "only CO_SE_06 intersected with 3312-431; context and expanded measurement restricted to that tile, omitted context recorded",
+  "aggregation_test": "sum fine record counts and any fine canopy/valid cells from 0.5 into 2 m against native 2 m; validity may differ; unit P95 always recalculated from returns, never average fine-cell P95; fine/native context center gating may also differ at the nominal tile boundary; the observed counterexample is retained rather than forced to equality",
+  "auxiliary_fields": "stage10 compact tables omit detailed support-state auxiliary areas; complete native observation codes/counts retained in GeoTIFF, previous stage08 detailed diagnostics preserved; uncertainty flag here denotes refined mask state, not external classification confidence",
+  "axes": {
+    "classification": "reuse frozen experimental refined h3 and uncertain-upper bound at 1 m; hypotheses, not labels or validated improvement",
+    "context": "0/10/20 m around fixed P; changes MDT neighbors and component continuation",
+    "density": "retain 1/2 or 1/4 records, seeds 2027/2028/2029; coupled mask+H and H-only with full mask/V frozen",
+    "height": "2/3/5 m; LAS classes 3/4/5 and continuous H=Zabs-DTM, not ecological thresholds",
+    "interactions": "0.5 m with H>=2 m, 2 m with H>=5 m; no full factorial",
+    "measurement_domain": "P.buffer(5/10 m), context 10 m around expanded P; distinct population and unit IDs, excluded from stability ensemble",
+    "patch_definition": "4 vs 8 connected cells; components formed in context, not individual trees",
+    "resolution": "0.5/1/2 m; native point occupancy, DTM support re-evaluated at each grid center, no upsampled masks",
+    "returns": "first returns only changes the record estimand; no reconstructed pulse IDs",
+    "terrain": "TIN radii 3/5/10 m and IDW 5 m, same datum, no unsupported extrapolation or new geoid correction",
+    "units": "25/50/100 m clipped regular grids, fixed original identifiers and exact support"
+  },
+  "cache": "input/config/environment/source hashes, raw ROI completion checkpoint, atomic H Parquet with fingerprint, full output hashes before cache hit; unique run directories preserve prior products",
+  "common_geometry_acceleration": "clip V to padded unit bounding rectangle, then exact polygonal intersection; context component IDs preserved even if common-support clipping splits geometry; no bounding-box area surrogate",
+  "common_support_comparison": "for each baseline/scenario pair, recompute both metric sets on exact V0 intersect Vs, preserving component IDs from full context; use same eligible unit IDs and case/scale, fit rank normalizer separately to each measurement on that fixed paired cohort",
+  "cross_scale_transfer": "native eligible-unit priority percentile constant within each polygon, intersect partitions and original observed P to form W; area-weighted percentile correlation and area Jaccard of top footprints on W; original IDs retained only as provenance, never compared directly across scales; native relative calibrations not transferred score models",
+  "ensembles": {
+    "frequency": "fraction in operational top ceil(0.2*n) with lexicographic ID tie-break; also full-cutoff-tie frequency, rank mean min/max, ordinal min/max and axis-balanced descriptive frequency",
+    "global": "28 scenarios on original P; one V intersection and units eligible in all; report empty cohort without relaxing thresholds",
+    "intervals": "empirical min/max across specified scenarios; not sampling confidence interval, probability of intervention or certified robustness",
+    "per_axis": "primary plus every planned scenario on that axis, fixed intersection V and eligibility within ensemble; report denominator separately, never pool frequencies across different universes",
+    "score_recipes": "10 distinct recipes on frozen stage08 physical cohort: A, three nonzero weights for each IQR orientation, three I6-only nonzero weights; remove duplicate-height control and repeated w=0 votes"
+  },
+  "height_support": "candidate class, H threshold, retained record, native valid/canopy cell and exact crown geometry; with common V require exact XY membership in V also; exact return-weighted quantiles, not per-tree height",
+  "horizontal_graph_distances": {
+    "executed": false,
+    "reason": "no defined graph metric and no eligible B/C in frozen pilot; do not bridge censored/unknown gaps",
+    "requested_m": [
+      0,
+      2,
+      5
+    ]
+  },
+  "identity": "(nominal source_tile, source_point_index); shared boundary owned by lexicographically first nominal tile; MDS duplicates within file preserved",
+  "maximum_ROI": "union of P.buffer(20) and the actual successive buffer contexts; adverse restricted to nominal tile 3312-431; curved buffer tessellation included explicitly",
+  "metrics": "I1=T/O; I4=N_context_component_IDs*10000/O; mean/P95/IQR from eligible original heights; A>=25 m2, O/A>=0.95, T>=10 m2 and >=50 vegetation records; no height imputation for missing/no-candidate canopy",
+  "next_stage": "11 only after explicit user request",
+  "observed_support": "exact polygonal union of native cells with QC-usable MDS, supported DTM center and valid point H, intersected with context and P; no return, excluded QC, unsupported terrain and outside context remain separate raster codes; isolated point/line contacts from intersections are removed before assigning common observed surface",
+  "point_ownership": "canonical 1 m pixel rule for all resolutions; greatest unit intersection with owning half-open 1 m pixel, then lexicographic unit ID; prevents resolution-dependent boundary assignment",
+  "primary": {
+    "connectivity": 8,
+    "context_m": 10,
+    "measurement": "original P",
+    "minimum_height_m": 3,
+    "resolution_m": 1,
+    "terrain": "TIN radius 5 m, frozen MDT vertices"
+  },
+  "resources": "single worker, max 5 million ROI records, max 1 million MDT support vertices and configured 8 GiB RAM; output reserve checked; only one missing MDT/MDS pair 3313-362 acquired as complements",
+  "scenarios_per_case": 30,
+  "scope": "two bounded retrospective pilot cases, not municipal inference",
+  "score_change_decomposition": "fixed w: -(1-w)/2*dR(I1)+(1-w)/2*dR(I4)-w/2*dR(I6)-w/2*dR(I7); exact arithmetic contributions, not causal importance",
+  "scoring": "stage09 formulas and weights retained; conditional canopy rankings only; A+3D is an ablation, never called C when B unavailable; normalizers are case/scale/cohort specific",
+  "small_list_guards": "Jaccard null if either native k<5; Spearman null for n<3 or constant variable; cutoff ties remain explicit",
+  "stage": "10",
+  "subsampling": "SplitMix64 of source identity XOR seed; highest 53 bits/2^53; chunk/order invariant, 1/4 subset of 1/2 with same seed; record sampling, not pulse or tree sampling",
+  "validation": {
+    "gaps": "pending real reference, valid axis and longitudinal support; no labels invented from same sensor",
+    "groups": "one independent corridor group per case; cases not pooled as exchangeable replicates",
+    "inference": "no pixel bootstrap, confidence intervals, p-values or supervised model training; reserved test annotations untouched",
+    "mask": "pending real human labels and independent dated imagery/field reference",
+    "rankings": "no independent intervention target; no accuracy or utility improvement claimed",
+    "terrain": "reuse reserved-point/block MDT internal QC from stage04; same source, not independent absolute accuracy"
+  },
+  "version": "0.1.0",
+  "volume_proxy": "not defined; I9 excluded, no biomass, real volume or causal acquisition-density effect claimed"
+}

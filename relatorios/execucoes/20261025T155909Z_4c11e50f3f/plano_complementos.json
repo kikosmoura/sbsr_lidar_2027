@@ -1,0 +1,122 @@
+{
+  "domain": {
+    "case": "main",
+    "context_area_m2": 99600.19254473243,
+    "context_bounds": [
+      323524.5168518057,
+      7391345.994567062,
+      324060.8026463892,
+      7392483.83625441
+    ],
+    "context_clipped_to_tile": false,
+    "corridor_id": "CO_BT_01_E",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 65807.7126636682,
+    "measurement_bounds": [
+      323534.5099740962,
+      7391355.987790512,
+      324050.8041138214,
+      7392473.837384119
+    ],
+    "measurement_is_official_polygon": true,
+    "official_area_m2": 65807.7126636682,
+    "requested_context_omitted_m2": 0.0,
+    "tiles": [
+      "3313-324",
+      "3313-333",
+      "3313-361",
+      "3313-363"
+    ]
+  },
+  "files": [
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3313-324.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-324_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3313-324.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-324_1000.laz",
+      "produto": "MDT",
+      "quadricula": "3313-324",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-324_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3313-324.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-324_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3313-324.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-324_1000.laz",
+      "produto": "MDS",
+      "quadricula": "3313-324",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-324_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/3313-333.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-333_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3313-333.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-333_1000.laz",
+      "produto": "MDT",
+      "quadricula": "3313-333",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-333_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/3313-333.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-333_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3313-333.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-333_1000.laz",
+      "produto": "MDS",
+      "quadricula": "3313-333",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-333_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/3313-361.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-361_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3313-361.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-361_1000.laz",
+      "produto": "MDT",
+      "quadricula": "3313-361",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-361_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/3313-361.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-361_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3313-361.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-361_1000.laz",
+      "produto": "MDS",
+      "quadricula": "3313-361",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-361_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/3313-363.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-363_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/3313-363.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-363_1000.laz",
+      "produto": "MDT",
+      "quadricula": "3313-363",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-363_1000.laz"
+    },
+    {
+      "archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/3313-363.zip",
+      "complementary_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-363_1000.laz",
+      "destination_archive": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/3313-363.zip",
+      "needs_download": false,
+      "needs_extraction": false,
+      "original_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-363_1000.laz",
+      "produto": "MDS",
+      "quadricula": "3313-363",
+      "selected_laz": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-363_1000.laz"
+    }
+  ]
+}

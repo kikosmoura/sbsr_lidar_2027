@@ -1,0 +1,17 @@
+2026-10-25 14:02:02,942 INFO Início: terrain:main
+2026-10-25 14:02:02,943 INFO terrain_start {"case": "main", "tiles": ["3313-324", "3313-333", "3313-361", "3313-363"]}
+2026-10-25 14:02:02,943 INFO load_mdt {"tile": "3313-324"}
+2026-10-25 14:02:03,039 INFO load_mdt {"tile": "3313-333"}
+2026-10-25 14:02:03,170 INFO load_mdt {"tile": "3313-361"}
+2026-10-25 14:02:03,312 INFO load_mdt {"tile": "3313-363"}
+2026-10-25 14:02:04,578 INFO validation {"evaluated": 20000, "held": 20000, "split": "reserved_points", "train": 231439}
+2026-10-25 14:02:07,340 INFO validation {"evaluated": 20000, "held": 24598, "split": "reserved_blocks", "train": 226841}
+2026-10-25 14:02:11,191 INFO method_selected {"method": "tin", "rule": "minimum_common_support_RMSE_at_fixed_radius"}
+2026-10-25 14:02:12,531 INFO terrain_grid {"cells": 99606, "radius": 3.0}
+2026-10-25 14:02:16,729 INFO terrain_grid {"cells": 99606, "radius": 5.0}
+2026-10-25 14:02:17,371 INFO terrain_grid {"cells": 99606, "radius": 10.0}
+2026-10-25 14:02:20,571 INFO normalize_mds {"method": "tin", "tile": "3313-324"}
+2026-10-25 14:02:21,288 INFO normalize_mds {"method": "tin", "tile": "3313-333"}
+2026-10-25 14:02:27,373 INFO normalize_mds {"method": "tin", "tile": "3313-361"}
+2026-10-25 14:02:33,960 INFO normalize_mds {"method": "tin", "tile": "3313-363"}
+2026-10-25 14:02:40,322 INFO Concluído; cache_hit=False

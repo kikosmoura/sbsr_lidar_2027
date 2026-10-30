@@ -1,0 +1,15 @@
+{
+  "config": {
+    "bytes": 766,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/revisao_final_quantitativa_v0_3_3.yaml",
+    "sha256": "8baf6b5060ce3d5eda5a0dde28b76e08878783d8e1f14581dfc86d579a15b1b2"
+  },
+  "post_result_exploratory": true,
+  "previous_artifacts_authenticated": 87,
+  "protocol": {
+    "bytes": 2355,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z/protocolo_revisao_final_quantitativa.md",
+    "sha256": "7cbd0a1b17b2063c776ab96eb495bf02bd0ec20035e68675cfdb2630486a44ee"
+  },
+  "started_at": "2026-10-30T14:17:57.466463+00:00"
+}

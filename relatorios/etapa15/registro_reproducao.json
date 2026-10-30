@@ -1,0 +1,182 @@
+{
+  "all_outputs_temporary": true,
+  "design": {
+    "bytes": 753,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/amostra_pycrown_exploratoria_v0_3_0.yaml",
+    "sha256": "6da7f26017277c72391842f6aa88904580b3144d6c90613fbca5e1a8a7afceef"
+  },
+  "elapsed_seconds": 7.562218809965998,
+  "environment": {
+    "laspy": "2.7.0",
+    "lazrs": "0.8.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "rasterio": "1.4.4",
+    "scipy": "1.15.3",
+    "shapely": "2.1.2"
+  },
+  "normalization": {
+    "NoData_status_QC_exact": true,
+    "all_inputs_unchanged": true,
+    "case": "CO_PA_02",
+    "formula": "H=Z_absolute-TIN5(X,Y)",
+    "height_absolute_tolerance_m": 1e-09,
+    "input_blocks_authenticated": 11,
+    "maximum_absolute_error_m": 0.0,
+    "parts": [
+      {
+        "expected_normalized_part": {
+          "bytes": 112395,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PA_02/df32e998c432a60b7c63/normalized/W1631_36819/H_0000.parquet",
+          "sha256": "6eda5efc19803891877921b6ffccba6d26abaa1c9f4d9169709e392bb80fa8b5"
+        },
+        "rows": 3254,
+        "source_block": {
+          "bytes": 59462,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PA_02/df32e998c432a60b7c63/raw/MDS_3213-451/part_00002_1631_36819.parquet",
+          "sha256": "6cb2a417e16f9a5a0be8567acc1fa9ef08ff979cc4b7b442fd97bca328b0d85d"
+        }
+      },
+      {
+        "expected_normalized_part": {
+          "bytes": 744644,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PA_02/df32e998c432a60b7c63/normalized/W1631_36819/H_0001.parquet",
+          "sha256": "9be36e418939b8f19aa0e821553d5142815809e83bbebff36897c0857b8f19f9"
+        },
+        "rows": 24280,
+        "source_block": {
+          "bytes": 380882,
+          "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_dados/CO_PA_02/df32e998c432a60b7c63/raw/MDS_3213-451/part_00005_1631_36819.parquet",
+          "sha256": "f6cd9d6894c60eaa9d8d0448c9d90d3f92f578e7ddf33346e0bc54269435b62a"
+        }
+      }
+    ],
+    "records": 27534,
+    "starting_level": "preserved_decoded_MDT_MDS_blocks; full_LAZ_decode_not_repeated",
+    "unique_ground_vertices": 10912,
+    "window": [
+      1631,
+      36819
+    ]
+  },
+  "p_values_or_external_validation": false,
+  "pycrown": {
+    "all_preserved_inputs_unchanged": true,
+    "case": "CO_PA_02",
+    "comparison": "exact decoded arrays; NPZ timestamps/container bytes not the numerical criterion",
+    "estimated_seeds": 853,
+    "events": [
+      {
+        "cells": 265689,
+        "event": "pycrown_start",
+        "scenario": "primary"
+      },
+      {
+        "algorithm": "dalponteCIRC_numba",
+        "effective_detection_radius_m": 3.0,
+        "event": "pycrown_complete",
+        "ok": true,
+        "peak_rss_mib": 323.515625,
+        "plateau_centroids_relocated": 0,
+        "scenario": "primary",
+        "seconds": 2.860530922887847,
+        "seeds": 853
+      },
+      {
+        "event": "pycrown_cache",
+        "scenario": "primary"
+      },
+      {
+        "cells": 265689,
+        "event": "pycrown_start",
+        "scenario": "primary"
+      },
+      {
+        "algorithm": "dalponteCIRC_numba",
+        "effective_detection_radius_m": 3.0,
+        "event": "pycrown_complete",
+        "ok": true,
+        "peak_rss_mib": 323.515625,
+        "plateau_centroids_relocated": 0,
+        "scenario": "primary",
+        "seconds": 2.825175052974373,
+        "seeds": 853
+      }
+    ],
+    "exact_arrays": {
+      "corrections": {
+        "dtype": "int32",
+        "semantic_sha256": "13e0801c125ed4493c5d94589e635bfcd960c3f7616b75b9421d0794d195f0b0",
+        "shape": [
+          0
+        ]
+      },
+      "labels": {
+        "dtype": "int32",
+        "semantic_sha256": "2f9a56b296bac2f0142c8c7bef6bf424cb479481a5f7c458dfdbcfb83139d91a",
+        "shape": [
+          557,
+          477
+        ]
+      },
+      "original_xy": {
+        "dtype": "float64",
+        "semantic_sha256": "ae2b180b18ed382fc24b59dbb547291610ea83746fa5440acce8cc139d4e09ea",
+        "shape": [
+          853,
+          2
+        ]
+      },
+      "seeds": {
+        "dtype": "int32",
+        "semantic_sha256": "d5b066d1f6312bf3781271e35c83d133bbc67c39aef7fcb46b08953b20f11811",
+        "shape": [
+          2,
+          853
+        ]
+      }
+    },
+    "expected_labels": {
+      "bytes": 21499,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PA_02/3e8fe65e01a67faaaf0c/primary/labels.npz",
+      "sha256": "b8658fb7e0d7dd68215aff9731e8304945e6e8e7ab123a6dceb6fb9ea0de4f55"
+    },
+    "input": {
+      "bytes": 161468,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PA_02/3e8fe65e01a67faaaf0c/primary/input.npz",
+      "sha256": "9ee20c7e714c80b2928e5f3f1b076548aa559aacd293a7c1c610be1e87c24b8c"
+    },
+    "intact_cache_hit": true,
+    "missing_output_and_orphan_partial_recovered": true,
+    "modified_parameter_not_executed": true,
+    "parameter_change_invalidates_cache_identity": true,
+    "whole_corridor_input_shape": [
+      557,
+      477
+    ]
+  },
+  "raw_LAZ_files_modified": false,
+  "sample_selection": "lexicographically_first_development_corridor; first_nonempty_XY_window; no_selection_by_result",
+  "scientific_config": {
+    "bytes": 4492,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/terreno_congelado_etapa04.yaml",
+    "sha256": "86e5375998b86ba7399b503242f1de985b4063d388a7eafd1a1418ae33a35a98"
+  },
+  "seed": 2027,
+  "temporary_directory": "/tmp/sbsr_etapa15_repro_m3u8i_ad",
+  "temporary_directory_removed": true,
+  "worker": {
+    "bytes": 4398,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/pycrown_worker.py",
+    "sha256": "c5a48ba647df856ded71f187741070a3c0002d93e1cfa220d6f680e999815bbe"
+  },
+  "worker_lock_matches_frozen": true,
+  "worker_packages": [
+    "llvmlite==0.40.1",
+    "numba==0.57.1",
+    "numpy==1.23.5",
+    "scipy==1.10.1",
+    "Shapely==1.8.5.post1"
+  ]
+}

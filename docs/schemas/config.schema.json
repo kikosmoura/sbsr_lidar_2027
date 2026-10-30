@@ -1,0 +1,1152 @@
+{
+  "$defs": {
+    "Comparison": {
+      "additionalProperties": false,
+      "properties": {
+        "diagnostic_spatial_block_m": {
+          "default": 200.0,
+          "exclusiveMinimum": 0,
+          "title": "Diagnostic Spatial Block M",
+          "type": "number"
+        },
+        "maximum_observed_area_ratio": {
+          "default": 2.0,
+          "minimum": 1,
+          "title": "Maximum Observed Area Ratio",
+          "type": "number"
+        },
+        "maximum_pair_candidates": {
+          "default": 250000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Pair Candidates",
+          "type": "integer"
+        },
+        "maximum_units_per_cohort": {
+          "default": 500,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Units Per Cohort",
+          "type": "integer"
+        },
+        "minimum_independent_groups_for_surrogates": {
+          "default": 6,
+          "minimum": 3,
+          "title": "Minimum Independent Groups For Surrogates",
+          "type": "integer"
+        },
+        "minimum_spearman_units": {
+          "default": 3,
+          "minimum": 3,
+          "title": "Minimum Spearman Units",
+          "type": "integer"
+        },
+        "minimum_top_k_for_jaccard": {
+          "default": 5,
+          "minimum": 5,
+          "title": "Minimum Top K For Jaccard",
+          "type": "integer"
+        },
+        "pair_boundary_epsilon": {
+          "default": 1e-12,
+          "minimum": 0,
+          "title": "Pair Boundary Epsilon",
+          "type": "number"
+        },
+        "primary_top_fraction": {
+          "default": 0.2,
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Primary Top Fraction",
+          "type": "number"
+        },
+        "primary_vertical_weight": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Primary Vertical Weight",
+          "type": "number"
+        },
+        "score_tie_decimals": {
+          "default": 12,
+          "maximum": 14,
+          "minimum": 8,
+          "title": "Score Tie Decimals",
+          "type": "integer"
+        },
+        "similar_cover_tolerance": {
+          "default": 0.05,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Similar Cover Tolerance",
+          "type": "number"
+        },
+        "top_fractions": {
+          "default": [
+            0.1,
+            0.2,
+            0.3
+          ],
+          "items": {
+            "exclusiveMinimum": 0,
+            "maximum": 1,
+            "type": "number"
+          },
+          "title": "Top Fractions",
+          "type": "array"
+        }
+      },
+      "title": "Comparison",
+      "type": "object"
+    },
+    "Grid": {
+      "additionalProperties": false,
+      "properties": {
+        "epsg": {
+          "exclusiveMinimum": 0,
+          "title": "Epsg",
+          "type": "integer"
+        },
+        "nodata": {
+          "title": "Nodata",
+          "type": "number"
+        },
+        "origin_x": {
+          "title": "Origin X",
+          "type": "number"
+        },
+        "origin_y": {
+          "title": "Origin Y",
+          "type": "number"
+        },
+        "resolution_m": {
+          "exclusiveMinimum": 0,
+          "title": "Resolution M",
+          "type": "number"
+        }
+      },
+      "required": [
+        "epsg",
+        "resolution_m",
+        "origin_x",
+        "origin_y",
+        "nodata"
+      ],
+      "title": "Grid",
+      "type": "object"
+    },
+    "Indicators": {
+      "additionalProperties": false,
+      "properties": {
+        "batch_records": {
+          "default": 65536,
+          "exclusiveMinimum": 0,
+          "maximum": 250000,
+          "title": "Batch Records",
+          "type": "integer"
+        },
+        "height_estimand": {
+          "const": "normalized_vegetation_returns",
+          "default": "normalized_vegetation_returns",
+          "title": "Height Estimand",
+          "type": "string"
+        },
+        "include_I8": {
+          "const": false,
+          "default": false,
+          "title": "Include I8",
+          "type": "boolean"
+        },
+        "include_I9_I10": {
+          "const": false,
+          "default": false,
+          "title": "Include I9 I10",
+          "type": "boolean"
+        },
+        "maximum_stored_height_values": {
+          "default": 6000000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Stored Height Values",
+          "type": "integer"
+        },
+        "maximum_units": {
+          "default": 2000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Units",
+          "type": "integer"
+        },
+        "quantile_method": {
+          "const": "linear",
+          "default": "linear",
+          "title": "Quantile Method",
+          "type": "string"
+        }
+      },
+      "title": "Indicators",
+      "type": "object"
+    },
+    "InputPreparation": {
+      "additionalProperties": false,
+      "properties": {
+        "adversarial_context_policy": {
+          "const": "clip_to_tile",
+          "default": "clip_to_tile",
+          "title": "Adversarial Context Policy",
+          "type": "string"
+        },
+        "download_attempts": {
+          "default": 4,
+          "exclusiveMinimum": 0,
+          "title": "Download Attempts",
+          "type": "integer"
+        },
+        "download_timeout_seconds": {
+          "default": 120,
+          "exclusiveMinimum": 0,
+          "title": "Download Timeout Seconds",
+          "type": "integer"
+        },
+        "edge_width_m": {
+          "default": 2.0,
+          "exclusiveMinimum": 0,
+          "title": "Edge Width M",
+          "type": "number"
+        },
+        "excluded_noise_classes": {
+          "default": [
+            7,
+            18
+          ],
+          "items": {
+            "maximum": 255,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "title": "Excluded Noise Classes",
+          "type": "array"
+        },
+        "grid_code_field": {
+          "default": "cd_quadric",
+          "title": "Grid Code Field",
+          "type": "string"
+        },
+        "max_new_downloads_per_case": {
+          "default": 2,
+          "exclusiveMinimum": 0,
+          "title": "Max New Downloads Per Case",
+          "type": "integer"
+        }
+      },
+      "title": "InputPreparation",
+      "type": "object"
+    },
+    "Paths": {
+      "additionalProperties": false,
+      "properties": {
+        "corridors": {
+          "format": "path",
+          "title": "Corridors",
+          "type": "string"
+        },
+        "data_root": {
+          "format": "path",
+          "title": "Data Root",
+          "type": "string"
+        },
+        "downloader_script": {
+          "anyOf": [
+            {
+              "format": "path",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Downloader Script"
+        },
+        "grid": {
+          "format": "path",
+          "title": "Grid",
+          "type": "string"
+        },
+        "mount_root": {
+          "format": "path",
+          "title": "Mount Root",
+          "type": "string"
+        },
+        "output_root": {
+          "format": "path",
+          "title": "Output Root",
+          "type": "string"
+        },
+        "project_root": {
+          "format": "path",
+          "title": "Project Root",
+          "type": "string"
+        },
+        "protocol_file": {
+          "format": "path",
+          "title": "Protocol File",
+          "type": "string"
+        },
+        "runs_root": {
+          "format": "path",
+          "title": "Runs Root",
+          "type": "string"
+        },
+        "state_file": {
+          "format": "path",
+          "title": "State File",
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_root",
+        "data_root",
+        "mount_root",
+        "output_root",
+        "runs_root",
+        "state_file",
+        "corridors",
+        "grid",
+        "protocol_file"
+      ],
+      "title": "Paths",
+      "type": "object"
+    },
+    "Pilot": {
+      "additionalProperties": false,
+      "properties": {
+        "adversarial_corridor": {
+          "title": "Adversarial Corridor",
+          "type": "string"
+        },
+        "adversarial_tile": {
+          "pattern": "^\\d{4}-\\d{3}$",
+          "title": "Adversarial Tile",
+          "type": "string"
+        },
+        "context_tiles": {
+          "items": {
+            "pattern": "^\\d{4}-\\d{3}$",
+            "type": "string"
+          },
+          "title": "Context Tiles",
+          "type": "array"
+        },
+        "core_tiles": {
+          "items": {
+            "pattern": "^\\d{4}-\\d{3}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Core Tiles",
+          "type": "array"
+        },
+        "corridor_field": {
+          "minLength": 1,
+          "title": "Corridor Field",
+          "type": "string"
+        },
+        "corridor_id": {
+          "minLength": 1,
+          "title": "Corridor Id",
+          "type": "string"
+        },
+        "halo_m": {
+          "minimum": 0,
+          "title": "Halo M",
+          "type": "number"
+        },
+        "measurement_domain": {
+          "const": "original_polygon",
+          "title": "Measurement Domain",
+          "type": "string"
+        },
+        "sensitivity_tiles": {
+          "items": {
+            "pattern": "^\\d{4}-\\d{3}$",
+            "type": "string"
+          },
+          "title": "Sensitivity Tiles",
+          "type": "array"
+        }
+      },
+      "required": [
+        "corridor_field",
+        "corridor_id",
+        "core_tiles",
+        "adversarial_corridor",
+        "adversarial_tile",
+        "halo_m",
+        "measurement_domain"
+      ],
+      "title": "Pilot",
+      "type": "object"
+    },
+    "Reference": {
+      "additionalProperties": false,
+      "properties": {
+        "adversarial_windows": {
+          "default": 8,
+          "exclusiveMinimum": 0,
+          "title": "Adversarial Windows",
+          "type": "integer"
+        },
+        "double_annotation_fraction": {
+          "default": 0.25,
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Double Annotation Fraction",
+          "type": "number"
+        },
+        "high_height_m": {
+          "default": 20.0,
+          "exclusiveMinimum": 0,
+          "title": "High Height M",
+          "type": "number"
+        },
+        "low_height_range_m": {
+          "default": [
+            0.25,
+            2.0
+          ],
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            }
+          ],
+          "title": "Low Height Range M",
+          "type": "array"
+        },
+        "main_windows": {
+          "default": 12,
+          "exclusiveMinimum": 0,
+          "title": "Main Windows",
+          "type": "integer"
+        },
+        "max_points_per_window": {
+          "default": 100000,
+          "exclusiveMinimum": 0,
+          "title": "Max Points Per Window",
+          "type": "integer"
+        },
+        "minimum_context_area_m2": {
+          "default": 1.0,
+          "exclusiveMinimum": 0,
+          "title": "Minimum Context Area M2",
+          "type": "number"
+        },
+        "minimum_regular_context_fraction": {
+          "default": 0.25,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Minimum Regular Context Fraction",
+          "type": "number"
+        },
+        "minimum_regular_measurement_fraction": {
+          "default": 0.125,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Minimum Regular Measurement Fraction",
+          "type": "number"
+        },
+        "profile_half_width_m": {
+          "default": 1.0,
+          "exclusiveMinimum": 0,
+          "title": "Profile Half Width M",
+          "type": "number"
+        },
+        "qgis_python": {
+          "default": "/usr/bin/python3",
+          "title": "Qgis Python",
+          "type": "string"
+        },
+        "rgb_resolution_m": {
+          "default": 0.5,
+          "exclusiveMinimum": 0,
+          "title": "Rgb Resolution M",
+          "type": "number"
+        },
+        "window_size_m": {
+          "default": 20.0,
+          "exclusiveMinimum": 0,
+          "title": "Window Size M",
+          "type": "number"
+        }
+      },
+      "title": "Reference",
+      "type": "object"
+    },
+    "Resources": {
+      "additionalProperties": false,
+      "properties": {
+        "chunk_points": {
+          "exclusiveMinimum": 0,
+          "maximum": 2000000,
+          "title": "Chunk Points",
+          "type": "integer"
+        },
+        "max_pilot_tiles": {
+          "exclusiveMinimum": 0,
+          "title": "Max Pilot Tiles",
+          "type": "integer"
+        },
+        "max_ram_gib": {
+          "exclusiveMinimum": 0,
+          "title": "Max Ram Gib",
+          "type": "number"
+        },
+        "min_local_free_gib": {
+          "exclusiveMinimum": 0,
+          "title": "Min Local Free Gib",
+          "type": "number"
+        },
+        "min_output_free_gib": {
+          "exclusiveMinimum": 0,
+          "title": "Min Output Free Gib",
+          "type": "number"
+        },
+        "seed": {
+          "minimum": 0,
+          "title": "Seed",
+          "type": "integer"
+        },
+        "smoke_points": {
+          "exclusiveMinimum": 0,
+          "maximum": 10000,
+          "title": "Smoke Points",
+          "type": "integer"
+        },
+        "workers": {
+          "exclusiveMinimum": 0,
+          "title": "Workers",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "workers",
+        "chunk_points",
+        "max_ram_gib",
+        "min_output_free_gib",
+        "min_local_free_gib",
+        "max_pilot_tiles",
+        "smoke_points",
+        "seed"
+      ],
+      "title": "Resources",
+      "type": "object"
+    },
+    "Robustness": {
+      "additionalProperties": false,
+      "description": "Orçamento do recorte, sem habilitar ampliação municipal.",
+      "properties": {
+        "maximum_roi_records": {
+          "default": 5000000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Roi Records",
+          "type": "integer"
+        },
+        "maximum_scenarios": {
+          "default": 32,
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Maximum Scenarios",
+          "type": "integer"
+        },
+        "thinning_fractions": {
+          "items": {
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "title": "Thinning Fractions",
+          "type": "array"
+        },
+        "thinning_seed_offsets": {
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "title": "Thinning Seed Offsets",
+          "type": "array"
+        }
+      },
+      "title": "Robustness",
+      "type": "object"
+    },
+    "Segmentation": {
+      "additionalProperties": false,
+      "properties": {
+        "area_tolerance_m2": {
+          "default": 0.0001,
+          "exclusiveMinimum": 0,
+          "title": "Area Tolerance M2",
+          "type": "number"
+        },
+        "axis_node_snap_tolerance_m": {
+          "default": 1e-05,
+          "exclusiveMinimum": 0,
+          "title": "Axis Node Snap Tolerance M",
+          "type": "number"
+        },
+        "boundary_spacing_m": {
+          "default": 2.0,
+          "exclusiveMinimum": 0,
+          "title": "Boundary Spacing M",
+          "type": "number"
+        },
+        "length_m": {
+          "exclusiveMinimum": 0,
+          "title": "Length M",
+          "type": "number"
+        },
+        "maximum_boundary_sites": {
+          "default": 20000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Boundary Sites",
+          "type": "integer"
+        },
+        "maximum_grid_cells_per_scale": {
+          "default": 10000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Grid Cells Per Scale",
+          "type": "integer"
+        },
+        "maximum_stations_per_part": {
+          "default": 10000,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Stations Per Part",
+          "type": "integer"
+        },
+        "minimum_axis_aspect_ratio": {
+          "default": 3.0,
+          "exclusiveMinimum": 0,
+          "title": "Minimum Axis Aspect Ratio",
+          "type": "number"
+        },
+        "minimum_axis_length_m": {
+          "default": 25.0,
+          "exclusiveMinimum": 0,
+          "title": "Minimum Axis Length M",
+          "type": "number"
+        },
+        "section_cover_threshold": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Section Cover Threshold",
+          "type": "number"
+        },
+        "station_spacing_m": {
+          "exclusiveMinimum": 0,
+          "title": "Station Spacing M",
+          "type": "number"
+        },
+        "tangent_half_window_m": {
+          "default": 1.0,
+          "exclusiveMinimum": 0,
+          "title": "Tangent Half Window M",
+          "type": "number"
+        },
+        "terminal_spur_maximum_m": {
+          "default": 25.0,
+          "minimum": 0,
+          "title": "Terminal Spur Maximum M",
+          "type": "number"
+        },
+        "terminal_spur_radius_factor": {
+          "default": 2.5,
+          "exclusiveMinimum": 0,
+          "title": "Terminal Spur Radius Factor",
+          "type": "number"
+        }
+      },
+      "required": [
+        "length_m",
+        "station_spacing_m",
+        "section_cover_threshold"
+      ],
+      "title": "Segmentation",
+      "type": "object"
+    },
+    "Sensitivity": {
+      "additionalProperties": false,
+      "properties": {
+        "halos_m": {
+          "items": {
+            "minimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Halos M",
+          "type": "array"
+        },
+        "heights_m": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Heights M",
+          "type": "array"
+        },
+        "lengths_m": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Lengths M",
+          "type": "array"
+        },
+        "resolutions_m": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Resolutions M",
+          "type": "array"
+        },
+        "section_thresholds": {
+          "items": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Section Thresholds",
+          "type": "array"
+        },
+        "terrain_distances_m": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Terrain Distances M",
+          "type": "array"
+        },
+        "vertical_weights": {
+          "items": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "minItems": 1,
+          "title": "Vertical Weights",
+          "type": "array"
+        }
+      },
+      "required": [
+        "resolutions_m",
+        "halos_m",
+        "lengths_m",
+        "heights_m",
+        "terrain_distances_m",
+        "section_thresholds",
+        "vertical_weights"
+      ],
+      "title": "Sensitivity",
+      "type": "object"
+    },
+    "Support": {
+      "additionalProperties": false,
+      "properties": {
+        "minimum_canopy_area_m2": {
+          "exclusiveMinimum": 0,
+          "title": "Minimum Canopy Area M2",
+          "type": "number"
+        },
+        "minimum_observed_fraction": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Minimum Observed Fraction",
+          "type": "number"
+        },
+        "minimum_unit_area_m2": {
+          "exclusiveMinimum": 0,
+          "title": "Minimum Unit Area M2",
+          "type": "number"
+        },
+        "minimum_vegetation_returns": {
+          "exclusiveMinimum": 0,
+          "title": "Minimum Vegetation Returns",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "minimum_observed_fraction",
+        "minimum_unit_area_m2",
+        "minimum_canopy_area_m2",
+        "minimum_vegetation_returns"
+      ],
+      "title": "Support",
+      "type": "object"
+    },
+    "Terrain": {
+      "additionalProperties": false,
+      "properties": {
+        "apply_geoid_correction": {
+          "const": false,
+          "title": "Apply Geoid Correction",
+          "type": "boolean"
+        },
+        "coordinate_key_m": {
+          "default": 0.001,
+          "exclusiveMinimum": 0,
+          "title": "Coordinate Key M",
+          "type": "number"
+        },
+        "expected_vertical_datum": {
+          "default": "Maregr.Imbituba(SC)-MAPGEO2015",
+          "title": "Expected Vertical Datum",
+          "type": "string"
+        },
+        "extreme_height_m": {
+          "default": 80.0,
+          "exclusiveMinimum": 0,
+          "title": "Extreme Height M",
+          "type": "number"
+        },
+        "height_sample_per_class": {
+          "default": 10000,
+          "exclusiveMinimum": 0,
+          "title": "Height Sample Per Class",
+          "type": "integer"
+        },
+        "idw_min_neighbors": {
+          "default": 3,
+          "maximum": 32,
+          "minimum": 3,
+          "title": "Idw Min Neighbors",
+          "type": "integer"
+        },
+        "idw_neighbors": {
+          "default": 8,
+          "maximum": 32,
+          "minimum": 3,
+          "title": "Idw Neighbors",
+          "type": "integer"
+        },
+        "idw_power": {
+          "default": 2.0,
+          "exclusiveMinimum": 0,
+          "title": "Idw Power",
+          "type": "number"
+        },
+        "max_support_points": {
+          "default": 1000000,
+          "exclusiveMinimum": 0,
+          "title": "Max Support Points",
+          "type": "integer"
+        },
+        "maximum_distance_m": {
+          "exclusiveMinimum": 0,
+          "title": "Maximum Distance M",
+          "type": "number"
+        },
+        "maximum_xy_z_spread_m": {
+          "default": 0.1,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Xy Z Spread M",
+          "type": "number"
+        },
+        "method": {
+          "enum": [
+            "pending_qc",
+            "tin",
+            "idw"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "minimum_common_validation": {
+          "default": 50,
+          "exclusiveMinimum": 0,
+          "title": "Minimum Common Validation",
+          "type": "integer"
+        },
+        "negative_warning_m": {
+          "default": -1.0,
+          "exclusiveMaximum": 0,
+          "title": "Negative Warning M",
+          "type": "number"
+        },
+        "query_points": {
+          "default": 50000,
+          "exclusiveMinimum": 0,
+          "maximum": 100000,
+          "title": "Query Points",
+          "type": "integer"
+        },
+        "triangle_edge_radius_factor": {
+          "default": 2.0,
+          "exclusiveMinimum": 0,
+          "title": "Triangle Edge Radius Factor",
+          "type": "number"
+        },
+        "validation_block_m": {
+          "default": 10.0,
+          "exclusiveMinimum": 0,
+          "title": "Validation Block M",
+          "type": "number"
+        },
+        "validation_fraction": {
+          "default": 0.1,
+          "exclusiveMaximum": 0.5,
+          "exclusiveMinimum": 0,
+          "title": "Validation Fraction",
+          "type": "number"
+        },
+        "validation_max_points": {
+          "default": 20000,
+          "exclusiveMinimum": 0,
+          "title": "Validation Max Points",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "method",
+        "maximum_distance_m",
+        "apply_geoid_correction"
+      ],
+      "title": "Terrain",
+      "type": "object"
+    },
+    "Tools": {
+      "additionalProperties": false,
+      "properties": {
+        "gdalinfo": {
+          "minLength": 1,
+          "title": "Gdalinfo",
+          "type": "string"
+        },
+        "pdal": {
+          "minLength": 1,
+          "title": "Pdal",
+          "type": "string"
+        },
+        "timeout_seconds": {
+          "exclusiveMinimum": 0,
+          "title": "Timeout Seconds",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "pdal",
+        "gdalinfo",
+        "timeout_seconds"
+      ],
+      "title": "Tools",
+      "type": "object"
+    },
+    "Vegetation": {
+      "additionalProperties": false,
+      "properties": {
+        "classes": {
+          "items": {
+            "maximum": 255,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Classes",
+          "type": "array"
+        },
+        "connectivity": {
+          "enum": [
+            4,
+            8
+          ],
+          "title": "Connectivity",
+          "type": "integer"
+        },
+        "geometry_min_neighbors": {
+          "default": 6,
+          "maximum": 64,
+          "minimum": 3,
+          "title": "Geometry Min Neighbors",
+          "type": "integer"
+        },
+        "geometry_neighbors": {
+          "default": 32,
+          "maximum": 64,
+          "minimum": 6,
+          "title": "Geometry Neighbors",
+          "type": "integer"
+        },
+        "geometry_query_cells": {
+          "default": 4096,
+          "exclusiveMinimum": 0,
+          "maximum": 20000,
+          "title": "Geometry Query Cells",
+          "type": "integer"
+        },
+        "geometry_radius_m": {
+          "default": 1.5,
+          "exclusiveMinimum": 0,
+          "title": "Geometry Radius M",
+          "type": "number"
+        },
+        "geometry_voxel_m": {
+          "default": 0.1,
+          "exclusiveMinimum": 0,
+          "title": "Geometry Voxel M",
+          "type": "number"
+        },
+        "linear_threshold": {
+          "default": 0.9,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Linear Threshold",
+          "type": "number"
+        },
+        "max_geometry_points": {
+          "default": 2000000,
+          "exclusiveMinimum": 0,
+          "title": "Max Geometry Points",
+          "type": "integer"
+        },
+        "minimum_height_m": {
+          "exclusiveMinimum": 0,
+          "title": "Minimum Height M",
+          "type": "number"
+        },
+        "minimum_points_per_cell": {
+          "default": 1,
+          "exclusiveMinimum": 0,
+          "title": "Minimum Points Per Cell",
+          "type": "integer"
+        },
+        "planar_max_roughness_m": {
+          "default": 0.15,
+          "exclusiveMinimum": 0,
+          "title": "Planar Max Roughness M",
+          "type": "number"
+        },
+        "planar_threshold": {
+          "default": 0.8,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Planar Threshold",
+          "type": "number"
+        },
+        "qa_sample_cells": {
+          "default": 300,
+          "exclusiveMinimum": 0,
+          "title": "Qa Sample Cells",
+          "type": "integer"
+        },
+        "structure_fraction_threshold": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Structure Fraction Threshold",
+          "type": "number"
+        },
+        "thin_max_xy_spread_m": {
+          "default": 0.5,
+          "exclusiveMinimum": 0,
+          "title": "Thin Max Xy Spread M",
+          "type": "number"
+        },
+        "thin_min_single_return_fraction": {
+          "default": 0.9,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Thin Min Single Return Fraction",
+          "type": "number"
+        }
+      },
+      "required": [
+        "classes",
+        "minimum_height_m",
+        "connectivity"
+      ],
+      "title": "Vegetation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "comparison": {
+      "$ref": "#/$defs/Comparison"
+    },
+    "grid": {
+      "$ref": "#/$defs/Grid"
+    },
+    "indicators": {
+      "$ref": "#/$defs/Indicators"
+    },
+    "input_preparation": {
+      "$ref": "#/$defs/InputPreparation"
+    },
+    "paths": {
+      "$ref": "#/$defs/Paths"
+    },
+    "pilot": {
+      "$ref": "#/$defs/Pilot"
+    },
+    "protocol_version": {
+      "minLength": 1,
+      "title": "Protocol Version",
+      "type": "string"
+    },
+    "reference": {
+      "$ref": "#/$defs/Reference"
+    },
+    "resources": {
+      "$ref": "#/$defs/Resources"
+    },
+    "robustness": {
+      "$ref": "#/$defs/Robustness"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "segmentation": {
+      "$ref": "#/$defs/Segmentation"
+    },
+    "sensitivity": {
+      "$ref": "#/$defs/Sensitivity"
+    },
+    "support": {
+      "$ref": "#/$defs/Support"
+    },
+    "terrain": {
+      "$ref": "#/$defs/Terrain"
+    },
+    "tools": {
+      "$ref": "#/$defs/Tools"
+    },
+    "vegetation": {
+      "$ref": "#/$defs/Vegetation"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "paths",
+    "pilot",
+    "grid",
+    "vegetation",
+    "terrain",
+    "segmentation",
+    "support",
+    "sensitivity",
+    "resources",
+    "tools"
+  ],
+  "title": "Config",
+  "type": "object"
+}

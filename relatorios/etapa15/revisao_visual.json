@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "all_three_figures_visible": true,
+    "author_affiliation_email_as_provided": true,
+    "body_captions_math_accents_readable": true,
+    "both_tables_visible": true,
+    "draft_label_visible": true,
+    "no_cropped_text_or_overlapping_elements_detected": true,
+    "no_page_numbers": true
+  },
+  "date_local": "2026-10-26",
+  "editorial_trials_not_adopted": true,
+  "human_author_approval": false,
+  "notes": [
+    "Preservado layout com todas as figuras; ensaios de equilíbrio descartados por problema de renderização.",
+    "Inspeção visual do assistente não equivale a aprovação científica/editorial pelo autor."
+  ],
+  "optional_layout_improvements": [
+    "colunas_finais_nao_equilibradas",
+    "primeira_referencia_continua_na_coluna_seguinte"
+  ],
+  "pages_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  },
+  "proofs": [
+    {
+      "bytes": 390340,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/provas/pagina-1.png",
+      "sha256": "b5b2bd7bd912c20969ce3cf0ad3bd259e223c9b183fba9c73ca5d1c11aaeb9b8"
+    },
+    {
+      "bytes": 449965,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/provas/pagina-2.png",
+      "sha256": "a9a517b436cf7c862f278bb097937d384f1a5048c7e7629b1895fb28971206db"
+    },
+    {
+      "bytes": 277476,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/provas/pagina-3.png",
+      "sha256": "b8df4888b4a5637147262a5c031779a8641206fb965cf701d5d65ebe3b79eaee"
+    },
+    {
+      "bytes": 283623,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/provas/pagina-4.png",
+      "sha256": "efd58a35e348ec4bd9663a12727ed8f7debfcccf2eeae246dc06c0fdbc97b8d0"
+    }
+  ],
+  "render_dpi": 120,
+  "reviewer": "assistente_inspecao_das_quatro_paginas_rasterizadas",
+  "timezone": "America/Sao_Paulo"
+}

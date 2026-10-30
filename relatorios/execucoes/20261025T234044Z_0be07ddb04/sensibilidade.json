@@ -1,0 +1,389 @@
+{
+  "B_available": false,
+  "C_available": false,
+  "accuracy_gain_claimed": false,
+  "aggregation_check": {
+    "any_fine_canopy_vs_native_coarse_different_cells": 5,
+    "any_fine_valid_vs_native_coarse_different_cells": 135,
+    "coarse_P95_is_mean_of_fine_P95": false,
+    "coarse_m": 2.0,
+    "fine_m": 0.5,
+    "measurement_coarse_center_cells": 3288,
+    "native_points_used": true,
+    "statistic_rule": "count=sum; candidate=any only under identical H/threshold; validity reevaluated at native centers; unit P95 from original returns, never mean of cell P95",
+    "sum_fine_record_counts_vs_native_coarse_different_cells": 1
+  },
+  "case": "adversarial",
+  "confidence_intervals_computed": false,
+  "corridor_id": "CO_SE_06",
+  "elapsed_seconds": 152.040955736069,
+  "full_pilot_completed": false,
+  "global_common_area_m2": 4302.238599865885,
+  "height_replay": {
+    "maximum_recomputed_H_difference_m": 1.1368683772161603e-13,
+    "published_H_used_exactly": true,
+    "records": 225983,
+    "same_finite_H_support": true
+  },
+  "horizontal_gap_distance_executed": false,
+  "independent_corridor_groups_per_case": 1,
+  "inference": "descriptive_retrospective_pilot; no municipal or causal inference; empirical ranges not CI",
+  "intermediates_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa10/intermediarios/adversarial/1524c0cd7a5c2166a368e2413c6d4389b5ecc6f2b429b10b44e441dafdb6b572",
+  "mask_validated": false,
+  "maximum_ground_vertices": 80117,
+  "measurement_domain_scenarios": 2,
+  "ok": true,
+  "p_values_computed": false,
+  "peak_process_rss_mib": 1063.06640625,
+  "physical_scenario_count": 28,
+  "primary_observed_area_m2": 6076.513394962332,
+  "primary_replay": {
+    "mask_and_observation_bitwise_identical": true,
+    "maximum_absolute_metric_replay_differences": {
+      "I1": 0.0,
+      "I4": 0.0,
+      "I5": 0.0,
+      "I6": 0.0,
+      "I7": 0.0,
+      "area_canopy_m2": 0.0,
+      "area_observed_m2": 0.0,
+      "n_vegetation_records": 0.0
+    },
+    "same_ids_and_eligibility": true
+  },
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa10/adversarial/20261025T234044Z_0be07ddb04",
+  "roi_records": 390263,
+  "run_id": "20261025T234044Z_0be07ddb04",
+  "scenario_count": 30,
+  "stage": "10",
+  "strict_cohorts": [
+    {
+      "ensemble": "physical_global_common_support",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 28,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_global_common_support",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 28,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_global_common_support",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 28,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_classification",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 5,
+      "n_scenarios": 2,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_classification",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 2,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_classification",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 2,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_classification_bound",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 5,
+      "n_scenarios": 2,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_classification_bound",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 2,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_classification_bound",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 2,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_context",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 3,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_context",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_context",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_density_coupled",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 7,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_density_coupled",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 7,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_density_coupled",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 7,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_density_height_only",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 3,
+      "n_scenarios": 7,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_density_height_only",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 1,
+      "n_scenarios": 7,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_density_height_only",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 7,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_height",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 3,
+      "n_scenarios": 3,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_height",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 1,
+      "n_scenarios": 3,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_height",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_interpolation_method",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 4,
+      "n_scenarios": 2,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_interpolation_method",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 1,
+      "n_scenarios": 2,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_interpolation_method",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 2,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_interpolation_radius",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 4,
+      "n_scenarios": 3,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_interpolation_radius",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 3,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_interpolation_radius",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_patch_definition",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 5,
+      "n_scenarios": 2,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_patch_definition",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 2,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_patch_definition",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 2,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_resolution",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 4,
+      "n_scenarios": 3,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_resolution",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 1,
+      "n_scenarios": 3,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_resolution",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_return_policy",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 5,
+      "n_scenarios": 2,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_return_policy",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 2,
+      "n_scenarios": 2,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_return_policy",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 2,
+      "scale_m": 100
+    },
+    {
+      "ensemble": "physical_axis_selected_interaction",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 4,
+      "n_scenarios": 3,
+      "scale_m": 25
+    },
+    {
+      "ensemble": "physical_axis_selected_interaction",
+      "missing_reason": null,
+      "n_common_eligible_all_scenarios": 1,
+      "n_scenarios": 3,
+      "scale_m": 50
+    },
+    {
+      "ensemble": "physical_axis_selected_interaction",
+      "missing_reason": "no_common_eligible_units_global_observation_and_all_scenarios",
+      "n_common_eligible_all_scenarios": 0,
+      "n_scenarios": 3,
+      "scale_m": 100
+    }
+  ],
+  "table_rows": {
+    "ablacao_por_cenario": 90,
+    "cenarios_custo": 30,
+    "comparacoes_entre_escalas": 6,
+    "comparacoes_suporte_comum": 84,
+    "coorte_estrita": 39,
+    "dominios_areas": 30,
+    "estabilidade_fisica": 59,
+    "estabilidade_receitas": 7,
+    "indicadores_nativos": 2865,
+    "indicadores_suporte_global": 2632,
+    "mudancas_indicadores": 149,
+    "sensibilidade_densidade": 134,
+    "suportes_por_eixo": 12,
+    "transferencia_espacial": 4,
+    "transicoes_elegibilidade": 2632
+  },
+  "validation_status": [
+    {
+      "accuracy_claimed": false,
+      "confidence_interval": null,
+      "independent_corridor_groups_in_case": 1,
+      "interval_missing_reason": "one_corridor_per_case; no_pixel_bootstrap_or_pseudo_replication",
+      "object": "canopy_mask",
+      "reason": "No invented labels; pending annotation package and independent dated imagery/field checks.",
+      "status": "pending_real_labels"
+    },
+    {
+      "accuracy_claimed": false,
+      "confidence_interval": null,
+      "independent_corridor_groups_in_case": 1,
+      "interval_missing_reason": "one_corridor_per_case; no_pixel_bootstrap_or_pseudo_replication",
+      "object": "terrain",
+      "reason": "Reserved MDT points/blocks from same producer; not absolute independent altimetric validation.",
+      "status": "internal_MDT_holdout_QC_only"
+    },
+    {
+      "accuracy_claimed": false,
+      "confidence_interval": null,
+      "independent_corridor_groups_in_case": 1,
+      "interval_missing_reason": "one_corridor_per_case; no_pixel_bootstrap_or_pseudo_replication",
+      "object": "gaps",
+      "reason": "Axis/support limitations and censored gaps; same LiDAR is not external ground truth.",
+      "status": "pending_real_reference_and_eligible_B"
+    },
+    {
+      "accuracy_claimed": false,
+      "confidence_interval": null,
+      "independent_corridor_groups_in_case": 1,
+      "interval_missing_reason": "one_corridor_per_case; no_pixel_bootstrap_or_pseudo_replication",
+      "object": "rankings",
+      "reason": "No accuracy, utility or improvement relative to unavailable target.",
+      "status": "pending_independent_priority_target"
+    }
+  ]
+}

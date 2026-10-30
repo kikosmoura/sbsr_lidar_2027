@@ -1,0 +1,16 @@
+{
+  "classification": "rascunho_com_pendencias",
+  "human_author_approval": false,
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  },
+  "source": {
+    "bytes": 16672,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.tex",
+    "sha256": "3f0527f7e39971bb8839e8ea3b512945b634ef04f7d5c309c2766199741fd9d6"
+  },
+  "stage": "15",
+  "submission_ready": false
+}

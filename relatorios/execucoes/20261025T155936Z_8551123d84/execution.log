@@ -1,0 +1,6 @@
+2026-10-25 12:59:36,313 INFO Início: prepare-inputs:adversarial
+2026-10-25 12:59:38,928 INFO audit_start {"product": "MDT", "tile": "3312-431"}
+2026-10-25 12:59:39,126 INFO audit_complete {"points": 739317, "product": "MDT", "tile": "3312-431"}
+2026-10-25 12:59:39,152 INFO audit_start {"product": "MDS", "tile": "3312-431"}
+2026-10-25 12:59:40,553 INFO audit_complete {"points": 4723732, "product": "MDS", "tile": "3312-431"}
+2026-10-25 12:59:40,851 INFO Concluído; cache_hit=False

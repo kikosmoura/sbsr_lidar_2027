@@ -1,0 +1,7 @@
+2026-10-25 19:10:43,344 INFO Início: indicators:main
+2026-10-25 19:10:43,567 INFO indicators_start {"case": "main", "families": ["grid_100", "grid_25", "grid_50"], "rows": 286}
+2026-10-25 19:10:43,986 INFO indicator_point_batch {"batch": 0, "measurement_records": 42283, "records_read": 65536}
+2026-10-25 19:10:44,551 INFO indicator_point_batch {"batch": 8, "measurement_records": 432367, "records_read": 589824}
+2026-10-25 19:10:45,081 INFO indicator_point_batch {"batch": 16, "measurement_records": 812826, "records_read": 1114112}
+2026-10-25 19:10:45,609 INFO indicator_point_batch {"batch": 24, "measurement_records": 1187133, "records_read": 1638400}
+2026-10-25 19:10:49,257 INFO Concluído; cache_hit=False

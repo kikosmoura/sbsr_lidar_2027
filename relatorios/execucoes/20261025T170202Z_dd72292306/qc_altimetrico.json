@@ -1,0 +1,1105 @@
+{
+  "domain": {
+    "case": "main",
+    "context_area_m2": 99600.19254473243,
+    "context_bounds": [
+      323524.5168518057,
+      7391345.994567062,
+      324060.8026463892,
+      7392483.83625441
+    ],
+    "context_clipped_to_tile": false,
+    "corridor_id": "CO_BT_01_E",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 65807.7126636682,
+    "measurement_bounds": [
+      323534.5099740962,
+      7391355.987790512,
+      324050.8041138214,
+      7392473.837384119
+    ],
+    "measurement_is_official_polygon": true,
+    "official_area_m2": 65807.7126636682,
+    "requested_context_omitted_m2": 0.0,
+    "tiles": [
+      "3313-324",
+      "3313-333",
+      "3313-361",
+      "3313-363"
+    ]
+  },
+  "edge_comparison": {
+    "borda": {
+      "cells": 6699,
+      "difference_with_minus_without": {
+        "bias_m": -0.0018607315567047578,
+        "mae_m": 0.004179317989001895,
+        "n": 6070,
+        "p95_abs_m": 0.011359490901139687,
+        "rmse_m": 0.03327953163106943
+      },
+      "gained_valid_cells": 564,
+      "lost_valid_cells": 1,
+      "valid_with_context": 6634,
+      "valid_without_context": 6071
+    },
+    "interior": {
+      "cells": 59118,
+      "difference_with_minus_without": {
+        "bias_m": -7.796033566918953e-05,
+        "mae_m": 9.254924837177555e-05,
+        "n": 58585,
+        "p95_abs_m": 1.1368683772161603e-13,
+        "rmse_m": 0.007903191427865615
+      },
+      "gained_valid_cells": 29,
+      "lost_valid_cells": 1,
+      "valid_with_context": 58614,
+      "valid_without_context": 58586
+    },
+    "medicao": {
+      "cells": 65817,
+      "difference_with_minus_without": {
+        "bias_m": -0.00024533209828129837,
+        "mae_m": 0.0004762270189328277,
+        "n": 64655,
+        "p95_abs_m": 1.1368683772161603e-13,
+        "rmse_m": 0.012671793620132842
+      },
+      "gained_valid_cells": 593,
+      "lost_valid_cells": 2,
+      "valid_with_context": 65248,
+      "valid_without_context": 64657
+    }
+  },
+  "elapsed_seconds": 37.249572234926745,
+  "grid": {
+    "nodata": -9999.0,
+    "resolution_m": 1.0,
+    "shape": [
+      1139,
+      537
+    ],
+    "transform": [
+      1.0,
+      0.0,
+      323524.0,
+      0.0,
+      -1.0,
+      7392484.0
+    ]
+  },
+  "ground": {
+    "class_remapping": false,
+    "coordinate_key_m": 0.001,
+    "duplicate_xyz_keys_removed": 0,
+    "headers": [
+      {
+        "declared_points": 685625,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          310000.0,
+          7340000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDT_2020/MDT_3313-324_1000.laz",
+        "point_format": 1,
+        "product": "MDT",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-324",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          742.629,
+          796.6
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 597376,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          310000.0,
+          7340000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-333_1000.laz",
+        "point_format": 1,
+        "product": "MDT",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-333",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          732.39,
+          784.789
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 593031,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          310000.0,
+          7340000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-361_1000.laz",
+        "point_format": 1,
+        "product": "MDT",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-361",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          732.559,
+          783.754
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 621536,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          310000.0,
+          7340000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020/MDT_3313-363_1000.laz",
+        "point_format": 1,
+        "product": "MDT",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-363",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          726.948,
+          793.914
+        ],
+        "z_unit_epsg": 9001
+      }
+    ],
+    "owned_context_records": 251440,
+    "ownership": "nominal_tile; shared_boundary_lexicographically_first_tile; export_halo_discarded",
+    "source_classes": [
+      8
+    ],
+    "support_vertices": 251439,
+    "xy_groups_excluded_z_conflict": 0,
+    "xy_groups_multiple_z": 1,
+    "xy_z_aggregation": "median_of_unique_xyz_within_xy_key; exclude_spread_above_limit"
+  },
+  "heights": {
+    "bridge_water_manual_validation": "not_performed_no_reference",
+    "class_statistics_measurement": {
+      "1": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.9284402458783916,
+          -0.44713083517454494,
+          0.0402249882025103,
+          0.4539009885455186,
+          0.831601555911675
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": 0.022253442881228637,
+          "mae_m": 0.23504112630018018,
+          "n": 10000,
+          "p95_abs_m": 0.4775091461822285,
+          "rmse_m": 0.28090544107345544
+        },
+        "h_quantiles_m": [
+          -0.9284402458783916,
+          0.038727229961767765,
+          1.0092876627352325,
+          6.155668809517288,
+          14.679857381483657
+        ],
+        "negative_h": 879,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 46708
+      },
+      "2": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.09914949171161425,
+          -0.03477246794705593,
+          -0.0002928439408265149,
+          0.033002736776796784,
+          0.0990426883922737
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": -0.0005414459448680759,
+          "mae_m": 0.015921898034847743,
+          "n": 10000,
+          "p95_abs_m": 0.04328931821759166,
+          "rmse_m": 0.021259788134979134
+        },
+        "h_quantiles_m": [
+          -0.09914949171161425,
+          -0.03477246794705593,
+          -0.0002928439408265149,
+          0.033002736776796784,
+          0.0990426883922737
+        ],
+        "negative_h": 178061,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 351846
+      },
+      "3": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.7965910477493026,
+          -0.4525573321594152,
+          -0.02553631126829714,
+          0.4468482677901647,
+          0.5825704660716156
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": -0.010318853354322265,
+          "mae_m": 0.25059442915627694,
+          "n": 10000,
+          "p95_abs_m": 0.4751217687155645,
+          "rmse_m": 0.28892023913282355
+        },
+        "h_quantiles_m": [
+          1.9595817608879997,
+          3.1325733617719838,
+          7.187920562433135,
+          9.743481712242328,
+          10.055310914139113
+        ],
+        "negative_h": 0,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 288968
+      },
+      "4": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.8633171166059128,
+          -0.4492500990335543,
+          0.009822509924617862,
+          0.4526015760767051,
+          0.5442142959014973
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": 0.0026501414063105242,
+          "mae_m": 0.2519873882422418,
+          "n": 10000,
+          "p95_abs_m": 0.4735805957299703,
+          "rmse_m": 0.29070264459090245
+        },
+        "h_quantiles_m": [
+          9.974441224488032,
+          10.412241871890108,
+          13.813201094676913,
+          18.977481485835796,
+          19.995020782564666
+        ],
+        "negative_h": 0,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 464201
+      },
+      "5": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.6665331848857932,
+          -0.45019920854961126,
+          0.04925511477370037,
+          0.4466113349488808,
+          0.5591998373287197
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": 0.019369101617041928,
+          "mae_m": 0.2462074276966544,
+          "n": 10000,
+          "p95_abs_m": 0.47422271844941405,
+          "rmse_m": 0.28602308874112176
+        },
+        "h_quantiles_m": [
+          19.77358197932483,
+          20.091138074016033,
+          21.247067567241913,
+          24.280473830981837,
+          26.785997189927343
+        ],
+        "negative_h": 0,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 37478
+      },
+      "6": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          -0.5087553021495523,
+          -0.459901799871426,
+          -0.074453400348375,
+          0.4427080661008403,
+          0.5081913811069398
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": -0.04937235808279638,
+          "mae_m": 0.25319867100041105,
+          "n": 2200,
+          "p95_abs_m": 0.47736057906064383,
+          "rmse_m": 0.29242809465720077
+        },
+        "h_quantiles_m": [
+          1.9549593571821333,
+          2.3546582111664973,
+          7.477925413055743,
+          13.198255482830035,
+          16.28959312341044
+        ],
+        "negative_h": 0,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 2200,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 2200
+      },
+      "8": {
+        "above_extreme_warning": 0,
+        "below_negative_warning": 0,
+        "h_minus_user_data_quantiles_m": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "h_minus_user_data_sample_error": {
+          "bias_m": 0.0,
+          "mae_m": 0.0,
+          "n": 10000,
+          "p95_abs_m": 0.0,
+          "rmse_m": 0.0
+        },
+        "h_quantiles_m": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_h": 1,
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1
+        ],
+        "sample_n": 10000,
+        "sample_scheme": "seeded_uniform_random_priority",
+        "valid_points": 191128
+      }
+    },
+    "counts": {
+      "context_points": 1967742,
+      "context_valid_h": 1788399,
+      "measurement_input_excluded": 0,
+      "measurement_points": 1395109,
+      "measurement_valid_h": 1382529,
+      "measurement_without_terrain": 12580
+    },
+    "flag_definitions": {
+      "1": "no_terrain",
+      "2": "input_excluded_by_qc",
+      "4": "negative_h",
+      "8": "h_below_negative_warning",
+      "16": "h_above_extreme_warning",
+      "32": "measurement_edge",
+      "64": "LAS_water_class_9",
+      "128": "LAS_bridge_class_17"
+    },
+    "flags": {
+      "LAS_bridge_class_17": 0,
+      "LAS_water_class_9": 0,
+      "h_above_extreme_warning": 0,
+      "h_below_negative_warning": 11,
+      "input_excluded_by_qc": 0,
+      "measurement_edge": 124506,
+      "negative_h": 228544,
+      "no_terrain": 179343
+    },
+    "headers": [
+      {
+        "declared_points": 6316512,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          320000.0,
+          7390000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/insumos_complementares/MDS_2020/MDS_3313-324_1000.laz",
+        "point_format": 8,
+        "product": "MDS",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-324",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          742.62,
+          849.759
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 7771581,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          320000.0,
+          7390000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-333_1000.laz",
+        "point_format": 8,
+        "product": "MDS",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-333",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          732.39,
+          849.759
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 5139163,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          320000.0,
+          7390000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-361_1000.laz",
+        "point_format": 8,
+        "product": "MDS",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-361",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          732.551,
+          806.748
+        ],
+        "z_unit_epsg": 9001
+      },
+      {
+        "declared_points": 6113744,
+        "epsg": 31983,
+        "geoid_correction_applied": false,
+        "offsets": [
+          320000.0,
+          7390000.0,
+          0.0
+        ],
+        "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020/MDS_3313-363_1000.laz",
+        "point_format": 8,
+        "product": "MDS",
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "tile": "3313-363",
+        "vertical_datum": "Maregr.Imbituba(SC)-MAPGEO2015",
+        "xy_unit_epsg": 9001,
+        "z_bounds": [
+          726.948,
+          817.44
+        ],
+        "z_unit_epsg": 9001
+      }
+    ],
+    "mds_mdt_xyz_consistency": {
+      "direction": "sample_MDS_class8_to_context_MDT_nearest_XY",
+      "exact_xy_n": 10000,
+      "exact_xyz_within_2mm_n": 10000,
+      "not_independent_absolute_accuracy": true,
+      "sample_n": 10000,
+      "z_difference_at_exact_xy": {
+        "bias_m": 0.0,
+        "mae_m": 0.0,
+        "n": 10000,
+        "p95_abs_m": 0.0,
+        "rmse_m": 0.0
+      }
+    },
+    "sampling_note": "Counts integral; height/user_data quantiles from bounded uniform samples per class in measurement",
+    "within_file_duplicate_records_removed": false
+  },
+  "limitations": [
+    "Validação interna de interpolação/consistência entre produtos relacionados; não acurácia absoluta independente.",
+    "MDT classe original preservada; nenhuma correção geoidal ou remapeamento de classe aplicado.",
+    "H usa a superfície contínua TIN/IDW nos XY, em float64; GeoTIFF é avaliação float32 nos centros da grade, sem segunda normalização.",
+    "Propriedade por folha nominal elimina halos de exportação sobrepostos; duplicatas de registros MDS dentro da mesma folha permanecem.",
+    "Z e classificação originais preservados; H ausente é null/NoData e alturas negativas/extremas não são truncadas.",
+    "Água e pontes não receberam rótulos manuais; flags LAS 9/17 são apenas pistas de classe, não validação da ausência dessas feições.",
+    "IDW limitado a oito vizinhos e mínimo configurado, ao raio, à envoltória/triângulo suportado e à distribuição angular local.",
+    "TIN/árvore construídos em memória somente com MDT da janela; limite de vértices explícito, sem promessa de streaming de triangulação.",
+    "Amostra de alertas contém os primeiros 1000 alertas; não é amostra representativa. Perfis são cartesianos de inspeção.",
+    "Não foram produzidos rótulos, máscara arbórea, segmentação ou indicadores das etapas posteriores."
+  ],
+  "ok": true,
+  "peak_process_rss_mib": 695.328125,
+  "primary_radius_m": 5.0,
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/vertices_terreno.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validacao_reservada.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r3_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r3_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_tin_r3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r3_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r3_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_idw_r3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/contagem_mdt_r3.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r5_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r5_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_tin_r5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r5_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r5_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_idw_r5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/contagem_mdt_r5.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/distancia_mdt_mais_proximo.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/triangulos_qc.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r10_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_tin_r10_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_tin_r10.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r10_contexto.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_idw_r10_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/validade_idw_r10.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/contagem_mdt_r10.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dtm_sem_contexto_medicao.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/efeito_contexto_dtm.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/perfis_cartesianos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/alturas_pontos.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/contagens_altura.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/pontos_alerta_amostra.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/main/20261025T170202Z_dd72292306/dominios.gpkg"
+  ],
+  "radii_m": [
+    3.0,
+    5.0,
+    10.0
+  ],
+  "run_id": "20261025T170202Z_dd72292306",
+  "selected_method": "tin",
+  "selection": {
+    "metrics": [
+      {
+        "bias_m": 0.009884699865914755,
+        "common": {
+          "bias_m": -0.01703165767791081,
+          "mae_m": 0.05008877856020794,
+          "n": 349,
+          "p95_abs_m": 0.23911986722591771,
+          "rmse_m": 0.10961873647875414
+        },
+        "evaluated": 20000,
+        "mae_m": 0.05577669203646249,
+        "method": "tin",
+        "n": 6400,
+        "p95_abs_m": 0.21613947482232437,
+        "radius_m": 5.0,
+        "rmse_m": 0.11251659115078136,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.32
+      },
+      {
+        "bias_m": -0.009325492312679871,
+        "common": {
+          "bias_m": -0.009325492312679871,
+          "mae_m": 0.06044865599317597,
+          "n": 349,
+          "p95_abs_m": 0.26012372663481065,
+          "rmse_m": 0.1238692095826566
+        },
+        "evaluated": 20000,
+        "mae_m": 0.06044865599317597,
+        "method": "idw",
+        "n": 349,
+        "p95_abs_m": 0.26012372663481065,
+        "radius_m": 5.0,
+        "rmse_m": 0.1238692095826566,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.01745
+      }
+    ],
+    "radius_m": 5.0,
+    "rule": "minimum_common_support_RMSE_at_fixed_radius",
+    "split": "reserved_blocks"
+  },
+  "stage": "04",
+  "support": {
+    "idw_r10": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 527,
+        "valid_cells": 6172,
+        "valid_fraction": 0.9213315420211972
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 23085,
+        "valid_cells": 76521,
+        "valid_fraction": 0.7682368532016144
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 6255,
+        "valid_cells": 59562,
+        "valid_fraction": 0.9049637631614932
+      }
+    },
+    "idw_r3": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 556,
+        "valid_cells": 6143,
+        "valid_fraction": 0.9170025376921929
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 24242,
+        "valid_cells": 75364,
+        "valid_fraction": 0.7566210870831075
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 7045,
+        "valid_cells": 58772,
+        "valid_fraction": 0.8929607852074692
+      }
+    },
+    "idw_r5": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 530,
+        "valid_cells": 6169,
+        "valid_fraction": 0.9208837139871623
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 23274,
+        "valid_cells": 76332,
+        "valid_fraction": 0.766339377145955
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 6330,
+        "valid_cells": 59487,
+        "valid_fraction": 0.90382423993801
+      }
+    },
+    "tin_r10": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 13,
+        "valid_cells": 6686,
+        "valid_fraction": 0.9980594118525153
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 6447,
+        "valid_cells": 93159,
+        "valid_fraction": 0.9352749834347328
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 13,
+        "valid_cells": 65804,
+        "valid_fraction": 0.9998024826412629
+      }
+    },
+    "tin_r3": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 204,
+        "valid_cells": 6495,
+        "valid_fraction": 0.9695476936856248
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 17560,
+        "valid_cells": 82046,
+        "valid_fraction": 0.8237053992731361
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 2878,
+        "valid_cells": 62939,
+        "valid_fraction": 0.956272695504201
+      }
+    },
+    "tin_r5": {
+      "borda": {
+        "cells": 6699,
+        "nodata_cells": 65,
+        "valid_cells": 6634,
+        "valid_fraction": 0.9902970592625765
+      },
+      "contexto": {
+        "cells": 99606,
+        "nodata_cells": 12215,
+        "valid_cells": 87391,
+        "valid_fraction": 0.8773668252916491
+      },
+      "medicao": {
+        "cells": 65817,
+        "nodata_cells": 569,
+        "valid_cells": 65248,
+        "valid_fraction": 0.9913548171445067
+      }
+    }
+  },
+  "terrain_status_codes": {
+    "0": "valid",
+    "1": "outside_convex_hull",
+    "2": "nearest_beyond_radius",
+    "3": "unsupported_triangle",
+    "4": "too_few_idw_neighbors",
+    "5": "one_sided_idw_neighbors",
+    "6": "input_point_excluded_by_qc"
+  },
+  "validation": {
+    "metrics": [
+      {
+        "bias_m": 0.00018538455677905973,
+        "common": {
+          "bias_m": 0.00014123992505852512,
+          "mae_m": 0.02359518819494806,
+          "n": 19000,
+          "p95_abs_m": 0.08186494451330756,
+          "rmse_m": 0.055370439323848726
+        },
+        "evaluated": 20000,
+        "mae_m": 0.024581101522967237,
+        "method": "tin",
+        "n": 19702,
+        "p95_abs_m": 0.08770711855372045,
+        "radius_m": 3.0,
+        "rmse_m": 0.05732182872536057,
+        "split": "reserved_points",
+        "valid_fraction": 0.9851
+      },
+      {
+        "bias_m": -0.00013631368181510976,
+        "common": {
+          "bias_m": -0.00013631368181510976,
+          "mae_m": 0.025468290750587548,
+          "n": 19000,
+          "p95_abs_m": 0.08448361426759445,
+          "rmse_m": 0.05705460414385
+        },
+        "evaluated": 20000,
+        "mae_m": 0.025468290750587548,
+        "method": "idw",
+        "n": 19000,
+        "p95_abs_m": 0.08448361426759445,
+        "radius_m": 3.0,
+        "rmse_m": 0.05705460414385,
+        "split": "reserved_points",
+        "valid_fraction": 0.95
+      },
+      {
+        "bias_m": 0.0002687468624980391,
+        "common": {
+          "bias_m": 0.00013876287787298607,
+          "mae_m": 0.023677168057237043,
+          "n": 19022,
+          "p95_abs_m": 0.08209041149062841,
+          "rmse_m": 0.05562734168670264
+        },
+        "evaluated": 20000,
+        "mae_m": 0.0249168442182861,
+        "method": "tin",
+        "n": 19850,
+        "p95_abs_m": 0.08931808857170152,
+        "radius_m": 5.0,
+        "rmse_m": 0.05816022625044573,
+        "split": "reserved_points",
+        "valid_fraction": 0.9925
+      },
+      {
+        "bias_m": -0.00015149125608203128,
+        "common": {
+          "bias_m": -0.00015149125608203128,
+          "mae_m": 0.025637545344917495,
+          "n": 19022,
+          "p95_abs_m": 0.08489149802314276,
+          "rmse_m": 0.05778139581501829
+        },
+        "evaluated": 20000,
+        "mae_m": 0.025637545344917495,
+        "method": "idw",
+        "n": 19022,
+        "p95_abs_m": 0.08489149802314276,
+        "radius_m": 5.0,
+        "rmse_m": 0.05778139581501829,
+        "split": "reserved_points",
+        "valid_fraction": 0.9511
+      },
+      {
+        "bias_m": 0.00028324501127346085,
+        "common": {
+          "bias_m": 0.0001449455289285567,
+          "mae_m": 0.023682790991269735,
+          "n": 19025,
+          "p95_abs_m": 0.08216162588371383,
+          "rmse_m": 0.05563238811489376
+        },
+        "evaluated": 20000,
+        "mae_m": 0.02503591894350037,
+        "method": "tin",
+        "n": 19923,
+        "p95_abs_m": 0.09021358172786874,
+        "radius_m": 10.0,
+        "rmse_m": 0.05840897408479368,
+        "split": "reserved_points",
+        "valid_fraction": 0.99615
+      },
+      {
+        "bias_m": -0.00015095772667897376,
+        "common": {
+          "bias_m": -0.00015095772667897376,
+          "mae_m": 0.025644205669157195,
+          "n": 19025,
+          "p95_abs_m": 0.08489517966877429,
+          "rmse_m": 0.057785053025871023
+        },
+        "evaluated": 20000,
+        "mae_m": 0.025644205669157195,
+        "method": "idw",
+        "n": 19025,
+        "p95_abs_m": 0.08489517966877429,
+        "radius_m": 10.0,
+        "rmse_m": 0.057785053025871023,
+        "split": "reserved_points",
+        "valid_fraction": 0.95125
+      },
+      {
+        "bias_m": 0.0017915165642376461,
+        "common": {
+          "bias_m": -0.010831775028530395,
+          "mae_m": 0.035405826754648435,
+          "n": 307,
+          "p95_abs_m": 0.1257528260861248,
+          "rmse_m": 0.07779701703736132
+        },
+        "evaluated": 20000,
+        "mae_m": 0.03603863576678795,
+        "method": "tin",
+        "n": 2026,
+        "p95_abs_m": 0.13046165794514764,
+        "radius_m": 3.0,
+        "rmse_m": 0.06593646253624669,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.1013
+      },
+      {
+        "bias_m": -0.01586952365002938,
+        "common": {
+          "bias_m": -0.01586952365002938,
+          "mae_m": 0.04724804553349116,
+          "n": 307,
+          "p95_abs_m": 0.14366397988022753,
+          "rmse_m": 0.10639827248566402
+        },
+        "evaluated": 20000,
+        "mae_m": 0.04724804553349116,
+        "method": "idw",
+        "n": 307,
+        "p95_abs_m": 0.14366397988022753,
+        "radius_m": 3.0,
+        "rmse_m": 0.10639827248566402,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.01535
+      },
+      {
+        "bias_m": 0.009884699865914755,
+        "common": {
+          "bias_m": -0.01703165767791081,
+          "mae_m": 0.05008877856020794,
+          "n": 349,
+          "p95_abs_m": 0.23911986722591771,
+          "rmse_m": 0.10961873647875414
+        },
+        "evaluated": 20000,
+        "mae_m": 0.05577669203646249,
+        "method": "tin",
+        "n": 6400,
+        "p95_abs_m": 0.21613947482232437,
+        "radius_m": 5.0,
+        "rmse_m": 0.11251659115078136,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.32
+      },
+      {
+        "bias_m": -0.009325492312679871,
+        "common": {
+          "bias_m": -0.009325492312679871,
+          "mae_m": 0.06044865599317597,
+          "n": 349,
+          "p95_abs_m": 0.26012372663481065,
+          "rmse_m": 0.1238692095826566
+        },
+        "evaluated": 20000,
+        "mae_m": 0.06044865599317597,
+        "method": "idw",
+        "n": 349,
+        "p95_abs_m": 0.26012372663481065,
+        "radius_m": 5.0,
+        "rmse_m": 0.1238692095826566,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.01745
+      },
+      {
+        "bias_m": 0.0057633362575490454,
+        "common": {
+          "bias_m": -0.028093766034983886,
+          "mae_m": 0.08192932906710693,
+          "n": 425,
+          "p95_abs_m": 0.4273382152978227,
+          "rmse_m": 0.17011969711194508
+        },
+        "evaluated": 20000,
+        "mae_m": 0.09861153578255061,
+        "method": "tin",
+        "n": 19365,
+        "p95_abs_m": 0.38864342344386366,
+        "radius_m": 10.0,
+        "rmse_m": 0.19467581354556873,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.96825
+      },
+      {
+        "bias_m": -0.027515735907756394,
+        "common": {
+          "bias_m": -0.027515735907756394,
+          "mae_m": 0.14971885578952532,
+          "n": 425,
+          "p95_abs_m": 0.6696201787627607,
+          "rmse_m": 0.4184241611316767
+        },
+        "evaluated": 20000,
+        "mae_m": 0.14971885578952532,
+        "method": "idw",
+        "n": 425,
+        "p95_abs_m": 0.6696201787627607,
+        "radius_m": 10.0,
+        "rmse_m": 0.4184241611316767,
+        "split": "reserved_blocks",
+        "valid_fraction": 0.02125
+      }
+    ],
+    "scope": "held_out_MDT_interpolation_error_not_external_absolute_accuracy",
+    "seed": 2027,
+    "splits": {
+      "reserved_blocks": {
+        "all_held_xy_excluded_from_training": true,
+        "block_size_m": 10.0,
+        "evaluated": 20000,
+        "held": 24598,
+        "status": "evaluated",
+        "train": 226841
+      },
+      "reserved_points": {
+        "all_held_xy_excluded_from_training": true,
+        "block_size_m": null,
+        "evaluated": 20000,
+        "held": 20000,
+        "status": "evaluated",
+        "train": 231439
+      }
+    }
+  }
+}

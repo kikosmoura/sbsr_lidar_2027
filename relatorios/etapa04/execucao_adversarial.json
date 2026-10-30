@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "case": "adversarial",
+  "run_id": "20261025T170318Z_1bf13e94c0",
+  "cache_hit": false,
+  "method": "tin",
+  "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T170318Z_1bf13e94c0/manifest.json",
+  "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T170318Z_1bf13e94c0/qc_altimetrico.json",
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa04/adversarial/20261025T170318Z_1bf13e94c0"
+}

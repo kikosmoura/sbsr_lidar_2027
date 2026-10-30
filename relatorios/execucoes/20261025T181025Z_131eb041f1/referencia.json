@@ -1,0 +1,857 @@
+{
+  "annotation_assessment": {
+    "completed_annotations": 0,
+    "completed_tasks_with_at_least_one_valid_annotation": 0,
+    "completion_note": "Reviewed tasks require signed review; vegetation/gaps require full footprint coverage with unknown areas explicitly uncertain",
+    "eligible_vegetation_annotations": {
+      "teste": 0,
+      "treino": 0
+    },
+    "errors": [],
+    "human_labeling_complete": false,
+    "human_labeling_status": "pendente",
+    "independent_height_references": 0,
+    "independent_priority_references": 0,
+    "ok": true,
+    "pending_tasks": 100,
+    "precision_recall_computed": false,
+    "preparation_complete": true,
+    "records": [],
+    "reviewed_tasks": 0,
+    "supervised_training_allowed": false,
+    "tasks": 100,
+    "uncertain_annotations": 0,
+    "warnings": [
+      "Teste do adverso foi inspecionado em QC anterior; reserva é para ajuste supervisionado futuro, não teste municipal intocado"
+    ]
+  },
+  "double_windows": 5,
+  "elapsed_seconds": 24.274791853968054,
+  "external_source_inventory": {
+    "image_candidates": [],
+    "note": "Candidate files are not accepted as dated/independent reference automatically; derived LiDAR imagery is same sensor.",
+    "searched_roots": [
+      "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/files",
+      "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDS_2020",
+      "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/MDT_2020"
+    ],
+    "verified_external_2020_images": []
+  },
+  "frame_counts_by_case": {
+    "adversarial": 113,
+    "main": 353
+  },
+  "group_reservation": [
+    {
+      "corridor_id": "CO_AD_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_cc0ea5206cbfde"
+    },
+    {
+      "corridor_id": "CO_AF_01",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_AF_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_de1123b508469c"
+    },
+    {
+      "corridor_id": "CO_AF_03",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_BT_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_3b25e72ca37f1a"
+    },
+    {
+      "corridor_id": "CO_BT_01_E",
+      "fold": "treino",
+      "group_id": "G05_4fb63a28d01c69"
+    },
+    {
+      "corridor_id": "CO_BT_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_24359a15ed5cd6"
+    },
+    {
+      "corridor_id": "CO_BT_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_BT_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_50dd26f9870507"
+    },
+    {
+      "corridor_id": "CO_CL_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_501f9edae2452a"
+    },
+    {
+      "corridor_id": "CO_CS_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ebf80d63ae6b07"
+    },
+    {
+      "corridor_id": "CO_CT_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_0ca716d47689e8"
+    },
+    {
+      "corridor_id": "CO_CT_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_69a0486037c525"
+    },
+    {
+      "corridor_id": "CO_CT_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_cd12084cd2cd75"
+    },
+    {
+      "corridor_id": "CO_CT_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_8e22a9af91c1e3"
+    },
+    {
+      "corridor_id": "CO_CT_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ff46ab4cf39ed5"
+    },
+    {
+      "corridor_id": "CO_EM_01",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_FO_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_FO_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_FO_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_G_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_897c50fbe753e3"
+    },
+    {
+      "corridor_id": "CO_G_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_c81d2f3b1af363"
+    },
+    {
+      "corridor_id": "CO_G_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_a9ff0adb5f8c3f"
+    },
+    {
+      "corridor_id": "CO_G_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ad9cfa824c66ba"
+    },
+    {
+      "corridor_id": "CO_G_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_2285c92be9ed72"
+    },
+    {
+      "corridor_id": "CO_G_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_c81d2f3b1af363"
+    },
+    {
+      "corridor_id": "CO_G_07",
+      "fold": "nao_atribuido",
+      "group_id": "G05_4fe2c3462bd5be"
+    },
+    {
+      "corridor_id": "CO_G_08",
+      "fold": "nao_atribuido",
+      "group_id": "G05_8b624a29d6f37b"
+    },
+    {
+      "corridor_id": "CO_G_09",
+      "fold": "nao_atribuido",
+      "group_id": "G05_34b9c715a723e4"
+    },
+    {
+      "corridor_id": "CO_G_10",
+      "fold": "nao_atribuido",
+      "group_id": "G05_98ffe7eec349b8"
+    },
+    {
+      "corridor_id": "CO_IP_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_699657c8c3053b"
+    },
+    {
+      "corridor_id": "CO_IP_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_91daea43580eb8"
+    },
+    {
+      "corridor_id": "CO_IP_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_1f95e4958a0ad7"
+    },
+    {
+      "corridor_id": "CO_IP_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_1f95e4958a0ad7"
+    },
+    {
+      "corridor_id": "CO_IP_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_b273322f002b11"
+    },
+    {
+      "corridor_id": "CO_IP_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_abadf2e1451135"
+    },
+    {
+      "corridor_id": "CO_IQ_01",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_IQ_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_7aecd68ae1c381"
+    },
+    {
+      "corridor_id": "CO_JT_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ca83c14b199bf2"
+    },
+    {
+      "corridor_id": "CO_LA_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_af55ee9ed2a532"
+    },
+    {
+      "corridor_id": "CO_LA_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_be3dcab11d3d53"
+    },
+    {
+      "corridor_id": "CO_LA_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_907d568b67a86c"
+    },
+    {
+      "corridor_id": "CO_LA_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_LA_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_LA_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_LA_07",
+      "fold": "nao_atribuido",
+      "group_id": "G05_003226e9ffe8da"
+    },
+    {
+      "corridor_id": "CO_MG_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_50a2da6778e22e"
+    },
+    {
+      "corridor_id": "CO_MG_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_1aef15d2f7bc90"
+    },
+    {
+      "corridor_id": "CO_MO_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_e91a4e72cdbd89"
+    },
+    {
+      "corridor_id": "CO_MO_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_de655ac11fba45"
+    },
+    {
+      "corridor_id": "CO_MO_03",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_MO_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_27d38fa0208a83"
+    },
+    {
+      "corridor_id": "CO_MO_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_057f62b8dc368e"
+    },
+    {
+      "corridor_id": "CO_MO_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_b431295211a87b"
+    },
+    {
+      "corridor_id": "CO_MO_07",
+      "fold": "nao_atribuido",
+      "group_id": "G05_d70521d6d359ca"
+    },
+    {
+      "corridor_id": "CO_MO_08",
+      "fold": "nao_atribuido",
+      "group_id": "G05_69cbbf9e8244ab"
+    },
+    {
+      "corridor_id": "CO_MO_09",
+      "fold": "nao_atribuido",
+      "group_id": "G05_a04451c92ce2ec"
+    },
+    {
+      "corridor_id": "CO_MO_10",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ce4304f2c2b6e3"
+    },
+    {
+      "corridor_id": "CO_MO_11",
+      "fold": "nao_atribuido",
+      "group_id": "G05_57fd7f511d1c88"
+    },
+    {
+      "corridor_id": "CO_MO_12",
+      "fold": "nao_atribuido",
+      "group_id": "G05_9090e91d6b1c0b"
+    },
+    {
+      "corridor_id": "CO_MP_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ab82019ac4840e"
+    },
+    {
+      "corridor_id": "CO_MP_02",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_MP_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_d426d7bd2f0295"
+    },
+    {
+      "corridor_id": "CO_PA_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_6311690e8e54be"
+    },
+    {
+      "corridor_id": "CO_PA_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_b921776ddff38b"
+    },
+    {
+      "corridor_id": "CO_PE_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_337b921aea1cfa"
+    },
+    {
+      "corridor_id": "CO_PE_02",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_PE_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_PE_04",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_PI_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_6c88a2d5f90e93"
+    },
+    {
+      "corridor_id": "CO_PI_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_d9fc428626d3f6"
+    },
+    {
+      "corridor_id": "CO_PI_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_814da0a33cc1e4"
+    },
+    {
+      "corridor_id": "CO_PI_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_be3dcab11d3d53"
+    },
+    {
+      "corridor_id": "CO_PI_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_PJ_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_37097bab8740bb"
+    },
+    {
+      "corridor_id": "CO_PJ_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_37097bab8740bb"
+    },
+    {
+      "corridor_id": "CO_PJ_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_615367bd57e012"
+    },
+    {
+      "corridor_id": "CO_PJ_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_PJ_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_PJ_06",
+      "fold": "nao_atribuido",
+      "group_id": "G05_c935c6b6055d69"
+    },
+    {
+      "corridor_id": "CO_PJ_07",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_PJ_08",
+      "fold": "nao_atribuido",
+      "group_id": "G05_c900f96723d130"
+    },
+    {
+      "corridor_id": "CO_PJ_09",
+      "fold": "nao_atribuido",
+      "group_id": "G05_120ebb4966de6f"
+    },
+    {
+      "corridor_id": "CO_PJ_10",
+      "fold": "nao_atribuido",
+      "group_id": "G05_37097bab8740bb"
+    },
+    {
+      "corridor_id": "CO_PR_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_PR_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_fde9d342e598db"
+    },
+    {
+      "corridor_id": "CO_PR_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_af391bcc7af912"
+    },
+    {
+      "corridor_id": "CO_PR_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_2be9ff0f5272ba"
+    },
+    {
+      "corridor_id": "CO_PR_10",
+      "fold": "nao_atribuido",
+      "group_id": "G05_36d4901447cc23"
+    },
+    {
+      "corridor_id": "CO_SA_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_SA_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_9bdde59403fc88"
+    },
+    {
+      "corridor_id": "CO_SE_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_ac67bc13190102"
+    },
+    {
+      "corridor_id": "CO_SE_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_063fd09cd4de0c"
+    },
+    {
+      "corridor_id": "CO_SE_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_73db0398beb541"
+    },
+    {
+      "corridor_id": "CO_SE_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_SE_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_1fbeaf06a36bd9"
+    },
+    {
+      "corridor_id": "CO_SE_06",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_SM_01",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_SM_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_2d3145a3fc314d"
+    },
+    {
+      "corridor_id": "CO_SM_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_73565419a120db"
+    },
+    {
+      "corridor_id": "CO_SM_05",
+      "fold": "nao_atribuido",
+      "group_id": "G05_eabf13a3b401da"
+    },
+    {
+      "corridor_id": "CO_SM_06",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_SM_07",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_ST_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_f890ddadcd77be"
+    },
+    {
+      "corridor_id": "CO_VM_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_1f95e4958a0ad7"
+    },
+    {
+      "corridor_id": "CO_VM_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_VM_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_VM_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_78eafb52637bb4"
+    },
+    {
+      "corridor_id": "CO_VP_01",
+      "fold": "nao_atribuido",
+      "group_id": "G05_a214af8694f0da"
+    },
+    {
+      "corridor_id": "CO_VP_02",
+      "fold": "nao_atribuido",
+      "group_id": "G05_b03d8041fcd83d"
+    },
+    {
+      "corridor_id": "CO_VP_03",
+      "fold": "nao_atribuido",
+      "group_id": "G05_add43f3b8d86b7"
+    },
+    {
+      "corridor_id": "CO_VP_04",
+      "fold": "nao_atribuido",
+      "group_id": "G05_26ffa55a4b2d05"
+    },
+    {
+      "corridor_id": "CO_VP_05",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    },
+    {
+      "corridor_id": "CO_VP_06",
+      "fold": "teste",
+      "group_id": "G05_9ec0ce7d48680d"
+    }
+  ],
+  "human_labeling_status": "pendente",
+  "human_labels_created": 0,
+  "limitations": [
+    "Semantic strata are candidate proxies, not confirmed trees/shrubs/roofs/posts/water/shadows.",
+    "Selection intentional; inclusion probabilities unknown and no municipal population weights.",
+    "RGB image is topmost-point color from LiDAR; same sensor, not orthophoto or calibrated reflectance.",
+    "Training/test reserved by entire intersecting corridor groups; pilot has only two different corridor types.",
+    "Both cases were inspected in earlier QC; reserve concerns future supervised adjustment, not pristine independent test.",
+    "No human labels or external height/priority truth were fabricated; supervised training/precision/recall remain blocked.",
+    "Working copies mutable and excluded from cache hashes; reruns never overwrite edits. Use check-annotations to assess current work."
+  ],
+  "mutable_workfiles": [
+    "trabalho/anotacoes.gpkg",
+    "trabalho/tarefas.csv",
+    "trabalho/fontes_referencia.json"
+  ],
+  "ok": true,
+  "package": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1",
+  "peak_process_rss_mib": 567.7890625,
+  "preparation_complete": true,
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/quadro_amostral.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/grupos_reservados.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/amostras_administracao.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/amostras.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/modelo_anotacoes.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/modelo_tarefas.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/anotacao.schema.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/modelo_fontes_referencia.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_04b49aecb97248/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fe846d9865674e/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9937676f548f96/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_8b24aaddbf1da4/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_36a0b00c791153/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_88d1e36b4587c6/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_a70bace88de617/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f1e7c1553ba3ac/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9736ea445e2ab9/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_d67207b850e4c7/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_10296fbb1f82b0/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9ea13fc32d9b63/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_04b49aecb97248/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fe846d9865674e/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9937676f548f96/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_8b24aaddbf1da4/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_36a0b00c791153/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_88d1e36b4587c6/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_a70bace88de617/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f1e7c1553ba3ac/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9736ea445e2ab9/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_d67207b850e4c7/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_10296fbb1f82b0/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9ea13fc32d9b63/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_04b49aecb97248/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fe846d9865674e/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9937676f548f96/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_8b24aaddbf1da4/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_36a0b00c791153/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_88d1e36b4587c6/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_a70bace88de617/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f1e7c1553ba3ac/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9736ea445e2ab9/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_d67207b850e4c7/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_10296fbb1f82b0/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9ea13fc32d9b63/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_04b49aecb97248/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_04b49aecb97248/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fe846d9865674e/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fe846d9865674e/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9937676f548f96/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9937676f548f96/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_8b24aaddbf1da4/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_8b24aaddbf1da4/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_36a0b00c791153/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_36a0b00c791153/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_88d1e36b4587c6/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_88d1e36b4587c6/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_a70bace88de617/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_a70bace88de617/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f1e7c1553ba3ac/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f1e7c1553ba3ac/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9736ea445e2ab9/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9736ea445e2ab9/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_d67207b850e4c7/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_d67207b850e4c7/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_10296fbb1f82b0/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_10296fbb1f82b0/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9ea13fc32d9b63/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9ea13fc32d9b63/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_1c58acf73dce89/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9d4834bf217c12/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_eb806a5c6b3308/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_45c14dce82ee6d/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_33af53e70242ee/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f5493da0887d6c/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9cfe202e8b9b2c/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fa5f082db548fd/pontos_altura.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_1c58acf73dce89/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9d4834bf217c12/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_eb806a5c6b3308/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_45c14dce82ee6d/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_33af53e70242ee/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f5493da0887d6c/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9cfe202e8b9b2c/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fa5f082db548fd/mds_rgb_original.laz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_1c58acf73dce89/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9d4834bf217c12/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_eb806a5c6b3308/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_45c14dce82ee6d/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_33af53e70242ee/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f5493da0887d6c/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9cfe202e8b9b2c/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fa5f082db548fd/rgb_pontos_lidar.tif",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_1c58acf73dce89/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_1c58acf73dce89/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9d4834bf217c12/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9d4834bf217c12/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_eb806a5c6b3308/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_eb806a5c6b3308/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_45c14dce82ee6d/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_45c14dce82ee6d/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_33af53e70242ee/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_33af53e70242ee/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f5493da0887d6c/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_f5493da0887d6c/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9cfe202e8b9b2c/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_9cfe202e8b9b2c/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fa5f082db548fd/perfis_pontos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/janelas/W05_fa5f082db548fd/ficha_cega.png",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/fontes_lidar.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/plano_referencia.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/GUIA_ANOTACAO.md",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/anotacao_cega.qgz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/qa_insumos.qgz",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/qgis_validacao.json",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1/integridade_plano.json"
+  ],
+  "run_id": "20261025T181025Z_131eb041f1",
+  "sampling": {
+    "adversarial": {
+      "all_frame_windows": 113,
+      "available_proxy_targets": [
+        "class_1",
+        "class_2",
+        "class_3",
+        "class_4",
+        "class_5",
+        "class_6",
+        "class_8",
+        "edge",
+        "empty_cells",
+        "high_density",
+        "high_h_points",
+        "invalid_terrain_cells",
+        "low_density",
+        "low_h_points",
+        "negative_alert_points"
+      ],
+      "covered_proxy_targets": [
+        "class_1",
+        "class_2",
+        "class_3",
+        "class_4",
+        "class_5",
+        "class_6",
+        "class_8",
+        "edge",
+        "empty_cells",
+        "high_density",
+        "high_h_points",
+        "invalid_terrain_cells",
+        "low_density",
+        "low_h_points",
+        "negative_alert_points"
+      ],
+      "density_quartiles_records_m2": [
+        1.514272400111912,
+        13.599828413679319
+      ],
+      "design": "intentional_coverage_spatial_spread_seeded_ties; no_population_weights",
+      "eligible_including_mandatory_qa": 58,
+      "inclusion_probabilities_known": false,
+      "not_covered_proxy_targets": [],
+      "regular_eligible_windows": 58,
+      "seed": 2028
+    },
+    "main": {
+      "all_frame_windows": 353,
+      "available_proxy_targets": [
+        "class_1",
+        "class_2",
+        "class_3",
+        "class_4",
+        "class_5",
+        "class_6",
+        "class_8",
+        "edge",
+        "empty_cells",
+        "high_density",
+        "high_h_points",
+        "invalid_terrain_cells",
+        "low_density",
+        "low_h_points",
+        "negative_alert_points"
+      ],
+      "covered_proxy_targets": [
+        "class_1",
+        "class_2",
+        "class_3",
+        "class_4",
+        "class_5",
+        "class_6",
+        "class_8",
+        "edge",
+        "empty_cells",
+        "high_density",
+        "high_h_points",
+        "invalid_terrain_cells",
+        "low_density",
+        "low_h_points",
+        "negative_alert_points"
+      ],
+      "density_quartiles_records_m2": [
+        14.570625,
+        23.6
+      ],
+      "design": "intentional_coverage_spatial_spread_seeded_ties; no_population_weights",
+      "eligible_including_mandatory_qa": 226,
+      "inclusion_probabilities_known": false,
+      "not_covered_proxy_targets": [],
+      "regular_eligible_windows": 225,
+      "seed": 2027
+    }
+  },
+  "stage": "05",
+  "tasks": 100,
+  "window_counts_by_case": {
+    "adversarial": 8,
+    "main": 12
+  },
+  "windows": 20
+}

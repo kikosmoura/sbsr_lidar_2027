@@ -1,0 +1,50 @@
+{
+  "cache_resume": {
+    "cache_hit": true,
+    "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T154109Z_c25c3a14de/manifest.json",
+    "ok": true,
+    "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/smoke.json",
+    "run_id": "20261025T154109Z_c25c3a14de"
+  },
+  "data": "2026-10-25",
+  "doctor": {
+    "context_ready": false,
+    "ok": true,
+    "report": "relatorios/etapa02/doctor.json",
+    "warnings": 4
+  },
+  "downloader_tests": {
+    "command": "venv/bin/python -m unittest discover -s tests -v",
+    "failed": 0,
+    "log": "relatorios/etapa02/downloader_regressao.log",
+    "passed": 25
+  },
+  "pip_check": "No broken requirements found.",
+  "protected_files_sha256": {
+    "baixar_lidar_geosampa.py": "a4f566f39cc06ab931617720c1a8a4fa8391f40b85c4fd04ae69d1e8972df3ca",
+    "requirements.txt": "fd72dd0bc564965c8e021b2b0f38452c00bd290e47fae16df7bc28ce60aedc92",
+    "tests/test_baixar_lidar_geosampa.py": "28b216ac967c08ce55fbc3b88bf9e9eb7dad5ea54f3ffc7f83930b8b7848aed0"
+  },
+  "raw_declared_points": 7771581,
+  "raw_read_points": 1024,
+  "raw_sample_sha256_preserved": true,
+  "scientific_pilot_executed": false,
+  "scientific_tests": {
+    "command": ".venv-cientifico/bin/python -m pytest tests/cientifico -q",
+    "failed": 0,
+    "observed_in": "saida_real_da_ferramenta_de_execucao",
+    "passed": 39,
+    "skipped": 0,
+    "warnings": [
+      "PendingDeprecationWarning Rasterio/Affine sobre multiplicação de matrizes"
+    ]
+  },
+  "smoke": {
+    "cache_hit": false,
+    "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/manifest.json",
+    "ok": true,
+    "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/smoke.json",
+    "run_id": "20261025T153934Z_5d00198d4a"
+  },
+  "synthetic_points": 4
+}

@@ -1,0 +1,11 @@
+2026-10-25 15:44:50,371 INFO Início: canopy:adversarial
+2026-10-25 15:44:50,373 INFO canopy_counts {"case": "adversarial", "heights": [2.0, 3.0, 5.0]}
+2026-10-25 15:44:50,531 INFO local_geometry {"query_cells": 3650, "reliable_cells": 3543, "voxel_points": 35444}
+2026-10-25 15:44:50,532 INFO read_spectral_auxiliary {"tile": "3312-431"}
+2026-10-25 15:44:51,352 INFO canopy_patches {"height": 2.0, "version": "baseline"}
+2026-10-25 15:44:51,406 INFO canopy_patches {"height": 2.0, "version": "refinada"}
+2026-10-25 15:44:51,580 INFO canopy_patches {"height": 3.0, "version": "baseline"}
+2026-10-25 15:44:51,641 INFO canopy_patches {"height": 3.0, "version": "refinada"}
+2026-10-25 15:44:51,711 INFO canopy_patches {"height": 5.0, "version": "baseline"}
+2026-10-25 15:44:51,823 INFO canopy_patches {"height": 5.0, "version": "refinada"}
+2026-10-25 15:45:05,504 INFO Concluído; cache_hit=False

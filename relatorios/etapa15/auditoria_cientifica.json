@@ -1,0 +1,781 @@
+{
+  "H1_median_absolute_P95_difference_m": 5.340891031710527,
+  "H1_pairs": 538,
+  "article_registry": {
+    "numerical_source_files": 3,
+    "parameters": 24,
+    "reproduced_metrics": 126
+  },
+  "development_units": 30,
+  "evaluation_units": 114,
+  "external_accuracy_evaluated": false,
+  "history": {
+    "authenticated_by_stage": {
+      "12": 153,
+      "13": 85,
+      "14": 79
+    },
+    "historical_aliases": [
+      {
+        "original": {
+          "bytes": 41236,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "01c5d00ea6d3a6a03e283b6b3fb765c54f0887306ba36e89dadb46193f0dbccd"
+        },
+        "snapshot": {
+          "bytes": 41236,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/entradas_etapa12/decisoes_metodologicas.md",
+          "sha256": "01c5d00ea6d3a6a03e283b6b3fb765c54f0887306ba36e89dadb46193f0dbccd"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 258010,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "8613fc0a26c7f92f2a36094e842645d0c1f199ab92601c014258b8b712b3be38"
+        },
+        "snapshot": {
+          "bytes": 258010,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/entradas_etapa12/estado_projeto.json",
+          "sha256": "8613fc0a26c7f92f2a36094e842645d0c1f199ab92601c014258b8b712b3be38"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 11973,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/crown_data.py",
+          "sha256": "b2a2eed5f586d924811f018c8b3e43a59e3d62cd8ed0a5119115d620dea769e3"
+        },
+        "snapshot": {
+          "bytes": 11973,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa12/crown_data.py",
+          "sha256": "b2a2eed5f586d924811f018c8b3e43a59e3d62cd8ed0a5119115d620dea769e3"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 42564,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "20db90bfbefcc6b2b0bc970c176891029a0bc7569a7c6d976b784991db82304a"
+        },
+        "snapshot": {
+          "bytes": 42564,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/entradas_etapa13/decisoes_metodologicas.md",
+          "sha256": "20db90bfbefcc6b2b0bc970c176891029a0bc7569a7c6d976b784991db82304a"
+        },
+        "stage": "13"
+      },
+      {
+        "original": {
+          "bytes": 258894,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "dac8c850bf57b6728d90dd17561557393dde2725f141e540ced6c2e4112cd0e7"
+        },
+        "snapshot": {
+          "bytes": 258894,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/entradas_etapa13/estado_projeto.json",
+          "sha256": "dac8c850bf57b6728d90dd17561557393dde2725f141e540ced6c2e4112cd0e7"
+        },
+        "stage": "13"
+      },
+      {
+        "original": {
+          "bytes": 44183,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "7a951c2d239ea2923c096d65cf2897576b37a0aec308ef3c4df5f7c1b55f32f8"
+        },
+        "snapshot": {
+          "bytes": 44183,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa14/decisoes_metodologicas.md",
+          "sha256": "7a951c2d239ea2923c096d65cf2897576b37a0aec308ef3c4df5f7c1b55f32f8"
+        },
+        "stage": "14"
+      },
+      {
+        "original": {
+          "bytes": 261065,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "31b7f02b7dfd0ca97afe88c5582df17228b5ef7b0b3b68faa9913529e41f790c"
+        },
+        "snapshot": {
+          "bytes": 261065,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa14/estado_projeto.json",
+          "sha256": "31b7f02b7dfd0ca97afe88c5582df17228b5ef7b0b3b68faa9913529e41f790c"
+        },
+        "stage": "14"
+      }
+    ]
+  },
+  "independent_spatial_groups_certified": false,
+  "maximum_common_observed_area_difference_m2": 1.2960754247615114e-08,
+  "maximum_score_absolute_error": 0.0,
+  "new_scientific_parameter_choices": false,
+  "p_values_computed": false,
+  "primary_source_files_verified": 13,
+  "role_blocks_disjoint": true,
+  "score_variants_reproduced": [
+    {
+      "jaccard_exact": 1.0,
+      "k": 23,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 23,
+      "top_union_n": 23,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0"
+    },
+    {
+      "jaccard_exact": 0.7037037037037037,
+      "k": 23,
+      "maximum_absolute_rank_shift": 35.0,
+      "mean_absolute_rank_shift": 10.517543859649123,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9119631923750109,
+      "top_intersection_n": 19,
+      "top_union_n": 27,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.25"
+    },
+    {
+      "jaccard_exact": 0.35294117647058826,
+      "k": 23,
+      "maximum_absolute_rank_shift": 66.0,
+      "mean_absolute_rank_shift": 20.333333333333332,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.6681647966772448,
+      "top_intersection_n": 12,
+      "top_union_n": 34,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.5"
+    },
+    {
+      "jaccard_exact": 0.24324324324324326,
+      "k": 23,
+      "maximum_absolute_rank_shift": 88.5,
+      "mean_absolute_rank_shift": 26.657894736842106,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.4335572014420668,
+      "top_intersection_n": 9,
+      "top_union_n": 37,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 23,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 23,
+      "top_union_n": 23,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0"
+    },
+    {
+      "jaccard_exact": 0.84,
+      "k": 23,
+      "maximum_absolute_rank_shift": 16.0,
+      "mean_absolute_rank_shift": 3.4649122807017543,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9884778154364393,
+      "top_intersection_n": 21,
+      "top_union_n": 25,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.25"
+    },
+    {
+      "jaccard_exact": 0.6428571428571429,
+      "k": 23,
+      "maximum_absolute_rank_shift": 43.0,
+      "mean_absolute_rank_shift": 8.280701754385966,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9339992962534065,
+      "top_intersection_n": 18,
+      "top_union_n": 28,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.5"
+    },
+    {
+      "jaccard_exact": 0.4375,
+      "k": 23,
+      "maximum_absolute_rank_shift": 77.0,
+      "mean_absolute_rank_shift": 17.973684210526315,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.7250276991936103,
+      "top_intersection_n": 14,
+      "top_union_n": 32,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 23,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 23,
+      "top_union_n": 23,
+      "variant": "A_plus_3D__I6_only__height_only__w0"
+    },
+    {
+      "jaccard_exact": 0.5862068965517241,
+      "k": 23,
+      "maximum_absolute_rank_shift": 34.5,
+      "mean_absolute_rank_shift": 10.798245614035087,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9064622209430714,
+      "top_intersection_n": 17,
+      "top_union_n": 29,
+      "variant": "A_plus_3D__I6_only__height_only__w0.25"
+    },
+    {
+      "jaccard_exact": 0.3939393939393939,
+      "k": 23,
+      "maximum_absolute_rank_shift": 63.5,
+      "mean_absolute_rank_shift": 20.026315789473685,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.6679028242396452,
+      "top_intersection_n": 13,
+      "top_union_n": 33,
+      "variant": "A_plus_3D__I6_only__height_only__w0.5"
+    },
+    {
+      "jaccard_exact": 0.2777777777777778,
+      "k": 23,
+      "maximum_absolute_rank_shift": 86.0,
+      "mean_absolute_rank_shift": 25.92982456140351,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.44927512927970675,
+      "top_intersection_n": 10,
+      "top_union_n": 36,
+      "variant": "A_plus_3D__I6_only__height_only__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 23,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 23,
+      "top_union_n": 23,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0"
+    },
+    {
+      "jaccard_exact": 0.5862068965517241,
+      "k": 23,
+      "maximum_absolute_rank_shift": 34.5,
+      "mean_absolute_rank_shift": 10.798245614035087,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.9064622209430714,
+      "top_intersection_n": 17,
+      "top_union_n": 29,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.25"
+    },
+    {
+      "jaccard_exact": 0.3939393939393939,
+      "k": 23,
+      "maximum_absolute_rank_shift": 63.5,
+      "mean_absolute_rank_shift": 20.026315789473685,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.6679028242396452,
+      "top_intersection_n": 13,
+      "top_union_n": 33,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.5"
+    },
+    {
+      "jaccard_exact": 0.2777777777777778,
+      "k": 23,
+      "maximum_absolute_rank_shift": 86.0,
+      "mean_absolute_rank_shift": 25.92982456140351,
+      "n": 114,
+      "role": "evaluation",
+      "spearman_rho": 0.44927512927970675,
+      "top_intersection_n": 10,
+      "top_union_n": 36,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 6,
+      "top_union_n": 6,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 10.5,
+      "mean_absolute_rank_shift": 2.9,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.8785474710182294,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.25"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 12.5,
+      "mean_absolute_rank_shift": 4.4,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.7655166158268001,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.5"
+    },
+    {
+      "jaccard_exact": 0.2,
+      "k": 6,
+      "maximum_absolute_rank_shift": 17.5,
+      "mean_absolute_rank_shift": 6.133333333333334,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.5652783670463993,
+      "top_intersection_n": 2,
+      "top_union_n": 10,
+      "variant": "A_plus_3D__I6_I7__Vplus__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 6,
+      "top_union_n": 6,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0"
+    },
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 6,
+      "maximum_absolute_rank_shift": 3.0,
+      "mean_absolute_rank_shift": 0.9666666666666667,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9875041575791701,
+      "top_intersection_n": 5,
+      "top_union_n": 7,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.25"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 8.0,
+      "mean_absolute_rank_shift": 2.7666666666666666,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9119868632237105,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.5"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 17.5,
+      "mean_absolute_rank_shift": 5.933333333333334,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.5936322335131436,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_I7__Vminus__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 6,
+      "top_union_n": 6,
+      "variant": "A_plus_3D__I6_only__height_only__w0"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 10.5,
+      "mean_absolute_rank_shift": 2.933333333333333,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.8753243143605728,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_only__height_only__w0.25"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 13.5,
+      "mean_absolute_rank_shift": 4.6,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.7477142262871793,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_only__height_only__w0.5"
+    },
+    {
+      "jaccard_exact": 0.2,
+      "k": 6,
+      "maximum_absolute_rank_shift": 19.0,
+      "mean_absolute_rank_shift": 6.533333333333333,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.5553835425454029,
+      "top_intersection_n": 2,
+      "top_union_n": 10,
+      "variant": "A_plus_3D__I6_only__height_only__w0.75"
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 0.0,
+      "mean_absolute_rank_shift": 0.0,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.9999999999999998,
+      "top_intersection_n": 6,
+      "top_union_n": 6,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 10.5,
+      "mean_absolute_rank_shift": 2.933333333333333,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.8753243143605728,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.25"
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 13.5,
+      "mean_absolute_rank_shift": 4.6,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.7477142262871793,
+      "top_intersection_n": 4,
+      "top_union_n": 8,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.5"
+    },
+    {
+      "jaccard_exact": 0.2,
+      "k": 6,
+      "maximum_absolute_rank_shift": 19.0,
+      "mean_absolute_rank_shift": 6.533333333333333,
+      "n": 30,
+      "role": "development",
+      "spearman_rho": 0.5553835425454029,
+      "top_intersection_n": 2,
+      "top_union_n": 10,
+      "variant": "A_plus_3D__I6_duplicate__duplicate_control__w0.75"
+    }
+  ],
+  "selected_units": 144,
+  "selected_units_overlap_area_m2": 2.9103830456733704e-11,
+  "selection_by_hash_reproduced": true,
+  "sensitivities_reproduced": [
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 18,
+      "maximum_absolute_rank_shift": 22.0,
+      "mean_absolute_rank_shift": 5.505747126436781,
+      "n": 87,
+      "role": "evaluation",
+      "scenario_id": "resolution_0.5",
+      "spearman_rho": 0.9544365058340105,
+      "top_intersection_n": 15,
+      "top_union_n": 21
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 6.5,
+      "mean_absolute_rank_shift": 1.75,
+      "n": 28,
+      "role": "development",
+      "scenario_id": "resolution_0.5",
+      "spearman_rho": 0.9556347513142474,
+      "top_intersection_n": 4,
+      "top_union_n": 8
+    },
+    {
+      "jaccard_exact": 0.68,
+      "k": 21,
+      "maximum_absolute_rank_shift": 60.5,
+      "mean_absolute_rank_shift": 7.519230769230769,
+      "n": 104,
+      "role": "evaluation",
+      "scenario_id": "resolution_2",
+      "spearman_rho": 0.9313456645091874,
+      "top_intersection_n": 17,
+      "top_union_n": 25
+    },
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 6,
+      "maximum_absolute_rank_shift": 6.0,
+      "mean_absolute_rank_shift": 1.9310344827586208,
+      "n": 29,
+      "role": "development",
+      "scenario_id": "resolution_2",
+      "spearman_rho": 0.9513067350275006,
+      "top_intersection_n": 5,
+      "top_union_n": 7
+    },
+    {
+      "jaccard_exact": 0.7692307692307693,
+      "k": 23,
+      "maximum_absolute_rank_shift": 29.0,
+      "mean_absolute_rank_shift": 5.131578947368421,
+      "n": 114,
+      "role": "evaluation",
+      "scenario_id": "detection_radius_2",
+      "spearman_rho": 0.9732792741604837,
+      "top_intersection_n": 20,
+      "top_union_n": 26
+    },
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 6,
+      "maximum_absolute_rank_shift": 6.0,
+      "mean_absolute_rank_shift": 1.5333333333333334,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "detection_radius_2",
+      "spearman_rho": 0.9701626435198206,
+      "top_intersection_n": 5,
+      "top_union_n": 7
+    },
+    {
+      "jaccard_exact": 0.8333333333333334,
+      "k": 22,
+      "maximum_absolute_rank_shift": 56.0,
+      "mean_absolute_rank_shift": 6.148148148148148,
+      "n": 108,
+      "role": "evaluation",
+      "scenario_id": "detection_radius_5",
+      "spearman_rho": 0.9477732100186121,
+      "top_intersection_n": 20,
+      "top_union_n": 24
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 13.5,
+      "mean_absolute_rank_shift": 2.0714285714285716,
+      "n": 28,
+      "role": "development",
+      "scenario_id": "detection_radius_5",
+      "spearman_rho": 0.9134673626761827,
+      "top_intersection_n": 4,
+      "top_union_n": 8
+    },
+    {
+      "jaccard_exact": 0.84,
+      "k": 23,
+      "maximum_absolute_rank_shift": 31.0,
+      "mean_absolute_rank_shift": 3.3157894736842106,
+      "n": 114,
+      "role": "evaluation",
+      "scenario_id": "height_2",
+      "spearman_rho": 0.9841380749490428,
+      "top_intersection_n": 21,
+      "top_union_n": 25
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 3.0,
+      "mean_absolute_rank_shift": 0.8666666666666667,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "height_2",
+      "spearman_rho": 0.9905387600747716,
+      "top_intersection_n": 6,
+      "top_union_n": 6
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 21,
+      "maximum_absolute_rank_shift": 38.0,
+      "mean_absolute_rank_shift": 7.740384615384615,
+      "n": 104,
+      "role": "evaluation",
+      "scenario_id": "height_5",
+      "spearman_rho": 0.9314358879797328,
+      "top_intersection_n": 14,
+      "top_union_n": 28
+    },
+    {
+      "jaccard_exact": 0.5,
+      "k": 6,
+      "maximum_absolute_rank_shift": 7.0,
+      "mean_absolute_rank_shift": 1.793103448275862,
+      "n": 29,
+      "role": "development",
+      "scenario_id": "height_5",
+      "spearman_rho": 0.9540537414187041,
+      "top_intersection_n": 4,
+      "top_union_n": 8
+    },
+    {
+      "jaccard_exact": 0.84,
+      "k": 23,
+      "maximum_absolute_rank_shift": 18.0,
+      "mean_absolute_rank_shift": 2.8947368421052633,
+      "n": 114,
+      "role": "evaluation",
+      "scenario_id": "crown_radius_6",
+      "spearman_rho": 0.9910423157940308,
+      "top_intersection_n": 21,
+      "top_union_n": 25
+    },
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 6,
+      "maximum_absolute_rank_shift": 6.0,
+      "mean_absolute_rank_shift": 1.6666666666666667,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "crown_radius_6",
+      "spearman_rho": 0.9661583528880552,
+      "top_intersection_n": 5,
+      "top_union_n": 7
+    },
+    {
+      "jaccard_exact": 0.9166666666666666,
+      "k": 23,
+      "maximum_absolute_rank_shift": 31.5,
+      "mean_absolute_rank_shift": 3.1491228070175437,
+      "n": 114,
+      "role": "evaluation",
+      "scenario_id": "crown_radius_12",
+      "spearman_rho": 0.9883384876995563,
+      "top_intersection_n": 22,
+      "top_union_n": 24
+    },
+    {
+      "jaccard_exact": 0.7142857142857143,
+      "k": 6,
+      "maximum_absolute_rank_shift": 5.5,
+      "mean_absolute_rank_shift": 1.2666666666666666,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "crown_radius_12",
+      "spearman_rho": 0.9780721524639868,
+      "top_intersection_n": 5,
+      "top_union_n": 7
+    },
+    {
+      "jaccard_exact": 0.9166666666666666,
+      "k": 23,
+      "maximum_absolute_rank_shift": 22.0,
+      "mean_absolute_rank_shift": 1.7982456140350878,
+      "n": 114,
+      "role": "evaluation",
+      "scenario_id": "dalponte_standard",
+      "spearman_rho": 0.9949024749837683,
+      "top_intersection_n": 22,
+      "top_union_n": 24
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 3.5,
+      "mean_absolute_rank_shift": 0.6666666666666666,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "dalponte_standard",
+      "spearman_rho": 0.9916536835076788,
+      "top_intersection_n": 6,
+      "top_union_n": 6
+    },
+    {
+      "jaccard_exact": 0.76,
+      "k": 22,
+      "maximum_absolute_rank_shift": 27.5,
+      "mean_absolute_rank_shift": 4.192660550458716,
+      "n": 109,
+      "role": "evaluation",
+      "scenario_id": "density_0.5",
+      "spearman_rho": 0.9805306747670204,
+      "top_intersection_n": 19,
+      "top_union_n": 25
+    },
+    {
+      "jaccard_exact": 1.0,
+      "k": 6,
+      "maximum_absolute_rank_shift": 5.0,
+      "mean_absolute_rank_shift": 1.3,
+      "n": 30,
+      "role": "development",
+      "scenario_id": "density_0.5",
+      "spearman_rho": 0.974053548747635,
+      "top_intersection_n": 6,
+      "top_union_n": 6
+    },
+    {
+      "jaccard_exact": 0.8823529411764706,
+      "k": 16,
+      "maximum_absolute_rank_shift": 20.0,
+      "mean_absolute_rank_shift": 4.230769230769231,
+      "n": 78,
+      "role": "evaluation",
+      "scenario_id": "density_0.25",
+      "spearman_rho": 0.9654291487208787,
+      "top_intersection_n": 15,
+      "top_union_n": 17
+    },
+    {
+      "jaccard_exact": 0.6666666666666666,
+      "k": 5,
+      "maximum_absolute_rank_shift": 7.0,
+      "mean_absolute_rank_shift": 2.0869565217391304,
+      "n": 23,
+      "role": "development",
+      "scenario_id": "density_0.25",
+      "spearman_rho": 0.9228486646884274,
+      "top_intersection_n": 4,
+      "top_union_n": 6
+    }
+  ],
+  "stage13_metrics_reproduced": 81,
+  "tolerances": {
+    "metric_aggregations_absolute": 1e-08,
+    "overlap_area_m2": 1e-06,
+    "paired_area_m2": 1e-07,
+    "scores_ranks_statistics_absolute": 1e-12
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "CSV_extra_columns": {
+    "geometry_wkt": "Mesma geometria da unidade em WKT, EPSG:31983."
+  },
+  "columns": {
+    "B_unavailable_case_reason": {
+      "meaning": "Limitação do caso registrada na etapa 07, preservada para auditoria.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "I1": {
+      "estimand": "área horizontal da copa candidata / área observada comum",
+      "formula": "T/O; null se O=0",
+      "meaning": "I1",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "support": "valor físico se O>0; elegibilidade A requer A>=25m² e O/A>=0.95",
+      "unit": "fração"
+    },
+    "I2": {
+      "estimand": "estações/seções de largura completa; somente unidade longitudinal elegível",
+      "formula": "L_lacuna_observada/L_observável",
+      "meaning": "I2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "support": "eixo aceito, A>=25m², O/A>=0.95 e >=95% do comprimento com seções observáveis",
+      "unit": "fração de comprimento"
+    },
+    "I3_branch_m": {
+      "estimand": "null com censura externa, sem lacuna associada ou sem elegibilidade",
+      "formula": "comprimento completo da lacuna associada à maior interseção local, se não censurada",
+      "meaning": "I3_branch_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "support": "eixo aceito, A>=25m², O/A>=0.95 e >=95% do comprimento com seções observáveis",
+      "unit": "m"
+    },
+    "I3_local_censored": {
+      "meaning": "I3_local_censored",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "I3_local_m": {
+      "estimand": "censura por corte/suporte mantida; não área sem copa",
+      "formula": "max comprimento de interseção de lacuna do ramo com intervalo da unidade",
+      "meaning": "I3_local_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "support": "eixo aceito, A>=25m², O/A>=0.95 e >=95% do comprimento com seções observáveis",
+      "unit": "m"
+    },
+    "I3_local_over_observable_length": {
+      "estimand": "mesmo domínio longitudinal elegível",
+      "formula": "I3_local_m/L_observável",
+      "meaning": "I3_local_over_observable_length",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "support": "eixo aceito, A>=25m², O/A>=0.95 e >=95% do comprimento com seções observáveis",
+      "unit": "fração"
+    },
+    "I4": {
+      "estimand": "componentes de copa conectividade congelada, não árvores individuais",
+      "formula": "N*10000/O; N=IDs distintos com interseção de área>0; null se O=0",
+      "meaning": "I4",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "support": "valor físico se O>0; elegibilidade A requer A>=25m² e O/A>=0.95",
+      "unit": "manchas/ha observado"
+    },
+    "I5": {
+      "estimand": "retornos MDS classes 3/4/5, H válido>=limiar, dentro da copa e V",
+      "formula": "mean(H)",
+      "meaning": "I5",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "support": "T>=minimum_canopy_area_m2 e n>=minimum_vegetation_returns; A+3D exige também elegibilidade A",
+      "unit": "m"
+    },
+    "I6": {
+      "estimand": "mesmos retornos de I5; não P95 de células ou árvores",
+      "formula": "quantile(H,0.95,method=linear)",
+      "meaning": "I6",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "support": "T>=minimum_canopy_area_m2 e n>=minimum_vegetation_returns; A+3D exige também elegibilidade A",
+      "unit": "m"
+    },
+    "I7": {
+      "estimand": "IQR da distribuição dos mesmos retornos; não volume/biomassa",
+      "formula": "quantile(H,0.75)-quantile(H,0.25)",
+      "meaning": "I7",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "support": "T>=minimum_canopy_area_m2 e n>=minimum_vegetation_returns; A+3D exige também elegibilidade A",
+      "unit": "m"
+    },
+    "area_MDS_observed_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Área de pixels com qualquer registro MDS: estados 1/3/4; inclui registros excluídos por QC.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_MDS_usable_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Área de pixels com registros MDS após QC: estados 1/3.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_canopy_m2": {
+      "formula": "sum area(U ∩ mancha_contextual); T sem atribuir copa externa inteira",
+      "meaning": "area_canopy_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_classification_uncertain_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "União dos pixels com bits semânticos 1/2/4/8/16 da etapa 06; permanece em O.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_no_MDS_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Estado 2: sem observação MDS; não é ausência de copa.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_no_terrain_or_point_H_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Estado 3: MDS utilizável, sem terreno/H comum válido.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_observed_m2": {
+      "formula": "area(U ∩ V), V congelado da etapa 06",
+      "meaning": "area_observed_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_only_QC_excluded_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Estado 4: somente registros MDS excluídos por QC.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_outside_observation_context_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Parte de U sem estado 1/2/3/4 no raster; conservada no total A.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_total_m2": {
+      "formula": "area(U)",
+      "meaning": "area_total_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "area_valid_terrain_m2": {
+      "formula": "area(U ∩ geometria de suporte/copa indicada); área vetorial exata, EPSG:31983",
+      "meaning": "Pixels com status de terreno 0; não implica observação de copa.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "associated_branch_gap_detected_length_m": {
+      "meaning": "Comprimento detectado da sequência original; pode ser censurado e não é automaticamente I3_branch_m.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "associated_branch_gap_left_censored": {
+      "meaning": "Lacuna original censurada à esquerda por suporte/limite; não é comprimento completo conhecido.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "associated_branch_gap_right_censored": {
+      "meaning": "Lacuna original censurada à direita por suporte/limite.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "associated_gap_domain_truncated": {
+      "meaning": "O ramo pertence a domínio recortado; comprimento integral do corredor não foi observado.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "associated_gap_end_m": {
+      "meaning": "Fim da lacuna original na referência linear do ramo; sem extrapolação sobre suporte desconhecido.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "associated_gap_id": {
+      "meaning": "associated_gap_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "associated_gap_start_m": {
+      "meaning": "Início da lacuna original na referência linear do ramo, preservado mesmo se I2/I3 inelegíveis.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "branch_gap_missing_reason": {
+      "meaning": "branch_gap_missing_reason",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "branch_id": {
+      "meaning": "branch_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "canopy_height_stratum": {
+      "meaning": "Separa sem suporte, sem copa detectada, copa com altura suficiente e copa com altura insuficiente.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "canopy_run_id": {
+      "meaning": "canopy_run_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "canopy_total_fraction_lower_bound": {
+      "formula": "T/A",
+      "meaning": "canopy_total_fraction_lower_bound",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "fração"
+    },
+    "canopy_total_fraction_upper_bound": {
+      "formula": "(T+A-O)/A",
+      "meaning": "canopy_total_fraction_upper_bound",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "fração"
+    },
+    "case": {
+      "meaning": "case",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "classification_uncertainty_present": {
+      "meaning": "classification_uncertainty_present",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "corridor_id": {
+      "meaning": "corridor_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "coverage_missing_reason": {
+      "meaning": "coverage_missing_reason",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "density_MDS_records_per_total_m2": {
+      "estimand": "densidade de registros da aquisição, não observações independentes ou árvores por área",
+      "formula": "n_mds_records/A",
+      "meaning": "density_MDS_records_per_total_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "registros/m²"
+    },
+    "density_valid_H_records_per_observed_m2": {
+      "estimand": "densidade de registros da aquisição, não observações independentes ou árvores por área",
+      "formula": "n_records_common_valid_H/O; null se O=0",
+      "meaning": "density_valid_H_records_per_observed_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "registros/m²"
+    },
+    "density_vegetation_records_per_canopy_m2": {
+      "estimand": "densidade de registros da aquisição, não observações independentes ou árvores por área",
+      "formula": "n_vegetation_records/T; null se T=0",
+      "meaning": "density_vegetation_records_per_canopy_m2",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "registros/m²"
+    },
+    "detected_canopy_state": {
+      "meaning": "detected_canopy_state",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "detected_gap_intersection_left_cut": {
+      "meaning": "Corte local da lacuna no início da unidade; diagnóstico preservado mesmo em unidade inelegível.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "detected_gap_intersection_right_cut": {
+      "meaning": "Corte local da lacuna no fim da unidade; diagnóstico preservado mesmo em unidade inelegível.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "eligible_A": {
+      "formula": "A>=minimum_unit_area_m2 and O/A>=minimum_observed_fraction",
+      "meaning": "eligible_A",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "eligible_A_plus_3D": {
+      "formula": "eligible_A and height_support_sufficient",
+      "meaning": "eligible_A_plus_3D",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "eligible_B": {
+      "meaning": "eligible_B",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "eligible_B_plus_3D": {
+      "meaning": "eligible_B_plus_3D",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "end_m": {
+      "meaning": "end_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "exclusion_reason_A": {
+      "meaning": "exclusion_reason_A",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "exclusion_reason_A_plus_3D": {
+      "meaning": "exclusion_reason_A_plus_3D",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "family": {
+      "meaning": "family",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "fraction_length_observable": {
+      "meaning": "fraction_length_observable",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "fração"
+    },
+    "fraction_observed": {
+      "meaning": "fraction_observed",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "fração"
+    },
+    "fraction_unobserved": {
+      "meaning": "fraction_unobserved",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "fração"
+    },
+    "geometry": {
+      "meaning": "GeoParquet WKB com metadados EPSG:31983; no CSV corresponde a geometry_wkt.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "geometry",
+      "unit": "atributo"
+    },
+    "geometry_sha256_prefix": {
+      "meaning": "Prefixo SHA256 de 12 dígitos hexadecimais da geometria normalizada, junto ao ID e origem da unidade.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "height_Q25_m": {
+      "meaning": "height_Q25_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m"
+    },
+    "height_Q75_m": {
+      "meaning": "height_Q75_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m"
+    },
+    "height_estimand": {
+      "meaning": "height_estimand",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "height_minimum_m": {
+      "meaning": "height_minimum_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m"
+    },
+    "height_missing_reason": {
+      "meaning": "Motivo de I5/I6/I7 ausentes; sem_vegetacao é ausência detectada na regra, não validação humana.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "height_support_sufficient": {
+      "meaning": "height_support_sufficient",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "indicator_run_id": {
+      "meaning": "indicator_run_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "largest_patch_fraction_of_canopy": {
+      "meaning": "Maior interseção de mancha/T; null se T=0.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "fração"
+    },
+    "largest_patch_intersection_m2": {
+      "meaning": "Maior área de interseção U∩mancha; zero se nenhuma área de copa detectada.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m²"
+    },
+    "length_candidate_gap_m": {
+      "meaning": "Diagnóstico: comprimento observado em lacuna candidata dentro do intervalo; não substitui I2.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "length_m": {
+      "meaning": "length_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "length_observable_m": {
+      "meaning": "length_observable_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "length_unknown_m": {
+      "meaning": "length_unknown_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "longitudinal_missing_reason": {
+      "meaning": "Motivo de I2/I3 ausentes; grade não recebe projeção longitudinal artificial.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "mask_connectivity": {
+      "meaning": "mask_connectivity",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "atributo"
+    },
+    "mask_validated": {
+      "meaning": "False: disponibilidade numérica não comprova validade semântica da máscara.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "bool",
+      "unit": "booleano"
+    },
+    "mask_version": {
+      "meaning": "mask_version",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "max_detected_gap_intersection_m": {
+      "meaning": "Diagnóstico de maior trecho de lacuna no intervalo, inclusive com suporte insuficiente.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "measurement_id": {
+      "meaning": "measurement_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "n_candidate_class_valid_H": {
+      "meaning": "Registros classes 3/4/5 com H válido>=limiar, antes da seleção por máscara/V.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_canopy_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_no_MDS_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_no_context_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_no_terrain_or_H_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_observed_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_only_QC_excluded_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_uncertain_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_cells_valid_terrain_center": {
+      "meaning": "Contagem por centro de célula; distinta de área vetorial exata.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_height_extreme_warning": {
+      "meaning": "Registros com bit 16 de alerta de H extremo; alerta não é remoção automática.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_mds_records": {
+      "meaning": "Todos os registros MDS da etapa 04 com XY em U, inclusive sem H; posse única por família/escala.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_patches": {
+      "meaning": "IDs distintos de manchas do contexto que têm área positiva em U; não soma de fragmentos de um mesmo ID.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_patches_context_censored": {
+      "meaning": "Número de IDs de manchas; componente conectado pode conter várias árvores.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_patches_support_censored": {
+      "meaning": "Número de IDs de manchas; componente conectado pode conter várias árvores.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_records_QC_usable": {
+      "meaning": "Registros sem bit 2 de exclusão de QC.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_records_common_valid_H": {
+      "meaning": "Registros válidos de qualquer classe cujo pixel pertence ao V congelado.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_records_valid_H": {
+      "meaning": "QC utilizável, terrain_status=0 e H finito, de qualquer classe.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_vegetation_height_extreme_warning": {
+      "meaning": "Registros selecionados para altura que conservam alerta de H extremo.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "n_vegetation_records": {
+      "meaning": "Registros candidatos com pixel de copa/V e XY na copa de medição; mesmos retornos de I5/I6/I7.",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "int64",
+      "unit": "contagem de registros/células"
+    },
+    "nominal_size_m": {
+      "meaning": "nominal_size_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m"
+    },
+    "observation_state": {
+      "meaning": "observation_state",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "part_id": {
+      "meaning": "part_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "protocol_version": {
+      "meaning": "protocol_version",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "quantile_method": {
+      "meaning": "quantile_method",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "raster_resolution_m": {
+      "meaning": "raster_resolution_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "float64",
+      "unit": "m"
+    },
+    "scenario": {
+      "meaning": "scenario",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "short_remainder": {
+      "meaning": "short_remainder",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "source_height_file": {
+      "meaning": "source_height_file",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "source_units_file": {
+      "meaning": "source_units_file",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "start_m": {
+      "meaning": "start_m",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "m"
+    },
+    "state": {
+      "meaning": "state",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "terrain_run_id": {
+      "meaning": "terrain_run_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "tiles": {
+      "meaning": "tiles",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "unit_id": {
+      "meaning": "unit_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "units_run_id": {
+      "meaning": "units_run_id",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    },
+    "units_source_layer": {
+      "meaning": "units_source_layer",
+      "null": "ausência explícita; consultar campos *_missing_reason/exclusion_reason_*",
+      "storage_dtype": "object",
+      "unit": "atributo"
+    }
+  },
+  "parameters": {
+    "indicators": {
+      "batch_records": 65536,
+      "height_estimand": "normalized_vegetation_returns",
+      "include_I8": false,
+      "include_I9_I10": false,
+      "maximum_stored_height_values": 6000000,
+      "maximum_units": 2000,
+      "quantile_method": "linear"
+    },
+    "support": {
+      "minimum_canopy_area_m2": 10.0,
+      "minimum_observed_fraction": 0.95,
+      "minimum_unit_area_m2": 25.0,
+      "minimum_vegetation_returns": 50
+    }
+  },
+  "rules": [
+    "I1/I4 disponíveis numericamente não significam unidade elegível ou máscara validada.",
+    "Limites de cobertura tratam somente suporte não observado; não são intervalos de confiança nem corrigem erros de classificação.",
+    "Incerteza semântica é quantificada e permanece no denominador O.",
+    "I5/I6/I7 não misturam retornos com superfície superior por célula; sem ponderação por área de copa.",
+    "Contagens são registros; repetições internas ao MDS preservadas. Pesos de aquisição/oclusão afetam distribuição.",
+    "I2/I3 ausentes na grade ou suporte insuficiente; comprimentos diagnósticos não são indicadores longitudinais elegíveis.",
+    "Ausência detectada de copa é estrato próprio; H/P95/IQR ausentes, nunca preenchidos com zero.",
+    "I8/I9/I10 fora do núcleo; sem proxy de biomassa, volume real ou conectividade funcional."
+  ],
+  "schema_version": "0.1.0",
+  "stage": "08"
+}

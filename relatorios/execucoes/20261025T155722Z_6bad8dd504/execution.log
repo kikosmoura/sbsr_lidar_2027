@@ -1,0 +1,22 @@
+2026-10-25 12:57:22,530 INFO Início: prepare-inputs:main
+2026-10-25 12:57:22,723 INFO download_start {"product": "MDT", "tile": "3313-324"}
+2026-10-25 12:57:23,793 INFO download_complete {"bytes": 3716730, "product": "MDT", "tile": "3313-324"}
+2026-10-25 12:57:27,083 INFO download_start {"product": "MDS", "tile": "3313-324"}
+2026-10-25 12:57:30,674 INFO download_complete {"bytes": 47204497, "product": "MDS", "tile": "3313-324"}
+2026-10-25 12:57:37,858 INFO audit_start {"product": "MDT", "tile": "3313-324"}
+2026-10-25 12:57:38,091 INFO audit_complete {"points": 685625, "product": "MDT", "tile": "3313-324"}
+2026-10-25 12:57:38,091 INFO audit_start {"product": "MDT", "tile": "3313-333"}
+2026-10-25 12:57:38,271 INFO audit_complete {"points": 597376, "product": "MDT", "tile": "3313-333"}
+2026-10-25 12:57:38,272 INFO audit_start {"product": "MDT", "tile": "3313-361"}
+2026-10-25 12:57:38,471 INFO audit_complete {"points": 593031, "product": "MDT", "tile": "3313-361"}
+2026-10-25 12:57:38,472 INFO audit_start {"product": "MDT", "tile": "3313-363"}
+2026-10-25 12:57:38,631 INFO audit_complete {"points": 621536, "product": "MDT", "tile": "3313-363"}
+2026-10-25 12:57:38,809 INFO audit_start {"product": "MDS", "tile": "3313-324"}
+2026-10-25 12:57:40,507 INFO audit_complete {"points": 6316512, "product": "MDS", "tile": "3313-324"}
+2026-10-25 12:57:40,508 INFO audit_start {"product": "MDS", "tile": "3313-333"}
+2026-10-25 12:57:43,054 INFO audit_complete {"points": 7771581, "product": "MDS", "tile": "3313-333"}
+2026-10-25 12:57:43,055 INFO audit_start {"product": "MDS", "tile": "3313-361"}
+2026-10-25 12:57:44,852 INFO audit_complete {"points": 5139163, "product": "MDS", "tile": "3313-361"}
+2026-10-25 12:57:44,853 INFO audit_start {"product": "MDS", "tile": "3313-363"}
+2026-10-25 12:57:46,538 INFO audit_complete {"points": 6113744, "product": "MDS", "tile": "3313-363"}
+2026-10-25 12:57:46,939 INFO Concluído; cache_hit=False

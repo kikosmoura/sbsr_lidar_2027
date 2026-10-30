@@ -1,0 +1,136 @@
+{
+  "abstract_words": {
+    "en": 126,
+    "pt": 135
+  },
+  "blocking_scientific_discrepancies_detected": [],
+  "cache_fix_numerical_method_unchanged": true,
+  "classification": "rascunho_com_pendencias",
+  "descriptive_conclusions_supported_within_audited_scope": true,
+  "estimated_seeds_reproduced": 853,
+  "external_accuracy_evaluated": false,
+  "human_author_approval": false,
+  "no_municipal_or_full_LAZ_rerun": true,
+  "normalization_maximum_error_m": 0.0,
+  "normalization_records": 27534,
+  "pages": 4,
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  },
+  "pending": [
+    "conferencia_integral_modelo_editorial",
+    "endereco_institucional",
+    "revisao_e_aprovacao_do_autor"
+  ],
+  "reproduced_scores": 32,
+  "reproduced_sensitivities": 22,
+  "source_history": {
+    "authenticated_by_stage": {
+      "12": 153,
+      "13": 85,
+      "14": 79
+    },
+    "historical_aliases": [
+      {
+        "original": {
+          "bytes": 41236,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "01c5d00ea6d3a6a03e283b6b3fb765c54f0887306ba36e89dadb46193f0dbccd"
+        },
+        "snapshot": {
+          "bytes": 41236,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/entradas_etapa12/decisoes_metodologicas.md",
+          "sha256": "01c5d00ea6d3a6a03e283b6b3fb765c54f0887306ba36e89dadb46193f0dbccd"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 258010,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "8613fc0a26c7f92f2a36094e842645d0c1f199ab92601c014258b8b712b3be38"
+        },
+        "snapshot": {
+          "bytes": 258010,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/entradas_etapa12/estado_projeto.json",
+          "sha256": "8613fc0a26c7f92f2a36094e842645d0c1f199ab92601c014258b8b712b3be38"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 11973,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/crown_data.py",
+          "sha256": "b2a2eed5f586d924811f018c8b3e43a59e3d62cd8ed0a5119115d620dea769e3"
+        },
+        "snapshot": {
+          "bytes": 11973,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa12/crown_data.py",
+          "sha256": "b2a2eed5f586d924811f018c8b3e43a59e3d62cd8ed0a5119115d620dea769e3"
+        },
+        "stage": "12"
+      },
+      {
+        "original": {
+          "bytes": 42564,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "20db90bfbefcc6b2b0bc970c176891029a0bc7569a7c6d976b784991db82304a"
+        },
+        "snapshot": {
+          "bytes": 42564,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/entradas_etapa13/decisoes_metodologicas.md",
+          "sha256": "20db90bfbefcc6b2b0bc970c176891029a0bc7569a7c6d976b784991db82304a"
+        },
+        "stage": "13"
+      },
+      {
+        "original": {
+          "bytes": 258894,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "dac8c850bf57b6728d90dd17561557393dde2725f141e540ced6c2e4112cd0e7"
+        },
+        "snapshot": {
+          "bytes": 258894,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/entradas_etapa13/estado_projeto.json",
+          "sha256": "dac8c850bf57b6728d90dd17561557393dde2725f141e540ced6c2e4112cd0e7"
+        },
+        "stage": "13"
+      },
+      {
+        "original": {
+          "bytes": 44183,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+          "sha256": "7a951c2d239ea2923c096d65cf2897576b37a0aec308ef3c4df5f7c1b55f32f8"
+        },
+        "snapshot": {
+          "bytes": 44183,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa14/decisoes_metodologicas.md",
+          "sha256": "7a951c2d239ea2923c096d65cf2897576b37a0aec308ef3c4df5f7c1b55f32f8"
+        },
+        "stage": "14"
+      },
+      {
+        "original": {
+          "bytes": 261065,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+          "sha256": "31b7f02b7dfd0ca97afe88c5582df17228b5ef7b0b3b68faa9913529e41f790c"
+        },
+        "snapshot": {
+          "bytes": 261065,
+          "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/entradas_etapa14/estado_projeto.json",
+          "sha256": "31b7f02b7dfd0ca97afe88c5582df17228b5ef7b0b3b68faa9913529e41f790c"
+        },
+        "stage": "14"
+      }
+    ]
+  },
+  "source_run_id": "20261026T034837Z_83581b7eec",
+  "source_scientific_protocol": "0.3.0",
+  "stage": "15",
+  "submission_ready": false,
+  "submitted": false,
+  "test_warnings": "7 PendingDeprecationWarning Affine/Rasterio",
+  "tests_passed": 212
+}

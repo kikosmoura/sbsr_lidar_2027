@@ -1,0 +1,15 @@
+{
+  "configuration": {
+    "bytes": 654,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/revisao_interpretacao_v0_3_2.yaml",
+    "sha256": "1035d008960069bcf3559ceb57967a3aed478fa05d3a4fa22f41625c40e226b9"
+  },
+  "exploratory_post_result": true,
+  "prior_17_artifacts_authenticated": 93,
+  "protocol": {
+    "bytes": 2736,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/protocolo_revisao_interpretacao.md",
+    "sha256": "72e480b6c74a9e5c9510a45929cfb96e3506a71dd978c8748af744a000ccce5e"
+  },
+  "started_at": "2026-10-30T13:47:31.932810+00:00"
+}

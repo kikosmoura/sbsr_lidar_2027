@@ -1,0 +1,229 @@
+{
+  "axis_review": "computational_geometric_QC; maps_require_inspection_before_scientific_use",
+  "case": "adversarial",
+  "domain": {
+    "case": "adversarial",
+    "context_area_m2": 26282.180264352726,
+    "context_bounds": [
+      333034.8347901296,
+      7397410.72192252,
+      333571.5045010024,
+      7397830.306903188
+    ],
+    "context_clipped_to_tile": true,
+    "corridor_id": "CO_SE_06",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 13144.744694031733,
+    "measurement_bounds": [
+      333034.94862525584,
+      7397420.713718192,
+      333571.3909938959,
+      7397820.307734851
+    ],
+    "measurement_is_official_polygon": false,
+    "official_area_m2": 90388.14073587062,
+    "requested_context_omitted_m2": 793.2200348997249,
+    "tiles": [
+      "3312-431"
+    ]
+  },
+  "elapsed_seconds": 6.931377860950306,
+  "frozen_mask": {
+    "analysis_version": "baseline_h3",
+    "baseline_h3_candidate_area_exact_m2": 623.5952264687671,
+    "cache_hit": false,
+    "case": "adversarial",
+    "context_layer": "baseline_h3_contexto",
+    "corridor_id": "CO_SE_06",
+    "exact_observed_area_in_measurement_m2": 6076.513394962332,
+    "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T184450Z_36a402772a/manifest.json",
+    "mask_context": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h3_contexto.tif",
+    "mask_measurement": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/copa_baseline_h3_medicao.tif",
+    "measurement_area_m2": 13144.744694031733,
+    "measurement_layer": "baseline_h3_medicao",
+    "observation": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/observabilidade.tif",
+    "observed_layer": "suporte_observado",
+    "ok": true,
+    "patches": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/mascaras_manchas.gpkg",
+    "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a",
+    "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T184450Z_36a402772a/mascara_copa.json",
+    "run_id": "20261025T184450Z_36a402772a",
+    "uncertainty": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/incerteza_h3.tif",
+    "valid_domain": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/adversarial/20261025T184450Z_36a402772a/dominio_valido.tif",
+    "validated": false
+  },
+  "geometry_method": "boundary_Voronoi_single_terminal_prune_then_graph_chains",
+  "intercorridor_overlaps": 0,
+  "limitations": [
+    "Exploratory units; frozen candidate crown mask remains unvalidated; no new human labels or accuracy.",
+    "Branched/broad/closed/short parts fail single-chain policy and remain grid; no arbitrary route chosen.",
+    "One terminal pruning pass only: length<=25m and <=2.5*join_radius; removed lines retained with reason.",
+    "Accepted axes have geometric QC, not cadastral/functional route validation or independent human review.",
+    "Full-width sections require >=95% observation; unknown stations never become crown gaps.",
+    "Gaps are sequences on the whole branch before segment cuts; endpoints/unknown support censor gaps.",
+    "Station-point Voronoi gives disjoint whole-width regions; segment spatial boundaries are discretized by station centers.",
+    "Influence-region endpoint caps remain in area; they do not extend measured axis length.",
+    "No linking of disconnected parts; junction-rich parts rejected for longitudinal comparison; grid includes them.",
+    "Intercorridor overlaps preserved and reported; domains are not pooled as independent replicates.",
+    "Cross-scale comparisons require intersection weights/common spatial support, not Jaccard of incompatible unit IDs.",
+    "No ecological gap interpretation, structural indicator scores, ranking, or municipal expansion performed."
+  ],
+  "observed_area_m2": 6076.513394962325,
+  "ok": true,
+  "parameters": {
+    "area_tolerance_m2": 0.0001,
+    "axis_node_snap_tolerance_m": 1e-05,
+    "boundary_spacing_m": 2.0,
+    "length_m": 50.0,
+    "maximum_boundary_sites": 20000,
+    "maximum_grid_cells_per_scale": 10000,
+    "maximum_stations_per_part": 10000,
+    "minimum_axis_aspect_ratio": 3.0,
+    "minimum_axis_length_m": 25.0,
+    "section_cover_threshold": 0.1,
+    "station_spacing_m": 1.0,
+    "tangent_half_window_m": 1.0,
+    "terminal_spur_maximum_m": 25.0,
+    "terminal_spur_radius_factor": 2.5
+  },
+  "peak_process_rss_mib": 250.36328125,
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/unidades_multiescala.gpkg",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/ligacoes_lacunas.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/vizinhos_segmentos.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/correspondencia_suporte.csv"
+  ],
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea",
+  "region_method": "nearest_station_Voronoi_clipped_per_accepted_part",
+  "run_id": "20261025T215241Z_c33075a9ea",
+  "section_minimum_observed_fraction": 0.95,
+  "stage": "07",
+  "summary": {
+    "B_requires_observation_and_defensible_axis": true,
+    "axis_accepted_area_m2": 13144.744694031733,
+    "candidate_gaps_before_segment_cuts": 4,
+    "gap_links": 15,
+    "grid_fallback_area_m2": 0.0,
+    "grids": {
+      "100": {
+        "effective_area_m2": 13144.744694040179,
+        "eligible_area_observation": 0,
+        "observed_area_m2": 6076.5133949913525,
+        "small_area_residuals": 0,
+        "units": 10
+      },
+      "25": {
+        "effective_area_m2": 13144.744694050227,
+        "eligible_area_observation": 11,
+        "observed_area_m2": 6076.513394957622,
+        "small_area_residuals": 10,
+        "units": 59
+      },
+      "50": {
+        "effective_area_m2": 13144.74469405165,
+        "eligible_area_observation": 3,
+        "observed_area_m2": 6076.513394980075,
+        "small_area_residuals": 1,
+        "units": 25
+      }
+    },
+    "longitudinal": {
+      "100": {
+        "eligible_longitudinal_observation": 0,
+        "short_remainders": 1,
+        "units": 7
+      },
+      "25": {
+        "eligible_longitudinal_observation": 0,
+        "short_remainders": 1,
+        "units": 26
+      },
+      "50": {
+        "eligible_longitudinal_observation": 0,
+        "short_remainders": 1,
+        "units": 13
+      }
+    },
+    "longitudinal_geometry_available": true,
+    "mask_validated": false,
+    "part_reviews": [
+      {
+        "axis_accepted": true,
+        "boundary_sites": 684,
+        "holes": 0,
+        "junctions": 0,
+        "numerically_coincident_vertices_merged": 0,
+        "original_branches": 5,
+        "part_id": "CO_SE_06_P001",
+        "policy": "single_open_elongated_chain_only; branched_parts_remain_grid",
+        "pruned_terminal_branches": 4,
+        "reason": "single_open_elongated_chain_geometric_QC",
+        "retained_branches": 1
+      }
+    ],
+    "partitions": {
+      "grid_100": {
+        "ok": true,
+        "overlap_area_m2": 7.275957614183426e-12,
+        "sum_area_m2": 13144.744694040179,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      },
+      "grid_25": {
+        "ok": true,
+        "overlap_area_m2": 0.0,
+        "sum_area_m2": 13144.744694050227,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      },
+      "grid_50": {
+        "ok": true,
+        "overlap_area_m2": 7.275957614183426e-12,
+        "sum_area_m2": 13144.74469405165,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      },
+      "longitudinal_100": {
+        "ok": true,
+        "overlap_area_m2": 1.5825207810848951e-10,
+        "sum_area_m2": 13144.74469404561,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      },
+      "longitudinal_25": {
+        "ok": true,
+        "overlap_area_m2": 0.0,
+        "sum_area_m2": 13144.744694045608,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      },
+      "longitudinal_50": {
+        "ok": true,
+        "overlap_area_m2": 9.094947017729282e-12,
+        "sum_area_m2": 13144.74469404561,
+        "symmetric_difference_area_m2": 0.0,
+        "target_area_m2": 13144.744694031733,
+        "valid_geometries": true
+      }
+    },
+    "scales_m": [
+      25.0,
+      50.0,
+      100.0
+    ],
+    "station_state_counts": {
+      "candidate_gap": 30,
+      "candidate_present": 8,
+      "unknown_support": 597
+    },
+    "stations": 635,
+    "support_correspondence_rows": 382
+  },
+  "uncertain_area_m2": 29.60036070226374
+}

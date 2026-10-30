@@ -1,0 +1,11 @@
+2026-10-25 14:03:18,359 INFO Início: terrain:adversarial
+2026-10-25 14:03:18,360 INFO terrain_start {"case": "adversarial", "tiles": ["3312-431"]}
+2026-10-25 14:03:18,360 INFO load_mdt {"tile": "3312-431"}
+2026-10-25 14:03:18,705 INFO validation {"evaluated": 4913, "held": 4913, "split": "reserved_points", "train": 44226}
+2026-10-25 14:03:19,120 INFO validation {"evaluated": 4681, "held": 4681, "split": "reserved_blocks", "train": 44458}
+2026-10-25 14:03:19,485 INFO method_selected {"method": "tin", "rule": "explicit_method"}
+2026-10-25 14:03:19,656 INFO terrain_grid {"cells": 26274, "radius": 3.0}
+2026-10-25 14:03:20,097 INFO terrain_grid {"cells": 26274, "radius": 5.0}
+2026-10-25 14:03:20,373 INFO terrain_grid {"cells": 26274, "radius": 10.0}
+2026-10-25 14:03:20,949 INFO normalize_mds {"method": "tin", "tile": "3312-431"}
+2026-10-25 14:03:25,059 INFO Concluído; cache_hit=False

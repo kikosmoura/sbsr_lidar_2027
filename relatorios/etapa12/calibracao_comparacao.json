@@ -1,0 +1,18 @@
+{
+  "case": "CO_PR_03",
+  "checks": {
+    "I1": true,
+    "I4": true,
+    "I5": true,
+    "I6": true,
+    "I7": true,
+    "area_canopy_m2": true,
+    "area_observed_m2": true,
+    "area_total_m2": true,
+    "corrected_eligibility_auxiliary": true,
+    "geometry": true
+  },
+  "final_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_03/a8e5227d30c7c60fce45",
+  "old_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa12/cache_analise/CO_PR_03/15b4640c193ec98608a5",
+  "primary_physical_results_unchanged_by_auxiliary_and_cache_corrections": true
+}

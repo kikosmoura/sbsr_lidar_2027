@@ -1,0 +1,19 @@
+[
+  {
+    "quadricula": "3312-431",
+    "amostra_mdt": 10128,
+    "xy_encontrados": 10128,
+    "classes_mds": {
+      "1": 27,
+      "6": 25,
+      "8": 10076
+    },
+    "delta_z_quantis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "xyz_exatos": 10128
+  }
+]

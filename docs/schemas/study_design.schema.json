@@ -1,0 +1,220 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "block_distance_m": {
+      "exclusiveMinimum": 0,
+      "title": "Block Distance M",
+      "type": "number"
+    },
+    "block_sensitivity_m": {
+      "items": {
+        "type": "number"
+      },
+      "minItems": 1,
+      "title": "Block Sensitivity M",
+      "type": "array"
+    },
+    "cost_uncertainty_factor": {
+      "minimum": 1,
+      "title": "Cost Uncertainty Factor",
+      "type": "number"
+    },
+    "cpu_workers": {
+      "const": 1,
+      "title": "Cpu Workers",
+      "type": "integer"
+    },
+    "development_corridors": {
+      "minimum": 1,
+      "title": "Development Corridors",
+      "type": "integer"
+    },
+    "disk_safety_factor": {
+      "minimum": 1,
+      "title": "Disk Safety Factor",
+      "type": "number"
+    },
+    "double_annotation_fraction": {
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Double Annotation Fraction",
+      "type": "number"
+    },
+    "evaluation_corridors": {
+      "minimum": 6,
+      "title": "Evaluation Corridors",
+      "type": "integer"
+    },
+    "exclude_legacy_reserved_groups": {
+      "const": true,
+      "title": "Exclude Legacy Reserved Groups",
+      "type": "boolean"
+    },
+    "execution_enabled": {
+      "const": false,
+      "title": "Execution Enabled",
+      "type": "boolean"
+    },
+    "external_free_reserve_gib": {
+      "exclusiveMinimum": 0,
+      "title": "External Free Reserve Gib",
+      "type": "number"
+    },
+    "included_status": {
+      "title": "Included Status",
+      "type": "string"
+    },
+    "included_type": {
+      "title": "Included Type",
+      "type": "string"
+    },
+    "maximum_actual_evaluation_units": {
+      "minimum": 1,
+      "title": "Maximum Actual Evaluation Units",
+      "type": "integer"
+    },
+    "maximum_ground_vertices_per_window": {
+      "exclusiveMinimum": 0,
+      "title": "Maximum Ground Vertices Per Window",
+      "type": "integer"
+    },
+    "maximum_ram_gib": {
+      "exclusiveMinimum": 0,
+      "title": "Maximum Ram Gib",
+      "type": "number"
+    },
+    "maximum_roi_records_per_window": {
+      "exclusiveMinimum": 0,
+      "title": "Maximum Roi Records Per Window",
+      "type": "integer"
+    },
+    "maximum_tiles_per_computational_window": {
+      "exclusiveMinimum": 0,
+      "title": "Maximum Tiles Per Computational Window",
+      "type": "integer"
+    },
+    "minimum_actual_evaluation_units": {
+      "minimum": 1,
+      "title": "Minimum Actual Evaluation Units",
+      "type": "integer"
+    },
+    "minimum_geometric_units_per_corridor": {
+      "minimum": 1,
+      "title": "Minimum Geometric Units Per Corridor",
+      "type": "integer"
+    },
+    "minimum_provisional_evaluation_groups": {
+      "minimum": 6,
+      "title": "Minimum Provisional Evaluation Groups",
+      "type": "integer"
+    },
+    "mode": {
+      "const": "amostra_cientifica",
+      "title": "Mode",
+      "type": "string"
+    },
+    "municipal_mode_enabled": {
+      "const": false,
+      "title": "Municipal Mode Enabled",
+      "type": "boolean"
+    },
+    "primary_scale_m": {
+      "const": 50,
+      "title": "Primary Scale M",
+      "type": "integer"
+    },
+    "protocol_version": {
+      "const": "0.2.0",
+      "title": "Protocol Version",
+      "type": "string"
+    },
+    "reference_windows_per_corridor": {
+      "exclusiveMinimum": 0,
+      "title": "Reference Windows Per Corridor",
+      "type": "integer"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed": {
+      "minimum": 0,
+      "title": "Seed",
+      "type": "integer"
+    },
+    "status": {
+      "const": "frozen_conditional_post_pilot",
+      "title": "Status",
+      "type": "string"
+    },
+    "status_field": {
+      "title": "Status Field",
+      "type": "string"
+    },
+    "stratification": {
+      "const": "centroid_geographic_quadrants",
+      "title": "Stratification",
+      "type": "string"
+    },
+    "target_corridors": {
+      "maximum": 12,
+      "minimum": 8,
+      "title": "Target Corridors",
+      "type": "integer"
+    },
+    "target_evaluation_units": {
+      "minimum": 1,
+      "title": "Target Evaluation Units",
+      "type": "integer"
+    },
+    "target_units_per_corridor": {
+      "minimum": 1,
+      "title": "Target Units Per Corridor",
+      "type": "integer"
+    },
+    "type_field": {
+      "title": "Type Field",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "status",
+    "execution_enabled",
+    "seed",
+    "mode",
+    "municipal_mode_enabled",
+    "target_corridors",
+    "development_corridors",
+    "evaluation_corridors",
+    "target_units_per_corridor",
+    "minimum_geometric_units_per_corridor",
+    "minimum_actual_evaluation_units",
+    "target_evaluation_units",
+    "maximum_actual_evaluation_units",
+    "primary_scale_m",
+    "block_distance_m",
+    "block_sensitivity_m",
+    "stratification",
+    "status_field",
+    "included_status",
+    "type_field",
+    "included_type",
+    "exclude_legacy_reserved_groups",
+    "reference_windows_per_corridor",
+    "double_annotation_fraction",
+    "minimum_provisional_evaluation_groups",
+    "cpu_workers",
+    "maximum_ram_gib",
+    "external_free_reserve_gib",
+    "maximum_tiles_per_computational_window",
+    "maximum_ground_vertices_per_window",
+    "maximum_roi_records_per_window",
+    "cost_uncertainty_factor",
+    "disk_safety_factor"
+  ],
+  "title": "StudyDesign",
+  "type": "object"
+}

@@ -1,0 +1,78 @@
+{
+  "$defs": {
+    "StageRecord": {
+      "additionalProperties": true,
+      "properties": {
+        "artefatos": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Artefatos",
+          "type": "array"
+        },
+        "nome": {
+          "title": "Nome",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "nao_iniciada",
+            "em_execucao",
+            "concluida",
+            "incompleta_por_dependencia"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "nome",
+        "status",
+        "artefatos"
+      ],
+      "title": "StageRecord",
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "properties": {
+    "etapa_atual": {
+      "pattern": "^\\d{2}$",
+      "title": "Etapa Atual",
+      "type": "string"
+    },
+    "etapas": {
+      "additionalProperties": {
+        "$ref": "#/$defs/StageRecord"
+      },
+      "title": "Etapas",
+      "type": "object"
+    },
+    "piloto_executado": {
+      "title": "Piloto Executado",
+      "type": "boolean"
+    },
+    "pipeline_cientifico_implementado": {
+      "title": "Pipeline Cientifico Implementado",
+      "type": "boolean"
+    },
+    "schema_version": {
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "status": {
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "etapa_atual",
+    "status",
+    "etapas",
+    "piloto_executado",
+    "pipeline_cientifico_implementado"
+  ],
+  "title": "ProjectState",
+  "type": "object"
+}

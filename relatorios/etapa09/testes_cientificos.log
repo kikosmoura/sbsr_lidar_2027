@@ -1,0 +1,16 @@
+........................................................................ [ 46%]
+........................................................................ [ 93%]
+..........                                                               [100%]
+=============================== warnings summary ===============================
+tests/cientifico/test_doctor_smoke.py::test_synthetic_native_io_cache_resume_and_raw_preservation
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+tests/cientifico/test_reference.py::test_reference_real_materials_no_labels_and_mutable_cache
+  /home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/.venv-cientifico/lib/python3.10/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+154 passed, 7 warnings in 20.04s

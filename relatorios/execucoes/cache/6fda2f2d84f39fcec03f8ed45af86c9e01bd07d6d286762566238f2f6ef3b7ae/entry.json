@@ -1,0 +1,38 @@
+{
+  "key": "6fda2f2d84f39fcec03f8ed45af86c9e01bd07d6d286762566238f2f6ef3b7ae",
+  "outputs": [
+    {
+      "bytes": 9404,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T215241Z_c33075a9ea/segmentacao.json",
+      "sha256": "b0ef81559920838da56565841302a5d1bbf5025e25e17ddb72d0128352fcc1cb"
+    },
+    {
+      "bytes": 1556,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T215241Z_c33075a9ea/segmentacao.md",
+      "sha256": "01dd4ac8c817f6c74bdba16b2aec73739fde6553a16dd7f0ed2a9eba52cea63c"
+    },
+    {
+      "bytes": 1183744,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/unidades_multiescala.gpkg",
+      "sha256": "a1f4ed2fdc9fa5ac4d7b82df5d41a2b3d44684aeab4259eb94921dd46266e789"
+    },
+    {
+      "bytes": 2447,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/ligacoes_lacunas.csv",
+      "sha256": "653361ff449a8d3d92244c21145775d06c3291db6a7c3ce2f22aab62c2892144"
+    },
+    {
+      "bytes": 5258,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/vizinhos_segmentos.csv",
+      "sha256": "0cda84c2c353cd100635f5c857795ff69f66a5bcf868c124d00f46aed0801afc"
+    },
+    {
+      "bytes": 81305,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/adversarial/20261025T215241Z_c33075a9ea/correspondencia_suporte.csv",
+      "sha256": "b726cc824baaccd9fb36412110fb3b5cb397d4544a6c3d028090e81f96013567"
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_run_id": "20261025T215241Z_c33075a9ea",
+  "status": "completed"
+}

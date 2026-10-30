@@ -1,0 +1,78 @@
+{
+  "key": "62fd0748e62b1346d62053c4cc13272fe54561958a91034e9b27508e3053ed17",
+  "outputs": [
+    {
+      "bytes": 12052,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/qc_insumos.json",
+      "sha256": "b3c0ab7552f11e2d78b4d720dab337ec25212d4ebf48109689f68d604b23bd63"
+    },
+    {
+      "bytes": 3126,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/qc_insumos.md",
+      "sha256": "63bf1264f24c9fe2f6deb56b9b3421f257d22ddd34eaec138c6c9efcaded89b1"
+    },
+    {
+      "bytes": 2111,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T155936Z_8551123d84/plano_complementos.json",
+      "sha256": "891b7757681148162cf99b08ce1d8310ff05a8b882abb14ff4ecfddc47abfbda"
+    },
+    {
+      "bytes": 159744,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/dominios.gpkg",
+      "sha256": "0fa7423266418529038ead5d9ff1992129b908857e20ff496cdb838cc56c9f50"
+    },
+    {
+      "bytes": 98304,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/indice_nuvens.gpkg",
+      "sha256": "4b981ad6de60b8947cd78a81285c412484e12366aec0d78af05f26f130c9a88a"
+    },
+    {
+      "bytes": 517,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/contagem_classes.csv",
+      "sha256": "75f46e611277cea5321c76db9f1155cca99ac7f3072f5f3d7cc77d97eca11d29"
+    },
+    {
+      "bytes": 5659,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/manifesto_insumos.json",
+      "sha256": "4e38bf8418b9802a5c461c83c373a3cd45136a74abc24daf73a3dccc464103f6"
+    },
+    {
+      "bytes": 3511,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/mascara_medicao.tif",
+      "sha256": "13c7df19da13ae16fdbba4103a88269448549b1e1fbcaee170ae6fb598eadaf4"
+    },
+    {
+      "bytes": 16627,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_contagem_retornos.tif",
+      "sha256": "6976f277f83b63b9c643d7c42595e7a35aa3022efd0acf35e34dc16f570d0899"
+    },
+    {
+      "bytes": 14167,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_densidade_retornos.tif",
+      "sha256": "155cbb7559a5d66c4e0c6e192c385b33f2a26ef5ee69a50c37fc7fcbb4fb78dc"
+    },
+    {
+      "bytes": 5163,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDT_suporte_xy.tif",
+      "sha256": "c27713b2baed4181f8488a19250e14746f2e991d863614daa585b69048ba035f"
+    },
+    {
+      "bytes": 27696,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_contagem_retornos.tif",
+      "sha256": "4c73ade162a03b3e702317a7a96443572ae0f523a5c95569c938c8558483b884"
+    },
+    {
+      "bytes": 23615,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_densidade_retornos.tif",
+      "sha256": "4773bd2a068bcfaa281c15b9b877bd4ff187a80b27560d12dbc7d27e8491c3ab"
+    },
+    {
+      "bytes": 4771,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa03/adversarial/20261025T155936Z_8551123d84/MDS_suporte_xy.tif",
+      "sha256": "11a146ece1177c174026042dd51a0ee17881cebfe2b135136eedfe87cbbf9f16"
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_run_id": "20261025T155936Z_8551123d84",
+  "status": "completed"
+}

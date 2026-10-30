@@ -1,0 +1,94 @@
+{
+  "Times_New_Roman_present": true,
+  "abstracts": {
+    "en": {
+      "text": "Canopy cover indicators do not fully describe the vertical structure of urban vegetation. This exploratory study compares relative rankings based on detected cover and connected patches with an ablation incorporating LiDAR return height and heterogeneity. We analysed 10 green corridor perimeters in São Paulo available in 2026 using 2020 GeoSampa data and segmentation through PyCrown routines. The sample comprised 114 evaluation units and 30 development units. In the main scenario, Spearman correlation between A and A+3D was 0.6682, while top-20% Jaccard similarity was 0.3529. Across sensitivity comparisons, eligible sample sizes ranged from 78 to 114 units. Results show changes in ranking and descriptive structural information, conditional on support and parameter choices. Without an independent reference, crown accuracy and improved diagnosis were not demonstrated.",
+      "words": 126
+    },
+    "pt": {
+      "text": "Indicadores de cobertura não descrevem integralmente a estrutura vertical da vegetação urbana. Este estudo exploratório compara ordenações relativas baseadas em cobertura e manchas detectadas com uma ablação que incorpora altura e heterogeneidade de retornos LiDAR. Foram analisados 10 perímetros de corredores verdes de São Paulo disponíveis em 2026, usando dados GeoSampa de 2020 e segmentação por rotinas do PyCrown. A amostra reuniu 114 unidades de avaliação e 30 de desenvolvimento. No cenário principal, a correlação de Spearman entre A e A+3D foi 0,6682; a similaridade de Jaccard da seleção superior de 20% foi 0,3529. Nas sensibilidades, a elegibilidade variou de 78 a 114 unidades. Os resultados indicam mudanças de ordenação e informação estrutural descritiva, condicionadas ao suporte e à parametrização. Sem referência independente, não se demonstram acurácia de copas nem melhora de diagnóstico.",
+      "words": 135
+    }
+  },
+  "all_fonts_embedded": true,
+  "bibliography": {
+    "all_citations_resolved": true,
+    "cited_keys": [
+      "alonzo2014",
+      "dalponte2016",
+      "geosampa",
+      "hurlbert1984",
+      "pycrown",
+      "zorner2018"
+    ],
+    "references": 6
+  },
+  "critical_latex_messages": [],
+  "elements_actually_captioned_in_pdf": {
+    "figures": [
+      1,
+      2,
+      3
+    ],
+    "tables": [
+      1,
+      2
+    ]
+  },
+  "figures": 3,
+  "full_official_style_obtained": false,
+  "human_author_approval": false,
+  "optical_glyph_tolerance_mm": 1,
+  "page_bounds": [
+    {
+      "page": 1,
+      "visible_text_bounds_mm": {
+        "xMax": 197.016271575,
+        "xMin": 19.000000805555555,
+        "yMax": 254.75925891666668,
+        "yMin": 35.002441777777776
+      }
+    },
+    {
+      "page": 2,
+      "visible_text_bounds_mm": {
+        "xMax": 197.01276073055553,
+        "xMin": 18.999993749999998,
+        "yMax": 254.75924127777776,
+        "yMin": 25.653791155555556
+      }
+    },
+    {
+      "page": 3,
+      "visible_text_bounds_mm": {
+        "xMax": 197.0127642583333,
+        "xMin": 19.000000805555555,
+        "yMax": 254.75924127777776,
+        "yMin": 26.42686978888889
+      }
+    },
+    {
+      "page": 4,
+      "visible_text_bounds_mm": {
+        "xMax": 197.01275720277778,
+        "xMin": 19.000000805555555,
+        "yMax": 254.75924127777776,
+        "yMin": 25.57824485277778
+      }
+    }
+  ],
+  "page_numbers": false,
+  "pages": 4,
+  "pdf": {
+    "bytes": 347857,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.pdf",
+    "sha256": "697fd35e23e163b38ec0f8fd63285f2dc4f2677fd2498f4e5e5edae05fa8beb7"
+  },
+  "same_result_macros_and_figures": true,
+  "source_format": "A4;10pt body;14pt title;9pt bold captions;86mm columns;6mm gap;178x229mm text",
+  "stage": "15",
+  "submission_ready": false,
+  "tables": 2,
+  "title_visible_top_mm": 35.002441777777776,
+  "underfull_notices": 6
+}

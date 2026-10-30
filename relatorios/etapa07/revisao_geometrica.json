@@ -1,0 +1,40 @@
+{
+  "adversarial": {
+    "B_available": false,
+    "axis_geometrically_accepted": true,
+    "axis_length_m": 634.3199585915066,
+    "observation": "Central branch follows the narrow polygon and bend after four short corner bisectors are removed; full-width support remains inadequate.",
+    "policy": "axis_geometric_QC_passed_support_QC_failed"
+  },
+  "does_not_validate_crown_or_functional_connectivity": true,
+  "figures": [
+    {
+      "bytes": 247772,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa07/eixos_unidades_main.png",
+      "sha256": "212133950b4dffae277969254dfe562862538a63fe158183847d70fe7e55fb2a"
+    },
+    {
+      "bytes": 227181,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa07/eixos_unidades_adversarial.png",
+      "sha256": "37f237104c0861fd5e2417146161952f25ee757b3ceeae7e7701474735882502"
+    },
+    {
+      "bytes": 212474,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa07/grades_multiescala_main.png",
+      "sha256": "4706f5c81e54604f05aad33f5dfac564a84343a9befe60d6d4c96670ddc76737"
+    },
+    {
+      "bytes": 168359,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa07/grades_multiescala_adversarial.png",
+      "sha256": "5abd92de652910ed104618b1e6e474e7e8ccac56ccc977d2c8cb8cf58423d411"
+    }
+  ],
+  "main": {
+    "B_available": false,
+    "axis_geometrically_accepted": false,
+    "observation": "Multiple medial branches enter wide lobes and local junctions; no unique route chosen.",
+    "policy": "grid_only"
+  },
+  "reviewed_at": "2026-10-25T21:58:28.354151+00:00",
+  "reviewer_kind": "computational_agent_visual_inspection_not_independent_human_reference"
+}

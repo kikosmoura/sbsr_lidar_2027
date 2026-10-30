@@ -1,0 +1,253 @@
+{
+  "B_available": false,
+  "QC": {
+    "groups": [
+      {
+        "area_canopy_m2": 38528.34422657967,
+        "area_invariants_ok": true,
+        "area_observed_m2": 65233.1100314785,
+        "area_total_m2": 65807.7126636983,
+        "eligible_A": 161,
+        "eligible_A_plus_3D": 150,
+        "eligible_B": 0,
+        "family": "grid",
+        "height_values_available": 163,
+        "n_mds_records": 1395109,
+        "n_patches_unique": 87,
+        "n_vegetation_records": 774284,
+        "rows": 192,
+        "scale_m": 25.0,
+        "without_common_support": 1,
+        "without_detected_canopy": 7
+      },
+      {
+        "area_canopy_m2": 38528.34422657366,
+        "area_invariants_ok": true,
+        "area_observed_m2": 65233.11003146472,
+        "area_total_m2": 65807.71266368037,
+        "eligible_A": 59,
+        "eligible_A_plus_3D": 58,
+        "eligible_B": 0,
+        "family": "grid",
+        "height_values_available": 61,
+        "n_mds_records": 1395109,
+        "n_patches_unique": 87,
+        "n_vegetation_records": 774284,
+        "rows": 67,
+        "scale_m": 50.0,
+        "without_common_support": 0,
+        "without_detected_canopy": 3
+      },
+      {
+        "area_canopy_m2": 38528.344226560024,
+        "area_invariants_ok": true,
+        "area_observed_m2": 65233.11003146352,
+        "area_total_m2": 65807.71266367247,
+        "eligible_A": 25,
+        "eligible_A_plus_3D": 25,
+        "eligible_B": 0,
+        "family": "grid",
+        "height_values_available": 26,
+        "n_mds_records": 1395109,
+        "n_patches_unique": 87,
+        "n_vegetation_records": 774284,
+        "rows": 27,
+        "scale_m": 100.0,
+        "without_common_support": 0,
+        "without_detected_canopy": 1
+      }
+    ],
+    "height_missing_reasons": {
+      "area_copa_insuficiente": 22,
+      "classificacao_incerta_sem_copa_detectada": 2,
+      "disponivel": 250,
+      "retornos_vegetais_insuficientes": 2,
+      "sem_suporte_comum": 1,
+      "sem_vegetacao": 9
+    },
+    "longitudinal_missing_reasons": {
+      "unidade_em_grade": 286
+    },
+    "point_aggregation": {
+      "boundary_tie_rule": "maximum_area_of_owning_half_open_raster_pixel_then_lexicographic_unit_id",
+      "boundary_ties_including_cell_centers": {
+        "grid_100": 23,
+        "grid_25": 75,
+        "grid_50": 43
+      },
+      "counts_are_records_not_unique_pulses_or_trees": true,
+      "records_in_exact_measurement": 1395109,
+      "source_records_read": 1967742,
+      "stored_height_values_across_families_scales": 2322852
+    }
+  },
+  "case": "main",
+  "columns": 114,
+  "domain": {
+    "case": "main",
+    "context_area_m2": 99600.19254473243,
+    "context_bounds": [
+      323524.5168518057,
+      7391345.994567062,
+      324060.8026463892,
+      7392483.83625441
+    ],
+    "context_clipped_to_tile": false,
+    "corridor_id": "CO_BT_01_E",
+    "epsg": 31983,
+    "halo_m": 10.0,
+    "measurement_area_m2": 65807.7126636682,
+    "measurement_bounds": [
+      323534.5099740962,
+      7391355.987790512,
+      324050.8041138214,
+      7392473.837384119
+    ],
+    "measurement_is_official_polygon": true,
+    "official_area_m2": 65807.7126636682,
+    "requested_context_omitted_m2": 0.0,
+    "tiles": [
+      "3313-324",
+      "3313-333",
+      "3313-361",
+      "3313-363"
+    ]
+  },
+  "elapsed_seconds": 3.198043464915827,
+  "limitations": [
+    "I1/I4 disponíveis numericamente não significam unidade elegível ou máscara validada.",
+    "Limites de cobertura tratam somente suporte não observado; não são intervalos de confiança nem corrigem erros de classificação.",
+    "Incerteza semântica é quantificada e permanece no denominador O.",
+    "I5/I6/I7 não misturam retornos com superfície superior por célula; sem ponderação por área de copa.",
+    "Contagens são registros; repetições internas ao MDS preservadas. Pesos de aquisição/oclusão afetam distribuição.",
+    "I2/I3 ausentes na grade ou suporte insuficiente; comprimentos diagnósticos não são indicadores longitudinais elegíveis.",
+    "Ausência detectada de copa é estrato próprio; H/P95/IQR ausentes, nunca preenchidos com zero.",
+    "I8/I9/I10 fora do núcleo; sem proxy de biomassa, volume real ou conectividade funcional.",
+    "Exploratory pilot only; no municipal estimates, human labels, accuracy metrics or advantage of C claimed.",
+    "Primary height estimand is original normalized vegetation return distribution, not per-tree or canopy-surface height.",
+    "Auxiliary physical values in ineligible units remain reported with support and reasons; not automatically comparable.",
+    "B availability remains subject to axis, areal and longitudinal observation; no substitute from uncovered area.",
+    "No recalculation of frozen terrain, canopy, units or thresholds; I8/I9/I10 excluded from core."
+  ],
+  "mask": {
+    "analysis_version": "baseline_h3",
+    "baseline_h3_candidate_area_exact_m2": 38528.34422655615,
+    "cache_hit": false,
+    "case": "main",
+    "context_layer": "baseline_h3_contexto",
+    "corridor_id": "CO_BT_01_E",
+    "exact_observed_area_in_measurement_m2": 65233.11003147886,
+    "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T184324Z_169e51b078/manifest.json",
+    "mask_context": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/copa_baseline_h3_contexto.tif",
+    "mask_measurement": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/copa_baseline_h3_medicao.tif",
+    "measurement_area_m2": 65807.7126636682,
+    "measurement_layer": "baseline_h3_medicao",
+    "observation": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/observabilidade.tif",
+    "observed_layer": "suporte_observado",
+    "ok": true,
+    "patches": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/mascaras_manchas.gpkg",
+    "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078",
+    "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T184324Z_169e51b078/mascara_copa.json",
+    "run_id": "20261025T184324Z_169e51b078",
+    "uncertainty": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/incerteza_h3.tif",
+    "valid_domain": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa06/main/20261025T184324Z_169e51b078/dominio_valido.tif",
+    "validated": false
+  },
+  "mask_validated": false,
+  "ok": true,
+  "parameters": {
+    "batch_records": 65536,
+    "height_estimand": "normalized_vegetation_returns",
+    "include_I8": false,
+    "include_I9_I10": false,
+    "maximum_stored_height_values": 6000000,
+    "maximum_units": 2000,
+    "quantile_method": "linear"
+  },
+  "peak_process_rss_mib": 363.31640625,
+  "products": [
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.parquet",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.csv",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/dicionario_dados.json"
+  ],
+  "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173",
+  "rankings_computed": false,
+  "rows": 286,
+  "run_id": "20261025T221430Z_ad89ab6173",
+  "stage": "08",
+  "units": {
+    "B_available": false,
+    "B_unavailable_reason": "non_unique_branched_axis",
+    "axis_geometrically_accepted": false,
+    "cache_hit": false,
+    "case": "main",
+    "corridor_id": "CO_BT_01_E",
+    "frozen_canopy_analysis_version": "baseline_h3",
+    "frozen_canopy_run_id": "20261025T184324Z_169e51b078",
+    "geopackage": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/main/20261025T215146Z_b6c745db6e/unidades_multiescala.gpkg",
+    "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T215146Z_b6c745db6e/manifest.json",
+    "mask_validated": false,
+    "measurement_area_m2": 65807.7126636682,
+    "observed_area_m2": 65233.1100314788,
+    "ok": true,
+    "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa07/main/20261025T215146Z_b6c745db6e",
+    "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T215146Z_b6c745db6e/segmentacao.json",
+    "run_id": "20261025T215146Z_b6c745db6e",
+    "scales": {
+      "100": {
+        "grid_layer": "grade_100m",
+        "grid_summary": {
+          "effective_area_m2": 65807.71266367247,
+          "eligible_area_observation": 25,
+          "observed_area_m2": 65233.11003146352,
+          "small_area_residuals": 1,
+          "units": 27
+        },
+        "influence_layer": "influencia_100m",
+        "longitudinal_summary": {
+          "eligible_longitudinal_observation": 0,
+          "short_remainders": 0,
+          "units": 0
+        },
+        "segment_layer": "segmentos_100m"
+      },
+      "25": {
+        "grid_layer": "grade_25m",
+        "grid_summary": {
+          "effective_area_m2": 65807.7126636983,
+          "eligible_area_observation": 161,
+          "observed_area_m2": 65233.1100314785,
+          "small_area_residuals": 25,
+          "units": 192
+        },
+        "influence_layer": "influencia_25m",
+        "longitudinal_summary": {
+          "eligible_longitudinal_observation": 0,
+          "short_remainders": 0,
+          "units": 0
+        },
+        "segment_layer": "segmentos_25m"
+      },
+      "50": {
+        "grid_layer": "grade_50m",
+        "grid_summary": {
+          "effective_area_m2": 65807.71266368037,
+          "eligible_area_observation": 59,
+          "observed_area_m2": 65233.11003146472,
+          "small_area_residuals": 6,
+          "units": 67
+        },
+        "influence_layer": "influencia_50m",
+        "longitudinal_summary": {
+          "eligible_longitudinal_observation": 0,
+          "short_remainders": 0,
+          "units": 0
+        },
+        "segment_layer": "segmentos_50m"
+      }
+    },
+    "selected_comparison_family": "grid"
+  }
+}

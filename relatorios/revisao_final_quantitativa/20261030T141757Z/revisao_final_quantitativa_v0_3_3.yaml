@@ -1,0 +1,15 @@
+revision: 0.3.3-revisao-quantitativa
+prior_article: artigo/revisao_interpretacao_v0_3_2
+prior_manifest: docs/manifesto_revisao_interpretacao.json
+source_analysis_pointer: relatorios/etapa17/ultima_analise.json
+source_execution: relatorios/etapa12/execucao.json
+pair_selection: maximum_absolute_P95_difference_among_the_same_16_pairs_then_ID
+measurement_domain_changed: false
+primary_pairs_or_scores_changed: false
+height_tolerance_m: 1.0e-9
+diagnostic_interior_margin_m: 1.0
+influence_analysis: omit_only_the_maximum_pair_for_description_not_primary_reselection
+replay_TIN: two_relevant_windows_from_preserved_decoded_MDT_blocks
+external_validation_claimed: false
+output_parent: relatorios/revisao_final_quantitativa
+article_destination: artigo/revisao_final_v0_3_3

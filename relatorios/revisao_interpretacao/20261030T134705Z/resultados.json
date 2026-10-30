@@ -1,0 +1,91 @@
+{
+  "difference_above_total_measurement_error_established": false,
+  "disjoint_pairs": {
+    "IQR": {
+      "descriptor": "IQR",
+      "maximum_m": 15.442055970110149,
+      "median_m": 1.748717344785902,
+      "minimum_m": 0.0288050783045719,
+      "n_pairs": 16,
+      "q25_m": 0.9369887155740457,
+      "q75_m": 3.2756969845352586,
+      "quantile_method": "linear"
+    },
+    "P95": {
+      "descriptor": "P95",
+      "maximum_m": 20.911739601324136,
+      "median_m": 2.7982192769246197,
+      "minimum_m": 0.0400784513241667,
+      "n_pairs": 16,
+      "q25_m": 1.2863576642504293,
+      "q75_m": 6.1484822134243124,
+      "quantile_method": "linear"
+    }
+  },
+  "external_accuracy_estimated": false,
+  "internal_TIN5_QC": {
+    "reserved_blocks": {
+      "n_corridors": 8,
+      "n_evaluated_records": 39241,
+      "n_valid_records": 10721,
+      "n_windows": 24,
+      "n_windows_with_valid_residuals": 22,
+      "not_external_accuracy": true,
+      "records_not_independent_replicates": true,
+      "valid_record_fraction": 0.2732091434978721,
+      "window_rmse_m": {
+        "maximum": 0.5737862084518125,
+        "median": 0.2219779452597645,
+        "minimum": 0.02614072020097059,
+        "q25": 0.15893304246617407,
+        "q75": 0.2974560780674772
+      },
+      "window_summary_weighting": "one_weight_per_window_not_per_return"
+    },
+    "reserved_points": {
+      "n_corridors": 8,
+      "n_evaluated_records": 40152,
+      "n_valid_records": 39665,
+      "n_windows": 24,
+      "n_windows_with_valid_residuals": 24,
+      "not_external_accuracy": true,
+      "records_not_independent_replicates": true,
+      "valid_record_fraction": 0.9878710898585376,
+      "window_rmse_m": {
+        "maximum": 0.11452252128792917,
+        "median": 0.08016007844749853,
+        "minimum": 0.027163805768783196,
+        "q25": 0.06730079590063044,
+        "q75": 0.09421184838585377
+      },
+      "window_summary_weighting": "one_weight_per_window_not_per_return"
+    }
+  },
+  "metrology": {
+    "check_point_coordinates_supplied": false,
+    "check_points_declared_for_products": 46,
+    "declares_PEC_PCD_A": true,
+    "numerical_external_vertical_rmse_m": null,
+    "official_document": {
+      "bytes": 745684,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/atestado_tecnico_2020.pdf",
+      "sha256": "f8ad51889e2142391aea7755d1e1b6757868240ee63ec93597ff09a6071006a9"
+    },
+    "other_surveys_or_manufacturer_accuracy_not_transferred": true,
+    "per_checkpoint_residuals_available_in_consulted_documents": false,
+    "publication_year_of_attestation": null,
+    "resolution_or_LAS_scale_not_used_as_vertical_accuracy": true,
+    "same_sensor_QC_is_not_external_accuracy": true,
+    "source_scope": "official_MDT_MDS2020_XML_and_linked_2020_attestation_not_all_possible_records",
+    "source_url": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/intranet/api/records/892c862e-f564-4b1c-a3d0-9d28052e5d58/attachments/voo2020_ATESTADO-T%C3%89CNICO_PMSP.pdf",
+    "survey_year": 2020
+  },
+  "new_LAZ_processing": false,
+  "new_ground_validation_run": false,
+  "scientific_scores_changed": false,
+  "score_interpretation": "experimental_no_ecological_valence",
+  "source_analytical_extension": "0.3.1-complemento",
+  "source_run_id": "20261026T034837Z_83581b7eec",
+  "source_scientific_protocol": "0.3.0",
+  "version": "0.3.2-interpretacao"
+}

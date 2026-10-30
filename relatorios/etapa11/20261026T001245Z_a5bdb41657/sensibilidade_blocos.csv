@@ -1,0 +1,4 @@
+distance_m,total_blocks,candidate_corridors_geometric_only,candidate_blocks_geometric_only,independence_certified
+200.0,47,32,27,False
+500.0,31,24,19,False
+1000.0,21,22,15,False

@@ -1,0 +1,175 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "external_accuracy_claims_enabled": {
+      "const": false,
+      "title": "External Accuracy Claims Enabled",
+      "type": "boolean"
+    },
+    "external_reference_required_for_execution": {
+      "const": false,
+      "title": "External Reference Required For Execution",
+      "type": "boolean"
+    },
+    "halo_m": {
+      "maximum": 30,
+      "minimum": 20,
+      "title": "Halo M",
+      "type": "number"
+    },
+    "maximum_ground_vertices_per_window": {
+      "exclusiveMinimum": 0,
+      "maximum": 1000000,
+      "title": "Maximum Ground Vertices Per Window",
+      "type": "integer"
+    },
+    "maximum_new_products": {
+      "maximum": 32,
+      "minimum": 0,
+      "title": "Maximum New Products",
+      "type": "integer"
+    },
+    "maximum_raster_cells": {
+      "exclusiveMinimum": 0,
+      "maximum": 20000000,
+      "title": "Maximum Raster Cells",
+      "type": "integer"
+    },
+    "maximum_roi_records_per_window": {
+      "exclusiveMinimum": 0,
+      "maximum": 5000000,
+      "title": "Maximum Roi Records Per Window",
+      "type": "integer"
+    },
+    "mode": {
+      "const": "amostra_exploratoria_pycrown",
+      "title": "Mode",
+      "type": "string"
+    },
+    "municipal_mode_enabled": {
+      "const": false,
+      "title": "Municipal Mode Enabled",
+      "type": "boolean"
+    },
+    "primary_crown_radius_m": {
+      "const": 8.0,
+      "title": "Primary Crown Radius M",
+      "type": "number"
+    },
+    "primary_detection_radius_m": {
+      "const": 3.0,
+      "title": "Primary Detection Radius M",
+      "type": "number"
+    },
+    "primary_height_m": {
+      "const": 3.0,
+      "title": "Primary Height M",
+      "type": "number"
+    },
+    "primary_resolution_m": {
+      "const": 1.0,
+      "title": "Primary Resolution M",
+      "type": "number"
+    },
+    "protocol_version": {
+      "const": "0.3.0",
+      "title": "Protocol Version",
+      "type": "string"
+    },
+    "resolutions_m": {
+      "items": {
+        "type": "number"
+      },
+      "title": "Resolutions M",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed": {
+      "minimum": 0,
+      "title": "Seed",
+      "type": "integer"
+    },
+    "selection_protocol": {
+      "const": "0.2.0",
+      "title": "Selection Protocol",
+      "type": "string"
+    },
+    "target_units_per_corridor": {
+      "const": 15,
+      "title": "Target Units Per Corridor",
+      "type": "integer"
+    },
+    "terrain_context_m": {
+      "maximum": 20,
+      "minimum": 10,
+      "title": "Terrain Context M",
+      "type": "number"
+    },
+    "th_crown": {
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Th Crown",
+      "type": "number"
+    },
+    "th_seed": {
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Th Seed",
+      "type": "number"
+    },
+    "upstream_root": {
+      "format": "path",
+      "title": "Upstream Root",
+      "type": "string"
+    },
+    "window_size_m": {
+      "const": 200,
+      "title": "Window Size M",
+      "type": "integer"
+    },
+    "worker_python": {
+      "format": "path",
+      "title": "Worker Python",
+      "type": "string"
+    },
+    "worker_script": {
+      "format": "path",
+      "title": "Worker Script",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "mode",
+    "external_reference_required_for_execution",
+    "external_accuracy_claims_enabled",
+    "municipal_mode_enabled",
+    "selection_protocol",
+    "halo_m",
+    "window_size_m",
+    "terrain_context_m",
+    "maximum_new_products",
+    "maximum_roi_records_per_window",
+    "maximum_ground_vertices_per_window",
+    "maximum_raster_cells",
+    "primary_resolution_m",
+    "resolutions_m",
+    "primary_height_m",
+    "primary_detection_radius_m",
+    "primary_crown_radius_m",
+    "th_seed",
+    "th_crown",
+    "seed",
+    "target_units_per_corridor",
+    "worker_python",
+    "upstream_root",
+    "worker_script"
+  ],
+  "title": "CrownDesign",
+  "type": "object"
+}

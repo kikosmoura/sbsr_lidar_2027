@@ -1,0 +1,45 @@
+{
+  "changes": [
+    {
+      "change": "Explicitar >=50 retornos, em lugar da redação ambígua 50 retornos",
+      "id": "C15_01",
+      "location": "manuscrito.tex, Dados/domínio/seleção",
+      "scientific_result_changed": false
+    },
+    {
+      "change": "Documentar arredondamento a12 casas que o código já usava para empates",
+      "id": "C15_02",
+      "location": "manuscrito.tex, Ablação/sensibilidades",
+      "scientific_result_changed": false
+    },
+    {
+      "change": "Substituir símbolos B/C não definidos no artigo por exclusão explícita de análises longitudinais",
+      "id": "C15_03",
+      "location": "manuscrito.tex, Ablação/sensibilidades",
+      "scientific_result_changed": false
+    },
+    {
+      "change": "Esclarecer que a rarefação usou somente uma semente, sem repetições estocásticas",
+      "id": "C15_04",
+      "location": "manuscrito.tex, Ablação/sensibilidades",
+      "scientific_result_changed": false
+    },
+    {
+      "change": "Identificar a cópia como rascunho revisado para apreciação do autor",
+      "id": "C15_05",
+      "location": "formato_sbsr_local.sty",
+      "scientific_result_changed": false
+    }
+  ],
+  "reviewed": {
+    "bytes": 16663,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_etapa15/manuscrito.tex",
+    "sha256": "a40876aa34288f7749f9e03bd0ef73883af8cd5590594cd9c073fe014a3aa474"
+  },
+  "same_numerical_macros_in_same_order": true,
+  "source": {
+    "bytes": 16609,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/manuscrito.tex",
+    "sha256": "e765da1ceef71f1b11c5bd7b734b2cbc30197f4a2acc525134ade162813cd721"
+  }
+}

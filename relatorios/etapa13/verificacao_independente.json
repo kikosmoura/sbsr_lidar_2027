@@ -1,0 +1,863 @@
+{
+  "LAZ_reprocessed": false,
+  "asserted_external_accuracy": false,
+  "checks": [
+    {
+      "check": "completed_generation",
+      "ok": true
+    },
+    {
+      "check": "output_hashes",
+      "count": 62,
+      "ok": true
+    },
+    {
+      "check": "source_hash:concordancia_ablacao",
+      "ok": true
+    },
+    {
+      "check": "source_hash:coorte_selecionada",
+      "ok": true
+    },
+    {
+      "check": "source_hash:disponibilidade_metodos",
+      "ok": true
+    },
+    {
+      "check": "source_hash:escores_rankings",
+      "ok": true
+    },
+    {
+      "check": "source_hash:indicadores_multiescala",
+      "ok": true
+    },
+    {
+      "check": "source_hash:membros_top",
+      "ok": true
+    },
+    {
+      "check": "source_hash:pares_cobertura_semelhante",
+      "ok": true
+    },
+    {
+      "check": "source_hash:qc_fontes",
+      "ok": true
+    },
+    {
+      "check": "source_hash:sample_summary",
+      "ok": true
+    },
+    {
+      "check": "source_hash:selecao_corredores_congelada",
+      "ok": true
+    },
+    {
+      "check": "source_hash:sensibilidade_cenarios",
+      "ok": true
+    },
+    {
+      "check": "source_hash:sensibilidade_rankings_agrupada",
+      "ok": true
+    },
+    {
+      "check": "source_hash:todas_unidades_50m",
+      "ok": true
+    },
+    {
+      "check": "metric_recipe:CO_BT_05_area_canopy_m2",
+      "ok": true,
+      "value": 14973.690043856266
+    },
+    {
+      "check": "metric_recipe:CO_BT_05_area_observed_m2",
+      "ok": true,
+      "value": 52112.89516905922
+    },
+    {
+      "check": "metric_recipe:CO_BT_05_area_total_m2",
+      "ok": true,
+      "value": 58827.83115351273
+    },
+    {
+      "check": "metric_recipe:CO_BT_05_fraction_observed",
+      "ok": true,
+      "value": 0.8858544356848597
+    },
+    {
+      "check": "metric_recipe:CO_CL_01_area_canopy_m2",
+      "ok": true,
+      "value": 9561.84442313514
+    },
+    {
+      "check": "metric_recipe:CO_CL_01_area_observed_m2",
+      "ok": true,
+      "value": 27579.35241555383
+    },
+    {
+      "check": "metric_recipe:CO_CL_01_area_total_m2",
+      "ok": true,
+      "value": 29252.00603323469
+    },
+    {
+      "check": "metric_recipe:CO_CL_01_fraction_observed",
+      "ok": true,
+      "value": 0.9428191825278418
+    },
+    {
+      "check": "metric_recipe:CO_CT_01_area_canopy_m2",
+      "ok": true,
+      "value": 14319.056791188785
+    },
+    {
+      "check": "metric_recipe:CO_CT_01_area_observed_m2",
+      "ok": true,
+      "value": 95532.61048976316
+    },
+    {
+      "check": "metric_recipe:CO_CT_01_area_total_m2",
+      "ok": true,
+      "value": 96288.04552007669
+    },
+    {
+      "check": "metric_recipe:CO_CT_01_fraction_observed",
+      "ok": true,
+      "value": 0.9921544255443837
+    },
+    {
+      "check": "metric_recipe:CO_CT_05_area_canopy_m2",
+      "ok": true,
+      "value": 7877.272748993498
+    },
+    {
+      "check": "metric_recipe:CO_CT_05_area_observed_m2",
+      "ok": true,
+      "value": 54303.73523513955
+    },
+    {
+      "check": "metric_recipe:CO_CT_05_area_total_m2",
+      "ok": true,
+      "value": 59291.72613369438
+    },
+    {
+      "check": "metric_recipe:CO_CT_05_fraction_observed",
+      "ok": true,
+      "value": 0.9158737445540442
+    },
+    {
+      "check": "metric_recipe:CO_IP_05_area_canopy_m2",
+      "ok": true,
+      "value": 32343.693346888555
+    },
+    {
+      "check": "metric_recipe:CO_IP_05_area_observed_m2",
+      "ok": true,
+      "value": 167972.40719458542
+    },
+    {
+      "check": "metric_recipe:CO_IP_05_area_total_m2",
+      "ok": true,
+      "value": 206084.00863314606
+    },
+    {
+      "check": "metric_recipe:CO_IP_05_fraction_observed",
+      "ok": true,
+      "value": 0.8150676430872237
+    },
+    {
+      "check": "metric_recipe:CO_MG_02_area_canopy_m2",
+      "ok": true,
+      "value": 4608.1477174985175
+    },
+    {
+      "check": "metric_recipe:CO_MG_02_area_observed_m2",
+      "ok": true,
+      "value": 25163.309334564616
+    },
+    {
+      "check": "metric_recipe:CO_MG_02_area_total_m2",
+      "ok": true,
+      "value": 29771.70585564097
+    },
+    {
+      "check": "metric_recipe:CO_MG_02_fraction_observed",
+      "ok": true,
+      "value": 0.8452088522094819
+    },
+    {
+      "check": "metric_recipe:CO_PA_02_area_canopy_m2",
+      "ok": true,
+      "value": 14293.91587393964
+    },
+    {
+      "check": "metric_recipe:CO_PA_02_area_observed_m2",
+      "ok": true,
+      "value": 96795.57343914112
+    },
+    {
+      "check": "metric_recipe:CO_PA_02_area_total_m2",
+      "ok": true,
+      "value": 106606.6697235329
+    },
+    {
+      "check": "metric_recipe:CO_PA_02_fraction_observed",
+      "ok": true,
+      "value": 0.9079692076505601
+    },
+    {
+      "check": "metric_recipe:CO_PJ_03_area_canopy_m2",
+      "ok": true,
+      "value": 6684.256912563361
+    },
+    {
+      "check": "metric_recipe:CO_PJ_03_area_observed_m2",
+      "ok": true,
+      "value": 52575.3852721156
+    },
+    {
+      "check": "metric_recipe:CO_PJ_03_area_total_m2",
+      "ok": true,
+      "value": 54567.496031610324
+    },
+    {
+      "check": "metric_recipe:CO_PJ_03_fraction_observed",
+      "ok": true,
+      "value": 0.9634927217781678
+    },
+    {
+      "check": "metric_recipe:CO_PR_02_area_canopy_m2",
+      "ok": true,
+      "value": 5036.864143155961
+    },
+    {
+      "check": "metric_recipe:CO_PR_02_area_observed_m2",
+      "ok": true,
+      "value": 19191.559181615252
+    },
+    {
+      "check": "metric_recipe:CO_PR_02_area_total_m2",
+      "ok": true,
+      "value": 19235.367239479736
+    },
+    {
+      "check": "metric_recipe:CO_PR_02_fraction_observed",
+      "ok": true,
+      "value": 0.9977225255271149
+    },
+    {
+      "check": "metric_recipe:CO_PR_03_area_canopy_m2",
+      "ok": true,
+      "value": 3033.652685892166
+    },
+    {
+      "check": "metric_recipe:CO_PR_03_area_observed_m2",
+      "ok": true,
+      "value": 12698.285246990963
+    },
+    {
+      "check": "metric_recipe:CO_PR_03_area_total_m2",
+      "ok": true,
+      "value": 12719.22859473552
+    },
+    {
+      "check": "metric_recipe:CO_PR_03_fraction_observed",
+      "ok": true,
+      "value": 0.9983534105399108
+    },
+    {
+      "check": "metric_recipe:all_grid_units_50m",
+      "ok": true,
+      "value": 753
+    },
+    {
+      "check": "metric_recipe:all_grid_units_multiscale",
+      "ok": true,
+      "value": 3121
+    },
+    {
+      "check": "metric_recipe:corridors_development",
+      "ok": true,
+      "value": 2
+    },
+    {
+      "check": "metric_recipe:corridors_evaluation",
+      "ok": true,
+      "value": 8
+    },
+    {
+      "check": "metric_recipe:evaluation_shortfall",
+      "ok": true,
+      "value": 6
+    },
+    {
+      "check": "metric_recipe:observed_fraction_max",
+      "ok": true,
+      "value": 0.9983534105399108
+    },
+    {
+      "check": "metric_recipe:observed_fraction_min",
+      "ok": true,
+      "value": 0.8150676430872237
+    },
+    {
+      "check": "metric_recipe:pairs_absolute_IQR_difference_m_max",
+      "ok": true,
+      "value": 18.96665754298388
+    },
+    {
+      "check": "metric_recipe:pairs_absolute_IQR_difference_m_median",
+      "ok": true,
+      "value": 2.327352452937916
+    },
+    {
+      "check": "metric_recipe:pairs_absolute_P95_difference_m_max",
+      "ok": true,
+      "value": 30.40167726515518
+    },
+    {
+      "check": "metric_recipe:pairs_absolute_P95_difference_m_median",
+      "ok": true,
+      "value": 5.340891031710527
+    },
+    {
+      "check": "metric_recipe:primary_base_tie_at_cut_n",
+      "ok": true,
+      "value": 1
+    },
+    {
+      "check": "metric_recipe:primary_jaccard_exact",
+      "ok": true,
+      "value": 0.35294117647058826
+    },
+    {
+      "check": "metric_recipe:primary_jaccard_including_cut_ties",
+      "ok": true,
+      "value": 0.35294117647058826
+    },
+    {
+      "check": "metric_recipe:primary_k",
+      "ok": true,
+      "value": 23
+    },
+    {
+      "check": "metric_recipe:primary_maximum_absolute_rank_shift",
+      "ok": true,
+      "value": 66.0
+    },
+    {
+      "check": "metric_recipe:primary_mean_absolute_rank_shift",
+      "ok": true,
+      "value": 20.333333333333332
+    },
+    {
+      "check": "metric_recipe:primary_n",
+      "ok": true,
+      "value": 114
+    },
+    {
+      "check": "metric_recipe:primary_spearman_rho",
+      "ok": true,
+      "value": 0.6681647966772448
+    },
+    {
+      "check": "metric_recipe:primary_top_intersection_n",
+      "ok": true,
+      "value": 12
+    },
+    {
+      "check": "metric_recipe:primary_top_union_n",
+      "ok": true,
+      "value": 34
+    },
+    {
+      "check": "metric_recipe:primary_variant_tie_at_cut_n",
+      "ok": true,
+      "value": 1
+    },
+    {
+      "check": "metric_recipe:sensitivity_jaccard_exact_max",
+      "ok": true,
+      "value": 0.9166666666666666
+    },
+    {
+      "check": "metric_recipe:sensitivity_jaccard_exact_min",
+      "ok": true,
+      "value": 0.5
+    },
+    {
+      "check": "metric_recipe:sensitivity_paired_eligible_units_max",
+      "ok": true,
+      "value": 114
+    },
+    {
+      "check": "metric_recipe:sensitivity_paired_eligible_units_min",
+      "ok": true,
+      "value": 78
+    },
+    {
+      "check": "metric_recipe:sensitivity_spearman_rho_max",
+      "ok": true,
+      "value": 0.9949024749837683
+    },
+    {
+      "check": "metric_recipe:sensitivity_spearman_rho_min",
+      "ok": true,
+      "value": 0.9313456645091874
+    },
+    {
+      "check": "metric_recipe:similar_cover_pairs",
+      "ok": true,
+      "value": 538
+    },
+    {
+      "check": "metric_recipe:source_crc_checked_files",
+      "ok": true,
+      "value": 118
+    },
+    {
+      "check": "metric_recipe:source_declared_records",
+      "ok": true,
+      "value": 345062484
+    },
+    {
+      "check": "metric_recipe:source_decoded_records",
+      "ok": true,
+      "value": 345062484
+    },
+    {
+      "check": "metric_recipe:source_files_qc",
+      "ok": true,
+      "value": 118
+    },
+    {
+      "check": "metric_recipe:source_tile_pairs",
+      "ok": true,
+      "value": 59
+    },
+    {
+      "check": "metric_recipe:target_evaluation",
+      "ok": true,
+      "value": 120
+    },
+    {
+      "check": "metric_recipe:top_group_gained",
+      "ok": true,
+      "value": 11
+    },
+    {
+      "check": "metric_recipe:top_group_kept",
+      "ok": true,
+      "value": 12
+    },
+    {
+      "check": "metric_recipe:top_group_lost",
+      "ok": true,
+      "value": 11
+    },
+    {
+      "check": "metric_recipe:top_group_neither",
+      "ok": true,
+      "value": 80
+    },
+    {
+      "check": "metric_recipe:units_development",
+      "ok": true,
+      "value": 30
+    },
+    {
+      "check": "metric_recipe:units_evaluation",
+      "ok": true,
+      "value": 114
+    },
+    {
+      "check": "same_primary_cohort",
+      "ok": true
+    },
+    {
+      "check": "top_intersection_recomputed",
+      "ok": true
+    },
+    {
+      "check": "jaccard_recomputed",
+      "ok": true
+    },
+    {
+      "check": "spearman_recomputed_with_ties",
+      "ok": true
+    },
+    {
+      "check": "top_categories_no_omission",
+      "ok": true
+    },
+    {
+      "check": "balanced_hash_selection",
+      "ok": true
+    },
+    {
+      "check": "main_example_hash_selection",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:physical_width",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:text_legible",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "F01_suporte:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:physical_width",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:text_legible",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:NoData_distinct",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:canopy_only_on_support",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:native_height_not_clipped",
+      "ok": true
+    },
+    {
+      "check": "F02_exemplo_2D_H:CRS",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:physical_width",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:text_legible",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "F03_rankings:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:physical_width",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:text_legible",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "F04_sensibilidade:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:physical_width",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:text_legible",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:NoData_distinct",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:canopy_only_on_support",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:native_height_not_clipped",
+      "ok": true
+    },
+    {
+      "check": "S_gained_2D_H:CRS",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:physical_width",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:text_legible",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:NoData_distinct",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:canopy_only_on_support",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:native_height_not_clipped",
+      "ok": true
+    },
+    {
+      "check": "S_kept_2D_H:CRS",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:physical_width",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:text_legible",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:NoData_distinct",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:canopy_only_on_support",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:native_height_not_clipped",
+      "ok": true
+    },
+    {
+      "check": "S_lost_2D_H:CRS",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:physical_width",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:text_legible",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:NoData_distinct",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:canopy_only_on_support",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:native_height_not_clipped",
+      "ok": true
+    },
+    {
+      "check": "S_neither_2D_H:CRS",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:physical_width",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:text_legible",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "T01_amostra:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:physical_width",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:text_legible",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "T02_indicadores:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:physical_width",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:text_legible",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:no_overlap_or_missing_glyphs",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:PNG_resolution",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:PDF_width",
+      "ok": true
+    },
+    {
+      "check": "T03_comparacao:PDF_embedded_fonts",
+      "ok": true
+    },
+    {
+      "check": "common_height_scale_across_examples",
+      "ok": true
+    },
+    {
+      "check": "no_invented_inference",
+      "ok": true
+    },
+    {
+      "check": "all_claims_classified",
+      "ok": true
+    },
+    {
+      "check": "all_claim_metrics_resolve",
+      "ok": true
+    }
+  ],
+  "ok": true,
+  "source_run_id": "20261026T034837Z_83581b7eec",
+  "stage13_run_id": "20261026T115706Z_458afeef44"
+}

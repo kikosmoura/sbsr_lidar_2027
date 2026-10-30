@@ -1,0 +1,18 @@
+{
+  "cache_only": true,
+  "extracted_text_exact": true,
+  "isolated_pdf": {
+    "bytes": 347600,
+    "path": "/tmp/sbsr_etapa15_latex_fx6sdklw/artigo/manuscrito.pdf",
+    "sha256": "90da7ea6bffb15c8106fe916cb5a7e4dcbafd2b4df1c66081f614693a3e15442"
+  },
+  "new_machine_tested": false,
+  "original": {
+    "bytes": 347600,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/manuscrito.pdf",
+    "sha256": "32b991ff1fd5cf4de46d838596071b2ed53751649e4b3c0d536ba9e1d792d27b"
+  },
+  "scope": "different_temporary_directory_same_machine_no_external_HD_needed_for_LaTeX",
+  "temporary_directory_removed": true,
+  "temporary_path": "/tmp/sbsr_etapa15_latex_fx6sdklw/artigo"
+}

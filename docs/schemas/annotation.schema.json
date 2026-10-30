@@ -1,0 +1,277 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "annotation_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Annotation Date"
+    },
+    "annotation_id": {
+      "minLength": 1,
+      "title": "Annotation Id",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "enum": [
+            "baixa",
+            "media",
+            "alta"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "criterion": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Criterion"
+    },
+    "label": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Label"
+    },
+    "method": {
+      "anyOf": [
+        {
+          "enum": [
+            "manual",
+            "medicao_campo",
+            "registro_externo"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Method"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    },
+    "observer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Observer"
+    },
+    "priority_score": {
+      "anyOf": [
+        {
+          "maximum": 5,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Priority Score"
+    },
+    "purpose": {
+      "enum": [
+        "vegetacao",
+        "altura",
+        "lacunas",
+        "prioridade"
+      ],
+      "title": "Purpose",
+      "type": "string"
+    },
+    "reviewer_slot": {
+      "enum": [
+        "A",
+        "B"
+      ],
+      "title": "Reviewer Slot",
+      "type": "string"
+    },
+    "saw_rankings": {
+      "anyOf": [
+        {
+          "enum": [
+            "sim",
+            "nao"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Saw Rankings"
+    },
+    "source_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Id"
+    },
+    "source_year": {
+      "anyOf": [
+        {
+          "maximum": 2100,
+          "minimum": 1900,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Year"
+    },
+    "state": {
+      "default": "pendente",
+      "enum": [
+        "pendente",
+        "concluido"
+      ],
+      "title": "State",
+      "type": "string"
+    },
+    "task_id": {
+      "minLength": 1,
+      "title": "Task Id",
+      "type": "string"
+    },
+    "temporal_compatible": {
+      "anyOf": [
+        {
+          "enum": [
+            "sim",
+            "nao",
+            "incerto"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Temporal Compatible"
+    },
+    "uncertainty_m": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Uncertainty M"
+    },
+    "value_m": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Value M"
+    },
+    "value_type": {
+      "anyOf": [
+        {
+          "enum": [
+            "altura_objeto",
+            "cota_terreno"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Value Type"
+    },
+    "vertical_reference": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Vertical Reference"
+    },
+    "window_id": {
+      "minLength": 1,
+      "title": "Window Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "annotation_id",
+    "task_id",
+    "window_id",
+    "purpose",
+    "reviewer_slot"
+  ],
+  "title": "Annotation",
+  "type": "object"
+}

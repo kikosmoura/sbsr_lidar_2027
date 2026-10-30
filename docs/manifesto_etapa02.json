@@ -1,0 +1,218 @@
+{
+  "artifacts": [
+    {
+      "bytes": 869,
+      "path": "pyproject.toml",
+      "sha256": "20c548f3b1c853147139adafa1472d42412eb4e04e4b8d950dbe20094bba63ef"
+    },
+    {
+      "bytes": 1170,
+      "path": "requirements-scientific.lock",
+      "sha256": "5ba5a456c888c8fbc70c8d7a102bebbd2b6c4cbf23973bc7dc3be99010943bd3"
+    },
+    {
+      "bytes": 1936,
+      "path": "configs/piloto.yaml",
+      "sha256": "19e81bee77f9701c3a172ddb3f4a894acf5665d7e9f20b19b71d63475ad9ffbc"
+    },
+    {
+      "bytes": 6108,
+      "path": "docs/ambiente_cientifico.md",
+      "sha256": "8ea6060b54de21b522ec118f539e4b07a96304447b780002f870fe2cf31d838a"
+    },
+    {
+      "bytes": 330,
+      "path": "docs/ambiente_nativo.json",
+      "sha256": "0f9c204608c2048ab00d7a09356afd6b1ca877a3543d90c533a724e3d18786a6"
+    },
+    {
+      "bytes": 4760,
+      "path": "docs/arquitetura_etapa02.md",
+      "sha256": "8c7d94da08559ebd3637d074d9afb088ff87292f13a7919dee8b2602098f8e03"
+    },
+    {
+      "bytes": 12288,
+      "path": "docs/schemas/config.schema.json",
+      "sha256": "1874bb0c3fba759e28a8ebe4bae706885cbdaeceeb643e4229a490199eacdc0e"
+    },
+    {
+      "bytes": 3238,
+      "path": "docs/schemas/run_manifest.schema.json",
+      "sha256": "7ffb678015a92424238d4233b2fb1d9278347ffac53d74436c7f52d9ff23f6c6"
+    },
+    {
+      "bytes": 1617,
+      "path": "docs/schemas/project_state.schema.json",
+      "sha256": "a55ed8f01013234952aacfc6a5259ed36e65eb48e5b3ae3dc6517d47a8add526"
+    },
+    {
+      "bytes": 10167,
+      "path": "relatorios/etapa02/doctor.json",
+      "sha256": "ea992e7febe5983e2607a40cbfdfee096c6c4f0d2a84b36466dca4615006554f"
+    },
+    {
+      "bytes": 2005,
+      "path": "relatorios/etapa02/verificacoes.json",
+      "sha256": "d1bcb0f7f6839f639bb42665a777799627988407e6bbdd4078d3c23fc4e1580e"
+    },
+    {
+      "bytes": 3197,
+      "path": "relatorios/etapa02/downloader_regressao.log",
+      "sha256": "9e91f4b7f643aad61fa076a04e6c39069d698d2f297e4f0fc982120cac074b59"
+    },
+    {
+      "bytes": 112,
+      "path": "src/sbsr_lidar/__init__.py",
+      "sha256": "240e819ff3999ec3e6c7154e533ff795adbaa0e8b5a9181d811d2db396f148fe"
+    },
+    {
+      "bytes": 48,
+      "path": "src/sbsr_lidar/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 2546,
+      "path": "src/sbsr_lidar/cli.py",
+      "sha256": "849dd9693a62a1d2162893f3e54b3ce55780c461a1a123c46ed33718c931ab73"
+    },
+    {
+      "bytes": 7694,
+      "path": "src/sbsr_lidar/config.py",
+      "sha256": "c6da9e5f97e594b1dea7b5bfd0d934b5a4c63b3ec6181defd91fa5b71b769d64"
+    },
+    {
+      "bytes": 6923,
+      "path": "src/sbsr_lidar/doctor.py",
+      "sha256": "50e6027b2f99b248cd56e9e36155d1d2903e233bb91f9f94ee66a23e5486de93"
+    },
+    {
+      "bytes": 2299,
+      "path": "src/sbsr_lidar/environment.py",
+      "sha256": "72bb812fb97a77b47f38d67368a94ae07d90cf828a6cc276a10523ce44311ec2"
+    },
+    {
+      "bytes": 4504,
+      "path": "src/sbsr_lidar/runtime.py",
+      "sha256": "038e395078f2e16f3ef0914e6726fde01d46b3e438c3581c51bf6ada37f3a88b"
+    },
+    {
+      "bytes": 2414,
+      "path": "src/sbsr_lidar/schemas.py",
+      "sha256": "97ca02edc85922a4b5e76fe56914ee5948bb7a2fae13333d239c66d589fedfdd"
+    },
+    {
+      "bytes": 9791,
+      "path": "src/sbsr_lidar/smoke.py",
+      "sha256": "014abbdda3d86bfad362a699deed6f1004eda8474529d0adc7aea39945060053"
+    },
+    {
+      "bytes": 3149,
+      "path": "src/sbsr_lidar/storage.py",
+      "sha256": "708a628d4737266f88c3034ab7dfc59a76c15f8de7d42b8c0fb5aacbbe505a8c"
+    },
+    {
+      "bytes": 3304,
+      "path": "tests/cientifico/conftest.py",
+      "sha256": "9860eb6310b167d66d9ca284ff2578803b118272be3b864bb38c807edbee428a"
+    },
+    {
+      "bytes": 2284,
+      "path": "tests/cientifico/test_config.py",
+      "sha256": "da7c502839d2891bab7cc462fdb6c1fd818fa4c961894de9c64d094250072def"
+    },
+    {
+      "bytes": 3813,
+      "path": "tests/cientifico/test_doctor_smoke.py",
+      "sha256": "f071c65ed422f4fb128df78e85c35e120c65380bc0fdea15ceaf1283efff5e4c"
+    },
+    {
+      "bytes": 3589,
+      "path": "tests/cientifico/test_storage_runtime.py",
+      "sha256": "2962d5ea495f8eacc7745af3eecbfd1e6cd0d0d0053ec2fc89a69355d37ab0b7"
+    }
+  ],
+  "checks": {
+    "cache_resume": {
+      "cache_hit": true,
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T154109Z_c25c3a14de/manifest.json",
+      "ok": true,
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/smoke.json",
+      "run_id": "20261025T154109Z_c25c3a14de"
+    },
+    "data": "2026-10-25",
+    "doctor": {
+      "context_ready": false,
+      "ok": true,
+      "report": "relatorios/etapa02/doctor.json",
+      "warnings": 4
+    },
+    "downloader_tests": {
+      "command": "venv/bin/python -m unittest discover -s tests -v",
+      "failed": 0,
+      "log": "relatorios/etapa02/downloader_regressao.log",
+      "passed": 25
+    },
+    "pip_check": "No broken requirements found.",
+    "protected_files_sha256": {
+      "baixar_lidar_geosampa.py": "a4f566f39cc06ab931617720c1a8a4fa8391f40b85c4fd04ae69d1e8972df3ca",
+      "requirements.txt": "fd72dd0bc564965c8e021b2b0f38452c00bd290e47fae16df7bc28ce60aedc92",
+      "tests/test_baixar_lidar_geosampa.py": "28b216ac967c08ce55fbc3b88bf9e9eb7dad5ea54f3ffc7f83930b8b7848aed0"
+    },
+    "raw_declared_points": 7771581,
+    "raw_read_points": 1024,
+    "raw_sample_sha256_preserved": true,
+    "scientific_pilot_executed": false,
+    "scientific_tests": {
+      "command": ".venv-cientifico/bin/python -m pytest tests/cientifico -q",
+      "failed": 0,
+      "observed_in": "saida_real_da_ferramenta_de_execucao",
+      "passed": 39,
+      "skipped": 0,
+      "warnings": [
+        "PendingDeprecationWarning Rasterio/Affine sobre multiplicação de matrizes"
+      ]
+    },
+    "smoke": {
+      "cache_hit": false,
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/manifest.json",
+      "ok": true,
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T153934Z_5d00198d4a/smoke.json",
+      "run_id": "20261025T153934Z_5d00198d4a"
+    },
+    "synthetic_points": 4
+  },
+  "config": "configs/piloto.yaml",
+  "criteria": {
+    "atomic_failure_and_history_tested": true,
+    "bounded_real_read": true,
+    "cache_resume_verified": true,
+    "cli_and_doctor_executed": true,
+    "isolated_environment": true,
+    "native_interoperability_executed": true,
+    "protected_downloader_preserved": true,
+    "scientific_pilot_not_started": true,
+    "validated_configuration": true
+  },
+  "data": "2026-10-25",
+  "environment_lock": "requirements-scientific.lock",
+  "etapa": "02",
+  "fuso": "America/Sao_Paulo",
+  "id": "etapa02_infraestrutura_v0.1.0",
+  "limitations": [
+    "Doctor verifica permissão via os.access; não grava prova no HD.",
+    "Sandbox negou escrita externa no diagnóstico inicial; verificação nas permissões reais passou.",
+    "Folhas 3313-324/3313-362 permanecem pendentes para a etapa 03.",
+    "39 testes avaliam infraestrutura, não classificação/altimetria.",
+    "Compatibilidade nativa validada apenas nos formatos/operações do smoke.",
+    "RSS ao final não é pico de memória nem previsão do piloto."
+  ],
+  "native_environment": "docs/ambiente_nativo.json",
+  "next_stage": "03",
+  "protocol_version": "0.1.0",
+  "python_environment": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/.venv-cientifico",
+  "schema_version": "0.1.0",
+  "scientific_modules_implemented": false,
+  "scientific_pilot_executed": false,
+  "source_sha256": "9df4be8f626f9b3fbddad5bf11615eefd352960ba3487dcb7402692f05a72bde",
+  "status": "concluida"
+}

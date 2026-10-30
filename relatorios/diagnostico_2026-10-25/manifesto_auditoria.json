@@ -1,0 +1,33 @@
+{
+  "data": "2026-10-25",
+  "fuso": "America/Sao_Paulo",
+  "raizes_inspecionadas": [
+    "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027",
+    "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027"
+  ],
+  "cabeçalhos_laz": 1848,
+  "diretorios_zip": 1848,
+  "nuvens_lidas_integralmente": 12,
+  "zips_crc_recalculado": 12,
+  "bloco_pontos": 500000,
+  "amostragem_classes": "6 pares intencionais: exemplo, extremos espaciais em MDS com >2M pontos e mediana de tamanho",
+  "amostra_xy_mdt": "indice global mod max(1,floor(n_pontos/10000)) = 0; matching XY arredondado a mm; comparar Z",
+  "teste_H": "3312-431: amostra sistematica alvo 15000 pontos MDS; IDW 8 vizinhos MDT; estatisticas condicionadas a vizinho <=2m; nao validacao absoluta",
+  "versoes": {
+    "laspy": "2.7.0",
+    "lazrs": "0.8.2",
+    "scipy": "1.15.3",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "numpy": "2.2.6",
+    "pyogrio": "0.13.0",
+    "pyproj": "3.7.1"
+  },
+  "originais_alterados": false,
+  "pipeline_cientifico_implementado": false,
+  "fontes": {
+    "mds": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/f2ddd371-389a-4505-9b72-1bcae549ac10/formatters/xml",
+    "mdt": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/b9b1b6d2-eb59-49fc-8ba7-66e75eb552a6/formatters/xml",
+    "grade": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/9214d12b-6439-49b5-9e29-e17271b57c78/formatters/xml"
+  }
+}

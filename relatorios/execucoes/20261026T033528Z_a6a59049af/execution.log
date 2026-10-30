@@ -1,0 +1,568 @@
+2026-10-26 00:35:28,329 INFO Início: sample-pycrown
+2026-10-26 00:35:28,455 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDT", "tile": "3431-142"}
+2026-10-26 00:35:28,731 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDS", "tile": "3431-142"}
+2026-10-26 00:35:30,012 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDT", "tile": "3431-144"}
+2026-10-26 00:35:30,760 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDS", "tile": "3431-144"}
+2026-10-26 00:35:33,551 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDT", "tile": "3431-312"}
+2026-10-26 00:35:34,010 INFO decode_laz {"corridor": "CO_PR_03", "product": "MDS", "tile": "3431-312"}
+2026-10-26 00:35:39,926 INFO normalized_window {"corridor": "CO_PR_03", "records": 226329, "vertices": 22288, "window": "1609_37056"}
+2026-10-26 00:35:42,626 INFO normalized_window {"corridor": "CO_PR_03", "records": 260503, "vertices": 31081, "window": "1609_37057"}
+2026-10-26 00:35:44,566 INFO normalized_window {"corridor": "CO_PR_03", "records": 144067, "vertices": 35117, "window": "1609_37058"}
+2026-10-26 00:35:45,433 INFO normalized_window {"corridor": "CO_PR_03", "records": 45161, "vertices": 13120, "window": "1609_37059"}
+2026-10-26 00:35:46,401 INFO normalized_window {"corridor": "CO_PR_03", "records": 51753, "vertices": 12574, "window": "1609_37060"}
+2026-10-26 00:35:48,073 INFO normalized_window {"corridor": "CO_PR_03", "records": 126066, "vertices": 22468, "window": "1609_37061"}
+2026-10-26 00:35:48,387 INFO normalized_window {"corridor": "CO_PR_03", "records": 8238, "vertices": 4359, "window": "1610_37057"}
+2026-10-26 00:35:49,042 INFO normalized_window {"corridor": "CO_PR_03", "records": 45107, "vertices": 16095, "window": "1610_37058"}
+2026-10-26 00:35:51,696 INFO normalized_window {"corridor": "CO_PR_03", "records": 209457, "vertices": 39167, "window": "1610_37059"}
+2026-10-26 00:35:54,701 INFO normalized_window {"corridor": "CO_PR_03", "records": 246048, "vertices": 52459, "window": "1610_37060"}
+2026-10-26 00:35:54,803 INFO normalized_window {"corridor": "CO_PR_03", "records": 633, "vertices": 2497, "window": "1610_37061"}
+2026-10-26 00:35:56,975 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 20468}
+2026-10-26 00:35:57,149 INFO validation {"evaluated": 1780, "held": 1780, "split": "reserved_blocks", "train": 20688}
+2026-10-26 00:35:57,487 INFO validation {"evaluated": 1609, "held": 1609, "split": "reserved_points", "train": 14486}
+2026-10-26 00:35:57,656 INFO validation {"evaluated": 1695, "held": 1695, "split": "reserved_blocks", "train": 14400}
+2026-10-26 00:35:58,420 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 29081}
+2026-10-26 00:35:58,664 INFO validation {"evaluated": 2000, "held": 3056, "split": "reserved_blocks", "train": 28025}
+2026-10-26 00:36:00,702 INFO pycrown_start {"cells": 322660, "scenario": "primary"}
+2026-10-26 00:36:04,821 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 685.5703125, "plateau_centroids_relocated": 0, "scenario": "primary", "seconds": 3.762474990915507, "seeds": 420}
+2026-10-26 00:36:06,348 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:06,521 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:06,681 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:07,171 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:07,354 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:07,513 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:07,789 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:07,984 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:08,133 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:09,705 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 420, "scenario": "primary"}
+2026-10-26 00:36:10,465 INFO pycrown_start {"cells": 1290640, "scenario": "resolution_0.5"}
+2026-10-26 00:36:13,961 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 715.8203125, "plateau_centroids_relocated": 0, "scenario": "resolution_0.5", "seconds": 3.2538601399865, "seeds": 448}
+2026-10-26 00:36:14,462 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:14,615 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:14,754 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:15,086 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:15,239 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:15,380 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:16,124 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 448, "scenario": "resolution_0.5"}
+2026-10-26 00:36:16,650 INFO pycrown_start {"cells": 81291, "scenario": "resolution_2"}
+2026-10-26 00:36:20,559 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 4.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "resolution_2", "seconds": 3.6706403999123722, "seeds": 265}
+2026-10-26 00:36:20,813 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:20,981 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:21,120 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:21,370 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:21,536 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:21,684 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:22,085 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 265, "scenario": "resolution_2"}
+2026-10-26 00:36:22,154 INFO pycrown_start {"cells": 322660, "scenario": "detection_radius_2"}
+2026-10-26 00:36:25,446 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 2.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "detection_radius_2", "seconds": 3.043580895056948, "seeds": 820}
+2026-10-26 00:36:25,861 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:26,013 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:26,154 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:26,439 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:26,600 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:26,741 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:27,267 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 820, "scenario": "detection_radius_2"}
+2026-10-26 00:36:27,336 INFO pycrown_start {"cells": 322660, "scenario": "detection_radius_5"}
+2026-10-26 00:36:30,608 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 5.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "detection_radius_5", "seconds": 3.03689566696994, "seeds": 215}
+2026-10-26 00:36:30,919 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:31,074 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:31,221 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:31,461 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:31,618 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:31,768 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:32,189 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 215, "scenario": "detection_radius_5"}
+2026-10-26 00:36:32,257 INFO pycrown_start {"cells": 322660, "scenario": "height_2"}
+2026-10-26 00:36:35,547 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "height_2", "seconds": 3.043027370935306, "seeds": 443}
+2026-10-26 00:36:35,857 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:36,008 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:36,156 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:36,439 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:36,590 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:36,732 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:37,140 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 443, "scenario": "height_2"}
+2026-10-26 00:36:37,210 INFO pycrown_start {"cells": 322660, "scenario": "height_5"}
+2026-10-26 00:36:40,530 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "height_5", "seconds": 3.0763416120316833, "seeds": 369}
+2026-10-26 00:36:40,810 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:40,964 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:41,105 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:41,368 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:41,522 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:41,670 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:42,145 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 369, "scenario": "height_5"}
+2026-10-26 00:36:42,277 INFO pycrown_start {"cells": 322660, "scenario": "crown_radius_6"}
+2026-10-26 00:36:46,288 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "crown_radius_6", "seconds": 3.6588616999797523, "seeds": 420}
+2026-10-26 00:36:46,639 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:46,797 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:46,950 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:47,236 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:47,491 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:47,668 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:48,173 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 420, "scenario": "crown_radius_6"}
+2026-10-26 00:36:48,253 INFO pycrown_start {"cells": 322660, "scenario": "crown_radius_12"}
+2026-10-26 00:36:51,559 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "crown_radius_12", "seconds": 3.067152068950236, "seeds": 420}
+2026-10-26 00:36:51,875 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:52,049 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:52,191 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:52,440 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:52,596 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:52,741 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:53,247 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 420, "scenario": "crown_radius_12"}
+2026-10-26 00:36:53,361 INFO pycrown_start {"cells": 322660, "scenario": "dalponte_standard"}
+2026-10-26 00:36:54,846 INFO pycrown_complete {"algorithm": "dalponte_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "dalponte_standard", "seconds": 1.2096745818853378, "seeds": 420}
+2026-10-26 00:36:55,555 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:55,811 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:55,984 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:56,261 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:36:56,492 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:36:56,697 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:36:57,467 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 420, "scenario": "dalponte_standard"}
+2026-10-26 00:36:59,719 INFO pycrown_start {"cells": 322660, "scenario": "density_0.5"}
+2026-10-26 00:37:03,574 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "density_0.5", "seconds": 3.5266065429896116, "seeds": 451}
+2026-10-26 00:37:04,226 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:37:04,485 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:37:04,718 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:37:05,084 INFO indicator_point_batch {"batch": 0, "measurement_records": 9685, "records_read": 65536}
+2026-10-26 00:37:05,264 INFO indicator_point_batch {"batch": 8, "measurement_records": 105458, "records_read": 589824}
+2026-10-26 00:37:06,115 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 451, "scenario": "density_0.5"}
+2026-10-26 00:37:07,837 INFO pycrown_start {"cells": 322660, "scenario": "density_0.25"}
+2026-10-26 00:37:12,304 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 736.703125, "plateau_centroids_relocated": 0, "scenario": "density_0.25", "seconds": 4.16337719396688, "seeds": 463}
+2026-10-26 00:37:12,733 INFO indicator_point_batch {"batch": 0, "measurement_records": 6392, "records_read": 65536}
+2026-10-26 00:37:12,889 INFO indicator_point_batch {"batch": 8, "measurement_records": 107724, "records_read": 589824}
+2026-10-26 00:37:13,047 INFO indicator_point_batch {"batch": 16, "measurement_records": 193035, "records_read": 1114112}
+2026-10-26 00:37:13,352 INFO indicator_point_batch {"batch": 0, "measurement_records": 8591, "records_read": 65536}
+2026-10-26 00:37:13,904 INFO scenario_complete {"corridor": "CO_PR_03", "crowns": 463, "scenario": "density_0.25"}
+2026-10-26 00:37:14,534 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDT", "tile": "3213-423"}
+2026-10-26 00:37:15,126 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDS", "tile": "3213-423"}
+2026-10-26 00:37:16,911 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDT", "tile": "3213-424"}
+2026-10-26 00:37:17,652 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDS", "tile": "3213-424"}
+2026-10-26 00:37:19,885 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDT", "tile": "3213-451"}
+2026-10-26 00:37:20,384 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDS", "tile": "3213-451"}
+2026-10-26 00:37:23,690 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDT", "tile": "3213-452"}
+2026-10-26 00:37:24,488 INFO decode_laz {"corridor": "CO_PA_02", "product": "MDS", "tile": "3213-452"}
+2026-10-26 00:37:27,734 INFO normalized_window {"corridor": "CO_PA_02", "records": 27534, "vertices": 10912, "window": "1631_36819"}
+2026-10-26 00:37:33,018 INFO normalized_window {"corridor": "CO_PA_02", "records": 530712, "vertices": 93254, "window": "1631_36820"}
+2026-10-26 00:37:33,548 INFO normalized_window {"corridor": "CO_PA_02", "records": 24375, "vertices": 6540, "window": "1631_36821"}
+2026-10-26 00:37:34,316 INFO normalized_window {"corridor": "CO_PA_02", "records": 52554, "vertices": 12772, "window": "1632_36819"}
+2026-10-26 00:37:39,863 INFO normalized_window {"corridor": "CO_PA_02", "records": 515085, "vertices": 111751, "window": "1632_36820"}
+2026-10-26 00:37:45,211 INFO normalized_window {"corridor": "CO_PA_02", "records": 496140, "vertices": 102661, "window": "1632_36821"}
+2026-10-26 00:37:46,833 INFO normalized_window {"corridor": "CO_PA_02", "records": 153573, "vertices": 32885, "window": "1632_36822"}
+2026-10-26 00:37:47,434 INFO normalized_window {"corridor": "CO_PA_02", "records": 60812, "vertices": 10623, "window": "1633_36820"}
+2026-10-26 00:37:49,888 INFO normalized_window {"corridor": "CO_PA_02", "records": 249286, "vertices": 42250, "window": "1633_36821"}
+2026-10-26 00:37:50,283 INFO normalized_window {"corridor": "CO_PA_02", "records": 22703, "vertices": 8873, "window": "1633_36822"}
+2026-10-26 00:37:52,843 INFO validation {"evaluated": 1062, "held": 1062, "split": "reserved_points", "train": 9561}
+2026-10-26 00:37:52,939 INFO validation {"evaluated": 79, "held": 79, "split": "reserved_blocks", "train": 10544}
+2026-10-26 00:37:53,673 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 40250}
+2026-10-26 00:37:54,057 INFO validation {"evaluated": 2000, "held": 3881, "split": "reserved_blocks", "train": 38369}
+2026-10-26 00:37:55,149 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 109751}
+2026-10-26 00:37:56,141 INFO validation {"evaluated": 2000, "held": 10708, "split": "reserved_blocks", "train": 101043}
+2026-10-26 00:38:00,111 INFO pycrown_start {"cells": 265689, "scenario": "primary"}
+2026-10-26 00:38:03,420 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 809.69921875, "plateau_centroids_relocated": 0, "scenario": "primary", "seconds": 3.0610065821092576, "seeds": 853}
+2026-10-26 00:38:05,355 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:05,853 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:06,420 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:06,960 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:07,296 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:08,373 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:08,914 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:09,467 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:09,977 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:10,329 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:11,134 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:11,658 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:12,213 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:12,759 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:13,106 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:15,450 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 853, "scenario": "primary"}
+2026-10-26 00:38:16,548 INFO pycrown_start {"cells": 1061642, "scenario": "resolution_0.5"}
+2026-10-26 00:38:20,337 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 809.69921875, "plateau_centroids_relocated": 0, "scenario": "resolution_0.5", "seconds": 3.540666852844879, "seeds": 879}
+2026-10-26 00:38:23,407 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:23,898 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:24,454 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:24,999 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:25,340 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:28,201 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:28,707 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:29,306 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:29,845 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:30,159 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:32,688 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 879, "scenario": "resolution_0.5"}
+2026-10-26 00:38:33,447 INFO pycrown_start {"cells": 66681, "scenario": "resolution_2"}
+2026-10-26 00:38:36,757 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 4.0, "ok": true, "peak_rss_mib": 809.69921875, "plateau_centroids_relocated": 0, "scenario": "resolution_2", "seconds": 3.0647353988606483, "seeds": 612}
+2026-10-26 00:38:37,887 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:38,428 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:38,995 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:39,549 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:39,887 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:41,145 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:41,622 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:42,178 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:42,723 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:43,068 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:44,013 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 612, "scenario": "resolution_2"}
+2026-10-26 00:38:44,093 INFO pycrown_start {"cells": 265689, "scenario": "detection_radius_2"}
+2026-10-26 00:38:47,446 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 2.0, "ok": true, "peak_rss_mib": 813.3359375, "plateau_centroids_relocated": 0, "scenario": "detection_radius_2", "seconds": 3.0889691710472107, "seeds": 1461}
+2026-10-26 00:38:48,670 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:49,187 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:49,742 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:50,267 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:50,599 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:51,885 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:38:52,395 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:38:52,973 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:38:53,518 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:38:53,863 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:38:55,193 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 1461, "scenario": "detection_radius_2"}
+2026-10-26 00:38:55,272 INFO pycrown_start {"cells": 265689, "scenario": "detection_radius_5"}
+2026-10-26 00:38:58,692 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 5.0, "ok": true, "peak_rss_mib": 825.0859375, "plateau_centroids_relocated": 0, "scenario": "detection_radius_5", "seconds": 3.153892148984596, "seeds": 518}
+2026-10-26 00:38:59,633 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:00,149 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:00,729 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:01,291 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:01,629 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:02,755 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:03,217 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:03,763 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:04,304 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:04,652 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:05,844 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 518, "scenario": "detection_radius_5"}
+2026-10-26 00:39:05,923 INFO pycrown_start {"cells": 265689, "scenario": "height_2"}
+2026-10-26 00:39:09,274 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 832.2109375, "plateau_centroids_relocated": 0, "scenario": "height_2", "seconds": 3.097397550009191, "seeds": 933}
+2026-10-26 00:39:10,420 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:10,923 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:11,487 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:12,044 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:12,430 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:13,673 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:14,193 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:14,752 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:15,300 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:15,649 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:16,963 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 933, "scenario": "height_2"}
+2026-10-26 00:39:17,043 INFO pycrown_start {"cells": 265689, "scenario": "height_5"}
+2026-10-26 00:39:20,365 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 838.3359375, "plateau_centroids_relocated": 0, "scenario": "height_5", "seconds": 3.071072931168601, "seeds": 633}
+2026-10-26 00:39:21,307 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:21,813 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:22,375 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:22,928 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:23,266 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:24,416 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:24,896 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:25,449 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:25,968 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:26,301 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:27,521 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 633, "scenario": "height_5"}
+2026-10-26 00:39:27,611 INFO pycrown_start {"cells": 265689, "scenario": "crown_radius_6"}
+2026-10-26 00:39:30,977 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 842.9609375, "plateau_centroids_relocated": 0, "scenario": "crown_radius_6", "seconds": 3.122636263957247, "seeds": 853}
+2026-10-26 00:39:32,059 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:32,577 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:33,138 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:33,690 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:34,040 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:35,265 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:35,755 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:36,369 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:36,928 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:37,267 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:38,523 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 853, "scenario": "crown_radius_6"}
+2026-10-26 00:39:38,602 INFO pycrown_start {"cells": 265689, "scenario": "crown_radius_12"}
+2026-10-26 00:39:41,983 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 844.3359375, "plateau_centroids_relocated": 0, "scenario": "crown_radius_12", "seconds": 3.1132217969279736, "seeds": 853}
+2026-10-26 00:39:43,033 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:43,536 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:44,107 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:44,667 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:45,019 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:46,226 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:46,725 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:47,279 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:47,818 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:48,184 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:49,516 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 853, "scenario": "crown_radius_12"}
+2026-10-26 00:39:49,595 INFO pycrown_start {"cells": 265689, "scenario": "dalponte_standard"}
+2026-10-26 00:39:51,261 INFO pycrown_complete {"algorithm": "dalponte_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 846.0859375, "plateau_centroids_relocated": 0, "scenario": "dalponte_standard", "seconds": 1.4401797140017152, "seeds": 853}
+2026-10-26 00:39:52,491 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:52,987 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:53,544 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:54,105 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:54,444 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:55,698 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:39:56,199 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:39:56,763 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:39:57,305 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:39:57,644 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:39:58,983 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 853, "scenario": "dalponte_standard"}
+2026-10-26 00:40:01,926 INFO pycrown_start {"cells": 265689, "scenario": "density_0.5"}
+2026-10-26 00:40:05,483 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 847.3359375, "plateau_centroids_relocated": 0, "scenario": "density_0.5", "seconds": 3.269189056009054, "seeds": 886}
+2026-10-26 00:40:06,842 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:40:07,349 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:40:07,932 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:40:08,483 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:40:08,823 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:40:10,080 INFO indicator_point_batch {"batch": 0, "measurement_records": 22528, "records_read": 65536}
+2026-10-26 00:40:10,632 INFO indicator_point_batch {"batch": 8, "measurement_records": 459248, "records_read": 589824}
+2026-10-26 00:40:11,057 INFO indicator_point_batch {"batch": 16, "measurement_records": 797103, "records_read": 1066160}
+2026-10-26 00:40:12,318 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 886, "scenario": "density_0.5"}
+2026-10-26 00:40:14,119 INFO pycrown_start {"cells": 265689, "scenario": "density_0.25"}
+2026-10-26 00:40:17,440 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 847.3359375, "plateau_centroids_relocated": 0, "scenario": "density_0.25", "seconds": 3.067552713211626, "seeds": 920}
+2026-10-26 00:40:19,699 INFO indicator_point_batch {"batch": 0, "measurement_records": 11223, "records_read": 65536}
+2026-10-26 00:40:20,190 INFO indicator_point_batch {"batch": 8, "measurement_records": 402188, "records_read": 589824}
+2026-10-26 00:40:20,759 INFO indicator_point_batch {"batch": 16, "measurement_records": 864244, "records_read": 1114112}
+2026-10-26 00:40:21,301 INFO indicator_point_batch {"batch": 24, "measurement_records": 1328239, "records_read": 1638400}
+2026-10-26 00:40:21,645 INFO indicator_point_batch {"batch": 32, "measurement_records": 1594095, "records_read": 2132774}
+2026-10-26 00:40:23,542 INFO indicator_point_batch {"batch": 0, "measurement_records": 37102, "records_read": 65536}
+2026-10-26 00:40:23,985 INFO indicator_point_batch {"batch": 8, "measurement_records": 398109, "records_read": 532770}
+2026-10-26 00:40:25,517 INFO scenario_complete {"corridor": "CO_PA_02", "crowns": 920, "scenario": "density_0.25"}
+2026-10-26 00:40:26,153 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4314-361"}
+2026-10-26 00:40:26,986 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4314-361"}
+2026-10-26 00:40:28,289 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4314-362"}
+2026-10-26 00:40:28,993 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4314-362"}
+2026-10-26 00:40:31,191 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4314-363"}
+2026-10-26 00:40:31,500 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4314-363"}
+2026-10-26 00:40:33,035 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4314-364"}
+2026-10-26 00:40:33,824 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4314-364"}
+2026-10-26 00:40:36,756 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4314-443"}
+2026-10-26 00:40:37,320 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4314-443"}
+2026-10-26 00:40:39,138 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4316-211"}
+2026-10-26 00:40:39,818 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4316-211"}
+2026-10-26 00:40:41,919 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4316-212"}
+2026-10-26 00:40:42,588 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4316-212"}
+2026-10-26 00:40:44,952 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4316-221"}
+2026-10-26 00:40:45,562 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4316-221"}
+2026-10-26 00:40:47,276 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDT", "tile": "4316-223"}
+2026-10-26 00:40:48,086 INFO decode_laz {"corridor": "CO_CT_05", "product": "MDS", "tile": "4316-223"}
+2026-10-26 00:40:51,233 INFO normalized_window {"corridor": "CO_CT_05", "records": 47210, "vertices": 15198, "window": "1779_36958"}
+2026-10-26 00:40:52,741 INFO normalized_window {"corridor": "CO_CT_05", "records": 116326, "vertices": 41070, "window": "1779_36959"}
+2026-10-26 00:40:53,563 INFO normalized_window {"corridor": "CO_CT_05", "records": 64527, "vertices": 23339, "window": "1779_36960"}
+2026-10-26 00:40:53,801 INFO normalized_window {"corridor": "CO_CT_05", "records": 15936, "vertices": 5840, "window": "1780_36956"}
+2026-10-26 00:40:56,056 INFO normalized_window {"corridor": "CO_CT_05", "records": 208618, "vertices": 45627, "window": "1780_36957"}
+2026-10-26 00:40:57,948 INFO normalized_window {"corridor": "CO_CT_05", "records": 227337, "vertices": 26729, "window": "1780_36958"}
+2026-10-26 00:40:58,647 INFO normalized_window {"corridor": "CO_CT_05", "records": 42654, "vertices": 21688, "window": "1780_36959"}
+2026-10-26 00:40:59,733 INFO normalized_window {"corridor": "CO_CT_05", "records": 85810, "vertices": 26448, "window": "1780_36960"}
+2026-10-26 00:41:02,378 INFO normalized_window {"corridor": "CO_CT_05", "records": 237533, "vertices": 55391, "window": "1781_36956"}
+2026-10-26 00:41:02,989 INFO normalized_window {"corridor": "CO_CT_05", "records": 46846, "vertices": 11387, "window": "1781_36957"}
+2026-10-26 00:41:03,236 INFO normalized_window {"corridor": "CO_CT_05", "records": 12314, "vertices": 2665, "window": "1782_36955"}
+2026-10-26 00:41:05,040 INFO normalized_window {"corridor": "CO_CT_05", "records": 194304, "vertices": 31481, "window": "1782_36956"}
+2026-10-26 00:41:06,503 INFO normalized_window {"corridor": "CO_CT_05", "records": 150330, "vertices": 27771, "window": "1783_36955"}
+2026-10-26 00:41:07,114 INFO normalized_window {"corridor": "CO_CT_05", "records": 48129, "vertices": 11899, "window": "1783_36956"}
+2026-10-26 00:41:08,689 INFO normalized_window {"corridor": "CO_CT_05", "records": 165238, "vertices": 31306, "window": "1784_36955"}
+2026-10-26 00:41:10,430 INFO normalized_window {"corridor": "CO_CT_05", "records": 171844, "vertices": 31717, "window": "1785_36955"}
+2026-10-26 00:41:11,723 INFO normalized_window {"corridor": "CO_CT_05", "records": 129523, "vertices": 20208, "window": "1786_36954"}
+2026-10-26 00:41:12,896 INFO normalized_window {"corridor": "CO_CT_05", "records": 133472, "vertices": 20013, "window": "1786_36955"}
+2026-10-26 00:41:14,692 INFO normalized_window {"corridor": "CO_CT_05", "records": 105482, "vertices": 28325, "window": "1787_36953"}
+2026-10-26 00:41:16,721 INFO normalized_window {"corridor": "CO_CT_05", "records": 190393, "vertices": 37017, "window": "1787_36954"}
+2026-10-26 00:41:16,879 INFO normalized_window {"corridor": "CO_CT_05", "records": 5185, "vertices": 3832, "window": "1788_36951"}
+2026-10-26 00:41:19,218 INFO normalized_window {"corridor": "CO_CT_05", "records": 200257, "vertices": 49681, "window": "1788_36952"}
+2026-10-26 00:41:21,066 INFO normalized_window {"corridor": "CO_CT_05", "records": 170844, "vertices": 37597, "window": "1788_36953"}
+2026-10-26 00:41:22,191 INFO normalized_window {"corridor": "CO_CT_05", "records": 111561, "vertices": 19142, "window": "1789_36951"}
+2026-10-26 00:41:22,826 INFO normalized_window {"corridor": "CO_CT_05", "records": 52567, "vertices": 13199, "window": "1789_36952"}
+2026-10-26 00:41:26,501 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 26325}
+2026-10-26 00:41:26,699 INFO validation {"evaluated": 2000, "held": 2915, "split": "reserved_blocks", "train": 25410}
+2026-10-26 00:41:27,688 INFO validation {"evaluated": 1914, "held": 1914, "split": "reserved_points", "train": 17228}
+2026-10-26 00:41:27,820 INFO validation {"evaluated": 2000, "held": 2439, "split": "reserved_blocks", "train": 16703}
+2026-10-26 00:41:28,217 INFO validation {"evaluated": 2000, "held": 2000, "split": "reserved_points", "train": 21339}
+2026-10-26 00:41:28,387 INFO validation {"evaluated": 2000, "held": 2276, "split": "reserved_blocks", "train": 21063}
+2026-10-26 00:41:31,603 INFO pycrown_start {"cells": 3668084, "scenario": "primary"}
+2026-10-26 00:41:35,313 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 963.609375, "plateau_centroids_relocated": 0, "scenario": "primary", "seconds": 3.4519934591371566, "seeds": 900}
+2026-10-26 00:41:37,815 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:41:38,046 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:41:38,271 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:41:38,526 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:41:38,781 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:41:39,032 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:41:40,246 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:41:40,478 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:41:40,702 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:41:40,963 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:41:41,202 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:41:41,438 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:41:42,344 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:41:42,581 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:41:42,776 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:41:43,034 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:41:43,286 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:41:43,532 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:41:52,016 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 900, "scenario": "primary"}
+2026-10-26 00:41:55,058 INFO pycrown_start {"cells": 14657016, "scenario": "resolution_0.5"}
+2026-10-26 00:42:01,595 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1442.0, "plateau_centroids_relocated": 0, "scenario": "resolution_0.5", "seconds": 6.246243592118844, "seeds": 914}
+2026-10-26 00:42:05,782 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:06,008 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:06,244 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:06,509 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:06,768 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:07,021 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:09,758 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:10,013 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:10,228 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:10,483 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:10,754 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:11,008 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:14,662 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 914, "scenario": "resolution_0.5"}
+2026-10-26 00:42:16,062 INFO pycrown_start {"cells": 918450, "scenario": "resolution_2"}
+2026-10-26 00:42:19,400 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 4.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "resolution_2", "seconds": 3.088039555121213, "seeds": 658}
+2026-10-26 00:42:20,259 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:20,503 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:20,696 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:20,946 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:21,204 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:21,458 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:22,595 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:22,828 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:23,074 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:23,358 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:23,613 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:23,865 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:24,802 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 658, "scenario": "resolution_2"}
+2026-10-26 00:42:25,156 INFO pycrown_start {"cells": 3668084, "scenario": "detection_radius_2"}
+2026-10-26 00:42:28,819 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 2.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "detection_radius_2", "seconds": 3.4107863740064204, "seeds": 1601}
+2026-10-26 00:42:30,161 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:30,390 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:30,610 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:30,854 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:31,106 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:31,351 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:32,538 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:32,767 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:32,993 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:33,299 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:33,720 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:34,010 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:35,521 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 1601, "scenario": "detection_radius_2"}
+2026-10-26 00:42:35,921 INFO pycrown_start {"cells": 3668084, "scenario": "detection_radius_5"}
+2026-10-26 00:42:39,689 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 5.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "detection_radius_5", "seconds": 3.518525253981352, "seeds": 543}
+2026-10-26 00:42:40,781 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:41,015 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:41,236 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:41,486 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:41,743 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:41,995 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:43,151 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:43,377 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:43,603 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:43,847 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:44,115 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:44,370 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:45,593 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 543, "scenario": "detection_radius_5"}
+2026-10-26 00:42:45,934 INFO pycrown_start {"cells": 3668084, "scenario": "height_2"}
+2026-10-26 00:42:49,626 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "height_2", "seconds": 3.4482718291692436, "seeds": 966}
+2026-10-26 00:42:50,824 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:51,075 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:51,325 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:51,563 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:51,804 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:52,038 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:53,205 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:42:53,447 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:42:53,670 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:42:53,931 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:42:54,187 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:42:54,436 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:42:55,764 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 966, "scenario": "height_2"}
+2026-10-26 00:42:56,133 INFO pycrown_start {"cells": 3668084, "scenario": "height_5"}
+2026-10-26 00:42:59,809 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "height_5", "seconds": 3.4377569800708443, "seeds": 624}
+2026-10-26 00:43:00,889 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:01,125 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:01,344 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:01,586 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:01,845 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:02,090 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:03,204 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:03,430 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:03,653 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:03,890 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:04,129 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:04,366 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:05,591 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 624, "scenario": "height_5"}
+2026-10-26 00:43:05,967 INFO pycrown_start {"cells": 3668084, "scenario": "crown_radius_6"}
+2026-10-26 00:43:09,623 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "crown_radius_6", "seconds": 3.4001061271410435, "seeds": 900}
+2026-10-26 00:43:10,687 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:10,925 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:11,164 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:11,406 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:11,651 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:11,901 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:13,046 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:13,287 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:13,519 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:13,784 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:14,062 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:14,320 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:15,700 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 900, "scenario": "crown_radius_6"}
+2026-10-26 00:43:15,913 INFO pycrown_start {"cells": 3668084, "scenario": "crown_radius_12"}
+2026-10-26 00:43:19,549 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "crown_radius_12", "seconds": 3.3731148899532855, "seeds": 900}
+2026-10-26 00:43:20,648 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:20,877 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:21,101 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:21,341 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:21,585 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:21,825 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:22,959 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:23,200 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:23,449 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:23,697 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:23,953 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:24,205 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:25,662 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 900, "scenario": "crown_radius_12"}
+2026-10-26 00:43:25,909 INFO pycrown_start {"cells": 3668084, "scenario": "dalponte_standard"}
+2026-10-26 00:43:27,598 INFO pycrown_complete {"algorithm": "dalponte_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "dalponte_standard", "seconds": 1.4611341268755496, "seeds": 900}
+2026-10-26 00:43:28,723 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:28,976 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:29,207 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:29,465 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:29,714 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:29,967 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:31,104 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:31,339 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:31,567 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:31,835 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:32,098 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:32,345 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:33,579 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 900, "scenario": "dalponte_standard"}
+2026-10-26 00:43:37,066 INFO pycrown_start {"cells": 3668084, "scenario": "density_0.5"}
+2026-10-26 00:43:40,677 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "density_0.5", "seconds": 3.35909244697541, "seeds": 932}
+2026-10-26 00:43:41,949 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:42,176 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:42,393 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:42,651 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:42,902 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:43,170 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:44,380 INFO indicator_point_batch {"batch": 0, "measurement_records": 22925, "records_read": 65536}
+2026-10-26 00:43:44,609 INFO indicator_point_batch {"batch": 8, "measurement_records": 189564, "records_read": 589824}
+2026-10-26 00:43:44,850 INFO indicator_point_batch {"batch": 16, "measurement_records": 372009, "records_read": 1114112}
+2026-10-26 00:43:46,176 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 932, "scenario": "density_0.5"}
+2026-10-26 00:43:48,917 INFO pycrown_start {"cells": 3668084, "scenario": "density_0.25"}
+2026-10-26 00:43:52,525 INFO pycrown_complete {"algorithm": "dalponteCIRC_numba", "effective_detection_radius_m": 3.0, "ok": true, "peak_rss_mib": 1676.64453125, "plateau_centroids_relocated": 0, "scenario": "density_0.25", "seconds": 3.3583923841360956, "seeds": 953}
+2026-10-26 00:43:54,341 INFO indicator_point_batch {"batch": 0, "measurement_records": 15168, "records_read": 65536}
+2026-10-26 00:43:54,591 INFO indicator_point_batch {"batch": 8, "measurement_records": 194459, "records_read": 589824}
+2026-10-26 00:43:54,825 INFO indicator_point_batch {"batch": 16, "measurement_records": 350898, "records_read": 1114112}
+2026-10-26 00:43:55,071 INFO indicator_point_batch {"batch": 24, "measurement_records": 539396, "records_read": 1638400}
+2026-10-26 00:43:55,401 INFO indicator_point_batch {"batch": 32, "measurement_records": 732964, "records_read": 2162688}
+2026-10-26 00:43:55,653 INFO indicator_point_batch {"batch": 40, "measurement_records": 925733, "records_read": 2686976}
+2026-10-26 00:43:57,117 INFO indicator_point_batch {"batch": 0, "measurement_records": 21980, "records_read": 65536}
+2026-10-26 00:43:57,363 INFO indicator_point_batch {"batch": 8, "measurement_records": 201864, "records_read": 589824}
+2026-10-26 00:43:58,900 INFO scenario_complete {"corridor": "CO_CT_05", "crowns": 953, "scenario": "density_0.25"}
+2026-10-26 00:43:59,580 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-253"}
+2026-10-26 00:44:00,372 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-253"}
+2026-10-26 00:44:03,293 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-421"}
+2026-10-26 00:44:04,049 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-421"}
+2026-10-26 00:44:06,645 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-423"}
+2026-10-26 00:44:07,148 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-423"}
+2026-10-26 00:44:08,850 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-444"}
+2026-10-26 00:44:09,082 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-444"}
+2026-10-26 00:44:10,594 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-451"}
+2026-10-26 00:44:11,125 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-451"}
+2026-10-26 00:44:12,513 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3325-453"}
+2026-10-26 00:44:12,947 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3325-453"}
+2026-10-26 00:44:13,967 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-212"}
+2026-10-26 00:44:14,556 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-212"}
+2026-10-26 00:44:16,322 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-214"}
+2026-10-26 00:44:16,937 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-214"}
+2026-10-26 00:44:18,678 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-221"}
+2026-10-26 00:44:19,040 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-221"}
+2026-10-26 00:44:20,368 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-223"}
+2026-10-26 00:44:20,719 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-223"}
+2026-10-26 00:44:21,578 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-242"}
+2026-10-26 00:44:22,393 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-242"}
+2026-10-26 00:44:24,716 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-244"}
+2026-10-26 00:44:25,179 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-244"}
+2026-10-26 00:44:26,609 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-251"}
+2026-10-26 00:44:26,676 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-251"}
+2026-10-26 00:44:26,817 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDT", "tile": "3341-253"}
+2026-10-26 00:44:26,912 INFO decode_laz {"corridor": "CO_IP_05", "product": "MDS", "tile": "3341-253"}

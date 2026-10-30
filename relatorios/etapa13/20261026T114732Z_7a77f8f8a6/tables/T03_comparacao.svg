@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="243.779528pt" height="68.031496pt" viewBox="0 0 243.779528 68.031496" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>SBSR etapa13: dados experimentais v0.3.0</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 68.031496 
+L 243.779528 68.031496 
+L 243.779528 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 3.656693 27.115748 
+L 62.773228 27.115748 
+L 62.773228 13.315748 
+L 3.656693 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="33.214961" y="22.008873" transform="rotate(-0 33.214961 22.008873)">Coorte</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 62.773228 27.115748 
+L 86.419843 27.115748 
+L 86.419843 13.315748 
+L 62.773228 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="74.596535" y="22.008873" transform="rotate(-0 74.596535 22.008873)">n</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 86.419843 27.115748 
+L 110.066457 27.115748 
+L 110.066457 13.315748 
+L 86.419843 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.24315" y="22.008873" transform="rotate(-0 98.24315 22.008873)">k</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 110.066457 27.115748 
+L 150.265701 27.115748 
+L 150.265701 13.315748 
+L 110.066457 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="130.166079" y="22.008873" transform="rotate(-0 130.166079 22.008873)">ρ</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 150.265701 27.115748 
+L 197.558929 27.115748 
+L 197.558929 13.315748 
+L 150.265701 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="173.912315" y="22.068873" transform="rotate(-0 173.912315 22.068873)">J top20%</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 197.558929 27.115748 
+L 240.122835 27.115748 
+L 240.122835 13.315748 
+L 197.558929 13.315748 
+z
+" style="fill: #e9ecef; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-weight: 700; font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="218.840882" y="22.008873" transform="rotate(-0 218.840882 22.008873)">Interseção</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 3.656693 40.915748 
+L 62.773228 40.915748 
+L 62.773228 27.115748 
+L 3.656693 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="33.214961" y="35.937623" transform="rotate(-0 33.214961 35.937623)">Desenvolv.</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 62.773228 40.915748 
+L 86.419843 40.915748 
+L 86.419843 27.115748 
+L 62.773228 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="74.596535" y="35.937623" transform="rotate(-0 74.596535 35.937623)">30</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 86.419843 40.915748 
+L 110.066457 40.915748 
+L 110.066457 27.115748 
+L 86.419843 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.24315" y="35.937623" transform="rotate(-0 98.24315 35.937623)">6</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 110.066457 40.915748 
+L 150.265701 40.915748 
+L 150.265701 27.115748 
+L 110.066457 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="130.166079" y="35.937623" transform="rotate(-0 130.166079 35.937623)">0.7655</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 150.265701 40.915748 
+L 197.558929 40.915748 
+L 197.558929 27.115748 
+L 150.265701 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="173.912315" y="35.937623" transform="rotate(-0 173.912315 35.937623)">0.5000</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 197.558929 40.915748 
+L 240.122835 40.915748 
+L 240.122835 27.115748 
+L 197.558929 27.115748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="218.840882" y="35.937623" transform="rotate(-0 218.840882 35.937623)">4</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 3.656693 54.715748 
+L 62.773228 54.715748 
+L 62.773228 40.915748 
+L 3.656693 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="33.214961" y="49.737623" transform="rotate(-0 33.214961 49.737623)">Avaliação</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 62.773228 54.715748 
+L 86.419843 54.715748 
+L 86.419843 40.915748 
+L 62.773228 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="74.596535" y="49.737623" transform="rotate(-0 74.596535 49.737623)">114</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 86.419843 54.715748 
+L 110.066457 54.715748 
+L 110.066457 40.915748 
+L 86.419843 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="98.24315" y="49.737623" transform="rotate(-0 98.24315 49.737623)">23</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 110.066457 54.715748 
+L 150.265701 54.715748 
+L 150.265701 40.915748 
+L 110.066457 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="130.166079" y="49.737623" transform="rotate(-0 130.166079 49.737623)">0.6682</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 150.265701 54.715748 
+L 197.558929 54.715748 
+L 197.558929 40.915748 
+L 150.265701 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="173.912315" y="49.737623" transform="rotate(-0 173.912315 49.737623)">0.3529</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 197.558929 54.715748 
+L 240.122835 54.715748 
+L 240.122835 40.915748 
+L 197.558929 40.915748 
+z
+" style="fill: #ffffff; stroke: #888888; stroke-width: 0.35; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 8px; font-family: 'Times New Roman'; text-anchor: middle" x="218.840882" y="49.737623" transform="rotate(-0 218.840882 49.737623)">12</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

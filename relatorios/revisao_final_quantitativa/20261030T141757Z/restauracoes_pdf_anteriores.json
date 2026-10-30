@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "exact_bytes": true,
+      "restored": {
+        "bytes": 355456,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.pdf",
+        "sha256": "dac0031fdfa47200a9d768c7edb9d713a2cc4a66004d7b9e1bce88b2335480e6"
+      },
+      "source": {
+        "bytes": 3106754,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/pacote_revisao_interpretacao.zip",
+        "sha256": "08719ef77fe73bebec734d880fe6bf89e51bce68f555d226866e513615ad6268"
+      }
+    }
+  ]
+}

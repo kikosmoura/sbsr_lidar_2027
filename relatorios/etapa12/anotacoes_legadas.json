@@ -1,0 +1,26 @@
+{
+  "completed_annotations": 0,
+  "completed_tasks_with_at_least_one_valid_annotation": 0,
+  "completion_note": "Reviewed tasks require signed review; vegetation/gaps require full footprint coverage with unknown areas explicitly uncertain",
+  "eligible_vegetation_annotations": {
+    "teste": 0,
+    "treino": 0
+  },
+  "errors": [],
+  "human_labeling_complete": false,
+  "human_labeling_status": "pendente",
+  "independent_height_references": 0,
+  "independent_priority_references": 0,
+  "ok": true,
+  "pending_tasks": 100,
+  "precision_recall_computed": false,
+  "preparation_complete": true,
+  "records": [],
+  "reviewed_tasks": 0,
+  "supervised_training_allowed": false,
+  "tasks": 100,
+  "uncertain_annotations": 0,
+  "warnings": [
+    "Teste do adverso foi inspecionado em QC anterior; reserva é para ajuste supervisionado futuro, não teste municipal intocado"
+  ]
+}

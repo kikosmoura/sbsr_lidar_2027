@@ -1,0 +1,2253 @@
+{
+  "accuracy_external_evaluated": false,
+  "checks": [
+    {
+      "check": "ten_frozen_corridors",
+      "ok": true
+    },
+    {
+      "check": "unique_unit_ids",
+      "ok": true
+    },
+    {
+      "check": "CRS",
+      "ok": true
+    },
+    {
+      "check": "sample_roles",
+      "ok": true
+    },
+    {
+      "check": "frozen_cohort_subset",
+      "ok": true
+    },
+    {
+      "check": "cohort_eligible_no_imputation",
+      "ok": true
+    },
+    {
+      "check": "per_corridor_quota",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2012904
+    },
+    {
+      "check": "CO_BT_05:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_BT_05:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 1267675
+    },
+    {
+      "check": "CO_CL_01:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_CL_01:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2048798
+    },
+    {
+      "check": "CO_CT_01:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_01:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2934240
+    },
+    {
+      "check": "CO_CT_05:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_CT_05:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 6596865
+    },
+    {
+      "check": "CO_IP_05:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_IP_05:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 1696801
+    },
+    {
+      "check": "CO_MG_02:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_MG_02:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2132774
+    },
+    {
+      "check": "CO_PA_02:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_PA_02:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2870022
+    },
+    {
+      "check": "CO_PJ_03:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_PJ_03:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 2142501
+    },
+    {
+      "check": "CO_PR_02:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_02:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:artifact_hashes",
+      "files": 155,
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:validation_hash",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:unique_MDS_ownership",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:full_LAZ_decode",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:archive_CRC",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:aligned",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:NoData_not_absence",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:positive_labels_observed",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:connected_components_recomputed",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:crown_geometries",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:one_top_per_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:seed_inside_own_segment",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:source_apex_provenance",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:unvalidated_not_truth",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:partition_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:area_order_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I1_formula_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I4_is_patch_density_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:heights_not_filled_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:areal_eligibility_consistent_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:H_support_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:seed_count_conservation_25",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:partition_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:area_order_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I1_formula_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I4_is_patch_density_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:heights_not_filled_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:areal_eligibility_consistent_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:H_support_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:seed_count_conservation_50",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:partition_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:area_order_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I1_formula_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:I4_is_patch_density_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:heights_not_filled_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:areal_eligibility_consistent_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:H_support_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:seed_count_conservation_100",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:patch_vs_crown_union",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:continuous_H_formula",
+      "max_error": 0.0,
+      "ok": true,
+      "records": 1363362
+    },
+    {
+      "check": "CO_PR_03:apex_is_maximum_absolute_Z",
+      "ok": true
+    },
+    {
+      "check": "CO_PR_03:apex_return_counts",
+      "ok": true
+    },
+    {
+      "check": "110_sensitivity_pairs",
+      "ok": true
+    },
+    {
+      "check": "same_support_area",
+      "ok": true
+    },
+    {
+      "check": "no_invented_inference",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:conditional_canopy:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_only__height_only__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_only__height_only__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:conditional_canopy:A_plus_3D__I6_only__height_only__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:joint_strata:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vminus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vminus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vminus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:joint_strata:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vplus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vplus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_I7__Vplus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_development:joint_strata:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_only__height_only__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_only__height_only__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_development:joint_strata:A_plus_3D__I6_only__height_only__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vminus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_I7__Vplus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_duplicate__duplicate_control__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:conditional_canopy:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_only__height_only__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_only__height_only__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:conditional_canopy:A_plus_3D__I6_only__height_only__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vminus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vminus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vminus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vminus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vplus__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vplus__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vplus__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_I7__Vplus__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_duplicate__duplicate_control__w0.75",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "zero_weight:sample_evaluation:joint_strata:A_plus_3D__I6_only__height_only__w0",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_only__height_only__w0.25",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_only__height_only__w0.5",
+      "ok": true
+    },
+    {
+      "check": "same_cohort:sample_evaluation:joint_strata:A_plus_3D__I6_only__height_only__w0.75",
+      "ok": true
+    },
+    {
+      "check": "RAM_budget",
+      "ok": true,
+      "peak_rss_gib": 1.6512336730957031
+    },
+    {
+      "check": "protected:baixar_lidar_geosampa.py",
+      "ok": true
+    },
+    {
+      "check": "protected:tests/test_baixar_lidar_geosampa.py",
+      "ok": true
+    },
+    {
+      "check": "protected:requirements.txt",
+      "ok": true
+    }
+  ],
+  "execution": {
+    "bytes": 20182,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa12/execucao.json",
+    "sha256": "fbcc8b462aa2143d00babe9a88b4b5239930e60f19689241e0d8b37fe8cb32a4"
+  },
+  "independent_groups_certified": null,
+  "ok": true,
+  "resources": {
+    "budget_gib": 8.0,
+    "elapsed_seconds": 1853.6001083001029,
+    "exceeded": false,
+    "peak_rss_gib": 1.6512336730957031
+  },
+  "sample": [
+    {
+      "P_m2": 58827.83115352125,
+      "block_id": "B11_e7f7310859d30b",
+      "connected_patches_intersecting_P": 196,
+      "corridor_id": "CO_BT_05",
+      "eligible_units_50m": 13,
+      "observed_fraction": 0.8858544356848347,
+      "observed_m2": 52112.895169065305,
+      "role": "evaluation",
+      "seeds_inside_P": 404,
+      "segments_intersecting_P": 445,
+      "selected_units_50m": 13
+    },
+    {
+      "P_m2": 29252.006033266996,
+      "block_id": "B11_1e65c3c1823c58",
+      "connected_patches_intersecting_P": 129,
+      "corridor_id": "CO_CL_01",
+      "eligible_units_50m": 26,
+      "observed_fraction": 0.9428191825276567,
+      "observed_m2": 27579.352415578873,
+      "role": "evaluation",
+      "seeds_inside_P": 261,
+      "segments_intersecting_P": 316,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 96288.04552006422,
+      "block_id": "B11_0c54386a379631",
+      "connected_patches_intersecting_P": 226,
+      "corridor_id": "CO_CT_01",
+      "eligible_units_50m": 45,
+      "observed_fraction": 0.9921544255443886,
+      "observed_m2": 95532.61048975126,
+      "role": "evaluation",
+      "seeds_inside_P": 589,
+      "segments_intersecting_P": 635,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 59291.72613367213,
+      "block_id": "B11_192ef17b6950f7",
+      "connected_patches_intersecting_P": 186,
+      "corridor_id": "CO_CT_05",
+      "eligible_units_50m": 49,
+      "observed_fraction": 0.9158737445551747,
+      "observed_m2": 54303.7352351862,
+      "role": "evaluation",
+      "seeds_inside_P": 256,
+      "segments_intersecting_P": 344,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 206084.00863314525,
+      "block_id": "B11_04c9fee0792d97",
+      "connected_patches_intersecting_P": 676,
+      "corridor_id": "CO_IP_05",
+      "eligible_units_50m": 85,
+      "observed_fraction": 0.8150676430872222,
+      "observed_m2": 167972.40719458446,
+      "role": "evaluation",
+      "seeds_inside_P": 1484,
+      "segments_intersecting_P": 1749,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 29771.70585564172,
+      "block_id": "B11_9e841d6232d869",
+      "connected_patches_intersecting_P": 157,
+      "corridor_id": "CO_MG_02",
+      "eligible_units_50m": 11,
+      "observed_fraction": 0.8452088522094651,
+      "observed_m2": 25163.30933456475,
+      "role": "evaluation",
+      "seeds_inside_P": 232,
+      "segments_intersecting_P": 258,
+      "selected_units_50m": 11
+    },
+    {
+      "P_m2": 106606.66972353127,
+      "block_id": "B11_9decfa881588f2",
+      "connected_patches_intersecting_P": 432,
+      "corridor_id": "CO_PA_02",
+      "eligible_units_50m": 19,
+      "observed_fraction": 0.9079692076505611,
+      "observed_m2": 96795.57343913976,
+      "role": "development",
+      "seeds_inside_P": 654,
+      "segments_intersecting_P": 672,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 54567.49603160513,
+      "block_id": "B11_8ae8d16e4b3519",
+      "connected_patches_intersecting_P": 197,
+      "corridor_id": "CO_PJ_03",
+      "eligible_units_50m": 56,
+      "observed_fraction": 0.9634927217785801,
+      "observed_m2": 52575.3852721331,
+      "role": "evaluation",
+      "seeds_inside_P": 280,
+      "segments_intersecting_P": 362,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 19235.367239489853,
+      "block_id": "B11_9b4f5d068bd278",
+      "connected_patches_intersecting_P": 135,
+      "corridor_id": "CO_PR_02",
+      "eligible_units_50m": 49,
+      "observed_fraction": 0.9977225255277691,
+      "observed_m2": 19191.559181637927,
+      "role": "evaluation",
+      "seeds_inside_P": 173,
+      "segments_intersecting_P": 259,
+      "selected_units_50m": 15
+    },
+    {
+      "P_m2": 12719.228594733942,
+      "block_id": "B11_de2c213f2ccba7",
+      "connected_patches_intersecting_P": 67,
+      "corridor_id": "CO_PR_03",
+      "eligible_units_50m": 28,
+      "observed_fraction": 0.9983534105399114,
+      "observed_m2": 12698.285246989397,
+      "role": "development",
+      "seeds_inside_P": 65,
+      "segments_intersecting_P": 148,
+      "selected_units_50m": 15
+    }
+  ]
+}

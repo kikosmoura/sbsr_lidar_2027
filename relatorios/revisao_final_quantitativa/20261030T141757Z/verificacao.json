@@ -1,0 +1,89 @@
+{
+  "abstracts": {
+    "en": {
+      "text": "This exploratory study investigates vertical information among units with similar horizontal indicators and ranking stability in urban green corridors. We analysed 10 São Paulo perimeters available in 2026, using 2020 GeoSampa LiDAR and PyCrown routines, comprising 114 evaluation units. A post-result extension identified 25 within-corridor pairs similar in cover and fragmentation, with a median P95 difference of 2.40 m; 16 pairs without reused IDs had a median of 2.80 m. In the fixed cohort of 68 IDs eligible across all scenarios, Spearman ranged from 0.917 to 0.995 and Jaccard from 0.556 to 0.867. Vertical information descriptively distinguishes horizontally similar units before ranking weights are applied. Survivor stability coexists with eligibility loss. Without independent reference data, crown accuracy and improved diagnosis were not demonstrated.",
+      "words": 124
+    },
+    "pt": {
+      "text": "Este estudo exploratório investiga informação vertical entre unidades semelhantes em indicadores horizontais e estabilidade de ordenações em corredores verdes urbanos. Analisaram-se 10 perímetros de São Paulo disponíveis em 2026, com LiDAR GeoSampa de 2020 e rotinas PyCrown, reunindo 114 unidades de avaliação. Um complemento pós-resultados identificou 25 pares do mesmo corredor semelhantes em cobertura e fragmentação, com diferença mediana de P95 de 2,40 m; 16 pares sem reutilização de IDs tiveram mediana de 2,80 m. Na coorte fixa de 68 IDs elegíveis em todos os cenários, Spearman variou de 0,917 a 0,995, e Jaccard de 0,556 a 0,867. A informação vertical distingue descritivamente unidades próximas em 2D antes de aplicar pesos. A estabilidade dos sobreviventes coexiste com perda de elegibilidade. Sem referência independente, não se demonstram acurácia de copas ou melhora de diagnóstico.",
+      "words": 135
+    }
+  },
+  "all_fonts_embedded": true,
+  "author_approved": false,
+  "bibliography": {
+    "all_citations_resolved": true,
+    "cited_keys": [
+      "alonzo2014",
+      "atestado2020",
+      "dalponte2016",
+      "geosampa",
+      "hurlbert1984",
+      "pycrown",
+      "zorner2018"
+    ],
+    "references": 7
+  },
+  "bounds_mm": [
+    {
+      "xMax": 197.01275720277778,
+      "xMin": 19.000000805555555,
+      "yMax": 254.75925891666668,
+      "yMin": 35.002441777777776
+    },
+    {
+      "xMax": 197.01276073055553,
+      "xMin": 18.999990222222223,
+      "yMax": 254.7592518611111,
+      "yMin": 25.653791155555556
+    },
+    {
+      "xMax": 197.00670635833333,
+      "xMin": 18.999986694444445,
+      "yMax": 254.75923774999995,
+      "yMin": 26.42686978888889
+    },
+    {
+      "xMax": 197.01978629999996,
+      "xMin": 18.99999727777778,
+      "yMax": 254.75924833333335,
+      "yMin": 26.13530283611111
+    }
+  ],
+  "critical_latex_messages": [],
+  "external_validation_performed": false,
+  "figures": 3,
+  "historical_counts": {
+    "0.3.2": 87,
+    "12": 153,
+    "13": 85,
+    "14": 79,
+    "15": 85,
+    "16": 11,
+    "17": 93
+  },
+  "numerical_registry": {
+    "numerical_source_files": 6,
+    "parameters": 25,
+    "reproduced_metrics": 172
+  },
+  "pages": 4,
+  "pdf": {
+    "bytes": 355312,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_final_v0_3_3/manuscrito.pdf",
+    "sha256": "af3dcd141d677ab5f3fa8f3c697ef1395bb9e2f9a6d060ec253efe462f57b2b4"
+  },
+  "previous_158_article_values_unchanged": true,
+  "reconstructed_return_counts": [
+    1110,
+    310
+  ],
+  "source": {
+    "bytes": 18458,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_final_v0_3_3/manuscrito.tex",
+    "sha256": "788a671216fc78eb534121dfded490a677c8eec5ef7f3921389d6baff8d7b58d"
+  },
+  "submission_ready": false,
+  "tables": 3,
+  "top_lists_reconstructed": 11
+}

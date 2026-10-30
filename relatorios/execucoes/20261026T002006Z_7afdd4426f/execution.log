@@ -1,0 +1,3 @@
+2026-10-25 21:20:06,099 INFO Início: evaluate-pilot
+2026-10-25 21:20:06,099 INFO reconstruct_complete {"selected_runs": 15, "source_checks": 1177}
+2026-10-25 21:20:23,415 INFO Concluído; cache_hit=False

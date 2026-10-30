@@ -1,0 +1,24 @@
+{
+  "address_not_fabricated": true,
+  "archived_rules": {
+    "bytes": 18449,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/normas_sbsr_2027.html",
+    "sha256": "852f0cf820a13d0b826dce66d3f6064ce5b53f7b381944184a9ff754cfc32f99"
+  },
+  "author_address_in_model": "public_main_source_affiliation_address_email",
+  "checked_on_local_date": "2026-10-26",
+  "full_sbsr_sty_obtained": false,
+  "latex_page_reopened_with_web_tool": true,
+  "local_adaptation_not_official_style": true,
+  "official_linked_latex": "https://www.overleaf.com/latex/templates/template-para-o-sbsr-simposio-brasileiro-de-sensoriamento-remoto/jgybkbvgdczt",
+  "official_rules": "https://proceedings.science/cfp/sbsr-2027?lang=pt-br",
+  "official_rules_reopened_with_web_tool": true,
+  "original_ODT": {
+    "bytes": 199062,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/template_original/modelo_oficial_portugues.odt",
+    "sha256": "eefc9652829ea074fed27092caf7a96573249e2e00dfeaa0e3c5cae218af9581"
+  },
+  "paper_divergence": "ODTstylesLetter_vs_public_LaTeX_and_provided_PDFA4",
+  "rule_scope": "PDF,up_to4pages_all_content,no_page_numbers,follow_linked_models",
+  "timezone": "America/Sao_Paulo"
+}

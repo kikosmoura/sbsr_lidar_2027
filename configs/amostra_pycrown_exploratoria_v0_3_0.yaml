@@ -1,0 +1,26 @@
+schema_version: 0.1.0
+protocol_version: 0.3.0
+mode: amostra_exploratoria_pycrown
+external_reference_required_for_execution: false
+external_accuracy_claims_enabled: false
+municipal_mode_enabled: false
+selection_protocol: 0.2.0
+halo_m: 20.0
+window_size_m: 200
+terrain_context_m: 10
+maximum_new_products: 32
+maximum_roi_records_per_window: 5000000
+maximum_ground_vertices_per_window: 1000000
+maximum_raster_cells: 20000000
+primary_resolution_m: 1.0
+resolutions_m: [0.5, 1.0, 2.0]
+primary_height_m: 3.0
+primary_detection_radius_m: 3.0
+primary_crown_radius_m: 8.0
+th_seed: 0.7
+th_crown: 0.55
+seed: 2027
+target_units_per_corridor: 15
+worker_python: .venv-pycrown/bin/python
+upstream_root: third_party/pycrown_upstream
+worker_script: scripts/pycrown_worker.py

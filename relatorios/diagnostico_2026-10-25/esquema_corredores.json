@@ -1,0 +1,122 @@
+[
+  {
+    "campo": "cd_identif",
+    "tipo": "int32",
+    "nulos": 0,
+    "valores_distintos": 114
+  },
+  {
+    "campo": "cd_identi0",
+    "tipo": "object",
+    "nulos": 0,
+    "valores_distintos": 114
+  },
+  {
+    "campo": "nm_corredo",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "tx_situaca",
+    "tipo": "object",
+    "nulos": 0,
+    "valores_distintos": 2
+  },
+  {
+    "campo": "nm_subpref",
+    "tipo": "object",
+    "nulos": 0,
+    "valores_distintos": 27
+  },
+  {
+    "campo": "tx_origem_",
+    "tipo": "object",
+    "nulos": 0,
+    "valores_distintos": 2
+  },
+  {
+    "campo": "tx_instrum",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "tx_link_in",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "tx_acao_sv",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "tx_link_ac",
+    "tipo": "object",
+    "nulos": 114,
+    "valores_distintos": 0
+  },
+  {
+    "campo": "nm_area_ve",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "tx_propost",
+    "tipo": "object",
+    "nulos": 1,
+    "valores_distintos": 112
+  },
+  {
+    "campo": "cd_corredo",
+    "tipo": "object",
+    "nulos": 1,
+    "valores_distintos": 113
+  },
+  {
+    "campo": "tx_origem0",
+    "tipo": "object",
+    "nulos": 1,
+    "valores_distintos": 11
+  },
+  {
+    "campo": "tx_tipo_pr",
+    "tipo": "object",
+    "nulos": 1,
+    "valores_distintos": 4
+  },
+  {
+    "campo": "tx_observa",
+    "tipo": "object",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "qt_area_me",
+    "tipo": "float64",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "qt_extensa",
+    "tipo": "float64",
+    "nulos": 113,
+    "valores_distintos": 1
+  },
+  {
+    "campo": "dt_atualiz",
+    "tipo": "datetime64[ms]",
+    "nulos": 0,
+    "valores_distintos": 2
+  },
+  {
+    "campo": "geometry",
+    "tipo": "geometry",
+    "nulos": 0,
+    "valores_distintos": null
+  }
+]

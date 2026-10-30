@@ -1,0 +1,9 @@
+corridor_id,primary_units,fixed_units,excluded_units
+CO_BT_05,13,9,4
+CO_CL_01,15,10,5
+CO_CT_01,15,9,6
+CO_CT_05,15,7,8
+CO_IP_05,15,7,8
+CO_MG_02,11,4,7
+CO_PJ_03,15,10,5
+CO_PR_02,15,12,3

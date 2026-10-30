@@ -1,0 +1,21 @@
+presentation_version: 1.0.0
+scientific_protocol: 0.3.0
+execution_report: relatorios/etapa12/execucao.json
+source_manifest: docs/manifesto_etapa12.json
+output_root: relatorios/etapa13
+template_pdf: /home/s299259068/Downloads/modelo_artigo_sbsr.pdf
+column_width_mm: 86
+double_column_width_mm: 178
+png_dpi: 600
+minimum_font_pt: 7
+caption_font_pt: 9
+font_family: Times New Roman
+example_window_m: 140
+example_selection: first_stage12_selection_hash_within_each_exact_top_status
+main_example_selection: first_stage12_selection_hash_in_entire_evaluation_cohort
+main_scope: conditional_canopy
+main_role: evaluation
+main_variant: A_plus_3D__I6_I7__Vplus__w0.5
+top_fraction: 0.2
+inferential_intervals_enabled: false
+external_accuracy_claims_enabled: false

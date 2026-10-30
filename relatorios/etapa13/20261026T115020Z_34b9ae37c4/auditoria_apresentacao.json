@@ -1,0 +1,27 @@
+{
+  "all_map_height_scales_identical": true,
+  "all_text_within_canvas": true,
+  "caption_font_pt": 9,
+  "caption_font_weight": "bold",
+  "category_semantics": {
+    "0": "não processado",
+    "1": "observado sem copa detectada",
+    "2": "NoData no contexto",
+    "3": "copa estimada"
+  },
+  "dimensions": "86mm/178mm conforme modelo fornecido",
+  "font": {
+    "bytes": 330412,
+    "path": "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf",
+    "sha256": "4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86"
+  },
+  "map_crs_epsg": 31983,
+  "minimum_font_pt": 7,
+  "no_height_clipping": true,
+  "not_a_submission_manuscript": true,
+  "official_rules_check": {
+    "bytes": 953,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa13/fontes_editoriais_verificadas.json",
+    "sha256": "07cdee654c63725c1da9b61e2b6eb590620f7d9b18d31f617919ab606d385441"
+  }
+}

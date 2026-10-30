@@ -1,0 +1,53 @@
+{
+  "A": "(1-R(I1)+R(I4))/2",
+  "A_plus_3D": "(1-w)*S_A+w*V",
+  "B": "(S_A+(R(I2)+R(I3_local/L_observable))/2)/2; only valid longitudinal cohort",
+  "C": "(1-w)*S_B+w*V; never rename A_plus_3D as C",
+  "H1_pairs": "same cohort, abs(I1_i-I1_j)<=0.05, max(O_i,O_j)/min(O_i,O_j)<=2",
+  "I6_duplicate_control": "V=((1-R(I6))+(1-R(I6)))/2; must equal I6_only",
+  "I6_only": "V=1-R(I6)",
+  "Jaccard_guard": "null if k<5, even when inclusive ties enlarge set",
+  "Spearman": "descriptive correlation of average ranks; null for constant variables or n<3; no p-values",
+  "absence": "common superior priority class, tied within class; no height/score/normalizer imputation",
+  "conditional_and_joint_lists": "reported separately; different universes must not be silently compared",
+  "fit_scope": "same_case_family_scale_paired_canopy_cohort_for_descriptive_comparison",
+  "height_auxiliary_I5": "correlation/distribution only, never added alongside I6 in primary score",
+  "no_superiority_assumption": true,
+  "no_weight_optimization": true,
+  "normalizer": "R(x)=(average_rank(x)-0.5)/n; constant variable receives 0.5",
+  "parameters": {
+    "diagnostic_spatial_block_m": 200.0,
+    "maximum_observed_area_ratio": 2.0,
+    "maximum_pair_candidates": 250000,
+    "maximum_units_per_cohort": 500,
+    "minimum_independent_groups_for_surrogates": 6,
+    "minimum_spearman_units": 3,
+    "minimum_top_k_for_jaccard": 5,
+    "pair_boundary_epsilon": 1e-12,
+    "primary_top_fraction": 0.2,
+    "primary_vertical_weight": 0.5,
+    "score_tie_decimals": 12,
+    "similar_cover_tolerance": 0.05,
+    "top_fractions": [
+      0.1,
+      0.2,
+      0.3
+    ]
+  },
+  "predictive_benchmark": "requires legitimate independent priority target and spatially separated training/test design; not available in this pilot",
+  "primary_top_fraction": 0.2,
+  "primary_variant": "A_plus_3D__I6_I7__Vplus__w0.5",
+  "stage": "09",
+  "surrogates": "not run without sufficient independent exchangeable corridor groups; geometric grid cells are not certified independent blocks",
+  "ties": "scores rounded to 12 decimals for numerical ties only; raw indicators untouched; mean ranks; operational ID tie-break",
+  "top_k": "ceil(q*n), fixed cardinality and inclusion of the entire cutoff tie group as separate sensitivity",
+  "version": "0.1.0",
+  "vertical_Vminus": "(1-R(I6)+R(I7))/2",
+  "vertical_Vplus": "(1-R(I6)+1-R(I7))/2",
+  "vertical_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "JSON_provenance_paths_expected_to_differ_between_runs": true,
+  "files": [
+    {
+      "file": "figures/F01_suporte.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F01_suporte.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F01_suporte.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F02_exemplo_2D_H.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F02_exemplo_2D_H.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F02_exemplo_2D_H.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F03_rankings.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F03_rankings.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F03_rankings.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F04_sensibilidade.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F04_sensibilidade.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/F04_sensibilidade.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_gained_2D_H.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_gained_2D_H.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_gained_2D_H.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_kept_2D_H.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_kept_2D_H.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_kept_2D_H.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_lost_2D_H.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_lost_2D_H.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_lost_2D_H.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_neither_2D_H.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_neither_2D_H.png",
+      "same_sha256": true
+    },
+    {
+      "file": "figures/S_neither_2D_H.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "provas_tamanho_final.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T01_amostra.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T01_amostra.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T01_amostra.png",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T01_amostra.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T01_amostra.tex",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T02_indicadores.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T02_indicadores.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T02_indicadores.png",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T02_indicadores.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T02_indicadores.tex",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T03_comparacao.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T03_comparacao.pdf",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T03_comparacao.png",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T03_comparacao.svg",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/T03_comparacao.tex",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_ablacoes.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_amostra.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_iou_cenarios.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_pares_cobertura.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_rankings_avaliacao.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/dados_sensibilidade.csv",
+      "same_sha256": true
+    },
+    {
+      "file": "tables/exemplos_acordo_desacordo.csv",
+      "same_sha256": true
+    }
+  ],
+  "first_root": "relatorios/etapa13/20261026T115512Z_ea0f12b0d3",
+  "first_run_id": "20261026T115512Z_ea0f12b0d3",
+  "identical_metric_values": true,
+  "metric_count": 81,
+  "no_manual_value_edits": true,
+  "ok": true,
+  "same_code_and_config": true,
+  "same_source_manifest": true,
+  "second_root": "relatorios/etapa13/20261026T115706Z_458afeef44",
+  "second_run_id": "20261026T115706Z_458afeef44"
+}

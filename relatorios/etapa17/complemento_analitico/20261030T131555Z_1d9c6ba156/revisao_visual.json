@@ -1,0 +1,48 @@
+{
+  "author_approved": false,
+  "figures_visible": [
+    1,
+    2,
+    3
+  ],
+  "no_clipped_graphics_detected": true,
+  "no_overlapping_text_detected": true,
+  "pages_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf": {
+    "bytes": 353324,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/complemento_etapa17/manuscrito.pdf",
+    "sha256": "6cb58e4fc59fcb37e7442c2cc35dd025c786f8762e11ae33b5ca884490d41e21"
+  },
+  "proofs": [
+    {
+      "bytes": 314203,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/provas_artigo/pagina-1.png",
+      "sha256": "0b4cbaa4f44fe46a45769f6474687499c205524b57dd1c624d4094e11d67dc0a"
+    },
+    {
+      "bytes": 337258,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/provas_artigo/pagina-2.png",
+      "sha256": "032d7a56b59085770a9196e29c16072219e8c0857b4077b519ad23de0f24ed42"
+    },
+    {
+      "bytes": 209443,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/provas_artigo/pagina-3.png",
+      "sha256": "e6fd3b68e044ca625fe494b1bf2e9f1a52c1b04508661e86dec395f459751989"
+    },
+    {
+      "bytes": 281420,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/complemento_analitico/20261030T131555Z_1d9c6ba156/provas_artigo/pagina-4.png",
+      "sha256": "599bc5ff78aa1c4a1b48e5088385f9fd31d34c89031cbf081b4152b8e3c70560"
+    }
+  ],
+  "reviewer": "assistant_visual_inspection_not_author_approval",
+  "tables_visible": [
+    1,
+    2
+  ]
+}

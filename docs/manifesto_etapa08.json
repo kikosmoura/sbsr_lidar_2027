@@ -1,0 +1,1008 @@
+{
+  "B_available": false,
+  "archived_runs_before_explicit_censor_flags": {
+    "adversarial": {
+      "cache_hit": false,
+      "case": "adversarial",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/indicadores.json",
+      "run_id": "20261025T221208Z_81039e62fc"
+    },
+    "main": {
+      "cache_hit": false,
+      "case": "main",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/indicadores.json",
+      "run_id": "20261025T221043Z_92c86b9818"
+    }
+  },
+  "artifacts": [
+    {
+      "bytes": 4086,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/piloto.yaml",
+      "sha256": "02aad27219c898cc17c8c7d9beeff71d84f83340d604c5ba7386102baa90c4bb"
+    },
+    {
+      "bytes": 4051,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/configs/terreno_congelado_etapa04.yaml",
+      "sha256": "6744591512b9d7c5c44ce3a35e404edc2091915b158373ed0bca14e6f987e681"
+    },
+    {
+      "bytes": 26169,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/decisoes_metodologicas.md",
+      "sha256": "95e2b145c21420a80f12b1e1526a7aec53c24771fc4f4444a962691dcecc5256"
+    },
+    {
+      "bytes": 33982,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/dicionario_indicadores_etapa08.json",
+      "sha256": "669158affd0519e1b56207ed73e48f66bee107d80297b53d906f1dc101b72fe1"
+    },
+    {
+      "bytes": 120971,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/estado_projeto.json",
+      "sha256": "353bc3394725c48577d0b035ed8df0aa48f876ff2dbc17bfbdd639decba9cfb9"
+    },
+    {
+      "bytes": 16624,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/indicadores_estruturais_etapa08.md",
+      "sha256": "7ea4bfa8cd69b2a167ce920fdcb2d9aa671a81a9f1fda6f32750f801bb59beba"
+    },
+    {
+      "bytes": 25783,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/schemas/config.schema.json",
+      "sha256": "944ea8f862a4c3ea4dacc736148c82577028ecbcc8131480c325672dbbc9dfa4"
+    },
+    {
+      "bytes": 3452,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/docs/schemas/run_manifest.schema.json",
+      "sha256": "21021302edc53d30d1c8752e496bf0824bad643fd3dde188344a7e260f62892f"
+    },
+    {
+      "bytes": 525,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/cache_adversarial.json",
+      "sha256": "bbe078c372d3339e8a9aece46672a1d37b9537cacd6976631592868c6673a0de"
+    },
+    {
+      "bytes": 511,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/cache_main.json",
+      "sha256": "dacf0e37b0d1e7d0ec1c2427367513225bcf3d78c18f7ad89e6acc584cfd0753"
+    },
+    {
+      "bytes": 116,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/downloader_regressao.log",
+      "sha256": "43a31c468edea56b0a6db711bafd414fbbd80d4a3e605d6921226fcbfdfbea45"
+    },
+    {
+      "bytes": 526,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/execucao_adversarial.json",
+      "sha256": "e771141e764a15d6231bd9c94cedb0e55fd9c00fb1f12e4a9e824dcbc6feefcd"
+    },
+    {
+      "bytes": 526,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/execucao_adversarial_antes_censura_explicita.json",
+      "sha256": "918de73760db415925c319f9622eb3ecb9cc393b5b9c12b4b7b5da4c24676315"
+    },
+    {
+      "bytes": 512,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/execucao_main.json",
+      "sha256": "74d4a2fcf4f8cc2d183151b4af42a9fd0e53c99960e103a261bd1a9385debf74"
+    },
+    {
+      "bytes": 512,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/execucao_main_antes_censura_explicita.json",
+      "sha256": "398ea040431fc94e5ba9cebcab4e77d8a39bd537ca4cdd9628c1dbe8946bb320"
+    },
+    {
+      "bytes": 185287,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/indicadores_50m_adversarial.png",
+      "sha256": "89cdf136636cc196d0f4fc6685cb1478f80f015ce1a442d49b02644dfe35779a"
+    },
+    {
+      "bytes": 247823,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/indicadores_50m_main.png",
+      "sha256": "4cca7ab20c8c31bc0679f5fa8bafc440cd9ddd4bb0de8d8cdd192a83a0aa228c"
+    },
+    {
+      "bytes": 1318,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/testes_cientificos.log",
+      "sha256": "68acb5fe3252e60ac9d0790dccd321c627644f5647504b13cadc25bfd7ef8fa1"
+    },
+    {
+      "bytes": 13795,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa08/verificacoes.json",
+      "sha256": "edec30bc0cee360c93e7fa225ab0242da8819a91700d60d01b6cdfa1df1ab74f"
+    },
+    {
+      "bytes": 714,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/execution.log",
+      "sha256": "de9ac61e040b1384702956619d60f355cd49b7038e336c37872c404ae3205177"
+    },
+    {
+      "bytes": 10615,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/indicadores.json",
+      "sha256": "3483e8ab05a50bdbc453553141107ecc94848be3c0bc4a354bc19a5bf103ac7f"
+    },
+    {
+      "bytes": 1703,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/indicadores.md",
+      "sha256": "8ef80d0aedad525f8d3c18c33490ff9a8baf55100895fb134e90c77309ae5ceb"
+    },
+    {
+      "bytes": 15956,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221043Z_92c86b9818/manifest.json",
+      "sha256": "3ec6ee337461c4ee8d78c1d0b06237c699eef2ecab5d57a2e40f10b5eccb4eb8"
+    },
+    {
+      "bytes": 424,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/execution.log",
+      "sha256": "f38a1eb43fde12e38da23c7905efb4d60543e635a5293fb75852a6bb2e4c1b6d"
+    },
+    {
+      "bytes": 12585,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/indicadores.json",
+      "sha256": "5e28e2240443534ffb03250128978d750cb20c2a01f15a7dec890c8a3c54302d"
+    },
+    {
+      "bytes": 1774,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/indicadores.md",
+      "sha256": "089c17547c52dfa7886d6339441d17629ffc18f345d2b0c59d0889b1dfc4fb63"
+    },
+    {
+      "bytes": 16062,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221208Z_81039e62fc/manifest.json",
+      "sha256": "2aa721666c66ef33db587c5b69a5fe8110a05d3399adf650a5777326c9a177bc"
+    },
+    {
+      "bytes": 714,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/execution.log",
+      "sha256": "e69762a86fbe3dd470ea979104199ee0282f61e6270bf2dfa7d498a846d5357a"
+    },
+    {
+      "bytes": 10615,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.json",
+      "sha256": "35191c0b6e1c3937fe984bfd336e8f7c4515f9281750f6da91b57aa110531eff"
+    },
+    {
+      "bytes": 1703,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.md",
+      "sha256": "690f7eb607106e549a4cbb1367d3aacf68b57a34dba1c1fbe8c5e050aace3fca"
+    },
+    {
+      "bytes": 15956,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/manifest.json",
+      "sha256": "75435fab257f8240c15ce89123a5b15890073ceca0c683018591dc2acc00374f"
+    },
+    {
+      "bytes": 424,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/execution.log",
+      "sha256": "082568f207e9f521bcd0e0e0e4c9d59cc6a22c7007a3ed1ad7fe726333ba89bb"
+    },
+    {
+      "bytes": 12590,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/indicadores.json",
+      "sha256": "16ee4f7cfbb5c0cc9fa4a05ed84b42d3de842d20b1a8ee484bcba8bd652b0767"
+    },
+    {
+      "bytes": 1774,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/indicadores.md",
+      "sha256": "9ddd2092f887b045a212f1077a46b50af7da1212d0c303959c728e31008a9473"
+    },
+    {
+      "bytes": 16062,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/manifest.json",
+      "sha256": "4b04e4e3d7cae3ac23a3d08a8862c610bdde0e3bb946bfd16888b3086e39a3d9"
+    },
+    {
+      "bytes": 117,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_14b1a9b48c/execution.log",
+      "sha256": "1276f5c7f274495ae7671780f9b7e140478711bdbfdf5a86673bc90cc6b8c350"
+    },
+    {
+      "bytes": 16086,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_14b1a9b48c/manifest.json",
+      "sha256": "6d5006c0d38dd6f05744912f4e805c95925bc63a575f4b674b029f3b08e33157"
+    },
+    {
+      "bytes": 110,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_919c31371b/execution.log",
+      "sha256": "ee35e20b56979c5ab18142d06cc791592a536eeb172df41c4c2b554e514eb527"
+    },
+    {
+      "bytes": 15980,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_919c31371b/manifest.json",
+      "sha256": "44377c3bea4aa5f7825b82c480c549513e0ce533c2d36c3f5a30dabe3c4c1cb1"
+    },
+    {
+      "bytes": 15347,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/verificar_etapa08.py",
+      "sha256": "678f2540fed8b2feb91ec9895018fb613fe2a68b3eb708189aff5b7e524b01d1"
+    },
+    {
+      "bytes": 3205,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/scripts/visualizar_indicadores_etapa08.py",
+      "sha256": "3c4700f4bcdb73855517499a8067731148c8620863cd525ee38e8f2680fa27c3"
+    },
+    {
+      "bytes": 112,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/__init__.py",
+      "sha256": "240e819ff3999ec3e6c7154e533ff795adbaa0e8b5a9181d811d2db396f148fe"
+    },
+    {
+      "bytes": 48,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 5522,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/acquisition.py",
+      "sha256": "00982b7e9753d7803d955b36dc1a2e700d3ba241dde77c51a11d8c640261b7d6"
+    },
+    {
+      "bytes": 15084,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/annotations.py",
+      "sha256": "472e21e82831e3bada24f1cd69f082a0c971f1fa0d9642212f9441aa62fecdbf"
+    },
+    {
+      "bytes": 19472,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/canopy.py",
+      "sha256": "52b5ff18eb8396b6f8f62e2446fd2a336bd82bbbc1417a86dc01e0430c00741f"
+    },
+    {
+      "bytes": 10623,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/canopy_features.py",
+      "sha256": "233272bf561142ee7b5d7aa1c50ff6f9333b3272206adb59bd37a9096c520b54"
+    },
+    {
+      "bytes": 7711,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/canopy_masks.py",
+      "sha256": "551fd20f14bdbfb023e4e90d5296135bdeed993ebbc88cfd38f3a688aadc77a1"
+    },
+    {
+      "bytes": 6708,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/cli.py",
+      "sha256": "5168fd83d7c21d37221fa34241fa99035c0917373f110f8ae890cc41474cf52b"
+    },
+    {
+      "bytes": 12985,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/config.py",
+      "sha256": "24aa0d8ffde91339ce0bd13a7299299b10c8f34d001123c360bf4c6458057f0e"
+    },
+    {
+      "bytes": 6469,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/corridor_axis.py",
+      "sha256": "2b32cdc9270204a9aacfea76beb867a5ce57c2b18af7071362a137e865b3dde5"
+    },
+    {
+      "bytes": 6875,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/doctor.py",
+      "sha256": "8ba0a36189aef89702865e8d82a08adaff108e45709ce13d88349336ec433378"
+    },
+    {
+      "bytes": 6119,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/domain.py",
+      "sha256": "e9c2a7e09b1a51a2a7b2f7590e156d83035f642c8884267660acf5eb81b8871e"
+    },
+    {
+      "bytes": 2299,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/environment.py",
+      "sha256": "72bb812fb97a77b47f38d67368a94ae07d90cf828a6cc276a10523ce44311ec2"
+    },
+    {
+      "bytes": 9642,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/indicator_metrics.py",
+      "sha256": "1a526ae863677db94622e2aa48f8b3dc31677ef9521bafbc1bbcca4bf258a18c"
+    },
+    {
+      "bytes": 27572,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/indicator_run.py",
+      "sha256": "84ad4bf45926622afd35bc3bc7478412c87c6ba1852f7170a6872eb2cd9340bc"
+    },
+    {
+      "bytes": 8963,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/indicator_support.py",
+      "sha256": "a63f4bec589d80103da4e01f2fcc21a3849dc366f559a3316c3cdcebd022a35a"
+    },
+    {
+      "bytes": 13066,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/input_qc.py",
+      "sha256": "74af60c23605d2522cbd071d68ee1930a916fe3aa25c7046772eb7f980928424"
+    },
+    {
+      "bytes": 10643,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/longitudinal.py",
+      "sha256": "409b694c8ed081cff314da413267f9174c13ccee7844511953bf8438ca691dd2"
+    },
+    {
+      "bytes": 10275,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/normalized_heights.py",
+      "sha256": "2c9137b3caba7501ac83e7e94307550c93e3981bd877aa17a9a8c9cf9d52e8b0"
+    },
+    {
+      "bytes": 11550,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/preparation.py",
+      "sha256": "5dbad2a679c67c3c04133393b7a091e45404a5897cbd6d0c14854563221133c8"
+    },
+    {
+      "bytes": 6501,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/qgis_reference.py",
+      "sha256": "eaa92573ee840c3c1e648d407af67b12c3deb8f43ce355609c9cd32e7a611d79"
+    },
+    {
+      "bytes": 19357,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/reference.py",
+      "sha256": "43dc1bf1374a2fc0cd8b22a0efdf283708d9cdf7c1b9db95454a06b139c32eec"
+    },
+    {
+      "bytes": 8795,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/reference_materials.py",
+      "sha256": "a154a04b362dd8c986aefc37fb869743169512d0d4b4f901ae87876e01a0283c"
+    },
+    {
+      "bytes": 8359,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/reference_sampling.py",
+      "sha256": "fe00a864e7857b9c80d25e447710ad06ee86f81da03d9767173f839ec2b9c864"
+    },
+    {
+      "bytes": 4558,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/runtime.py",
+      "sha256": "a7b8bdad3b478d0c96df3ab940c328ee3e3640e783194a5c60a006483508f6d5"
+    },
+    {
+      "bytes": 2482,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/schemas.py",
+      "sha256": "c4e587e0a913642848c5dbcd487ed8f97300b0ac1d6cc4f8d0735c149c991fa5"
+    },
+    {
+      "bytes": 19170,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/segmentation.py",
+      "sha256": "915bf97b7aa4422b5ae7f6cf2582971c4e94770240c5fb8f3f7e82a1cf25cd1b"
+    },
+    {
+      "bytes": 9791,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/smoke.py",
+      "sha256": "014abbdda3d86bfad362a699deed6f1004eda8474529d0adc7aea39945060053"
+    },
+    {
+      "bytes": 5357,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/spatial_units.py",
+      "sha256": "1d94f302107fa3046320f09cfa454531aceb68d82104f16bf90a55987658f7b0"
+    },
+    {
+      "bytes": 3149,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/storage.py",
+      "sha256": "708a628d4737266f88c3034ab7dfc59a76c15f8de7d42b8c0fb5aacbbe505a8c"
+    },
+    {
+      "bytes": 15772,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/terrain.py",
+      "sha256": "550cf2db07c76bfce68cc8b9514e5a6082e2abdfffe8b2f06d2fddc7e9e2980c"
+    },
+    {
+      "bytes": 5319,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/terrain_inputs.py",
+      "sha256": "71f7cf5d8249642f49e2cb109d71d9d98583c162a2df5b7bf71028ee58695982"
+    },
+    {
+      "bytes": 5288,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/terrain_surface.py",
+      "sha256": "52fd910998b945e34e05b916eac8e5161b933787cc4f2aefaf07119ec29c5398"
+    },
+    {
+      "bytes": 3955,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/src/sbsr_lidar/terrain_validation.py",
+      "sha256": "57e686091d212d7e0676a874eaaff1cbfe7afec58d885a57a9609f50c965015f"
+    },
+    {
+      "bytes": 15631,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/tests/cientifico/test_indicators.py",
+      "sha256": "6b43fcc7f2baa8384a0033985bd659794ab30beb525c0f4a0b71da23d9278536"
+    },
+    {
+      "bytes": 31844,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc/dicionario_dados.json",
+      "sha256": "de6c58d6af48ae40ed8cec6633e254ee348c5c452baf917991a45e0e2eb82f94"
+    },
+    {
+      "bytes": 324181,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc/indicadores.csv",
+      "sha256": "8840a85d7ec013ff1ed141fb2d29a1c594bdc1cd4029ec889798f2368badbd41"
+    },
+    {
+      "bytes": 135726,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc/indicadores.parquet",
+      "sha256": "6ac267418f7d62ce4f699edd547ceb003d2313295adb0831b59a5ec496d4aa88"
+    },
+    {
+      "bytes": 54675,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc/intersecoes_manchas.csv",
+      "sha256": "823286a8bc7edbf42acf905ab47d919f8f00546749261c6e9cc9098e3825f40c"
+    },
+    {
+      "bytes": 9685,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221208Z_81039e62fc/intersecoes_manchas.parquet",
+      "sha256": "fd22abe429bfc175a23f4e649b3f1c49a3a0049f4dcdb73bc0e9b3a247156a87"
+    },
+    {
+      "bytes": 33993,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe/dicionario_dados.json",
+      "sha256": "00e1eae6821ad234dfd0658480d6cbad2f281f2b5d46f136da341d6c83d817f5"
+    },
+    {
+      "bytes": 325597,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe/indicadores.csv",
+      "sha256": "23904df0af4bad1de7b2e7aae6f375876145422dbc9cc905c36c4965280fd8ee"
+    },
+    {
+      "bytes": 140602,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe/indicadores.parquet",
+      "sha256": "fd578923aa3df8a8c1e70638c7cf2279147685e3f805be5046e18ed3504195c2"
+    },
+    {
+      "bytes": 54675,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe/intersecoes_manchas.csv",
+      "sha256": "823286a8bc7edbf42acf905ab47d919f8f00546749261c6e9cc9098e3825f40c"
+    },
+    {
+      "bytes": 9685,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe/intersecoes_manchas.parquet",
+      "sha256": "fd22abe429bfc175a23f4e649b3f1c49a3a0049f4dcdb73bc0e9b3a247156a87"
+    },
+    {
+      "bytes": 31835,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818/dicionario_dados.json",
+      "sha256": "7c96d0f87e4eaab37805e25aad713e2f12bccc42226a03fc59f904943a89a731"
+    },
+    {
+      "bytes": 423197,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818/indicadores.csv",
+      "sha256": "fb60717a060642280bab40a7ea9e3fe66baf448bba42ac74e39015f6a1cc85a2"
+    },
+    {
+      "bytes": 151981,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818/indicadores.parquet",
+      "sha256": "3eee4a04b2e68cc178ae311c3cfc0b929fd9349ce16d0e76f597e599959eae55"
+    },
+    {
+      "bytes": 101657,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818/intersecoes_manchas.csv",
+      "sha256": "44a4444c2279e430fe0b661e9ecac2cf283d1b821978d2731fe2a9f983c4982f"
+    },
+    {
+      "bytes": 13320,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221043Z_92c86b9818/intersecoes_manchas.parquet",
+      "sha256": "6e5ade22a35f775e140c82d2b7f43c0a56f716e239517ee96b26ed4504829d04"
+    },
+    {
+      "bytes": 33982,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/dicionario_dados.json",
+      "sha256": "669158affd0519e1b56207ed73e48f66bee107d80297b53d906f1dc101b72fe1"
+    },
+    {
+      "bytes": 425419,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.csv",
+      "sha256": "65acd0810c289da2be650bfca1fae9da1dfd034914d69d73a27ead13cd36fbd2"
+    },
+    {
+      "bytes": 156556,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/indicadores.parquet",
+      "sha256": "bc3e03a1ec141ea80c4a752160f1b9b5170c3e422bf7f2a32d2e93c67b234427"
+    },
+    {
+      "bytes": 101657,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.csv",
+      "sha256": "44a4444c2279e430fe0b661e9ecac2cf283d1b821978d2731fe2a9f983c4982f"
+    },
+    {
+      "bytes": 13320,
+      "path": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173/intersecoes_manchas.parquet",
+      "sha256": "6e5ade22a35f775e140c82d2b7f43c0a56f716e239517ee96b26ed4504829d04"
+    }
+  ],
+  "checks": {
+    "checks": {
+      "adversarial:CSV_GeoParquet_equivalence": true,
+      "adversarial:area_and_point_conservation": true,
+      "adversarial:cache_same_products": true,
+      "adversarial:common_eligibility": true,
+      "adversarial:coverage_denominator_and_bounds": true,
+      "adversarial:dictionary_covers_columns": true,
+      "adversarial:exact_context_patch_intersections": true,
+      "adversarial:geometry_and_unit_ids_preserved": true,
+      "adversarial:height_minimum_support_and_nulls": true,
+      "adversarial:manifest_inputs_and_code": true,
+      "adversarial:no_canopy_is_not_zero_height": true,
+      "adversarial:no_fabricated_longitudinal_metrics": true,
+      "adversarial:no_validation_or_rankings_invented": true,
+      "adversarial:observation_states_conserve_area": true,
+      "adversarial:original_point_counts_and_exact_quantiles": true,
+      "adversarial:patch_density_not_raw_count": true,
+      "adversarial:physical_gap_diagnostics_and_censor_preserved": true,
+      "adversarial:primary_return_estimand": true,
+      "adversarial:quantile_order_and_IQR": true,
+      "adversarial:record_densities_have_explicit_area": true,
+      "adversarial:unique_rows_and_scenario": true,
+      "main:CSV_GeoParquet_equivalence": true,
+      "main:area_and_point_conservation": true,
+      "main:cache_same_products": true,
+      "main:common_eligibility": true,
+      "main:coverage_denominator_and_bounds": true,
+      "main:dictionary_covers_columns": true,
+      "main:exact_context_patch_intersections": true,
+      "main:geometry_and_unit_ids_preserved": true,
+      "main:height_minimum_support_and_nulls": true,
+      "main:manifest_inputs_and_code": true,
+      "main:no_canopy_is_not_zero_height": true,
+      "main:no_fabricated_longitudinal_metrics": true,
+      "main:no_validation_or_rankings_invented": true,
+      "main:observation_states_conserve_area": true,
+      "main:original_point_counts_and_exact_quantiles": true,
+      "main:patch_density_not_raw_count": true,
+      "main:physical_gap_diagnostics_and_censor_preserved": true,
+      "main:primary_return_estimand": true,
+      "main:quantile_order_and_IQR": true,
+      "main:record_densities_have_explicit_area": true,
+      "main:unique_rows_and_scenario": true,
+      "reference_preserved_and_no_human_labels_invented": true,
+      "test_logs_success": true
+    },
+    "ok": true,
+    "summary": {
+      "adversarial": {
+        "QC": {
+          "groups": [
+            {
+              "area_canopy_m2": 623.5952264774897,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.513394957622,
+              "area_total_m2": 13144.744694050227,
+              "eligible_A": 11,
+              "eligible_A_plus_3D": 5,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 15,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 59,
+              "scale_m": 25.0,
+              "without_common_support": 8,
+              "without_detected_canopy": 21
+            },
+            {
+              "area_canopy_m2": 623.5952264747928,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.513394980075,
+              "area_total_m2": 13144.74469405165,
+              "eligible_A": 3,
+              "eligible_A_plus_3D": 2,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 11,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 25,
+              "scale_m": 50.0,
+              "without_common_support": 1,
+              "without_detected_canopy": 9
+            },
+            {
+              "area_canopy_m2": 623.5952264716809,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.5133949913525,
+              "area_total_m2": 13144.744694040179,
+              "eligible_A": 0,
+              "eligible_A_plus_3D": 0,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 6,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 10,
+              "scale_m": 100.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 3
+            },
+            {
+              "area_canopy_m2": 623.5952264740139,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.513394971785,
+              "area_total_m2": 13144.744694045608,
+              "eligible_A": 2,
+              "eligible_A_plus_3D": 1,
+              "eligible_B": 0,
+              "family": "longitudinal",
+              "height_values_available": 15,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 26,
+              "scale_m": 25.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 6
+            },
+            {
+              "area_canopy_m2": 623.5952264740139,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.5133949768315,
+              "area_total_m2": 13144.74469404561,
+              "eligible_A": 0,
+              "eligible_A_plus_3D": 0,
+              "eligible_B": 0,
+              "family": "longitudinal",
+              "height_values_available": 9,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 13,
+              "scale_m": 50.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 2
+            },
+            {
+              "area_canopy_m2": 623.5952264740139,
+              "area_invariants_ok": true,
+              "area_observed_m2": 6076.5133949768315,
+              "area_total_m2": 13144.74469404561,
+              "eligible_A": 0,
+              "eligible_A_plus_3D": 0,
+              "eligible_B": 0,
+              "family": "longitudinal",
+              "height_values_available": 5,
+              "n_mds_records": 98688,
+              "n_patches_unique": 37,
+              "n_vegetation_records": 2621,
+              "rows": 7,
+              "scale_m": 100.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 0
+            }
+          ],
+          "height_missing_reasons": {
+            "area_copa_insuficiente": 16,
+            "classificacao_incerta_sem_copa_detectada": 2,
+            "disponivel": 61,
+            "retornos_vegetais_insuficientes": 13,
+            "sem_suporte_comum": 9,
+            "sem_vegetacao": 39
+          },
+          "longitudinal_missing_reasons": {
+            "suporte_areal_insuficiente": 44,
+            "suporte_longitudinal_insuficiente": 2,
+            "unidade_em_grade": 94
+          },
+          "point_aggregation": {
+            "boundary_tie_rule": "maximum_area_of_owning_half_open_raster_pixel_then_lexicographic_unit_id",
+            "boundary_ties_including_cell_centers": {
+              "grid_100": 1,
+              "grid_25": 6,
+              "grid_50": 2,
+              "longitudinal_100": 0,
+              "longitudinal_25": 0,
+              "longitudinal_50": 0
+            },
+            "counts_are_records_not_unique_pulses_or_trees": true,
+            "records_in_exact_measurement": 98688,
+            "source_records_read": 225983,
+            "stored_height_values_across_families_scales": 15726
+          }
+        },
+        "columns": 114,
+        "elapsed_seconds": 2.0410052321385592,
+        "peak_process_rss_mib": 363.31640625,
+        "rows": 140,
+        "run_id": "20261025T221433Z_a9f46ac6fe",
+        "source_point_audits": [
+          {
+            "n_source_records": 206,
+            "n_source_vegetation_records": 0,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_SE_06_P001_G50_X6660_Y147955_F01"
+          },
+          {
+            "n_source_records": 1260,
+            "n_source_vegetation_records": 0,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_SE_06_P001_G50_X6661_Y147955_F01"
+          },
+          {
+            "n_source_records": 13906,
+            "n_source_vegetation_records": 134,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_SE_06_P001_G50_X6662_Y147955_F01"
+          },
+          {
+            "n_source_records": 7109,
+            "n_source_vegetation_records": 53,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_SE_06_P001_G50_X6663_Y147954_F01"
+          },
+          {
+            "n_source_records": 5419,
+            "n_source_vegetation_records": 372,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_SE_06_P001_G50_X6664_Y147954_F01"
+          },
+          {
+            "n_source_records": 6188,
+            "n_source_vegetation_records": 555,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_SE_06_P001_G50_X6665_Y147953_F01"
+          },
+          {
+            "n_source_records": 17322,
+            "n_source_vegetation_records": 0,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_SE_06_P001_G50_X6670_Y147949_F01"
+          }
+        ]
+      },
+      "main": {
+        "QC": {
+          "groups": [
+            {
+              "area_canopy_m2": 38528.34422657967,
+              "area_invariants_ok": true,
+              "area_observed_m2": 65233.1100314785,
+              "area_total_m2": 65807.7126636983,
+              "eligible_A": 161,
+              "eligible_A_plus_3D": 150,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 163,
+              "n_mds_records": 1395109,
+              "n_patches_unique": 87,
+              "n_vegetation_records": 774284,
+              "rows": 192,
+              "scale_m": 25.0,
+              "without_common_support": 1,
+              "without_detected_canopy": 7
+            },
+            {
+              "area_canopy_m2": 38528.34422657366,
+              "area_invariants_ok": true,
+              "area_observed_m2": 65233.11003146472,
+              "area_total_m2": 65807.71266368037,
+              "eligible_A": 59,
+              "eligible_A_plus_3D": 58,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 61,
+              "n_mds_records": 1395109,
+              "n_patches_unique": 87,
+              "n_vegetation_records": 774284,
+              "rows": 67,
+              "scale_m": 50.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 3
+            },
+            {
+              "area_canopy_m2": 38528.344226560024,
+              "area_invariants_ok": true,
+              "area_observed_m2": 65233.11003146352,
+              "area_total_m2": 65807.71266367247,
+              "eligible_A": 25,
+              "eligible_A_plus_3D": 25,
+              "eligible_B": 0,
+              "family": "grid",
+              "height_values_available": 26,
+              "n_mds_records": 1395109,
+              "n_patches_unique": 87,
+              "n_vegetation_records": 774284,
+              "rows": 27,
+              "scale_m": 100.0,
+              "without_common_support": 0,
+              "without_detected_canopy": 1
+            }
+          ],
+          "height_missing_reasons": {
+            "area_copa_insuficiente": 22,
+            "classificacao_incerta_sem_copa_detectada": 2,
+            "disponivel": 250,
+            "retornos_vegetais_insuficientes": 2,
+            "sem_suporte_comum": 1,
+            "sem_vegetacao": 9
+          },
+          "longitudinal_missing_reasons": {
+            "unidade_em_grade": 286
+          },
+          "point_aggregation": {
+            "boundary_tie_rule": "maximum_area_of_owning_half_open_raster_pixel_then_lexicographic_unit_id",
+            "boundary_ties_including_cell_centers": {
+              "grid_100": 23,
+              "grid_25": 75,
+              "grid_50": 43
+            },
+            "counts_are_records_not_unique_pulses_or_trees": true,
+            "records_in_exact_measurement": 1395109,
+            "source_records_read": 1967742,
+            "stored_height_values_across_families_scales": 2322852
+          }
+        },
+        "columns": 114,
+        "elapsed_seconds": 3.198043464915827,
+        "peak_process_rss_mib": 363.31640625,
+        "rows": 286,
+        "run_id": "20261025T221430Z_ad89ab6173",
+        "source_point_audits": [
+          {
+            "n_source_records": 29,
+            "n_source_vegetation_records": 0,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_BT_01_E_P001_G50_X6470_Y147844_F01"
+          },
+          {
+            "n_source_records": 85873,
+            "n_source_vegetation_records": 67463,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_BT_01_E_P001_G50_X6471_Y147847_F01"
+          },
+          {
+            "n_source_records": 77340,
+            "n_source_vegetation_records": 60088,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_BT_01_E_P001_G50_X6472_Y147844_F01"
+          },
+          {
+            "n_source_records": 615,
+            "n_source_vegetation_records": 0,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_BT_01_E_P001_G50_X6474_Y147839_F01"
+          },
+          {
+            "n_source_records": 4387,
+            "n_source_vegetation_records": 67,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_BT_01_E_P001_G50_X6475_Y147837_F01"
+          },
+          {
+            "n_source_records": 367,
+            "n_source_vegetation_records": 55,
+            "ok": true,
+            "quantiles_available": false,
+            "unit_id": "CO_BT_01_E_P001_G50_X6477_Y147832_F01"
+          },
+          {
+            "n_source_records": 16275,
+            "n_source_vegetation_records": 9843,
+            "ok": true,
+            "quantiles_available": true,
+            "unit_id": "CO_BT_01_E_P001_G50_X6478_Y147834_F01"
+          }
+        ]
+      }
+    },
+    "tests": {
+      "downloader_passed": 25,
+      "scientific_passed": 134
+    }
+  },
+  "columns": 114,
+  "commands": [
+    ".venv-cientifico/bin/python -m sbsr_lidar --config configs/terreno_congelado_etapa04.yaml indicators --case main",
+    ".venv-cientifico/bin/python -m sbsr_lidar --config configs/terreno_congelado_etapa04.yaml indicators --case adversarial",
+    ".venv-cientifico/bin/python -m pytest -q",
+    ".venv-cientifico/bin/python -m pytest -q tests/test_baixar_lidar_geosampa.py",
+    ".venv-cientifico/bin/python scripts/verificar_etapa08.py",
+    "indicators_run(config, case) repetido para comprovar cache nos dois casos",
+    ".venv-cientifico/bin/python scripts/visualizar_indicadores_etapa08.py /home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.json --output-dir relatorios/etapa08",
+    ".venv-cientifico/bin/python scripts/visualizar_indicadores_etapa08.py /home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/indicadores.json --output-dir relatorios/etapa08"
+  ],
+  "config": "configs/terreno_congelado_etapa04.yaml",
+  "criteria": {
+    "actual_GeoParquet_CSV_and_full_dictionary": true,
+    "analytic_tests_and_original_source_quantile_audits": true,
+    "context_patch_IDs_and_exact_intersections": true,
+    "exact_area_denominators_unobserved_fraction_and_bounds": true,
+    "longitudinal_metrics_withheld_but_censor_diagnostics_preserved": true,
+    "minimum_area_and_return_support_and_missing_reasons": true,
+    "no_canopy_not_confused_with_NoData_or_zero_height": true,
+    "no_new_labels_accuracy_rankings_or_municipal_inference": true,
+    "normalized_return_mean_P95_IQR_not_CHM": true,
+    "point_and_cell_counts_density_and_boundary_ownership_explicit": true,
+    "same_frozen_mask_and_unit_support": true,
+    "same_products_on_cache_inputs_preserved": true
+  },
+  "data": "2026-10-25",
+  "etapa": "08",
+  "finished_at": "2026-10-25T22:21:57.891324+00:00",
+  "fuso": "America/Sao_Paulo",
+  "human_labels_created": 0,
+  "id": "etapa08_indicadores_estruturais_v0.1.0",
+  "limitations": [
+    "Máscara baseline_h3 permanece provisória e não validada; sem rótulos humanos/treinamento/acurácia novos.",
+    "I1 e I4 usam somente suporte observado O, com O/A e limites geométricos; esses limites não corrigem erro de classificação.",
+    "Alturas I5/I6/I7 são média/P95/IQR dos retornos normalizados selecionados, não CHM, média por árvore ou estimativa ponderada por área.",
+    "Quantis exatos requerem T>=10 m² e pelo menos 50 retornos; ausência detectada de copa é estrato separado com H indefinido.",
+    "Densidades e contagens são registros MDS; duplicatas internas e pesos de aquisição/oclusão não equivalem a observações independentes.",
+    "I2/I3 ausentes em todas as linhas reais: principal sem eixo aceito e adverso sem suporte longitudinal suficiente.",
+    "Comprimentos/censuras de lacunas em linhas inelegíveis são diagnósticos e não ativam comparação B/C.",
+    "Família selecionada para futura comparação é grade; não misturar linhas longitudinais, casos e escalas para aumentar n.",
+    "Grade de 50 m tem 58/2 unidades elegíveis A+3D principal/adverso; uma unidade adicional principal é estrato sem copa detectada.",
+    "Adverso limitado a CO_SE_06/3312-431; dois casos não representam população municipal.",
+    "I8/I9/I10 fora do núcleo; nenhum proxy de biomassa, volume real, conectividade funcional, escore ou ranking foi implementado.",
+    "Execuções finais sequenciais no mesmo processo: RSS de 363,32 MiB é cumulativo, não medição isolada do adverso.",
+    "Validação científica continua pendente e etapa 09 não iniciada; execução numérica não comprova confiabilidade semântica."
+  ],
+  "mask_validated": false,
+  "next_stage": "09",
+  "primary_scale_m": 50.0,
+  "protected_files_sha256": {
+    "baixar_lidar_geosampa.py": "a4f566f39cc06ab931617720c1a8a4fa8391f40b85c4fd04ae69d1e8972df3ca",
+    "requirements.txt": "fd72dd0bc564965c8e021b2b0f38452c00bd290e47fae16df7bc28ce60aedc92",
+    "tests/test_baixar_lidar_geosampa.py": "28b216ac967c08ce55fbc3b88bf9e9eb7dad5ea54f3ffc7f83930b8b7848aed0"
+  },
+  "protocol_version": "0.1.0",
+  "rankings_computed": false,
+  "rows": 426,
+  "runs": {
+    "cache_adversarial": {
+      "cache_hit": true,
+      "case": "adversarial",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_14b1a9b48c/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/indicadores.json",
+      "run_id": "20261025T221552Z_14b1a9b48c"
+    },
+    "cache_main": {
+      "cache_hit": true,
+      "case": "main",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221552Z_919c31371b/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.json",
+      "run_id": "20261025T221552Z_919c31371b"
+    },
+    "execucao_adversarial": {
+      "cache_hit": false,
+      "case": "adversarial",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/adversarial/20261025T221433Z_a9f46ac6fe",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221433Z_a9f46ac6fe/indicadores.json",
+      "run_id": "20261025T221433Z_a9f46ac6fe"
+    },
+    "execucao_main": {
+      "cache_hit": false,
+      "case": "main",
+      "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/manifest.json",
+      "ok": true,
+      "products_root": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa08/main/20261025T221430Z_ad89ab6173",
+      "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T221430Z_ad89ab6173/indicadores.json",
+      "run_id": "20261025T221430Z_ad89ab6173"
+    }
+  },
+  "schema_version": "0.1.0",
+  "scientific_module_executed": true,
+  "scientific_pilot_executed": false,
+  "scientific_pilot_executed_meaning": "full_experiment_not_completed; stage08_physical_indicators_executed",
+  "selected_comparison_family": "grid",
+  "source_sha256": "be35fb44718300eeed3f20f4c6af5a99f1e73311ba18c35d17f91c4e6635f29f",
+  "status": "concluida_exploratoria_com_validacao_semantica_pendente",
+  "tests": {
+    "downloader_passed": 25,
+    "downloader_subtests_passed": 2,
+    "real_product_checks_passed": 44,
+    "scientific_added": 18,
+    "scientific_passed": 134,
+    "source_point_audits": 14
+  }
+}

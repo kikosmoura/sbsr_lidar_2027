@@ -1,0 +1,306 @@
+{
+  "checks": {
+    "adversarial:axes_inside_domain": true,
+    "adversarial:cache_same_products": true,
+    "adversarial:cross_scale_common_spatial_support": true,
+    "adversarial:exact_observed_support": true,
+    "adversarial:full_width_support_unknown_not_gap": true,
+    "adversarial:manifest_code_and_inputs": true,
+    "adversarial:mask_still_unvalidated": true,
+    "adversarial:no_forced_route": true,
+    "adversarial:partitions_conserve_area_no_overlap": true,
+    "adversarial:required_layers_and_tables": true,
+    "adversarial:residuals_retained_and_flagged": true,
+    "adversarial:sequences_on_whole_branch": true,
+    "adversarial:true_lengths_continuity_and_short_ends": true,
+    "adversarial:unique_unit_ids": true,
+    "main:axes_inside_domain": true,
+    "main:cache_same_products": true,
+    "main:cross_scale_common_spatial_support": true,
+    "main:exact_observed_support": true,
+    "main:full_width_support_unknown_not_gap": true,
+    "main:manifest_code_and_inputs": true,
+    "main:mask_still_unvalidated": true,
+    "main:no_forced_route": true,
+    "main:partitions_conserve_area_no_overlap": true,
+    "main:required_layers_and_tables": true,
+    "main:residuals_retained_and_flagged": true,
+    "main:sequences_on_whole_branch": true,
+    "main:true_lengths_continuity_and_short_ends": true,
+    "main:unique_unit_ids": true,
+    "test_logs_success": true
+  },
+  "ok": true,
+  "summary": {
+    "adversarial": {
+      "elapsed_seconds": 6.931377860950306,
+      "grid_units_crossing_tiles": 0,
+      "intercorridor_overlaps": 0,
+      "peak_process_rss_mib": 250.36328125,
+      "run_id": "20261025T215241Z_c33075a9ea",
+      "summary": {
+        "B_requires_observation_and_defensible_axis": true,
+        "axis_accepted_area_m2": 13144.744694031733,
+        "candidate_gaps_before_segment_cuts": 4,
+        "gap_links": 15,
+        "grid_fallback_area_m2": 0.0,
+        "grids": {
+          "100": {
+            "effective_area_m2": 13144.744694040179,
+            "eligible_area_observation": 0,
+            "observed_area_m2": 6076.5133949913525,
+            "small_area_residuals": 0,
+            "units": 10
+          },
+          "25": {
+            "effective_area_m2": 13144.744694050227,
+            "eligible_area_observation": 11,
+            "observed_area_m2": 6076.513394957622,
+            "small_area_residuals": 10,
+            "units": 59
+          },
+          "50": {
+            "effective_area_m2": 13144.74469405165,
+            "eligible_area_observation": 3,
+            "observed_area_m2": 6076.513394980075,
+            "small_area_residuals": 1,
+            "units": 25
+          }
+        },
+        "longitudinal": {
+          "100": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 1,
+            "units": 7
+          },
+          "25": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 1,
+            "units": 26
+          },
+          "50": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 1,
+            "units": 13
+          }
+        },
+        "longitudinal_geometry_available": true,
+        "mask_validated": false,
+        "part_reviews": [
+          {
+            "axis_accepted": true,
+            "boundary_sites": 684,
+            "holes": 0,
+            "junctions": 0,
+            "numerically_coincident_vertices_merged": 0,
+            "original_branches": 5,
+            "part_id": "CO_SE_06_P001",
+            "policy": "single_open_elongated_chain_only; branched_parts_remain_grid",
+            "pruned_terminal_branches": 4,
+            "reason": "single_open_elongated_chain_geometric_QC",
+            "retained_branches": 1
+          }
+        ],
+        "partitions": {
+          "grid_100": {
+            "ok": true,
+            "overlap_area_m2": 7.275957614183426e-12,
+            "sum_area_m2": 13144.744694040179,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          },
+          "grid_25": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 13144.744694050227,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          },
+          "grid_50": {
+            "ok": true,
+            "overlap_area_m2": 7.275957614183426e-12,
+            "sum_area_m2": 13144.74469405165,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          },
+          "longitudinal_100": {
+            "ok": true,
+            "overlap_area_m2": 1.5825207810848951e-10,
+            "sum_area_m2": 13144.74469404561,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          },
+          "longitudinal_25": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 13144.744694045608,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          },
+          "longitudinal_50": {
+            "ok": true,
+            "overlap_area_m2": 9.094947017729282e-12,
+            "sum_area_m2": 13144.74469404561,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 13144.744694031733,
+            "valid_geometries": true
+          }
+        },
+        "scales_m": [
+          25.0,
+          50.0,
+          100.0
+        ],
+        "station_state_counts": {
+          "candidate_gap": 30,
+          "candidate_present": 8,
+          "unknown_support": 597
+        },
+        "stations": 635,
+        "support_correspondence_rows": 382
+      }
+    },
+    "main": {
+      "elapsed_seconds": 12.251486133085564,
+      "grid_units_crossing_tiles": 18,
+      "intercorridor_overlaps": 0,
+      "peak_process_rss_mib": 254.57421875,
+      "run_id": "20261025T215146Z_b6c745db6e",
+      "summary": {
+        "B_requires_observation_and_defensible_axis": true,
+        "axis_accepted_area_m2": 0.0,
+        "candidate_gaps_before_segment_cuts": 0,
+        "gap_links": 0,
+        "grid_fallback_area_m2": 65807.7126636682,
+        "grids": {
+          "100": {
+            "effective_area_m2": 65807.71266367247,
+            "eligible_area_observation": 25,
+            "observed_area_m2": 65233.11003146352,
+            "small_area_residuals": 1,
+            "units": 27
+          },
+          "25": {
+            "effective_area_m2": 65807.7126636983,
+            "eligible_area_observation": 161,
+            "observed_area_m2": 65233.1100314785,
+            "small_area_residuals": 25,
+            "units": 192
+          },
+          "50": {
+            "effective_area_m2": 65807.71266368037,
+            "eligible_area_observation": 59,
+            "observed_area_m2": 65233.11003146472,
+            "small_area_residuals": 6,
+            "units": 67
+          }
+        },
+        "longitudinal": {
+          "100": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 0,
+            "units": 0
+          },
+          "25": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 0,
+            "units": 0
+          },
+          "50": {
+            "eligible_longitudinal_observation": 0,
+            "short_remainders": 0,
+            "units": 0
+          }
+        },
+        "longitudinal_geometry_available": false,
+        "mask_validated": false,
+        "part_reviews": [
+          {
+            "axis_accepted": false,
+            "boundary_sites": 1788,
+            "holes": 0,
+            "junctions": 15,
+            "numerically_coincident_vertices_merged": 0,
+            "original_branches": 85,
+            "part_id": "CO_BT_01_E_P001",
+            "policy": "single_open_elongated_chain_only; branched_parts_remain_grid",
+            "pruned_terminal_branches": 35,
+            "reason": "non_unique_branched_or_short_broad_or_closed_axis_use_grid",
+            "retained_branches": 31
+          }
+        ],
+        "partitions": {
+          "grid_100": {
+            "ok": true,
+            "overlap_area_m2": 1.4551915228366852e-11,
+            "sum_area_m2": 65807.71266367247,
+            "symmetric_difference_area_m2": 6.37130481984105e-08,
+            "target_area_m2": 65807.7126636682,
+            "valid_geometries": true
+          },
+          "grid_25": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 65807.7126636983,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 65807.7126636682,
+            "valid_geometries": true
+          },
+          "grid_50": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 65807.71266368037,
+            "symmetric_difference_area_m2": 9.73848078523673e-08,
+            "target_area_m2": 65807.7126636682,
+            "valid_geometries": true
+          },
+          "longitudinal_100": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 0.0,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 0.0,
+            "valid_geometries": true
+          },
+          "longitudinal_25": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 0.0,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 0.0,
+            "valid_geometries": true
+          },
+          "longitudinal_50": {
+            "ok": true,
+            "overlap_area_m2": 0.0,
+            "sum_area_m2": 0.0,
+            "symmetric_difference_area_m2": 0.0,
+            "target_area_m2": 0.0,
+            "valid_geometries": true
+          }
+        },
+        "scales_m": [
+          25.0,
+          50.0,
+          100.0
+        ],
+        "station_state_counts": {
+          "candidate_gap": 0,
+          "candidate_present": 0,
+          "unknown_support": 0
+        },
+        "stations": 0,
+        "support_correspondence_rows": 451
+      }
+    }
+  },
+  "tests": {
+    "downloader_passed": 25,
+    "scientific_passed": 116
+  }
+}

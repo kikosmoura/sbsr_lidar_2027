@@ -1,0 +1,22 @@
+{
+  "changes_adopted": false,
+  "reason": "não adotar ajustes que comprometem a renderização; equilíbrio das colunas permanece melhoria opcional",
+  "temporary_trial_removed": true,
+  "trials": [
+    {
+      "log": "teste_balance_compilacao.txt",
+      "package": "balance",
+      "rejected": "Overfull vbox1.56616pt"
+    },
+    {
+      "log": "teste_flushend_compilacao.txt",
+      "package": "flushend",
+      "raster_proof": {
+        "bytes": 270992,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa15/provas_experimentos/flushend_rejeitado_pagina4.png",
+        "sha256": "4c97a6075ed1a8249becfa89e2593c106266b90921ad3c184b3bf1b7685fcf22"
+      },
+      "rejected": "figura3 e legenda não visíveis na rasterização da página4, apesar de presentes no texto extraído; inspeção visual indispensável"
+    }
+  ]
+}

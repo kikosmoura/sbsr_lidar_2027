@@ -1,0 +1,238 @@
+                                      ATESTADO TÉCNICO
+A PREFEITURA DO MUNICÍPIO DE SÃO PAULO atesta para os devidos fins que a empresa FOTOTERRA
+ATIVIDADES DE AEROLEVANTAMENTOS LTDA prestou satisfatoriamente o fornecimento dos produtos
+decorrentes de levantamentos aéreos: recobrimento aerofotogramétrico digital colorido (Red, Green,
+Blue - RGB) e infravermelho (InfraRed – IR); e perfilamento por Light Amplification by Stimulated
+Emission of Radiation – LASER do tipo Light Detection And Ranging – LiDAR, realizados em 2020. Os
+levantamentos aéreos foram processados, resultando como Produtos Finais, os conjuntos de Ortofotos,
+Nuvem de Pontos, Imagens e Modelos Digitais prontos para serem utilizados, nos formatos detalhados
+no Termo de Referência fornecido pela Prefeitura. As atividades foram executadas conforme o Termo
+de Contrato nº 33/2022, emitido em 16/08/2022.
+Autorização de Voo do Ministério da Defesa (AVOMD) nº 1083/2020
+Autorização de Aerolevantamento Fase Aeroespacial (AAFA) nº 074/2020/MD.
+
+ATIVIDADES REALIZADAS:
+
+       Cobertura aerofotogramétrica com GSD de 10 cm (equivalente a escala 1:1.000):
+        Recobrimento aerofotogramétrico utilizando a câmera aérea fotogramétrica digital Z/I DMC
+        com distância focal nominal de 120mm, 106,16 mpixels (13.824 x 7.680 pixels), 12 bits, nos
+        comprimentos de ondas R (vermelho), G (verde), B (azul) e Nir (infravermelho próximo), sendo
+        todos os sensores com a mesma resolução espacial para a área aproximada de 1.172,00 km²
+        (hum mil cento e setenta e dois quilômetros quadrados), utilizando sobreposição longitudinal
+        de 60% e sobreposição lateral de 40% e os seguintes sistemas acoplados: Plataforma
+        giroestabilizada T-AS Z/1, INS/IMU Applanix 510, DGPS.
+        Realizado entre junho e agosto de 2020.
+
+       Cobertura aerofotogramétrica com GSD de 10 cm (equivalente a escala 1:1.000):
+        Recobrimento aerofotogramétrico utilizando a câmera aérea fotogramétrica digital Z/I DMC
+        com distância focal nominal de 120mm, 106,16 mpixels (13.824 x 7.680 pixels), 12 bits, nos
+        comprimentos de ondas R (vermelho), G (verde), B (azul) e Nir (infravermelho próximo), sendo
+        todos os sensores com a mesma resolução espacial para a área aproximada de 235,00 km²
+        (duzentos e trinta e cinco quilômetros quadrados), utilizando sobreposição longitudinal de
+        90% e sobreposição lateral de 60% e os seguintes sistemas acoplados: Plataforma
+        giroestabilizada T-AS Z/1, INS/IMU Applanix 510, DGPS.
+        Realizado entre junho e agosto de 2020.
+
+       Cobertura aerofotogramétrica com GSD de 20 cm (equivalente a escala 1:5.000):
+        Recobrimento aerofotogramétrico utilizando a câmera aérea fotogramétrica digital Z/I DMC
+        com distância focal nominal de 120mm, 106,16 mpixels (13.824 x 7.680 pixels), 12 bits, nos
+        comprimentos de ondas R (vermelho), G (verde), B (azul) e Nir (infravermelho próximo), sendo
+        todos os sensores com a mesma resolução espacial para a área aproximada de 372,00 km²
+        (trezentos e setenta e dois quilômetros quadrados), utilizando sobreposição longitudinal de
+        60% e sobreposição lateral de 40% e os seguintes sistemas acoplados: Plataforma
+        giroestabilizada T-AS Z/1, INS/IMU Applanix 510, DGPS.
+        Realizado entre junho e agosto de 2020.
+
+       Voo LiDAR com densidade de 10,0 pulsos/m2:
+        Recobrimento aéreo utilizando sensor LiDAR ORION H300 da Teledyne Optech e Sistema
+        Inercial Applanix (Modelo POS AV 150) devidamente integrado com receptor GNSS de dupla
+        frequência (L1/L2) configurado com taxa de frequência de 1 segundo, para uma área de
+        1.544,00 km² (hum mil quinhentos e quarenta e quatro quilômetros quadrados), utilizando
+        sobreposição mínima de 55%.
+        Realizado entre maio e agosto de 2020.
+
+       Topografia (Apoio Terrestre: apoio suplementar e controle de qualidade):
+    Realização de levantamentos GNSS, ao longo de toda a área do projeto (município de São
+    Paulo), de 82 pontos de controle vertical/horizontal para aerotriangulação e 46 pontos para o
+    controle da qualidade geométrico dos produtos. Todos os rastreios GNSS foram realizados com
+    receptores geodésicos de dupla frequência, método relativo estático.
+    Todos os pontos tiveram suas coordenadas planialtimétricas obtidas por meio do rastreio
+    GNSS, tendo como referência as estações RBMC e marcos geodésicos da rede fundamental do
+    IBGE. As coordenadas altimétricas foram obtidas por redução de ondulação geoidal utilizando
+    Mapgeo 2015 (IBGE).
+    Os pontos do apoio suplementar e os pontos para controle da qualidade não foram
+    materializados.
+    Realizado em outubro de 2020.
+
+   Ortofotos RGB e IRGB:
+    As imagens aerofotogramétricas são tomadas em perspectiva central, ou seja, os feixes de luz
+    oriundos de diversos pontos localizados no terreno (espaço objeto) são imageados e
+    convergem para um só ponto, compreendendo o centro da imagem, chamado de centro de
+    perspectiva. O conjunto de feixes que chegam até o sensor são chamados de feixes
+    perspectivos. Uma imagem em perspectiva central não é uma fonte segura no quesito
+    informação métrica devido a rotação do sensor e outros fatores operacionais. A partir dos
+    dados da câmera e sistemas acoplados, apoio básico e suplementar e aerotriangulação foram
+    elaboradas, para toda a área do contrato, as ortofotos nas composições de bandas RGB e IRGB.
+                  Ortofotos com GSD de 10 cm
+    Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+    articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+    SCM para as respectivas escalas de mapeamento), no formato JPG2000, resolução radiométrica
+    de 24 bits (8 bits por canal), em composições de bandas RGB e IRGB, com GSD de 10 cm
+    (equivalente a escala 1:1.000) para área de abrangência de aproximadamente 1.172,00 km².
+    As atividades executadas neste projeto resultaram em produtos em conformidade com o
+    Padrão de Exatidão Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos
+    Cartográficos Digitais) Classe “A”.
+    Ortofotocartas produzidas no Datum planimétrico SIRGAS 2000. O referencial altimétrico
+    coincide com o nível médio do mar na baía de Imbituba, litoral de Santa Catarina. Projeção
+    UTM - Universal Transversa de Mercator.
+                  True Ortofotos com GSD de 10 cm
+    Uma True Ortofoto apresenta todos os elementos existentes na imagem em posição NADIR
+    (posição vertical), sem os deslocamentos de imagem provocados pela perspectiva central,
+    evitando ocorrência de elementos em oclusão.
+    Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+    articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+    SCM para as respectivas escalas de mapeamento), no formato JPG2000, resolução radiométrica
+    de 24 bits (8 bits por canal), em composições de bandas RGB e IRGB, com GSD de 10 cm
+    (equivalente a escala 1:1.000) para área de abrangência de aproximadamente 235,00 km². As
+    atividades executadas neste projeto resultaram em produtos em conformidade com o Padrão
+    de Exatidão Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos
+    Cartográficos Digitais) Classe “A”.
+    Ortofotocartas produzidas Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide
+    com o nível médio do mar na baía de Imbituba, litoral de Santa Catarina. Projeção UTM -
+    Universal Transversa de Mercator.
+                  Ortofotos com GSD de 20 cm:
+    Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+    articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+    SCM para as respectivas escalas de mapeamento), no formato JPG2000, resolução radiométrica
+    de 24 bits (8 bits por canal), em composições de bandas RGB e IRGB, com GSD de 20 cm
+    (equivalente a escala 1:5.000) para área de abrangência de aproximadamente 372,00 km². As
+    atividades executadas neste projeto resultaram em produtos em conformidade com o Padrão
+    de Exatidão Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos
+    Cartográficos Digitais) Classe “A”.
+    Ortofotocartas produzidas Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide
+    com o nível médio do mar na baía de Imbituba, litoral de Santa Catarina. Projeção UTM -
+    Universal Transversa de Mercator.
+
+   Mosaico Piramidal
+    Foi elaborado uma estrutura de tiles e piramidais para a publicação das Ortofotos (RGB) no
+    servidor de mapas GeoServer versão 2.18.51. Foi utilizada a ferramenta ‘gdal_retile’ da
+    biblioteca GDAL2 (Geospatial Data Abstraction Library), para o processamento das imagens.
+    Para a elaboração do Mosaico Piramidal foram utilizadas as ortofotos, em formato GeoTIFF,
+    resolução radiométrica de 24 bits (8 bits por canal), em composição de bandas RGB, com GSD
+    de 10 cm (equivalente a escala 1:1.000) para área de abrangência de aproximadamente
+    1.544,00 km². As atividades executadas neste projeto resultaram em produtos em
+    conformidade com o Padrão de Exatidão Cartográfica – PEC PCD (Padrão de Exatidão
+    Cartográfica para Produtos Cartográficos Digitais) Classe “A”.
+    Os arquivos do piramidal foram armazenados numa estrutura de pastas iniciando do nível ‘0’
+    (alta resolução), contendo a maior quantidade de tiles, até o nível de maior abstração das
+    imagens originais, com a visão completa do mosaico em apenas 1 tile (baixa resolução). As
+    pastas de cada nível contêm subpastas numeradas e arquivos shapefile
+    (.SHP/.DBF/.FIX/.PRJ/PROPERTIES/.QIX/.SHX) de indexação para o plugin ImagePyramid do
+    GeoServer.
+    Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+    na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+    Mercator.
+
+   Modelos Digitais derivados do perfilamento LiDAR
+    O LIDAR (Light Detection and Ranging) é um sensor remoto ativo a bordo de plataformas e um
+    método direto de captura de dados, o mesmo possui sua própria fonte de energia, neste caso,
+    uma fonte de luz, o laser. O LIDAR emite feixes de laser na banda do infravermelho próximo (IV)
+    e é capaz de modelar a superfície do terreno tridimensionalmente.
+                  Nuvem de pontos LiDAR:
+    Obtida por meio do perfilamento de pontos realizado com o sistema LiDAR, com densidade de
+                   2
+    10,0 pulsos/m , para a área de 1.544,00 km². Consiste no produto original do perfilamento
+    LiDAR, a partir do qual são elaborados os demais produtos. Este produto foi entregue
+    devidamente georreferenciado ao Datum planimétrico SIRGAS2000 e altimétrico Imbituba
+    (com redução elipsoidal realizado por meio do Mapgeo 2015).
+    Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+    articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+    SCM para as respectivas escalas de mapeamento), no formato Laz. As atividades executadas
+    neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+    Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+    Classe “A”.
+    Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+    na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+    Mercator.
+                  Modelo Digital de Superfície (MDS):
+    Arquivo raster interpolado a partir da Nuvem de Pontos LiDAR, com densidade de 10,0
+              2
+    pulsos/m , para a área de 1.544,00 km², com resolução radiométrica de 32 Bits, ou seja,
+    contém informações tridimensionais da superfície terrestre e de todos seus objetos presentes,
+    devidamente georreferenciado, para a área total do projeto. O Modelo Digital de superfície foi
+    obtido com resolução espacial de 0,50 m.
+    Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+    articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+    SCM para as respectivas escalas de mapeamento), no formato GeoTIFF (32 bits). As atividades
+executadas neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+Classe “A”.
+Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+Mercator.
+               Modelo Digital de Terreno (MDT):
+Arquivo raster obtido a partir da aplicação de um filtro sobre a Nuvem de Pontos original de
+modo a remover todos os objetos localizados acima do terreno, ou seja, trata-se de uma nuvem
+de pontos reduzida contendo apenas os pontos que foram classificados como “Ground”
+                                           2
+(terreno), com densidade de 4,0 pulsos/m , para a área de 1.544,00 km². Após esta filtragem
+foi realizada uma interpolação entre estes pontos, obtendo um arquivo raster com resolução
+radiométrica de 32 Bits e resolução espacial de 0,50 m.
+Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+SCM para as respectivas escalas de mapeamento), no formato GeoTIFF (32 bits). As atividades
+executadas neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+Classe “A”.
+Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+Mercator.
+              Modelo Digital de Superfície Normalizado (MDSN):
+Arquivo raster resultante da subtração MDS‐MDT, ou seja, trata‐se de uma superfície a qual é
+possível identificar as alturas dos objetos (edificações, vegetação, postes, torres, linhas de
+transmissão, etc) em relação ao terreno, sendo este definido como zero. Após esta operação,
+                                                                                             2
+obtém‐se um arquivo raster, a partir da nuvem de pontos com densidade de 10,0 pulsos/m ,
+para a área de 1.544,00 km², com resolução radiométrica de 32 Bits e resolução espacial de
+0,50 m.
+Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+SCM para as respectivas escalas de mapeamento), no formato GeoTIFF (32 bits). As atividades
+executadas neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+Classe “A”.
+Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+Mercator.
+              Imagem de Intensidade 8 bits (INT_8b):
+Arquivo raster em escala de cinza dos valores contrastados do atributo intensidade. Sua
+elaboração consiste na interpolação do atributo Intensidade presente em cada ponto da
+nuvem, obtendo assim uma imagem em níveis de cinza, para a área de 1.544,00 km², com
+resolução radiométrica de 8 Bits e resolução espacial de 0,50 m.
+Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+SCM para as respectivas escalas de mapeamento), no formato GeoTIFF (8 bits). As atividades
+executadas neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+Classe “A”.
+Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+Mercator.
+              Imagem de Intensidade 16 bits (INT_16b):
+Arquivo raster de elevação dos valores do atributo intensidade. Sua elaboração consiste na
+interpolação do atributo Intensidade presente em cada ponto da nuvem, obtendo assim uma
+        imagem em níveis de cinza, para a área de 1.544,00 km², com resolução radiométrica de 16
+        Bits e resolução espacial de 0,50 m.
+        Este produto foi entregue recortado conforme os limites oficiais das áreas de interesse e
+        articulação definida pela Prefeitura (de acordo com o Sistema Cartográfico Metropolitano –
+        SCM para as respectivas escalas de mapeamento), no formato GeoTIFF (16 bits). As atividades
+        executadas neste projeto resultaram em produtos em conformidade com o Padrão de Exatidão
+        Cartográfica – PEC PCD (Padrão de Exatidão Cartográfica para Produtos Cartográficos Digitais)
+        Classe “A”.
+        Datum planimétrico SIRGAS 2000. O referencial altimétrico coincide com o nível médio do mar
+        na baía de Imbituba, litoral de Santa Catarina. Projeção UTM - Universal Transversa de
+        Mercator.
+
+     Informamos ainda que os trabalhos foram realizados de forma adequada e satisfatória dentro de
+todos os padrões, especificações técnicas e prazos estabelecidos contratualmente.
+

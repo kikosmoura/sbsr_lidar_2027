@@ -1,0 +1,48 @@
+{
+  "author_approved": false,
+  "figures_visible": [
+    1,
+    2,
+    3
+  ],
+  "no_clipped_or_overlapping_elements_detected": true,
+  "pages_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf": {
+    "bytes": 355456,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_interpretacao_v0_3_2/manuscrito.pdf",
+    "sha256": "dac0031fdfa47200a9d768c7edb9d713a2cc4a66004d7b9e1bce88b2335480e6"
+  },
+  "proofs": [
+    {
+      "bytes": 351891,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-1.png",
+      "sha256": "acf09e12392814747aaae72d858e72ac877a9a58cfe3f3e1844e46ef6406dd3a"
+    },
+    {
+      "bytes": 376496,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-2.png",
+      "sha256": "601448fdd477b782c9357a24ff987780098b1559ee1cfd8d17e64df5af8496b1"
+    },
+    {
+      "bytes": 261617,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-3.png",
+      "sha256": "b68f8b97af26c05bffac4bcc2fce8a7b5ddfd4c68f0197abe89e492f78927d97"
+    },
+    {
+      "bytes": 350704,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/provas/pagina-4.png",
+      "sha256": "fd9ae4d9338ed03721de224c37a00338e2869b5244ee88ef1ae4a10fef4e9de8"
+    }
+  ],
+  "reviewer": "assistant_visual_inspection_not_author_approval",
+  "tables_visible": [
+    1,
+    2,
+    3
+  ]
+}

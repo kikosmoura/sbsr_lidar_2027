@@ -1,0 +1,15 @@
+# Achados, correções e pendências — etapa15
+
+| id | severidade | classe | situacao | referencia | achado | correcao_minima | evidencia |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| F01 | media | erro_operacional | corrigido | src/sbsr_lidar/crown_data.py:completed | Saída ausente provocava FileNotFoundError em vez de cache incompleto | Retornar None somente para arquivo ausente; reconstruir e autenticar | falha_cache_antes_correcao.json; registro_reproducao.json; teste de regressão |
+| F02 | baixa | clareza_reproducao | corrigido | manuscrito, métodos | >=50 retornos e regras já executadas não estavam inteiramente explícitos | Explicitar limiar,12 casas,uma semente e análises longitudinais excluídas | correcoes_editoriais.json; config congelada; macros inalteradas |
+| F03 | alta_editorial | pendencia | pendente | formato_sbsr_local.sty; fonte oficial | Equivalência integral ao estilo oficial não demonstrada | Conferir pacote integral/modelo aceito e divergência Carta/A4 | fontes_editoriais_verificadas.json; proveniência do template |
+| F04 | media_editorial | pendencia | pendente | autoria.yaml; identificação no modelo | Endereço institucional não informado | Completar com dado fornecido pelo autor | nome/afiliação/e-mail presentes; endereço não inventado |
+| F05 | responsabilidade_humana | pendencia | pendente | aprovação do manuscrito | Autor ainda não aprovou texto e metadados revisados | Revisão e aprovação pelo autor; sem submissão automática | rascunho explicitamente identificado |
+| F06 | limite_cientifico | limitacao_aceitavel_declarada | declarado | máscara, sementes e contornos | Sem referência independente; erros de classe/divisão/fusão não medidos | Manter conclusões descritivas; referência real se a pergunta mudar para acurácia | protocolo0.3; conclusões; parecer |
+| F07 | limite_cientifico | limitacao_aceitavel_declarada | declarado | amostra e H1 | Amostra intencional, pares dependentes, blocos provisórios e meta114/120 | Sem extrapolação municipal,p,IC ou falsa independência | auditoria_cientifica.json; tabela1 |
+| F08 | limite_cientifico | limitacao_aceitavel_declarada | declarado | suporte e sensibilidade | Estabilidade condicionada aos78–114 IDs de cada par | Manter NoData e denominadores; não prometer estabilidade de toda coorte | 22 comparações reconstruídas; figura3 |
+| F09 | limite_cientifico | limitacao_aceitavel_declarada | declarado | escores/estimandos/tempo | Receita não define benefício universal; retornos não são árvores; 2020/2026 é retrospectivo | Não converter mudança em melhora/causalidade/contorno exato | 32 ablações; texto revisado |
+| F10 | baixa | melhoria_opcional | nao_adotado | colunas finais e referências | Equilíbrio e primeira referência repartida entre colunas | Ajustar com modelo integral somente se preservar figuras/fontes/margens | experimentos_editoriais.json; revisão visual |
+| F11 | opcional | ampliacao_futura | nao_executado | pergunta científica | Repetições de rarefação,mais amostras ou referência poderiam responder perguntas adicionais | Nova versão e execução identificadas se houver mudança científica | limites e desenho atual preservados |

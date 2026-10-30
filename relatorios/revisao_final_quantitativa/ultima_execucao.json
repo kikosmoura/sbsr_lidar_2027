@@ -1,0 +1,17 @@
+{
+  "editorial_pending": [
+    "equivalencia_integral_modelo_editorial",
+    "endereco_institucional",
+    "revisao_e_aprovacao_do_autor"
+  ],
+  "manifest": "docs/manifesto_revisao_final_quantitativa.json",
+  "output_root": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_final_quantitativa/20261030T141757Z",
+  "pdf": {
+    "bytes": 355312,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/revisao_final_v0_3_3/manuscrito.pdf",
+    "sha256": "af3dcd141d677ab5f3fa8f3c697ef1395bb9e2f9a6d060ec253efe462f57b2b4"
+  },
+  "revision": "0.3.3-revisao-quantitativa",
+  "status": "completed_with_documented_limitations",
+  "submitted": false
+}

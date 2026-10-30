@@ -1,0 +1,383 @@
+{
+  "inclusion_not_a_probability": true,
+  "scenarios": [
+    {
+      "gained_ids": [
+        "CO_CT_01_P001_G50_X7120_Y147870_F01"
+      ],
+      "gained_n": 1,
+      "jaccard": 0.8666666666666667,
+      "k": 14,
+      "lost_ids": [
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 1,
+      "n": 68,
+      "replacement_fraction": 0.07142857142857142,
+      "retained_fraction": 0.9285714285714286,
+      "scenario_id": "crown_radius_12",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 13
+    },
+    {
+      "gained_ids": [
+        "CO_PJ_03_P001_G50_X6485_Y148145_F01"
+      ],
+      "gained_n": 1,
+      "jaccard": 0.8666666666666667,
+      "k": 14,
+      "lost_ids": [
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 1,
+      "n": 68,
+      "replacement_fraction": 0.07142857142857142,
+      "retained_fraction": 0.9285714285714286,
+      "scenario_id": "crown_radius_6",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 13
+    },
+    {
+      "gained_ids": [
+        "CO_PJ_03_P001_G50_X6485_Y148145_F01"
+      ],
+      "gained_n": 1,
+      "jaccard": 0.8666666666666667,
+      "k": 14,
+      "lost_ids": [
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 1,
+      "n": 68,
+      "replacement_fraction": 0.07142857142857142,
+      "retained_fraction": 0.9285714285714286,
+      "scenario_id": "dalponte_standard",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 13
+    },
+    {
+      "gained_ids": [
+        "CO_PJ_03_P001_G50_X6481_Y148118_F01",
+        "CO_PJ_03_P001_G50_X6485_Y148145_F01",
+        "CO_PJ_03_P001_G50_X6485_Y148150_F01",
+        "CO_PR_02_P002_G50_X6358_Y148144_F01"
+      ],
+      "gained_n": 4,
+      "jaccard": 0.5555555555555556,
+      "k": 14,
+      "lost_ids": [
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 4,
+      "n": 68,
+      "replacement_fraction": 0.2857142857142857,
+      "retained_fraction": 0.7142857142857143,
+      "scenario_id": "density_0.25",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 10
+    },
+    {
+      "gained_ids": [
+        "CO_PR_02_P002_G50_X6358_Y148144_F01",
+        "CO_PR_02_P002_G50_X6365_Y148144_F01"
+      ],
+      "gained_n": 2,
+      "jaccard": 0.75,
+      "k": 14,
+      "lost_ids": [
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 2,
+      "n": 68,
+      "replacement_fraction": 0.14285714285714285,
+      "retained_fraction": 0.8571428571428571,
+      "scenario_id": "density_0.5",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 12
+    },
+    {
+      "gained_ids": [
+        "CO_CT_01_P001_G50_X7120_Y147870_F01",
+        "CO_PJ_03_P001_G50_X6480_Y148121_F01"
+      ],
+      "gained_n": 2,
+      "jaccard": 0.75,
+      "k": 14,
+      "lost_ids": [
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01"
+      ],
+      "lost_n": 2,
+      "n": 68,
+      "replacement_fraction": 0.14285714285714285,
+      "retained_fraction": 0.8571428571428571,
+      "scenario_id": "detection_radius_2",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 12
+    },
+    {
+      "gained_ids": [
+        "CO_CL_01_P001_G50_X6384_Y147715_F01",
+        "CO_PR_02_P002_G50_X6358_Y148144_F01",
+        "CO_PR_02_P002_G50_X6370_Y148142_F01",
+        "CO_PR_02_P002_G50_X6375_Y148138_F01"
+      ],
+      "gained_n": 4,
+      "jaccard": 0.5555555555555556,
+      "k": 14,
+      "lost_ids": [
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 4,
+      "n": 68,
+      "replacement_fraction": 0.2857142857142857,
+      "retained_fraction": 0.7142857142857143,
+      "scenario_id": "detection_radius_5",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 10
+    },
+    {
+      "gained_ids": [
+        "CO_PJ_03_P001_G50_X6481_Y148118_F01",
+        "CO_PJ_03_P001_G50_X6485_Y148145_F01"
+      ],
+      "gained_n": 2,
+      "jaccard": 0.75,
+      "k": 14,
+      "lost_ids": [
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 2,
+      "n": 68,
+      "replacement_fraction": 0.14285714285714285,
+      "retained_fraction": 0.8571428571428571,
+      "scenario_id": "height_2",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 12
+    },
+    {
+      "gained_ids": [
+        "CO_CT_01_P001_G50_X7120_Y147870_F01",
+        "CO_CT_01_P001_G50_X7122_Y147870_F01",
+        "CO_IP_05_P001_G50_X6778_Y147780_F01"
+      ],
+      "gained_n": 3,
+      "jaccard": 0.6470588235294118,
+      "k": 14,
+      "lost_ids": [
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 3,
+      "n": 68,
+      "replacement_fraction": 0.21428571428571427,
+      "retained_fraction": 0.7857142857142857,
+      "scenario_id": "height_5",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 11
+    },
+    {
+      "gained_ids": [
+        "CO_CT_01_P001_G50_X7122_Y147870_F01",
+        "CO_IP_05_P001_G50_X6778_Y147780_F01",
+        "CO_PR_02_P002_G50_X6375_Y148138_F01"
+      ],
+      "gained_n": 3,
+      "jaccard": 0.6470588235294118,
+      "k": 14,
+      "lost_ids": [
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 3,
+      "n": 68,
+      "replacement_fraction": 0.21428571428571427,
+      "retained_fraction": 0.7857142857142857,
+      "scenario_id": "resolution_0.5",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 11
+    },
+    {
+      "gained_ids": [
+        "CO_PJ_03_P001_G50_X6481_Y148118_F01",
+        "CO_PJ_03_P001_G50_X6485_Y148145_F01",
+        "CO_PR_02_P002_G50_X6370_Y148142_F01"
+      ],
+      "gained_n": 3,
+      "jaccard": 0.6470588235294118,
+      "k": 14,
+      "lost_ids": [
+        "CO_IP_05_P001_G50_X6777_Y147782_F01",
+        "CO_PR_02_P002_G50_X6363_Y148145_F01",
+        "CO_PR_02_P002_G50_X6368_Y148143_F01"
+      ],
+      "lost_n": 3,
+      "n": 68,
+      "replacement_fraction": 0.21428571428571427,
+      "retained_fraction": 0.7857142857142857,
+      "scenario_id": "resolution_2",
+      "selection_rule": "exact_k_ordinal_with_ID_tie_breaking_not_ecological_priority",
+      "shared_ids": [
+        "CO_CT_01_P001_G50_X7117_Y147868_F01",
+        "CO_CT_01_P001_G50_X7125_Y147867_F01",
+        "CO_CT_01_P001_G50_X7125_Y147869_F01",
+        "CO_IP_05_P001_G50_X6766_Y147704_F01",
+        "CO_IP_05_P001_G50_X6772_Y147746_F01",
+        "CO_IP_05_P001_G50_X6774_Y147759_F01",
+        "CO_PJ_03_P001_G50_X6482_Y148115_F01",
+        "CO_PJ_03_P001_G50_X6483_Y148134_F01",
+        "CO_PR_02_P001_G50_X6354_Y148143_F01",
+        "CO_PR_02_P002_G50_X6364_Y148145_F01",
+        "CO_PR_02_P002_G50_X6380_Y148137_F01"
+      ],
+      "shared_n": 11
+    }
+  ]
+}

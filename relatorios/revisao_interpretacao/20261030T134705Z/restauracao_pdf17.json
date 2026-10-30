@@ -1,0 +1,14 @@
+{
+  "exact_original_bytes_recovered": true,
+  "reason": "PDF17 ausente; restaurado do ZIP e93 artefatos conferidos",
+  "restored": {
+    "bytes": 353324,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/artigo/complemento_etapa17/manuscrito.pdf",
+    "sha256": "6cb58e4fc59fcb37e7442c2cc35dd025c786f8762e11ae33b5ca884490d41e21"
+  },
+  "source_archive": {
+    "bytes": 3552894,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa17/pacote_complemento_analitico.zip",
+    "sha256": "9e850eb022af0698873d4b295404404d0387996e3d7bf2f4d4d230ed8cb1b36d"
+  }
+}

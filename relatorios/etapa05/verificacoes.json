@@ -1,0 +1,69 @@
+{
+  "annotation_assessment": {
+    "completed_annotations": 0,
+    "completed_tasks_with_at_least_one_valid_annotation": 0,
+    "completion_note": "Reviewed tasks require signed review; vegetation/gaps require full footprint coverage with unknown areas explicitly uncertain",
+    "eligible_vegetation_annotations": {
+      "teste": 0,
+      "treino": 0
+    },
+    "errors": [],
+    "human_labeling_complete": false,
+    "human_labeling_status": "pendente",
+    "independent_height_references": 0,
+    "independent_priority_references": 0,
+    "ok": true,
+    "pending_tasks": 100,
+    "precision_recall_computed": false,
+    "preparation_complete": true,
+    "records": [],
+    "reviewed_tasks": 0,
+    "supervised_training_allowed": false,
+    "tasks": 100,
+    "uncertain_annotations": 0,
+    "warnings": [
+      "Teste do adverso foi inspecionado em QC anterior; reserva é para ajuste supervisionado futuro, não teste municipal intocado"
+    ]
+  },
+  "checks": {
+    "RGB_occupancy": true,
+    "all_available_proxies_covered": true,
+    "all_human_labels_pending": true,
+    "all_materials_present": true,
+    "all_negative_alerts_covered": true,
+    "annotation_layers_empty": true,
+    "blind_project_sources": true,
+    "blind_public_table": true,
+    "cache_same_package": true,
+    "double_annotation": true,
+    "frozen_groups_match_inputs": true,
+    "geometry": true,
+    "inputs_unchanged": true,
+    "manifest": true,
+    "no_external_reference_invented": true,
+    "no_fake_metrics_or_training": true,
+    "no_group_split": true,
+    "no_probability_fabricated": true,
+    "original_source_records": true,
+    "profiles_real": true,
+    "qgis_projects_valid": true,
+    "quotas": true,
+    "raw_and_height_counts": true,
+    "regular_windows_have_measurement_support": true,
+    "windows_20_unique": true
+  },
+  "negative_alerts_covered": {
+    "adversarial": 3,
+    "main": 11
+  },
+  "ok": true,
+  "package": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T181025Z_131eb041f1",
+  "points_in_crops": 109007,
+  "run_id": "20261025T181025Z_131eb041f1",
+  "source_records_verified": 60,
+  "tests": {
+    "downloader_passed": 25,
+    "scientific_passed": 93
+  },
+  "windows": 20
+}

@@ -1,0 +1,7 @@
+{
+  "condition": "cache_seal_exists_but_output_missing",
+  "exception_type": "FileNotFoundError",
+  "observed_before_fix": "FileNotFoundError_instead_of_cache_miss",
+  "production_function": "sbsr_lidar.crown_data.completed",
+  "scope": "temporary_directory_only"
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_id": "20261025T175607Z_bc94194c1a",
+  "cache_hit": false,
+  "manifest": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T175607Z_bc94194c1a/manifest.json",
+  "report": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/execucoes/20261025T175607Z_bc94194c1a/referencia.json",
+  "package": "/media/s299259068/TOSHIBA EXT/sbbr_lidar_2027/experimento/etapa05/20261025T175607Z_bc94194c1a",
+  "human_labeling_status": "pendente",
+  "pending_tasks": 100
+}

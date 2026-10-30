@@ -1,0 +1,19 @@
+{
+  "check_point_coordinates_supplied": false,
+  "check_points_declared_for_products": 46,
+  "declares_PEC_PCD_A": true,
+  "numerical_external_vertical_rmse_m": null,
+  "official_document": {
+    "bytes": 745684,
+    "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/revisao_interpretacao/20261030T134705Z/fontes/atestado_tecnico_2020.pdf",
+    "sha256": "f8ad51889e2142391aea7755d1e1b6757868240ee63ec93597ff09a6071006a9"
+  },
+  "other_surveys_or_manufacturer_accuracy_not_transferred": true,
+  "per_checkpoint_residuals_available_in_consulted_documents": false,
+  "publication_year_of_attestation": null,
+  "resolution_or_LAS_scale_not_used_as_vertical_accuracy": true,
+  "same_sensor_QC_is_not_external_accuracy": true,
+  "source_scope": "official_MDT_MDS2020_XML_and_linked_2020_attestation_not_all_possible_records",
+  "source_url": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/intranet/api/records/892c862e-f564-4b1c-a3d0-9d28052e5d58/attachments/voo2020_ATESTADO-T%C3%89CNICO_PMSP.pdf",
+  "survey_year": 2020
+}

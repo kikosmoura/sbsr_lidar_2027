@@ -1,0 +1,25 @@
+case,metric,distance_lower_m,distance_upper_m,pairs,unique_units,mean_semivariance,semivariance_over_sample_variance,pairs_independent,range_estimated,limitation
+main,I1,0,100,204,58,0.044208397690651116,0.7878745280891782,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I1,100,200,244,58,0.06267343034221962,1.1169551925436227,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I1,200,400,379,58,0.051771002793513016,0.9226539871466181,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I1,400,800,536,58,0.06010107825459276,1.0711111721088624,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I1,800,1600,290,40,0.057259317301389175,1.02046579279395,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I1,1600,3200,0,0,,,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,0,100,204,58,2472.3359046877745,0.7424765750405224,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,100,200,244,58,3435.6453999962714,1.0317717041629515,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,200,400,379,58,3534.3289649482444,1.0614077399376223,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,400,800,536,58,4447.419052151661,1.3356212880905223,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,800,1600,290,40,1511.2461531692302,0.4538480655968784,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I4,1600,3200,0,0,,,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,0,100,204,58,15.102299389536478,0.8074236452417969,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,100,200,244,58,17.511803881112638,0.9362444856737396,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,200,400,379,58,17.721312111069064,0.9474455547544373,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,400,800,536,58,20.26952734823873,1.0836823742338428,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,800,1600,290,40,20.63319166550801,1.103125186293136,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I6,1600,3200,0,0,,,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,0,100,204,58,4.525189606105003,0.9361214396857694,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,100,200,244,58,5.03280868388489,1.0411320896842093,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,200,400,379,58,4.467904786811376,0.924270986516483,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,400,800,536,58,5.280598216757454,1.0923920620705125,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,800,1600,290,40,4.536839986870966,0.938531542281428,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value
+main,I7,1600,3200,0,0,,,False,False,one_corridor_irregular_clipped_grid; no stationarity_or_plateau_certified; no p_value

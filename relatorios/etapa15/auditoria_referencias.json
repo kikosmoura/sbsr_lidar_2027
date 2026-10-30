@@ -1,0 +1,64 @@
+{
+  "cited_entries": 6,
+  "crossref_articles": [
+    {
+      "authors": 2,
+      "doi": "10.1111/2041-210X.12575",
+      "metadata": {
+        "bytes": 16781,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/crossref_2041-210X.12575.json",
+        "sha256": "1b99908b716195caef440afb12a5ee86788b0ac790d2e49ec7db021fa27dcd04"
+      },
+      "title": "Tree‐centric mapping of forest carbon density from airborne laser scanning and hyperspectral data",
+      "title_authors_doi_match_bib": true
+    },
+    {
+      "authors": 3,
+      "doi": "10.1016/j.rse.2014.03.018",
+      "metadata": {
+        "bytes": 46068,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/crossref_j.rse.2014.03.018.json",
+        "sha256": "72c77cc88787f9f55086aa70a7b2797e1c1b07e4063a695f8d1ee92625133baf"
+      },
+      "title": "Urban tree species mapping using hyperspectral and lidar data fusion",
+      "title_authors_doi_match_bib": true
+    },
+    {
+      "authors": 5,
+      "doi": "10.3390/f9110702",
+      "metadata": {
+        "bytes": 31707,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/crossref_f9110702.json",
+        "sha256": "55b46df7504322a7b37d0cc4c46b8ac47b5b4002ae19d8896e8abd85f3569771"
+      },
+      "title": "LiDAR-Based Regional Inventory of Tall Trees—Wellington, New Zealand",
+      "title_authors_doi_match_bib": true
+    },
+    {
+      "authors": 1,
+      "doi": "10.2307/1942661",
+      "metadata": {
+        "bytes": 5674,
+        "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/crossref_1942661.json",
+        "sha256": "eb44f5db0b052dc83f22612b2142654536e8b4e727ec4f725319f77f1e1aa405"
+      },
+      "title": "Pseudoreplication and the Design of Ecological Field Experiments",
+      "title_authors_doi_match_bib": true
+    }
+  ],
+  "no_accuracy_transferred_from_literature": true,
+  "no_demo_references": true,
+  "portal": {
+    "publication_year_not_inferred": true,
+    "url": "https://novogeosampa.prefeitura.sp.gov.br/"
+  },
+  "software": {
+    "creators": 4,
+    "doi": "10.7931/M0SR-DN55",
+    "metadata": {
+      "bytes": 3487,
+      "path": "/home/s299259068/Área de Trabalho/Projetos/2026/sbsr_lidar_2027/relatorios/etapa14/pycrown_datacite.json",
+      "sha256": "4192567de26f06310b9f4d5ceb86f680a2807b02498e2d62c79492222da9223b"
+    }
+  }
+}

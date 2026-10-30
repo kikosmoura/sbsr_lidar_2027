@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbsr-lidar"
+version = "0.1.0"
+description = "Infraestrutura reproduzível do piloto LiDAR dos corredores verdes"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.0,<3", "scipy>=1.14,<2", "pandas>=2.2,<3",
+  "geopandas>=1.0,<2", "shapely>=2.0,<3", "pyogrio>=0.10,<1",
+  "pyproj>=3.5,<4", "rasterio>=1.4,<2", "laspy>=2.5,<3",
+  "lazrs>=0.7,<1", "PyYAML>=6,<7", "pydantic>=2.10,<3",
+  "psutil>=6,<8", "scikit-image>=0.24,<1", "scikit-learn>=1.5,<2",
+  "pyarrow>=18,<25", "matplotlib>=3.9,<4", "requests>=2.32,<3"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+sbsr-lidar = "sbsr_lidar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/cientifico"]
+addopts = "-ra"
